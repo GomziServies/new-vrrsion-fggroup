@@ -1,0 +1,513 @@
+.home-page-fwg-new .banner-container {
+    position: relative;
+    padding: 80px 60px;
+    background: linear-gradient(to right, #f1f4f5, #d3f0ff);
+    color: #033d6b;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.home-page-fwg-new .images {
+    animation: zoom-in 1.2s ease-in-out;
+}
+
+.home-page-fwg-new .banner-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.home-page-fwg-new .banner-title {
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: #033d6b;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-page-fwg-new .banner-description {
+    font-size: 1.3rem;
+    color: #033d6b;
+    margin-bottom: 35px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.home-page-fwg-new .new-primary-btn,
+.home-page-fwg-new .new-secondary-btn {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    transition: background 0.4s ease, transform 0.4s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.home-page-fwg-new .new-primary-btn {
+    background-color: #4db8ff;
+    color: white;
+    font-weight: bold;
+}
+
+.home-page-fwg-new .new-primary-btn:hover {
+    background-color: #1a90ff;
+    transform: scale(1.1);
+}
+
+.home-page-fwg-new .new-secondary-btn {
+    background-color: transparent;
+    border: 2px solid #4db8ff;
+    color: #033d6b;
+    font-weight: bold;
+}
+
+
+.home-page-fwg-new .cta-item {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.home-page-fwg-new .animate-fade-in {
+    opacity: 0;
+    animation: fade-in 1.5s forwards;
+}
+
+.home-page-fwg-new .animate-slide-in {
+    transform: translateY(50px);
+    opacity: 0;
+    animation: slide-in 1.2s forwards;
+}
+
+.home-page-fwg-new .animate-bounce {
+    animation: bounce 2s infinite;
+}
+
+@keyframes fade-in {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@media (max-width: 768px) {
+    .home-page-fwg-new .banner-title {
+        font-size: 2.2rem;
+    }
+
+    .home-page-fwg-new .banner-description {
+        font-size: 1rem;
+    }
+
+    .home-page-fwg-new .new-primary-btn,
+    .new-secondary-btn {
+        font-size: 1rem;
+    }
+
+    .home-page-fwg-new .banner-container {
+        position: relative;
+        padding: 60px 30px;
+        background: linear-gradient(to right, #f1f4f5, #d3f0ff);
+        color: #033d6b;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media (max-width: 576px) {
+    .home-page-fwg-new .banner-title {
+        font-size: 1.8rem;
+    }
+
+    .home-page-fwg-new .banner-description {
+        font-size: 0.9rem;
+    }
+
+    .home-page-fwg-new .new-primary-btn,
+    .new-secondary-btn {
+        font-size: 0.9rem !important;
+        padding: 10px !important;
+    }
+
+    .banner-text-margin {
+        margin: 0px !important;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .home-page-fwg-new .new-primary-btn,
+    .new-secondary-btn {
+        font-size: 0.7rem !important;
+        padding: 10px !important;
+    }
+}
+
+.how-we-help-fwg-section {
+    padding: 30px 0px;
+}
+
+.how-we-help-fwg-section .new-fwg-page-design {
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.request-form-new-design {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    position: relative;
+    background-color: #000000;
+}
+
+.request-form-new-design::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(/public/assets/images/fwg/rtp-5.0-main.webp);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+
+.request-form-new-design .inner {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 9 !important;
+}
+
+
+
+.request-form-new-design .h1 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+
+}
+
+.request-form-new-design .form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.request-form-new-design .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+
+.request-form-new-design .disclaimer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #b6b6b6;
+}
+
+.request-form-new-design .primary-btn {
+    background-color: #000000;
+    color: white;
+    border: 2px dashed white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+
+
+.request-form-new-design .success {
+    display: none;
+    color: green;
+    margin-top: 10px;
+}
+
+.request-form-new-design select.form-control:not([size]):not([multiple]) {
+    height: 55%;
+}
+
+
+.how-we-help-fwg-section .blog2 {
+    transition: 0.15s ease, filter 0.3s ease;
+    border-radius: 6px;
+    background-color: none !important;
+    margin-bottom: 24px;
+    box-shadow: none !important;
+    padding: 15px;
+}
+
+.online-btn-fwg {
+    background-color: green !important;
+}
+
+.online-btn-fwg:hover {
+    background-color: green !important;
+    border: green !important;
+    color: white !important;
+}
+
+
+
+
+.gym-image-fwg #menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gym-image-fwg .menuList {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.gym-image-fwg .menuList li {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.gym-image-fwg .menuList img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gym-image-fwg .menuList img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .gym-image-fwg .menuList li {
+        flex: 1 1 calc(40% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .gym-image-fwg .menuList li {
+        flex: 1 1 calc(40% - 10px) !important;
+    }
+
+    .studentsreview-1 .owl-carousel .owl-nav button.owl-prev,
+    .studentsreview-1 .owl-carousel .owl-nav button.owl-next,
+    .studentsreview-1 .owl-carousel button.owl-dot {
+        background-color: #009aff !important;
+        border-radius: 50%;
+        padding: 3px 8px !important;
+        margin-top: 20px;
+        font-size: 25px;
+        font-weight: bold !important;
+    }
+
+    .studentsreview-1 .owl-prev,
+    .studentsreview-1 .owl-next {
+        top: 100% !important;
+        border-radius: 20px !important;
+        padding: 2px 10px !important;
+        font-size: 17px !important;
+    }
+}
+
+.studentsreview-1 .owl-carousel .owl-nav button.owl-prev,
+.studentsreview-1 .owl-carousel .owl-nav button.owl-next,
+.studentsreview-1 .owl-carousel button.owl-dot {
+    background-color: #009aff !important;
+    border-radius: 50%;
+    padding: 3px 8px !important;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold !important;
+    color: white !important;
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .course-scroll .play-btn a {
+        top: 50%;
+        left: 52%;
+    }
+}
+
+.date-full-width .react-datepicker-wrapper {
+    display: block;
+    padding: 0;
+    border: 0;
+}
+
+.convocation-section .item img {
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    /* padding: 10px; */
+}
+
+@media (max-width: 575px) {
+    .convocation-section .item img {
+        border-radius: 7px;
+    }
+}
+
+.blog-section-new {
+    padding-top: 50px;
+}
+
+.blog-section-new .blog-header {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.blog-section-new .blog-card {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    /* Aspect ratio 16:9 */
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin-bottom: 30px;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.blog-section-new .blog-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+
+.blog-section-new .blog-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.blog-section-new .blog-content {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    padding: 10px;
+    z-index: 2;
+}
+
+.blog-section-new .category-tag {
+    background-color: rgb(11, 170, 11);
+    color: white;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.blog-section-new .blog-date {
+    font-size: 14px;
+    color: #eee;
+    margin-top: 5px;
+}
+
+.blog-section-new .blog-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0;
+    font-family: Nunito, sans-serif;
+}
+
+.blog-section-new .blog-description {
+    font-size: 14px;
+    color: #ddd;
+    margin-top: 8px;
+    line-height: 1.5;
+    font-family: Comfortaa, cursive;
+}
+
+.payment-title {
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+}
+
+.on1 p {
+    font-family: Comfortaa, cursive;
+}
+.forh h1{
+    font-family: Nunito, sans-serif;
+}
+.on1 h4 {
+    font-family: Nunito, sans-serif;
+}
+.tabata h4 {
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+}
+.card-body{
+    font-family: Comfortaa, cursive;
+}
+.card-header{
+    font-family: Nunito, sans-serif;
+}
+.blog2 h5{
+    font-family: Nunito, sans-serif;
+}
+#upforebook .f-rob-bol {
+    font-family: Nunito, sans-serif;
+}
+.video-content h4{
+    font-family: Nunito, sans-serif;
+}
+.video-content p{
+    font-family: Comfortaa, cursive;
+}
+.cart-t h4{
+    font-family: Nunito, sans-serif;
+}
+.cart-t span{
+    font-family: Comfortaa, cursive;
+}
+#upforebook p {
+    font-family: Comfortaa, cursive;
+}
+.tabata .lazy{
+    transition: 0.5s !important;
+}

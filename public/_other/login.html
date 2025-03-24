@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Log In</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/popup-form-style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../plugins/toastr/toastr.min.css"
+    />
+    <script src="../plugins/toastr/toastr.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="popup_form_modal">
+      <div class="container_modal">
+        <header style="font-size: 25px">
+          <span class="clr1" style="font-size: 25px; color: #00afef"
+            >Log In</span
+          >
+        </header>
+        <div class="form-outer-modal">
+          <form action="#">
+            <div class="page_modal slide-page_modal">
+              <!-- <div class="title">Basic Info:</div> -->
+              <div class="field_modal">
+                <div class="label_modal">Email Address</div>
+                <input type="text" id="txt_email" />
+              </div>
+              <div class="field_modal">
+                <div class="label_modal">Password</div>
+                <input type="password" id="txt_password" />
+              </div>
+              <div style="text-align: end; margin-top: -5%">
+                <a
+                  class="text-right clickable_modal"
+                  href="#0"
+                  style="text-decoration: none; color: black"
+                  onclick="redirectTo('forgot_password.html')"
+                  >Forgot password?</a
+                >
+              </div>
+              <div class="field_modal">
+                <button
+                  type="button"
+                  class="submit_modal"
+                  id="btn_submit_modal"
+                >
+                  Log In
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div style="margin-top: -5%; margin-bottom: 2%">
+          <a
+            class="clickable_modal"
+            href="#0"
+            style="text-align: center; color: #00afef; text-decoration: none"
+            onclick="redirectTo('sign_up.html')"
+            >Create account</a
+          >
+        </div>
+        <div style="font-size: small">
+          <i class="fas fa-long-arrow-alt-left"></i>
+          <a
+            class="clickable_modal"
+            href="../index.html"
+            style="
+              font-size: small;
+              text-align: center;
+              text-decoration: none;
+              color: black;
+            "
+            >Back to home</a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="../js/popup-form.js"></script>
+
+    <script src="../js/jquery-3.5.1.min.js"></script>
+  </body>
+</html>

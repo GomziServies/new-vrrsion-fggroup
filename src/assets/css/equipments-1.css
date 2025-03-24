@@ -1,0 +1,52 @@
+.check .accordion button:hover,
+.check .accordion button:focus {
+    cursor: pointer;
+    color: #d11f2e !important;
+}
+
+#equipment-button button{
+    background-color: #d11f2e !important;
+    border-radius: 50%;
+    padding: 7px 11px!important;
+    font-size: 20px;
+    font-weight: bold !important;
+}
+
+#equipment-button .owl-nav .owl-prev{
+    position: relative;
+    left: 35%;
+}
+
+#equipment-button .owl-nav .owl-next {
+    left: 40%;
+    position: relative;
+}
+
+.check .accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    color: #d11f2e !important;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.check .accordion .accordion-item button[aria-expanded="true"] {
+    border-bottom: 1px solid #d11f2e !important;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #d11f2e;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(209, 29, 46, .25);
+}
+
+.brand-list--card-text a:hover{
+    color: white!important;
+}
