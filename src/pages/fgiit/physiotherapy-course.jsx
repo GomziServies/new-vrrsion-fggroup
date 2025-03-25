@@ -267,7 +267,7 @@ function PhysiotherapyCourse() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 1: Introduction to Injury Rehabilitation
                       </h2>
-                      <p className="text-muted">
+                      {/* <p className="text-muted">
                         This module provides an overview of injury
                         rehabilitation, its significance in fitness and
                         {showMore[1] ? (
@@ -296,15 +296,36 @@ function PhysiotherapyCourse() {
                         ) : (
                           <span id="dotsx">...</span>
                         )}
+                      </p> */}
+                      <p className="text-muted">
+                        This module provides an overview of injury
+                        rehabilitation, its significance in fitness and
+                        sports, and the role of a rehabilitation specialist.
+                        Participants will learn about the stages of recovery,
+                        from acute care to functional rehabilitation,
+                        emphasizing a client-centered approach.
+                        <div className="row">
+                          <ul className="mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Overview of injury rehabilitation</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Principles of rehabilitation</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Goals and outcomes of rehabilitation</b>
+                            </li>
+                          </ul>
+                        </div>
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(1)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[1] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -359,7 +380,7 @@ function PhysiotherapyCourse() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 2: Assessment and Diagnosis
                       </h2>
-                      <p className="text-muted">
+                      {/* <p className="text-muted">
                         Participants will gain skills in conducting
                         comprehensive assessments, including injury history,
                         {showMore[2] ? (
@@ -387,15 +408,38 @@ function PhysiotherapyCourse() {
                         ) : (
                           <span id="dotsx">...</span>
                         )}
+                      </p> */}
+                      <p className="text-muted">
+                        Participants will gain skills in conducting
+                        comprehensive assessments, including injury history,
+                        functional movement screening, and identifying
+                        muscular imbalances.This module focuses on creating
+                        accurate diagnoses to guide effective rehabilitation
+                        plans.
+                        <div className="row">
+                          <ul className="mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Assessment techniques and tools</b>
+                            </li>
+
+                            <li className="list-unstyled text-dark">
+                              <b>Diagnostic procedures and tests</b>
+                            </li>
+
+                            <li className="list-unstyled text-dark">
+                              <b>Injury classification and staging</b>
+                            </li>
+                          </ul>
+                        </div>
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(2)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[2] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -454,7 +498,7 @@ function PhysiotherapyCourse() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 3: Manual Therapy Techniques
                       </h2>
-                      <p className="text-muted">
+                      {/* <p className="text-muted">
                         This module introduces hands-on methods such as soft
                         tissue mobilization, stretching, and joint
                         {showMore[3] ? (
@@ -487,15 +531,42 @@ function PhysiotherapyCourse() {
                         ) : (
                           <span id="dotsx">...</span>
                         )}
+                      </p> */}
+                      <p className="text-muted">
+                        This module introduces hands - on methods such as soft
+                        tissue mobilization, stretching, and joint
+                        manipulation.Students will learn when and how to apply
+                        these techniques to enhance mobility, reduce pain, and
+                        accelerate recovery.
+                        <div className="row">
+                          <ul className="mt-2 pl-3">
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Cupping therapy principles and application
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Manual therapy techniques for soft tissue
+                                mobilization
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Joint mobilization and manipulation techniques
+                              </b>
+                            </li>
+                          </ul>
+                        </div>
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(3)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[3] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -556,7 +627,7 @@ function PhysiotherapyCourse() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 4: Principles of Exercise Prescription
                       </h2>
-                      <p className="text-muted">
+                      {/* <p className="text-muted">
                         Participants will learn how to design exercise programs
                         tailored to the rehabilitation phase,
                         {showMore[4] ? (
@@ -590,15 +661,44 @@ function PhysiotherapyCourse() {
                         ) : (
                           <span id="dotsx">...</span>
                         )}
+                      </p> */}
+                      <p className="text-muted">
+                        Participants will learn how to design exercise
+                        programs tailored to the rehabilitation phase,
+                        focusing on progressive loading, functional movements,
+                        and restoring strength and stability.Special attention
+                        is given to avoiding re - injury through proper
+                        exercise progression.
+                        <div className="row">
+                          <ul className="col-6 mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Exercise prescription principles and
+                                guidelines
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Therapeutic exercise techniques and
+                                progressions
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Exercise program design and implementation
+                              </b>
+                            </li>
+                          </ul>
+                        </div>
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(4)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[4] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -655,7 +755,7 @@ function PhysiotherapyCourse() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 5: Therapeutic Modalities
                       </h2>
-                      <p className="text-muted">
+                      {/* <p className="text-muted">
                         This module explores modalities such as ultrasound,
                         electrical stimulation, and cryotherapy. Students will
                         {showMore[5] ? (
@@ -685,15 +785,40 @@ function PhysiotherapyCourse() {
                         ) : (
                           <span id="dotsx">...</span>
                         )}
+                      </p> */}
+                      <p className="text-muted">
+                        This module explores modalities such as ultrasound,
+                        electrical stimulation, and cryotherapy.Students will
+                        learn how to integrate these tools into rehabilitation
+                        programs to optimize recovery and manage pain
+                        effectively.
+                        <div className="row">
+                          <ul className="mt-2 pl-3">
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Electrotherapy modalities (e.g. TENS, NMES)
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Thermal modalities (e.g. heat, cold)</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Mechanical modalities (e.g. ultrasound,
+                                traction)
+                              </b>
+                            </li>
+                          </ul>
+                        </div>
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(5)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[5] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -749,7 +874,7 @@ function PhysiotherapyCourse() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 6: Pain Management
                       </h2>
-                      <p className="text-muted">
+                      {/* <p className="text-muted">
                         Participants will study pain physiology and
                         evidence-based methods for managing acute and chronic
                         {showMore[6] ? (
@@ -776,15 +901,39 @@ function PhysiotherapyCourse() {
                         ) : (
                           <span id="dotsx">...</span>
                         )}
+                      </p> */}
+                      <p className="text-muted">
+                        Participants will study pain physiology and evidence -
+                        based methods for managing acute and chronic
+                        pain.Topics include medication - free approaches,
+                        mindfulness, and cognitive - behavioral techniques to
+                        support clients' mental and physical well-being.
+                        <div className="row">
+                          <ul className="col-12 mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Pain physiology and mechanisms</b>
+                            </li>
+
+                            <li className="list-unstyled text-dark">
+                              <b>Pain assessment and measurement tools</b>
+                            </li>
+
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Pain management techniques and interventions
+                              </b>
+                            </li>
+                          </ul>
+                        </div>
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(6)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[6] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -845,7 +994,7 @@ function PhysiotherapyCourse() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 7: Injury Specific Rehabilitation
                       </h2>
-                      <p className="text-muted">
+                      {/* <p className="text-muted">
                         This module delves into protocols for rehabilitating
                         common injuries, including ligament sprains, muscle
                         {showMore[7] ? (
@@ -879,15 +1028,44 @@ function PhysiotherapyCourse() {
                         ) : (
                           <span id="dotsx">...</span>
                         )}
+                      </p> */}
+                      <p className="text-muted">
+                        This module delves into protocols for rehabilitating
+                        common injuries, including ligament sprains, muscle
+                        strains, tendonitis, and joint dislocations.
+                        Participants will learn to customize plans based on
+                        the type and severity of the injury.
+                        <div className="row">
+                          <ul className="mt-2 pl-3">
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Rehabilitation protocols for common injuries
+                                (e.g. ACL, meniscus, rotator cuff)
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Injury specific exercise programs and
+                                progressions
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Return to play and sport specific
+                                rehabilitation
+                              </b>
+                            </li>
+                          </ul>
+                        </div>
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(7)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[7] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -942,7 +1120,7 @@ function PhysiotherapyCourse() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 8: Special Populations in Rehabilitation
                       </h2>
-                      <p className="text-muted">
+                      {/* <p className="text-muted">
                         Rehabilitation needs vary by population. This module
                         covers considerations for seniors, children, athletes,
                         {showMore[8] ? (
@@ -970,15 +1148,38 @@ function PhysiotherapyCourse() {
                         ) : (
                           <span id="dotsx">...</span>
                         )}
+                      </p> */}
+                      <p className="text-muted">
+                        Rehabilitation needs vary by population.This module
+                        covers considerations for seniors, children, athletes,
+                        and individuals with chronic conditions, emphasizing
+                        modifications and precautions for each group.
+                        <div className="row">
+                          <ul className="col-12 mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Rehabilitation considerations for special
+                                populations (e.g. pediatric, geriatric,
+                                athletes)
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Modified exercise programs and interventions
+                                for special populations
+                              </b>
+                            </li>
+                          </ul>
+                        </div>
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(8)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[8] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1039,7 +1240,7 @@ function PhysiotherapyCourse() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 9: Advanced Rehabilitation Techniques
                       </h2>
-                      <p className="text-muted">
+                      {/* <p className="text-muted">
                         Students will explore advanced methods, including
                         proprioceptive training, prometric exercises, and
                         {showMore[9] ? (
@@ -1073,15 +1274,44 @@ function PhysiotherapyCourse() {
                         ) : (
                           <span id="dotsx">...</span>
                         )}
+                      </p> */}
+                      <p className="text-muted">
+                        Students will explore advanced methods, including
+                        proprioceptive training, prometric exercises, and
+                        sport - specific drills.This module equips
+                        participants to support high - performance athletes
+                        and clients with complex rehabilitation needs.
+                        <div className="row">
+                          <ul className="mt-2 pl-3">
+                            <li className="list-unstyled text-dark">
+                              <b>CPR and first aid</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Dry needling and IASTM(instrument - assisted
+                                soft tissue mobilization)
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Rigid tapping and mobility techniques</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Electrotherapy and exercise therapy
+                                applications
+                              </b>
+                            </li>
+                          </ul>
+                        </div>
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(9)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[9] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1138,7 +1368,7 @@ function PhysiotherapyCourse() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 10: Case Studies and Practical Application
                       </h2>
-                      <p className="text-muted">
+                      {/* <p className="text-muted">
                         Participants will apply their knowledge through
                         real-life scenarios and role-play exercises. This
                         {showMore[10] ? (
@@ -1169,15 +1399,40 @@ function PhysiotherapyCourse() {
                         ) : (
                           <span id="dotsx">...</span>
                         )}
+                      </p> */}
+                      <p className="text-muted">
+                        Participants will apply their knowledge through real -
+                        life scenarios and role - play exercises.This module
+                        emphasizes critical thinking, problem - solving, and
+                        hands - on application of rehabilitation techniques to
+                        prepare for real - world practice.
+                        <div className="row">
+                          <ul className="col-12 mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Case studies and group discussions</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Practical application and hands-on training
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Rehabilitation program design and
+                                implementation
+                              </b>
+                            </li>
+                          </ul>
+                        </div>
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(10)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[10] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
               </div>

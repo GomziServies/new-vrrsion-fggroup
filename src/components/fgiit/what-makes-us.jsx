@@ -4,7 +4,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const WhatMakesUs = () => {
   return (
-    <section className="margintop">
+    <section>
       <div className="container-fluid p-0">
         <LazyLoadImage
           effect="blur"

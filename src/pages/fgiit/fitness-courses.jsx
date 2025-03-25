@@ -766,7 +766,7 @@ function FitnessCourses() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 d-none d-md-flex align-items-center">
+              <div className="col-lg-6 d-md-flex align-items-center">
                 <img
                   src={
                     process.env.PUBLIC_URL + "/assets/images/fgiit/skill.png"
@@ -780,7 +780,136 @@ function FitnessCourses() {
           </div>
         </div>
       </section>
+      <OurAllCourses />
       <WhatMakesUs />
+      <AllReviews />
+      <StudentStats />
+      <section className="margintop">
+        <div className="container-fluid">
+          <div className="container">
+            <div className="covid text-center">
+              <h2 className="h2-fs">
+                our all demo
+                <span className="m-0 text-blue-color"> Certificates</span>
+              </h2>
+            </div>
+            <div className="thm-bg-clr dector mb-md-5 mb-3"></div>
+            <OwlCarousel
+              loop
+              autoPlay
+              dots={false}
+              id="owl-diploma"
+              className="owl-carousel owl-theme"
+              responsive={{
+                0: {
+                  items: 1,
+                },
+                600: {
+                  items: 2,
+                },
+                1000: {
+                  items: 3,
+                },
+              }}
+            >
+              <div className="item">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + "/assets/images/img/cpt_demo.webp"
+                  }
+                  alt="Certificates"
+                  width="100%"
+                  className="lazy"
+                />
+                <div className="text-center mt-3">
+                  <h2 className="h4-fs">Diploma In Personal Training</h2>
+                </div>
+              </div>
+              <div className="item">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + "/assets/images/img/cnc_demo.webp"
+                  }
+                  alt="Certificates"
+                  width="100%"
+                  className="lazy"
+                />
+                <div className="text-center mt-3">
+                  <h2 className="h4-fs">Diploma In Nutrition</h2>
+                </div>
+              </div>
+              <div className="item">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + "/assets/images/img/gir-demo.webp"
+                  }
+                  alt="Certificates"
+                  width="100%"
+                  className="lazy"
+                />
+                <div className="text-center mt-3">
+                  <h2 className="h4-fs">Group Instructor Masterclass</h2>
+                </div>
+              </div>
+              <div className="item">
+                <img
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/fgiit/Powerlifting-Coach-Workshop-certificate.webp"
+                  }
+                  alt="Certificates"
+                  width="100%"
+                  className="lazy"
+                />
+                <div className="text-center mt-3">
+                  <h2 className="h4-fs">Powerlifting Coach Workshop</h2>
+                </div>
+              </div>
+              <div className="item">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + "/assets/images/img/aas_demo.webp"
+                  }
+                  alt="Certificates"
+                  width="100%"
+                  className="lazy"
+                />
+                <div className="text-center mt-3">
+                  <h2 className="h4-fs">Anabolic Androgenic Steroids</h2>
+                </div>
+              </div>
+              <div className="item">
+                <img
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/img/recorded-session-certificate-5.webp"
+                  }
+                  alt="Certificates"
+                  width="100%"
+                  className="lazy"
+                />
+                <div className="text-center mt-3">
+                  <h2 className="h4-fs">Injury Rehabilitation Workshop</h2>
+                </div>
+              </div>
+              <div className="item">
+                <img
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/img/recorded-session-certificate-6.webp"
+                  }
+                  alt="Certificates"
+                  width="100%"
+                  className="lazy"
+                />
+                <div className="text-center mt-3">
+                  <h2 className="h4-fs">Advance Clinical Nutrition Workshop</h2>
+                </div>
+              </div>
+            </OwlCarousel>
+          </div>
+        </div>
+      </section>
       <section className="bg-blues">
         <div className="container-fluid pb-5 pt-3">
           <div className="container">
@@ -935,136 +1064,7 @@ function FitnessCourses() {
           </div>
         </div>
       </section>
-      <StudentStats />
-      <OurAllCourses />
-      <CoursesInclude />
-      <section className="margintop">
-        <div className="container-fluid">
-          <div className="container">
-            <div className="covid text-center">
-              <h2 className="h2-fs">
-                our all demo
-                <span className="m-0 text-blue-color"> Certificates</span>
-              </h2>
-            </div>
-            <div className="thm-bg-clr dector mb-md-5 mb-3"></div>
-            <OwlCarousel
-              loop
-              autoPlay
-              dots={false}
-              id="owl-diploma"
-              className="owl-carousel owl-theme"
-              responsive={{
-                0: {
-                  items: 1,
-                },
-                600: {
-                  items: 2,
-                },
-                1000: {
-                  items: 3,
-                },
-              }}
-            >
-              <div className="item">
-                <img
-                  src={
-                    process.env.PUBLIC_URL + "/assets/images/img/cpt_demo.webp"
-                  }
-                  alt="Certificates"
-                  width="100%"
-                  className="lazy"
-                />
-                <div className="text-center mt-3">
-                  <h2 className="h4-fs">Diploma In Personal Training</h2>
-                </div>
-              </div>
-              <div className="item">
-                <img
-                  src={
-                    process.env.PUBLIC_URL + "/assets/images/img/cnc_demo.webp"
-                  }
-                  alt="Certificates"
-                  width="100%"
-                  className="lazy"
-                />
-                <div className="text-center mt-3">
-                  <h2 className="h4-fs">Diploma In Nutrition</h2>
-                </div>
-              </div>
-              <div className="item">
-                <img
-                  src={
-                    process.env.PUBLIC_URL + "/assets/images/img/gir-demo.webp"
-                  }
-                  alt="Certificates"
-                  width="100%"
-                  className="lazy"
-                />
-                <div className="text-center mt-3">
-                  <h2 className="h4-fs">Group Instructor Masterclass</h2>
-                </div>
-              </div>
-              <div className="item">
-                <img
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/fgiit/Powerlifting-Coach-Workshop-certificate.webp"
-                  }
-                  alt="Certificates"
-                  width="100%"
-                  className="lazy"
-                />
-                <div className="text-center mt-3">
-                  <h2 className="h4-fs">Powerlifting Coach Workshop</h2>
-                </div>
-              </div>
-              <div className="item">
-                <img
-                  src={
-                    process.env.PUBLIC_URL + "/assets/images/img/aas_demo.webp"
-                  }
-                  alt="Certificates"
-                  width="100%"
-                  className="lazy"
-                />
-                <div className="text-center mt-3">
-                  <h2 className="h4-fs">Anabolic Androgenic Steroids</h2>
-                </div>
-              </div>
-              <div className="item">
-                <img
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/img/recorded-session-certificate-5.webp"
-                  }
-                  alt="Certificates"
-                  width="100%"
-                  className="lazy"
-                />
-                <div className="text-center mt-3">
-                  <h2 className="h4-fs">Injury Rehabilitation Workshop</h2>
-                </div>
-              </div>
-              <div className="item">
-                <img
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/img/recorded-session-certificate-6.webp"
-                  }
-                  alt="Certificates"
-                  width="100%"
-                  className="lazy"
-                />
-                <div className="text-center mt-3">
-                  <h2 className="h4-fs">Advance Clinical Nutrition Workshop</h2>
-                </div>
-              </div>
-            </OwlCarousel>
-          </div>
-        </div>
-      </section>
-      <section className="margintop bg-blues">
+      <section className="bg-blues">
         <div className="container-fluid pb-md-5 pt-2">
           <div className="container">
             <div className="covid text-center">
@@ -1249,6 +1249,7 @@ function FitnessCourses() {
           </div>
         </div>
       </section>
+      <CoursesInclude />
       <Teachers />
       <section className="container-fluid dark-hero-section p-0 px-2 mt-md-5 mt-3">
         <div className="container-fluid px-0">
@@ -1316,12 +1317,12 @@ function FitnessCourses() {
                         At FGIIT, we provide a variety of skill development
                         courses to help individuals excel in their chosen
                         industry. We offer courses approved by the government
-                        and cater to the talent of Indian youth. 
+                        and cater to the talent of Indian youth.
                         <span className="d-md-block d-none">
-                        Our objective
-                        is to create opportunities and scope for individuals who
-                        couldn't pursue education after the 10th class due to
-                        various constraints.
+                          Our objective
+                          is to create opportunities and scope for individuals who
+                          couldn't pursue education after the 10th class due to
+                          various constraints.
                         </span>
                       </p>
                       <h2 className="h4-fs mt-4">
@@ -1349,41 +1350,41 @@ function FitnessCourses() {
                       <h2 className="h4-fs mt-4">Our courses include:</h2>
                       <ul>
                         <div className="d-md-block d-none">
-                        <li>
-                          <b className="text-bold">
-                            <i className="fa fa-angle-double-right"></i> Diploma
-                            in Personal Training Course:
-                          </b>{" "}
-                          This course helps individuals become certified
-                          personal trainers who can create personalized fitness
-                          programs, motivate clients, and guide them towards
-                          their goals.
-                        </li>
-                        <li>
-                          <b className="text-bold">
-                            <i className="fa fa-angle-double-right"></i> Diploma
-                            in Nutrition Course:
-                          </b>{" "}
-                          This course teaches students how to create diets for
-                          clinically ill patients, focusing on fat loss and
-                          muscle building.
-                        </li>
-                        <li>
-                          <b className="text-bold">
-                            <i className="fa fa-angle-double-right"></i> Gym
-                            Training Certification:
-                          </b>{" "}
-                          Learn the necessary skills and knowledge for gym
-                          training through this certification course.
-                        </li>
-                        <li>
-                          <b className="text-bold">
-                            <i className="fa fa-angle-double-right"></i> Online
-                            Personal Training Certification:
-                          </b>{" "}
-                          Become a certified online personal trainer and learn
-                          how to provide fitness guidance remotely.
-                        </li>
+                          <li>
+                            <b className="text-bold">
+                              <i className="fa fa-angle-double-right"></i> Diploma
+                              in Personal Training Course:
+                            </b>{" "}
+                            This course helps individuals become certified
+                            personal trainers who can create personalized fitness
+                            programs, motivate clients, and guide them towards
+                            their goals.
+                          </li>
+                          <li>
+                            <b className="text-bold">
+                              <i className="fa fa-angle-double-right"></i> Diploma
+                              in Nutrition Course:
+                            </b>{" "}
+                            This course teaches students how to create diets for
+                            clinically ill patients, focusing on fat loss and
+                            muscle building.
+                          </li>
+                          <li>
+                            <b className="text-bold">
+                              <i className="fa fa-angle-double-right"></i> Gym
+                              Training Certification:
+                            </b>{" "}
+                            Learn the necessary skills and knowledge for gym
+                            training through this certification course.
+                          </li>
+                          <li>
+                            <b className="text-bold">
+                              <i className="fa fa-angle-double-right"></i> Online
+                              Personal Training Certification:
+                            </b>{" "}
+                            Become a certified online personal trainer and learn
+                            how to provide fitness guidance remotely.
+                          </li>
                           <li>
                             <b className="text-bold">
                               <i className="fa fa-angle-double-right"></i>{" "}
@@ -1437,41 +1438,41 @@ function FitnessCourses() {
                         <div className="d-md-none d-block">
                           {showMore ? (
                             <>
-                            <li>
-                              <b className="text-bold">
-                                <i className="fa fa-angle-double-right"></i> Diploma
-                                in Personal Training Course:
-                              </b>{" "}
-                              This course helps individuals become certified
-                              personal trainers who can create personalized fitness
-                              programs, motivate clients, and guide them towards
-                              their goals.
-                            </li>
-                            <li>
-                              <b className="text-bold">
-                                <i className="fa fa-angle-double-right"></i> Diploma
-                                in Nutrition Course:
-                              </b>{" "}
-                              This course teaches students how to create diets for
-                              clinically ill patients, focusing on fat loss and
-                              muscle building.
-                            </li>
-                            <li>
-                              <b className="text-bold">
-                                <i className="fa fa-angle-double-right"></i> Gym
-                                Training Certification:
-                              </b>{" "}
-                              Learn the necessary skills and knowledge for gym
-                              training through this certification course.
-                            </li>
-                            <li>
-                              <b className="text-bold">
-                                <i className="fa fa-angle-double-right"></i> Online
-                                Personal Training Certification:
-                              </b>{" "}
-                              Become a certified online personal trainer and learn
-                              how to provide fitness guidance remotely.
-                            </li>
+                              <li>
+                                <b className="text-bold">
+                                  <i className="fa fa-angle-double-right"></i> Diploma
+                                  in Personal Training Course:
+                                </b>{" "}
+                                This course helps individuals become certified
+                                personal trainers who can create personalized fitness
+                                programs, motivate clients, and guide them towards
+                                their goals.
+                              </li>
+                              <li>
+                                <b className="text-bold">
+                                  <i className="fa fa-angle-double-right"></i> Diploma
+                                  in Nutrition Course:
+                                </b>{" "}
+                                This course teaches students how to create diets for
+                                clinically ill patients, focusing on fat loss and
+                                muscle building.
+                              </li>
+                              <li>
+                                <b className="text-bold">
+                                  <i className="fa fa-angle-double-right"></i> Gym
+                                  Training Certification:
+                                </b>{" "}
+                                Learn the necessary skills and knowledge for gym
+                                training through this certification course.
+                              </li>
+                              <li>
+                                <b className="text-bold">
+                                  <i className="fa fa-angle-double-right"></i> Online
+                                  Personal Training Certification:
+                                </b>{" "}
+                                Become a certified online personal trainer and learn
+                                how to provide fitness guidance remotely.
+                              </li>
                               <li>
                                 <b className="text-bold">
                                   <i className="fa fa-angle-double-right"></i>{" "}
@@ -1541,7 +1542,6 @@ function FitnessCourses() {
           </div>
         </div>
       </section>
-      <AllReviews />
       <section className="margintop">
         <div className="container-fluid dark-hero-section dark-hero-section-left px-2">
           <div className="row align-items-center">

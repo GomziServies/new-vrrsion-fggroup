@@ -387,6 +387,9 @@ const MixedVegetableSalad = lazy(() =>
 );
 
 // Blog
+const CryolipolysisMachine = lazy(() =>
+  import("./pages/blogs/cryolipolysis-machine")
+);
 const BenefitsOfProtein = lazy(() =>
   import("./pages/blogs/benefits-of-protein")
 );
@@ -621,6 +624,7 @@ function App() {
         <Route path="/inpta/event" element={<InptaEvent />} />
         <Route path="/inpta/contact-inpta" element={<ContactINPTA />} />
         <Route path="/inpta/local-partner" element={<LocalPartner />} />
+        <Route path="/blogs/cryolipolysis-machine" element={<CryolipolysisMachine />} />
         <Route
           path="/blogs/benefits-of-protein"
           element={<BenefitsOfProtein />}

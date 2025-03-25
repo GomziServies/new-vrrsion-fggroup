@@ -223,7 +223,6 @@ function OnlineGroupInstructorMasterclass() {
                         <h2 className="h5-fs text-primary font-weight-bold mt-3">
                           Module 1: Tabata Workout Fundamentals
                         </h2>
-
                         <p className="text-muted">
                           This module dives into the high-intensity interval
                           training (HIIT) style of Tabata workouts, focusing on
@@ -294,7 +293,7 @@ function OnlineGroupInstructorMasterclass() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 1: Tabata Workout Fundamentals
                       </h2>
-                      <p className="text-muted">
+                      {/* <p className="text-muted">
                         This module dives into the high-intensity interval
                         training (HIIT) style of Tabata workouts, focusing on
                         {showMore[1] ? (
@@ -347,19 +346,65 @@ function OnlineGroupInstructorMasterclass() {
                         ) : (
                           <span id="dotsx">...</span>
                         )}
+                      </p> */}
+                      <p className="text-muted">
+                        This module dives into the high-intensity interval
+                        training (HIIT) style of Tabata workouts, focusing on
+                        their structure, benefits, and application in group
+                        fitness settings. Participants will learn how to
+                        design and lead effective Tabata sessions, blending
+                        cardio and strength exercises to maximize calorie
+                        burn, improve endurance, and engage diverse fitness
+                        levels.
+                        <ul className="row">
+                          <div className="p-3 mt-2">
+                            <li className="list-unstyled text-dark">
+                              <b>Introduction to Tabata workout</b>
+                            </li>
+
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Science behind Tabata: benefits, physiology
+                              </b>
+                            </li>
+
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                How to create Tabata exercises and circuits
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Upper body Tabata exercises: chest, back,
+                                shoulders, arms
+                              </b>
+                            </li>
+
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Lower body Tabata exercises: legs, glutes,
+                                calves
+                              </b>
+                            </li>
+
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Warm-up and stretching exercises for Tabata
+                              </b>
+                            </li>
+                          </div>
+                        </ul>
                       </p>
                     </div>
-
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(1)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[1] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
-
                 <div className="col-lg-12 order-2 order-lg-1">
                   <blockquote className="blockquote d-md-block d-none mb-4">
                     <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
@@ -374,7 +419,6 @@ function OnlineGroupInstructorMasterclass() {
                         <h2 className="h5-fs text-primary font-weight-bold mt-3">
                           Module 2: Functional Training Fundamentals
                         </h2>
-
                         <p className="text-muted">
                           Exploring the core principles of functional training,
                           this module emphasizes exercises that mimic real-life
@@ -440,7 +484,7 @@ function OnlineGroupInstructorMasterclass() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 2: Functional Training Fundamentals
                       </h2>
-                      <p className="text-muted">
+                      {/* <p className="text-muted">
                         Exploring the core principles of functional training,
                         this module emphasizes exercises that mimic real-life
                         {showMore[2] ? (
@@ -495,19 +539,67 @@ function OnlineGroupInstructorMasterclass() {
                         ) : (
                           <span id="dotsx">...</span>
                         )}
+                      </p> */}
+                      <p className="text-muted">
+                        Exploring the core principles of functional training,
+                        this module emphasizes exercises that mimic real-life
+                        movements, enhancing strength, balance, and
+                        coordination. Participants will learn to structure
+                        group workouts that cater to varied fitness levels,
+                        focusing on building foundational strength and
+                        improving daily functionality through dynamic
+                        exercises.
+                        <ul className="row">
+                          <div className="mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Introduction to functional training</b>
+                            </li>
+
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Science behind functional training: benefits,
+                                physiology
+                              </b>
+                            </li>
+
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                How to create functional training exercises
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Upper body functional training exercises:
+                                chest, back, shoulders, arms
+                              </b>
+                            </li>
+
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Lower body functional training exercises:
+                                legs, glutes, calves
+                              </b>
+                            </li>
+
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Warm-up and stretching exercises for
+                                functional training
+                              </b>
+                            </li>
+                          </div>
+                        </ul>
                       </p>
                     </div>
-
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(2)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[2] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
-
                 <div className="col-lg-12 order-2 order-lg-1">
                   <blockquote className="blockquote d-md-block d-none mb-4">
                     <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
@@ -515,7 +607,6 @@ function OnlineGroupInstructorMasterclass() {
                         <h2 className="h5-fs text-primary font-weight-bold mt-3">
                           Module 3: TRX Band Workout Fundamentals
                         </h2>
-
                         <p className="text-muted">
                           This module introduces participants to TRX suspension
                           training, including its history, techniques, and
@@ -585,7 +676,7 @@ function OnlineGroupInstructorMasterclass() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 3: TRX Band Workout Fundamentals
                       </h2>
-                      <p className="text-muted">
+                      {/* <p className="text-muted">
                         This module introduces participants to TRX suspension
                         training, including its history, techniques, and
                         {showMore[3] ? (
@@ -638,16 +729,62 @@ function OnlineGroupInstructorMasterclass() {
                         ) : (
                           <span id="dotsx">...</span>
                         )}
+                      </p> */}
+                      <p className="text-muted">
+                        This module introduces participants to TRX suspension
+                        training, including its history, techniques, and
+                        benefits. Designed to provide full-body engagement,
+                        TRX workouts leverage body weight and gravity to build
+                        strength, improve flexibility, and enhance core
+                        stability. Participants will learn how to create and
+                        lead TRX band sessions suitable for all fitness
+                        levels, from beginners to advanced athletes.
+                        <ul className="row">
+                          <div className="p-3 mt-2">
+                            <li className="list-unstyled text-dark">
+                              <b> Introduction to TRX band workout </b>
+                            </li>
+
+                            <li className="list-unstyled text-dark">
+                              <b>History and benefits of TRX training</b>
+                            </li>
+
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                How to use TRX bands: setup, safety, and
+                                basics
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Upper body TRX exercises: chest, back,
+                                shoulders, arms
+                              </b>
+                            </li>
+
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Lower body TRX exercises: legs, glutes, calves
+                              </b>
+                            </li>
+
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Warm-up and stretching exercises using TRX
+                                bands
+                              </b>
+                            </li>
+                          </div>
+                        </ul>
                       </p>
                     </div>
-
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(3)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[3] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
               </div>
