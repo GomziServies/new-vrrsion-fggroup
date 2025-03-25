@@ -49,7 +49,7 @@ function CryolipolysisMachine() {
                                     className="lazy mb-3"
                                     src={
                                         process.env.PUBLIC_URL +
-                                        "/assets/images/img/protein-healthy.webp"
+                                        "/assets/images/img/cryolipolysis-1.webp"
                                     }
                                     width="100%"
                                     style={{ borderRadius: " 10px" }}
@@ -110,7 +110,7 @@ function CryolipolysisMachine() {
                                         className="lazy mb-3"
                                         src={
                                             process.env.PUBLIC_URL +
-                                            "/assets/images/img/protein-healthy.webp"
+                                            "/assets/images/img/cryolipolysis-2.webp"
                                         }
                                         width="100%"
                                         style={{ borderRadius: " 10px" }}
@@ -149,7 +149,7 @@ function CryolipolysisMachine() {
                                         className="lazy mb-3"
                                         src={
                                             process.env.PUBLIC_URL +
-                                            "/assets/images/img/protein-healthy.webp"
+                                            "/assets/images/img/cryolipolysis-3.webp"
                                         }
                                         width="100%"
                                         style={{ borderRadius: " 10px" }}
@@ -181,6 +181,16 @@ function CryolipolysisMachine() {
                                         <br />
                                         Anyone looking to reduce localized fat without undergoing surgery. Ideal for individuals who maintain a healthy lifestyle but struggle with stubborn fat deposits.
                                     </p>
+                                    <img
+                                        className="lazy mb-3"
+                                        src={
+                                            process.env.PUBLIC_URL +
+                                            "/assets/images/img/cryolipolysis-4.webp"
+                                        }
+                                        width="100%"
+                                        style={{ borderRadius: " 10px" }}
+                                        alt="fggroup"
+                                    />
                                 </div>
                             </div>
                             <BlogsGuides />
