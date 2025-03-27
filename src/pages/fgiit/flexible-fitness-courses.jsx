@@ -1736,7 +1736,7 @@ function FlexibleFitnessCourses() {
           </div>
         </div>
       </div>
-      <section className="margintop">
+      <section className="mt-md-5 mt-1">
         <div className="container-fluid p-0">
           {/* <div className="container">
             <div className="covid mb-4 text-center">
@@ -1855,6 +1855,7 @@ function FlexibleFitnessCourses() {
           />
         </div>
       </section>
+      <FlexibleAllReviews />
       <section className="margintop">
         <div className="container-fluid">
           <div className="container">
@@ -1950,10 +1951,14 @@ function FlexibleFitnessCourses() {
       <section className="mt-md-5">
         <div className="container-fluid">
           <div className="container">
+            <div className="covid text-center">
+              <h2 className="mt-2 h2-fs">
+                4 Different{" "}
+                <span className="m-0 text-blue-color">demo Certificate</span>
+              </h2>
+            </div>
+            <div className="thm-bg-clr dector mb-3"></div>
             <div className="row">
-              <div className="Info text-center">
-                <h2 className="h2-fs">4 Different demo Certificate</h2>
-              </div>
               <div className="col-md-3 col-6 mt-3">
                 <LazyLoadImage
                   effect="blur"
@@ -2018,7 +2023,6 @@ function FlexibleFitnessCourses() {
           </div>
         </div>
       </section>
-      <InternationalFlags />
       {/* <AccreditedCertification /> */}
       <section>
         <div className="container-fluid margintop">
@@ -2121,7 +2125,7 @@ function FlexibleFitnessCourses() {
           </div>
         </div>
       </section>
-      <FlexibleAllReviews />
+      <InternationalFlags />
       {/* <section className="margintop">
         <div className="container-fluid">
           <div className="container blog2 py-5 text-center">
@@ -2378,10 +2382,9 @@ function FlexibleFitnessCourses() {
                       <li>Nutri Trainer Course :- 6 Months</li>
                       <li>Diploma in Nutrition Course :- 3 Months</li>
                       <li>Diploma in Personal Training Course :- 3 Months</li>
-                      <li>Anabolic Androgenic Steroids :- 30 Days</li>
+                      <li>Anabolic Androgenic Steroids :- 1 Month</li>
                       <li>
-                        Group Instruction (Tabata, Functional, TRX Band) :- 15
-                        Days
+                        Group Instruction (Tabata, Functional, TRX Band) :- 1 Month
                       </li>
                     </ol>
                   </div>

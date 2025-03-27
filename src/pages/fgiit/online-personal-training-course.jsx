@@ -22,6 +22,8 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import OurOfflineStudents from "../../components/course/ourOfflineStudents";
+import OnlineCourseReviews from "../../components/fgiit/onlineCourseReviews";
 
 function OnlinePersonalTrainingCourse() {
   const canonicalUrl = window.location.href;
@@ -374,8 +376,14 @@ function OnlinePersonalTrainingCourse() {
           content="https://fggroup.in/fgiit/online-personal-training-course"
         />
         <link rel="canonical" href={{ canonicalUrl }} />
-        <meta name="google-site-verification" content="qoYI59Yoq-GDH-dgwroLkQ3BURusdVprLz66uhF3-NY" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-K2X4NWNEP1"></script>
+        <meta
+          name="google-site-verification"
+          content="qoYI59Yoq-GDH-dgwroLkQ3BURusdVprLz66uhF3-NY"
+        />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-K2X4NWNEP1"
+        ></script>
         <script>
           {`window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -741,7 +749,6 @@ function OnlinePersonalTrainingCourse() {
         videoId={videoUrl}
         onClose={closeVideoModal}
       />
-
       <SimpleHeader />
       <section style={{ marginTop: "100px" }}>
         <div className="container-fluid">
@@ -923,9 +930,9 @@ function OnlinePersonalTrainingCourse() {
                       </h2>
                       <p className="text-muted">
                         Students will explore the fundamentals of human anatomy
-                        and physiology, focusing on how the body's
-                        {showMore[1] ? (
-                          <>
+                        and physiology, focusing on how the body's {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
                             systems and muscles respond to exercise.This
                             foundation enables them to design effective,
                             personalized training regimens based on scientific
@@ -954,19 +961,19 @@ function OnlinePersonalTrainingCourse() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(1)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[1] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1033,9 +1040,9 @@ function OnlinePersonalTrainingCourse() {
                       </h2>
                       <p className="text-muted">
                         This module delves into the principles of nutrition and
-                        weight management, emphasizing dietary planning
-                        {showMore[2] ? (
-                          <>
+                        weight management, emphasizing dietary planning {' '}
+                        {/* {showMore[2] ? (
+                          <> */}
                             and metabolism.It highlights the synergy between
                             diet and exercise, equipping students to craft
                             sustainable, goal - oriented diet plans for clients,
@@ -1065,19 +1072,19 @@ function OnlinePersonalTrainingCourse() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(2)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[2] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1153,9 +1160,9 @@ function OnlinePersonalTrainingCourse() {
                       </h2>
                       <p className="text-muted">
                         Combining nutrition and fitness, this module emphasizes
-                        injury prevention and management through
-                        {showMore[3] ? (
-                          <>
+                        injury prevention and management through {' '}
+                        {/* {showMore[3] ? (
+                          <> */}
                             tailored meal plans and strength - training
                             principles.It prepares students to enhance
                             performance while minimizing injury risks through
@@ -1170,44 +1177,44 @@ function OnlinePersonalTrainingCourse() {
                                 <li className="list-unstyled text-dark">
                                   <b>Strength training exercises for</b>
                                   <ul>
-                                    <li className="list-unstyled list-style-none">
+                                    <li className="list-unstyled ml-2">
                                       <b>Legs</b>
                                     </li>
-                                    <li className="list-unstyled list-style-none">
+                                    <li className="list-unstyled ml-2">
                                       <b>Back</b>
                                     </li>
-                                    <li className="list-unstyled list-style-none">
+                                    <li className="list-unstyled ml-2">
                                       <b>Chest</b>
                                     </li>
-                                    <li className="list-unstyled list-style-none">
+                                    <li className="list-unstyled ml-2">
                                       <b>Biceps</b>
                                     </li>
-                                    <li className="list-unstyled list-style-none">
+                                    <li className="list-unstyled ml-2">
                                       <b>Triceps</b>
                                     </li>
-                                    <li className="list-unstyled list-style-none">
+                                    <li className="list-unstyled ml-2">
                                       <b>Abs</b>
                                     </li>
-                                    <li className="list-unstyled list-style-none">
+                                    <li className="list-unstyled ml-2">
                                       <b>Shoulders</b>
                                     </li>
                                   </ul>
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(3)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[3] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1280,9 +1287,9 @@ function OnlinePersonalTrainingCourse() {
                       </h2>
                       <p className="text-muted">
                         Focusing on ethical and physiological aspects, this
-                        module examines the impact of anabolic androgenic
-                        {showMore[4] ? (
-                          <>
+                        module examines the impact of anabolic androgenic {' '}
+                        {/* {showMore[4] ? (
+                          <> */}
                             steroids and alternative training practices.
                             Students learn to guide clients responsibly while
                             tailoring programs across different life stages.
@@ -1291,19 +1298,19 @@ function OnlinePersonalTrainingCourse() {
                                 <li className="list-unstyled text-dark">
                                   <b>Exercise Science and Programming</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Types of grips</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Scheduling of exercises</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Principles of exercises</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Periodization and programming</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Creating a workout routine</b>
                                 </li>
                                 <li className="list-unstyled mt-2 text-dark">
@@ -1317,19 +1324,19 @@ function OnlinePersonalTrainingCourse() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(4)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[4] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1408,9 +1415,9 @@ function OnlinePersonalTrainingCourse() {
                       </h2>
                       <p className="text-muted">
                         This module introduces the role of therapeutic nutrition
-                        in recovery, alongside injury prevention and
-                        {showMore[5] ? (
-                          <>
+                        in recovery, alongside injury prevention and {' '}
+                        {/* {showMore[5] ? (
+                          <> */}
                             rehabilitation techniques.Students gain expertise in
                             safe recovery protocols and exercises that reduce
                             the risk of future injuries.
@@ -1451,20 +1458,20 @@ function OnlinePersonalTrainingCourse() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
 
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(5)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[5] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1556,14 +1563,14 @@ function OnlinePersonalTrainingCourse() {
                       </h2>
                       <p className="text-muted">
                         This module addresses advanced nutritional strategies
-                        and the implications of steroid use in fitness.
-                        {showMore[6] ? (
-                          <>
+                        and the implications of steroid use in fitness. {' '}
+                        {/* {showMore[6] ? (
+                          <> */}
                             Students learn to evaluate risks and benefits while
                             guiding clients toward healthier, sustainable
                             performance enhancement methods.
                             <div className="row">
-                              <ul className="col-6 mt-2 p-3">
+                              <ul className="col-12 mt-2 p-3">
                                 <li className="list-unstyled">
                                   <b>
                                     Anabolics, Androgenic, Peptides, SARMs
@@ -1611,19 +1618,19 @@ function OnlinePersonalTrainingCourse() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(6)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[6] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1701,59 +1708,59 @@ function OnlinePersonalTrainingCourse() {
                       </h2>
                       <p className="text-muted">
                         Covering the essentials of disease management and
-                        powerlifting, this module focuses on therapeutic diets
-                        {showMore[7] ? (
-                          <>
+                        powerlifting, this module focuses on therapeutic diets {' '}
+                        {/* {showMore[7] ? (
+                          <> */}
                             and techniques for key strength - building
                             exercises. Students are trained to support clients
                             in achieving both wellness and performance goals.
                             <div className="row">
-                              <ul className="col-6 mt-2 p-3">
-                                <li className="list-unstyled">
+                              <ul className="col-12 mt-2 p-3">
+                                <li className="list-unstyled text-dark">
                                   <b>Biomechanics and Technique</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Strength Training Principles</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Programming and Training Plans</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Equipment and Gear</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Rules and Regulations</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Injury Prevention and Rehabilitation</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Coaching and Communication</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Practical Training</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Legal Aspects of Coaching</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Powerlifting Plan</b>
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(7)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[7] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1803,9 +1810,9 @@ function OnlinePersonalTrainingCourse() {
                         Module 8: Counselling Techniques
                       </h2>
                       <p className="text-muted">
-                        Counseling techniques include active listening, empathy, and goal-setting to help individuals navigate challenges. Methods like cognitive-behavioral therapy,
-                        {showMore[8] ? (
-                          <>
+                        Counseling techniques include active listening, empathy, and goal-setting to help individuals navigate challenges. Methods like cognitive-behavioral therapy, {' '}
+                        {/* {showMore[8] ? (
+                          <> */}
                             mindfulness, and solution-focused approaches empower clients to develop coping strategies. Effective counseling fosters self-awareness, emotional resilience, and personal growth, promoting mental well-being and long-term positive change.
                             <div className="row">
                               <ul className="col-12 mt-2 p-3">
@@ -1823,19 +1830,19 @@ function OnlinePersonalTrainingCourse() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(8)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[8] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1887,9 +1894,9 @@ function OnlinePersonalTrainingCourse() {
                         Module 9: Group Instructor Masterclass
                       </h2>
                       <p className="text-muted">
-                        A Group Instructor Masterclass is designed to refine teaching skills, elevate class management, and improve participant engagement. It covers techniques
-                        {showMore[9] ? (
-                          <>
+                        A Group Instructor Masterclass is designed to refine teaching skills, elevate class management, and improve participant engagement. It covers techniques {' '}
+                        {/* {showMore[9] ? (
+                          <> */}
                             for motivating diverse groups, structuring effective workouts, and fostering a positive environment. Instructors gain the confidence and expertise to lead dynamic, inclusive fitness sessions that inspire results.
                             <div className="row">
                               <ul className="col-12 mt-2 p-3">
@@ -1907,19 +1914,19 @@ function OnlinePersonalTrainingCourse() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(9)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[9] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1988,9 +1995,9 @@ function OnlinePersonalTrainingCourse() {
                       </h2>
                       <p className="text-muted">
                         In this hands-on module, students master behavior change
-                        techniques and client management strategies. By
-                        {showMore[10] ? (
-                          <>
+                        techniques and client management strategies. By {' '}
+                        {/* {showMore[10] ? (
+                          <> */}
                             applying theoretical knowledge in practical
                             settings, they develop skills to motivate and guide
                             clients effectively.
@@ -2019,19 +2026,19 @@ function OnlinePersonalTrainingCourse() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(10)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[10] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
               </div>
@@ -2039,139 +2046,15 @@ function OnlinePersonalTrainingCourse() {
           </div>
         </div>
       </section>
-      <section>
-        <div className="container-fluid margintop">
-          <div className="container blog2 pb-5">
-            <div className="">
-              <div className="covid text-center">
-                <h2 className="mt-2 h2-fs">
-                  Start Your Fitness Career with a{" "}
-                  <span className="m-0 text-blue-color">Personal Training Course</span>
-                </h2>
-              </div>
-              <div className="thm-bg-clr dector mb-3"></div>
-              <div className="row">
-                <div className="col-lg-12">
-                  <div className="describe">
-                    <p>
-                      Becoming a certified personal trainer is easier than ever with the right training course. Whether you're looking for an online PT course or an in-person PT training course, structured learning helps you gain the skills needed to succeed in the fitness industry.
-                    </p>
-                    <p>
-                      A well-designed personal training course covers essential topics such as exercise science, anatomy, strength training, and client assessment. Many online personal training courses provide flexible learning options, allowing you to study at your own pace while gaining industry-recognized certification.
-                    </p>
-                    <p>
-                      For those aiming to become a gym trainer, enrolling in a gym trainer course or a gym personal trainer program is a great choice. These courses focus on workout programming, injury prevention, and effective coaching techniques. If you prefer distance learning, personal trainer classes online offer interactive sessions, video tutorials, and expert guidance.
-                    </p>
-                    <p>
-                      Comprehensive personal training programs provide hands-on experience and theoretical knowledge, ensuring you are well-prepared to train clients of all fitness levels. By choosing the right PT training or personal trainer training course, you can build a successful career in fitness. Start your journey today with a top-rated online personal trainer certification and make a difference in the fitness world!
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <OnlineCourseReviews />
       <section className="margintop">
         <div className="container-fluid p-0">
-          {/* <div className="container">
-                  <div className="covid mb-4 text-center">
-                    <h2 className="h2-fs">
-                      <span className="m-0 text-blue-color">Course </span>
-                      include
-                    </h2>
-                  </div>
-                  <div className="thm-bg-clr dector"></div>
-                  <div className="row">
-                    <div className="col-lg-4 col-md-6 mt-3 position-relative">
-                      <div className="tabata blog2 py-5 imgty text-center">
-                        <LazyLoadImage
-                          effect="blur"
-                          className="lazy"
-                          src={
-                            process.env.PUBLIC_URL + "/assets/images/img/zoom.webp"
-                          }
-                          alt="FG Group"
-                        />
-                        <h2 className="h5-fs mt-3">Zoom session</h2>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 mt-3 position-relative">
-                      <div className="tabata blog2 py-5 imgty text-center">
-                        <LazyLoadImage
-                          effect="blur"
-                          className="lazy"
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/assets/images/img/open-book.webp"
-                          }
-                          alt="FG Group"
-                        />
-                        <h2 className="h5-fs mt-3">Book & Recorded session</h2>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 mt-3 position-relative">
-                      <div className="tabata blog2 py-5 imgty text-center">
-                        <LazyLoadImage
-                          effect="blur"
-                          className="lazy"
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/assets/images/img/group-chat.webp"
-                          }
-                          alt="FG Group"
-                        />
-                        <h2 className="h5-fs mt-3">Team Chat Support</h2>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 mt-3 position-relative">
-                      <div className="tabata blog2 py-5 imgty text-center">
-                        <LazyLoadImage
-                          effect="blur"
-                          className="lazy"
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/assets/images/img/online-test.webp"
-                          }
-                          alt="FG Group"
-                        />
-                        <h2 className="h5-fs mt-3">MCQs Based Exam</h2>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 mt-3 position-relative">
-                      <div className="tabata blog2 py-5 imgty text-center">
-                        <LazyLoadImage
-                          effect="blur"
-                          className="lazy"
-                          src={
-                            process.env.PUBLIC_URL + "/assets/images/img/score.webp"
-                          }
-                          alt="FG Group"
-                        />
-                        <h2 className="h5-fs mt-3">Case Study Based Project</h2>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 mt-3 position-relative">
-                      <div className="tabata blog2 py-5 imgty text-center">
-                        <LazyLoadImage
-                          effect="blur"
-                          className="lazy"
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/assets/images/img/certificate.webp"
-                          }
-                          alt="FG Group"
-                        />
-                        <h2 className="h5-fs mt-3">Certification</h2>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
           <LazyLoadImage
             effect="blur"
             alt="FG Group"
             src={
-              process.env.PUBLIC_URL + "/assets/images/img/course-include-online.webp"
+              process.env.PUBLIC_URL +
+              "/assets/images/img/course-include-online.webp"
             }
             className="img-fluid mt-2 d-none d-md-block"
           />
@@ -2179,7 +2062,8 @@ function OnlinePersonalTrainingCourse() {
             effect="blur"
             alt="FG Group"
             src={
-              process.env.PUBLIC_URL + "/assets/images/img/course-include-online-mobile.webp"
+              process.env.PUBLIC_URL +
+              "/assets/images/img/course-include-online-mobile.webp"
             }
             className="img-fluid mt-2 d-block d-md-none"
           />
@@ -2188,11 +2072,20 @@ function OnlinePersonalTrainingCourse() {
       <section className="mt-5">
         <div className="container-fluid">
           <div className="container">
+            <div className="covid mb-4 text-center">
+              <h2 className="h2-fs">
+                <span className="m-0 text-blue-color">Our Institute </span>
+                Accreditation
+              </h2>
+            </div>
+            <div className="thm-bg-clr dector"></div>
             <div className="row mt-4 align-items-center">
-              <div className="col-md-6">
+              <div className="col-lg-6">
                 <div className="demoo">
                   <div className="new-h3">
-                    <h2 className="ml-0 h3-fs fs-34">Why FGIIT?</h2>
+                    <h2 className="ml-0 h3-fs fs-34">
+                      Why FGIIT?
+                    </h2>
                   </div>
                   <div>
                     <ul className="p-0 new-li">
@@ -2226,190 +2119,134 @@ function OnlinePersonalTrainingCourse() {
                         <i className="fas fa-check"></i> Lifetime Support for
                         Students
                       </li>
-
-                      <li>
-                        <i className="fas fa-check"></i> Globally Recognized
-                        Certifications
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Comprehensive
-                        Curriculum Covering Latest Trends
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Interactive Live
-                        Sessions with Trainers and Peers
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Regular Assessments &
-                        Feedback
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Access to Exclusive
-                        Study Groups
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Updated Study Material
-                        and Case Studies
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Affordable Fees with
-                        EMI Options
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Collaborations with Top
-                        Fitness Brands
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Personalized Student
-                        Support Team
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Continuous Professional
-                        Development Opportunities
-                      </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6">
-                <div className="text-center">
-                  <p className="mb-0 taks-p">Demo Certificate</p>
+              <div className="col-lg-6">
+                <div>
+                  <LazyLoadImage
+                    effect="blur"
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/img/mobile-all-logo.webp"
+                    }
+                    className="img-fluid lazy"
+                    alt="FG Group"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="mt-md-5 mt-3">
+        <div className="container-fluid">
+          <div className="container blog2">
+            <div className="row mt-4">
+              <div className="col-lg-6 certi text-center">
+                <p className="mt-md-4 mb-md-4 mt-0 mb-3">demo lecture</p>
+                <div className="ply1">
                   <LazyLoadImage
                     effect="blur"
                     className="lazy"
                     src={
                       process.env.PUBLIC_URL +
-                      "/assets/images/img/cpt_demo.webp"
+                      "/assets/images/img/online-course-dpt.webp"
                     }
-                    width="85%"
-                    alt="Course Certificate"
+                    width="100%"
+                    style={{ borderRadius: "10px" }}
+                    alt="fggroup"
                   />
+                  <div className="ply2">
+                    <Link
+                      className="custom"
+                      data-flashy-type="video"
+                      to="https://youtu.be/ZYoKVIfbJzY"
+                    >
+                      <i
+                        className="far fa-play-circle fs-40 text-white"
+                      ></i>
+                    </Link>
+                  </div>
                 </div>
-                <div>
-                  <span
-                    className="taks-p d-none d-md-block text-center"
-                    style={{ fontWeight: "500" }}
-                  >
-                    our Certificate is valid in 192 country
-                  </span>
-                </div>
+              </div>
+              <div className="col-lg-6 certi text-center">
+                <p className="mt-4 mb-md-4 mb-3">DPT demo Certificate</p>
+                <LazyLoadImage
+                  effect="blur"
+                  className="lazy"
+                  src={
+                    process.env.PUBLIC_URL + "/assets/images/img/cpt_demo.webp"
+                  }
+                  width="90%"
+                  alt="personal trainer and gym trainer course certificate"
+                />
               </div>
             </div>
           </div>
         </div>
       </section>
       <MeetOurInstructure />
-      <StudentTestimonial testimonials={testimonials} />
       {/* <OurStudentsWords /> */}
-      <section className="margintop item-border-design">
-        <div className="container-fluid">
-          <div className="container">
-            <div className="covid text-center">
-              <h2 className="h2-fs">
-                Placement <span className="m-0 text-blue-color">Review</span>
-              </h2>
+      <OurOfflineStudents />
+      <section>
+        <div className="container-fluid margintop">
+          <div className="container blog2 pb-5">
+            <div className="">
+              <div className="covid text-center">
+                <h2 className="mt-2 h2-fs">
+                  Start Your Fitness Career with a{" "}
+                  <span className="m-0 text-blue-color">
+                    Personal Training Course
+                  </span>
+                </h2>
+              </div>
+              <div className="thm-bg-clr dector mb-3"></div>
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="describe">
+                    <p>
+                      Becoming a certified personal trainer is easier than ever
+                      with the right training course. Whether you're looking for
+                      an online PT course or an in-person PT training course,
+                      structured learning helps you gain the skills needed to
+                      succeed in the fitness industry.
+                    </p>
+                    <p>
+                      A well-designed personal training course covers essential
+                      topics such as exercise science, anatomy, strength
+                      training, and client assessment. Many online personal
+                      training courses provide flexible learning options,
+                      allowing you to study at your own pace while gaining
+                      industry-recognized certification.
+                    </p>
+                    <p>
+                      For those aiming to become a gym trainer, enrolling in a
+                      gym trainer course or a gym personal trainer program is a
+                      great choice. These courses focus on workout programming,
+                      injury prevention, and effective coaching techniques. If
+                      you prefer distance learning, personal trainer classes
+                      online offer interactive sessions, video tutorials, and
+                      expert guidance.
+                    </p>
+                    <p>
+                      Comprehensive personal training programs provide hands-on
+                      experience and theoretical knowledge, ensuring you are
+                      well-prepared to train clients of all fitness levels. By
+                      choosing the right PT training or personal trainer
+                      training course, you can build a successful career in
+                      fitness. Start your journey today with a top-rated online
+                      personal trainer certification and make a difference in
+                      the fitness world!
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="thm-bg-clr dector mb-4"></div>
-            <OwlCarousel
-              loop
-              autoplay
-              id="owl-demo5"
-              className="owl-carousel owl-theme"
-              responsive={{
-                0: {
-                  items: 1,
-                  dots: false,
-                },
-                600: {
-                  items: 2,
-                },
-                1000: {
-                  items: 3,
-                },
-              }}
-            >
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-6.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-3.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-16.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-7.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-13.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-1.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-9.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-            </OwlCarousel>
           </div>
         </div>
       </section>
-
       <section className="margintop d-block d-md-none">
         <div className="container-fluid p-0">
           <div>
@@ -2429,7 +2266,9 @@ function OnlinePersonalTrainingCourse() {
           <div>
             <Link to="/fgiit/fitness-training-and-placement">
               <img
-                src={process.env.PUBLIC_URL + "/assets/images/img/tpcell-d.webp"}
+                src={
+                  process.env.PUBLIC_URL + "/assets/images/img/tpcell-d.webp"
+                }
                 width="100%"
                 className="lazy"
                 alt="fggroup"
@@ -2438,58 +2277,7 @@ function OnlinePersonalTrainingCourse() {
           </div>
         </div>
       </section>
-
-      <section className="studentsreviewdpt mt-4 mb-5">
-        <div className="google-reviews-carousel">
-          <div className="covid text-center mt-5">
-            <h2 className="h2-fs">
-              Our <span className="m-0 text-blue-color">Google Reviews</span>
-            </h2>
-          </div>
-          <div className="thm-bg-clr dector mb-4"></div>
-
-          <OwlCarousel
-            key={showMoreList.join("")}
-            className="owl-theme"
-            {...options}
-          >
-            {reviewses.map((review, index) => (
-              <div key={`review-${index}`} className="item">
-                <div className="review-card">
-                  <img
-                    className="review-image"
-                    src={review.image}
-                    alt={review.name}
-                  />
-                  <div className="review-content">
-                    <h2 className="h3-fs">{review.name}</h2>
-                    <div className="stars">
-                      {"★".repeat(review.stars)}
-                      {"☆".repeat(5 - review.stars)}
-                    </div>
-                    <p className="review-text">
-                      {showMoreList[index] ? review.fullReview : review.review}
-                    </p>
-                    <button
-                      className="btn"
-                      onClick={() => toggleReadMore1(index)}
-                      id="myBtnrx"
-                      style={{ color: "#00afef", fontWeight: "500" }}
-                    >
-                      {showMoreList[index] ? "Read less" : "Read more"}
-                    </button>
-                    <div className="google-icon">
-                      <i className="fab fa-google"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </OwlCarousel>
-        </div>
-      </section>
-
-      <section className="fwg-webinar-page-faq margintop mt-md-5 mt-0 pt-md-5 pt-0 pb-md-4 pb-0">
+      <section className="fwg-webinar-page-faq margintop mt-md-5 mt-4 pt-md-5 pt-0 pb-md-4 pb-0">
         <div className="container">
           <div className="covid text-center">
             <h2 className="h2-fs">

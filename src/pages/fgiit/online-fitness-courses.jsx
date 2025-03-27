@@ -641,6 +641,7 @@ function OnlineFitnessCourses() {
         </div>
       </section>
       <OnlineFitnessCourse />
+      <AllReviews />
       <section className="margintop">
         <div className="container-fluid">
           <div className="">
@@ -1230,7 +1231,7 @@ function OnlineFitnessCourses() {
           </div>
         </div>
       </section> */}
-      <section className="margintop">
+      {/* <section className="margintop">
         <div className="container-fluid ">
           <div className="container text-center covid">
             <h2 className="h2-fs">
@@ -1391,7 +1392,298 @@ function OnlineFitnessCourses() {
             </div>
           </div>
         </div>
+      </section> */}
+      <MeetOurInstructure />
+      <section className="margintop d-none">
+        <div className="container-fluid">
+          <div className="container blog2 py-3 py-md-5">
+            <div className="row">
+              <div className="col-lg-12 covid">
+                <h2 className="h2-fs text-center text-333-color">
+                  Why
+                  <span className="m-0 text-blue-color"> Online?</span>
+                </h2>
+                <div className="thm-bg-clr dector mb-2 mb-md-5"></div>
+              </div>
+              <div className="col-lg-12  mt-0">
+                <div className="describe">
+                  <p>
+                    In today's fast-paced world, online fitness courses have
+                    become a game-changer for individuals looking to improve
+                    their health and well-being. These online courses offer
+                    convenience, flexibility, and expert-led guidance, making
+                    fitness accessible to anyone, anywhere. Whether you're a
+                    beginner or a seasoned athlete, fitness courses cater to all
+                    levels and help you achieve your personal fitness goals.
+                  </p>
+                  <div className="d-md-block d-none">
+                    <p>
+                      Online fitness courses are designed to provide a
+                      structured learning experience through virtual platforms,
+                      where you can learn at your own pace. With a wide range of
+                      programs available, including strength training, yoga,
+                      nutrition, and weight loss, there is something for
+                      everyone. Many fitness enthusiasts prefer the flexibility
+                      of online courses as they allow them to work out from the
+                      comfort of their home, saving time and eliminating the
+                      need for a gym membership.
+                    </p>
+                    <p>
+                      These courses often come with instructional videos,
+                      workout plans, and even one-on-one support from expert
+                      trainers. They are an excellent choice for people with
+                      busy schedules who still want to stay fit. With continuous
+                      advancements in technology, online fitness courses are
+                      evolving, offering a comprehensive fitness experience with
+                      interactive tools and community support, making fitness
+                      goals more achievable than ever before.
+                    </p>
+                  </div>
+                  <div className="d-md-none d-block">
+                    {showMore ? (
+                      <>
+                        <p>
+                          Online fitness courses are designed to provide a
+                          structured learning experience through virtual
+                          platforms, where you can learn at your own pace. With
+                          a wide range of programs available, including strength
+                          training, yoga, nutrition, and weight loss, there is
+                          something for everyone. Many fitness enthusiasts
+                          prefer the flexibility of online courses as they allow
+                          them to work out from the comfort of their home,
+                          saving time and eliminating the need for a gym
+                          membership.
+                        </p>
+                        <p>
+                          These courses often come with instructional videos,
+                          workout plans, and even one-on-one support from expert
+                          trainers. They are an excellent choice for people with
+                          busy schedules who still want to stay fit. With
+                          continuous advancements in technology, online fitness
+                          courses are evolving, offering a comprehensive fitness
+                          experience with interactive tools and community
+                          support, making fitness goals more achievable than
+                          ever before.
+                        </p>
+                      </>
+                    ) : (
+                      <span id="dotsx">...</span>
+                    )}
+                    <p
+                      onClick={toggleReadMorev}
+                      id="myBtnrg"
+                      className="text-info m-0 my-sm-2 my-md-0"
+                    >
+                      {showMore ? "Read less" : "Read more"}
+                    </p>
+                  </div>
+                  {/* <div>
+                    <a className="btn btn-primarrr m-auto btn-primary mt-2 moreless-button mt-md-3 mb-sm-2 mb-md-0">
+                      Read more
+                    </a>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+      {/* <section className="convocation-section">
+        <div className="container-fluid">
+          <div className="container py-5">
+            <div className="covid text-center">
+              <h2 className="h2-fs" style={{ color: "#333" }}>
+                passed out<span className="m-0 text-blue-color"> students</span>
+              </h2>
+            </div>
+            <div className="thm-bg-clr dector mb-3"></div>
+            <OwlCarousel
+              loop
+              autoplay
+              nav={false}
+              dots={false}
+              id="fwg-owl"
+              className="owl-carousel owl-theme mb-5"
+              responsive={{
+                0: {
+                  items: 1,
+                },
+                600: {
+                  items: 2,
+                },
+                1000: {
+                  items: 2,
+                },
+              }}
+            >
+              <div className="item mx-3">
+                <img
+                  className="lazy"
+                  src={process.env.PUBLIC_URL + "/assets/images/img/a.webp"}
+                  alt="passed out student from our academy"
+                />
+              </div>
+              <div className="item mx-3">
+                <img
+                  className="lazy"
+                  src={process.env.PUBLIC_URL + "/assets/images/img/b.webp"}
+                  alt="passed out student from our academy"
+                />
+              </div>
+              <div className="item mx-3">
+                <img
+                  className="lazy"
+                  src={process.env.PUBLIC_URL + "/assets/images/img/c.webp"}
+                  alt="passed out student from our academy"
+                />
+              </div>
+              <div className="item mx-3">
+                <img
+                  className="lazy"
+                  src={process.env.PUBLIC_URL + "/assets/images/img/d.webp"}
+                  alt="passed out student from our academy"
+                />
+              </div>
+              <div className="item mx-3">
+                <img
+                  className="lazy"
+                  src={process.env.PUBLIC_URL + "/assets/images/img/e.webp"}
+                  alt="passed out student from our academy"
+                />
+              </div>
+              <div className="item mx-3">
+                <img
+                  className="lazy"
+                  src={process.env.PUBLIC_URL + "/assets/images/img/f.webp"}
+                  alt="passed out student from our academy"
+                />
+              </div>
+            </OwlCarousel>
+          </div>
+        </div>
+      </section> */}
+      <section className="d-none d-md-block mt-5">
+        <div className="container-fluid p-0">
+          <div>
+            <Link to="/fgiit/fitness-training-and-placement">
+              <img
+                src={
+                  process.env.PUBLIC_URL + "/assets/images/img/tpcell-d.webp"
+                }
+                width="100%"
+                className="lazy"
+                alt="fggroup"
+              />
+            </Link>
+          </div>
+        </div>
+      </section>
+      {/* <PartnersBrands /> */}
+      {/* <OurStudentsWords /> */}
+      <PartnerLogo />
+      {/* <PlacementReview /> */}
+      <section className="margintop d-none d-md-block">
+        <div className="container-fluid p-0">
+          <div className="col-md-12 p-0">
+            <Link to="/alumini-fgiit">
+              <img
+                src={
+                  process.env.PUBLIC_URL +
+                  "/assets/images/img/alumina-banner.webp"
+                }
+                width="100%"
+                className="lazy"
+                alt="fggroup"
+              />
+            </Link>
+          </div>
+          <div className="col-md-12 text-center mt-4 p-0 pt-1">
+            <div className="review-box-btn">
+              <Link to="/alumini-fgiit" className="custom clickof">
+                Alumini Events
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* <section className="margintop">
+        <div className="container-fluid">
+          <div className="container blog2 py-5">
+            <div className="Info">
+              <h2 className="mt-3 h2-fs">FGIIT *Terms & Conditions :</h2>
+            </div>
+            <div className="Grocery1 pl-3">
+              <ul>
+                <li>
+                  <b>18% GST will be applied externally on the courses.</b>
+                </li>
+                <li>
+                  The Program You Choose Is An INTERNATIONAL CERTIFIED
+                  NUTRITIONIST COURSE Of 2 Months At Fees Of Rs.20,000/- The
+                  Actual Fees For This Course Is 35100/-(Offline).
+                </li>
+                <li>
+                  You, Will, Be Provided With Proper Material For The Course
+                  (Both High Definition Video Lectures And Pdf Format Notes)
+                  Through Which You Can Study For Your Course. Other Than That
+                  You Will Get A Subscription Ending Reminder 1 Week Before
+                  Ending The Course.
+                </li>
+                <li>
+                  Certification Will Be Provided After A 150 Marks Exam Consisting Of 100 Marks Of MCQ, and 2 Projects of 25 marks each. You, Will, Be Given 2 Attempts For The Exam Only If You Fail The Exam. In Case If You Have Not Completed The Course Or Are Left With Studying Or Didn't Appear For The Exam For The Same, You Have To Inform The Mentor's Priory And Extend Your Time By 1 Month After Paying <b style={{ color: "red" }}>2700/- </b>{" "} As Plan-Extension Fee.
+                  <ol>
+                    <li>
+                      Failing In Both Attempts Will Make You Take The Course
+                      Again If You Want To Continue.
+                    </li>
+                    <li>
+                      Doubts and Queries will be solved via WhatsApp every week
+                      before Sunday.
+                    </li>
+                    <li>Fees Paid is Non-Refundable and Not Transferable.</li>
+                    <li>
+                      If the candidate is getting an extension for their due fee
+                      payment then they have to take the extension time
+                      seriously or it may end up in these stated consequences.
+                    </li>
+                    <li>
+                      If you appeared a month delay then you need to start the
+                      course again followed by paying full fees.
+                    </li>
+                    <li>
+                      If the faculty gives you the extension for payment then it
+                      should be valued or the results will be the same as above.
+                    </li>
+                    <li>
+                      Video Panels will be closed 3 days prior of the final
+                      examination.
+                    </li>
+                  </ol>
+                </li>
+                <li>
+                  <b>
+                    You need to submit the project before 5 days of the exam
+                    without it you will not be allowed to give the exam.
+                  </b>
+                </li>
+                <li>
+                  <b>
+                    Failing not to submit the project will result in delaying
+                    your examination.
+                  </b>
+                </li>
+                <li>
+                  <b>
+                    You have to pay <b style={{ color: "red" }}>2700/- </b>as
+                    exam reschedule charges and still will be liable to submit
+                    your project prior 5 days of the examination.
+                  </b>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section> */}
       <section className="margintop">
         <div
           className="container-fluid"
@@ -1660,298 +1952,6 @@ function OnlineFitnessCourses() {
           </div>
         </div>
       </section>
-      <MeetOurInstructure />
-      <section className="margintop">
-        <div className="container-fluid">
-          <div className="container blog2 py-3 py-md-5">
-            <div className="row">
-              <div className="col-lg-12 covid">
-                <h2 className="h2-fs text-center text-333-color">
-                  Why
-                  <span className="m-0 text-blue-color"> Online?</span>
-                </h2>
-                <div className="thm-bg-clr dector mb-2 mb-md-5"></div>
-              </div>
-              <div className="col-lg-12  mt-0">
-                <div className="describe">
-                  <p>
-                    In today's fast-paced world, online fitness courses have
-                    become a game-changer for individuals looking to improve
-                    their health and well-being. These online courses offer
-                    convenience, flexibility, and expert-led guidance, making
-                    fitness accessible to anyone, anywhere. Whether you're a
-                    beginner or a seasoned athlete, fitness courses cater to all
-                    levels and help you achieve your personal fitness goals.
-                  </p>
-                  <div className="d-md-block d-none">
-                    <p>
-                      Online fitness courses are designed to provide a
-                      structured learning experience through virtual platforms,
-                      where you can learn at your own pace. With a wide range of
-                      programs available, including strength training, yoga,
-                      nutrition, and weight loss, there is something for
-                      everyone. Many fitness enthusiasts prefer the flexibility
-                      of online courses as they allow them to work out from the
-                      comfort of their home, saving time and eliminating the
-                      need for a gym membership.
-                    </p>
-                    <p>
-                      These courses often come with instructional videos,
-                      workout plans, and even one-on-one support from expert
-                      trainers. They are an excellent choice for people with
-                      busy schedules who still want to stay fit. With continuous
-                      advancements in technology, online fitness courses are
-                      evolving, offering a comprehensive fitness experience with
-                      interactive tools and community support, making fitness
-                      goals more achievable than ever before.
-                    </p>
-                  </div>
-                  <div className="d-md-none d-block">
-                    {showMore ? (
-                      <>
-                        <p>
-                          Online fitness courses are designed to provide a
-                          structured learning experience through virtual
-                          platforms, where you can learn at your own pace. With
-                          a wide range of programs available, including strength
-                          training, yoga, nutrition, and weight loss, there is
-                          something for everyone. Many fitness enthusiasts
-                          prefer the flexibility of online courses as they allow
-                          them to work out from the comfort of their home,
-                          saving time and eliminating the need for a gym
-                          membership.
-                        </p>
-                        <p>
-                          These courses often come with instructional videos,
-                          workout plans, and even one-on-one support from expert
-                          trainers. They are an excellent choice for people with
-                          busy schedules who still want to stay fit. With
-                          continuous advancements in technology, online fitness
-                          courses are evolving, offering a comprehensive fitness
-                          experience with interactive tools and community
-                          support, making fitness goals more achievable than
-                          ever before.
-                        </p>
-                      </>
-                    ) : (
-                      <span id="dotsx">...</span>
-                    )}
-                    <p
-                      onClick={toggleReadMorev}
-                      id="myBtnrg"
-                      className="text-info m-0 my-sm-2 my-md-0"
-                    >
-                      {showMore ? "Read less" : "Read more"}
-                    </p>
-                  </div>
-                  {/* <div>
-                    <a className="btn btn-primarrr m-auto btn-primary mt-2 moreless-button mt-md-3 mb-sm-2 mb-md-0">
-                      Read more
-                    </a>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* <section className="convocation-section">
-        <div className="container-fluid">
-          <div className="container py-5">
-            <div className="covid text-center">
-              <h2 className="h2-fs" style={{ color: "#333" }}>
-                passed out<span className="m-0 text-blue-color"> students</span>
-              </h2>
-            </div>
-            <div className="thm-bg-clr dector mb-3"></div>
-            <OwlCarousel
-              loop
-              autoplay
-              nav={false}
-              dots={false}
-              id="fwg-owl"
-              className="owl-carousel owl-theme mb-5"
-              responsive={{
-                0: {
-                  items: 1,
-                },
-                600: {
-                  items: 2,
-                },
-                1000: {
-                  items: 2,
-                },
-              }}
-            >
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  src={process.env.PUBLIC_URL + "/assets/images/img/a.webp"}
-                  alt="passed out student from our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  src={process.env.PUBLIC_URL + "/assets/images/img/b.webp"}
-                  alt="passed out student from our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  src={process.env.PUBLIC_URL + "/assets/images/img/c.webp"}
-                  alt="passed out student from our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  src={process.env.PUBLIC_URL + "/assets/images/img/d.webp"}
-                  alt="passed out student from our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  src={process.env.PUBLIC_URL + "/assets/images/img/e.webp"}
-                  alt="passed out student from our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  src={process.env.PUBLIC_URL + "/assets/images/img/f.webp"}
-                  alt="passed out student from our academy"
-                />
-              </div>
-            </OwlCarousel>
-          </div>
-        </div>
-      </section> */}
-      <section className="d-none d-md-block mt-5">
-        <div className="container-fluid p-0">
-          <div>
-            <Link to="/fgiit/fitness-training-and-placement">
-              <img
-                src={
-                  process.env.PUBLIC_URL + "/assets/images/img/tpcell-d.webp"
-                }
-                width="100%"
-                className="lazy"
-                alt="fggroup"
-              />
-            </Link>
-          </div>
-        </div>
-      </section>
-      {/* <PartnersBrands /> */}
-      <AllReviews />
-      {/* <OurStudentsWords /> */}
-      <PartnerLogo />
-      {/* <PlacementReview /> */}
-      <section className="margintop d-none d-md-block">
-        <div className="container-fluid p-0">
-          <div className="col-md-12 p-0">
-            <Link to="/alumini-fgiit">
-              <img
-                src={
-                  process.env.PUBLIC_URL +
-                  "/assets/images/img/alumina-banner.webp"
-                }
-                width="100%"
-                className="lazy"
-                alt="fggroup"
-              />
-            </Link>
-          </div>
-          <div className="col-md-12 text-center mt-4 p-0 pt-1">
-            <div className="review-box-btn">
-              <Link to="/alumini-fgiit" className="custom clickof">
-                Alumini Events
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* <section className="margintop">
-        <div className="container-fluid">
-          <div className="container blog2 py-5">
-            <div className="Info">
-              <h2 className="mt-3 h2-fs">FGIIT *Terms & Conditions :</h2>
-            </div>
-            <div className="Grocery1 pl-3">
-              <ul>
-                <li>
-                  <b>18% GST will be applied externally on the courses.</b>
-                </li>
-                <li>
-                  The Program You Choose Is An INTERNATIONAL CERTIFIED
-                  NUTRITIONIST COURSE Of 2 Months At Fees Of Rs.20,000/- The
-                  Actual Fees For This Course Is 35100/-(Offline).
-                </li>
-                <li>
-                  You, Will, Be Provided With Proper Material For The Course
-                  (Both High Definition Video Lectures And Pdf Format Notes)
-                  Through Which You Can Study For Your Course. Other Than That
-                  You Will Get A Subscription Ending Reminder 1 Week Before
-                  Ending The Course.
-                </li>
-                <li>
-                  Certification Will Be Provided After A 150 Marks Exam Consisting Of 100 Marks Of MCQ, and 2 Projects of 25 marks each. You, Will, Be Given 2 Attempts For The Exam Only If You Fail The Exam. In Case If You Have Not Completed The Course Or Are Left With Studying Or Didn't Appear For The Exam For The Same, You Have To Inform The Mentor's Priory And Extend Your Time By 1 Month After Paying <b style={{ color: "red" }}>2700/- </b>{" "} As Plan-Extension Fee.
-                  <ol>
-                    <li>
-                      Failing In Both Attempts Will Make You Take The Course
-                      Again If You Want To Continue.
-                    </li>
-                    <li>
-                      Doubts and Queries will be solved via WhatsApp every week
-                      before Sunday.
-                    </li>
-                    <li>Fees Paid is Non-Refundable and Not Transferable.</li>
-                    <li>
-                      If the candidate is getting an extension for their due fee
-                      payment then they have to take the extension time
-                      seriously or it may end up in these stated consequences.
-                    </li>
-                    <li>
-                      If you appeared a month delay then you need to start the
-                      course again followed by paying full fees.
-                    </li>
-                    <li>
-                      If the faculty gives you the extension for payment then it
-                      should be valued or the results will be the same as above.
-                    </li>
-                    <li>
-                      Video Panels will be closed 3 days prior of the final
-                      examination.
-                    </li>
-                  </ol>
-                </li>
-                <li>
-                  <b>
-                    You need to submit the project before 5 days of the exam
-                    without it you will not be allowed to give the exam.
-                  </b>
-                </li>
-                <li>
-                  <b>
-                    Failing not to submit the project will result in delaying
-                    your examination.
-                  </b>
-                </li>
-                <li>
-                  <b>
-                    You have to pay <b style={{ color: "red" }}>2700/- </b>as
-                    exam reschedule charges and still will be liable to submit
-                    your project prior 5 days of the examination.
-                  </b>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section> */}
       <section className="margintop">
         <div className="container-fluid">
           <div className="container">
@@ -2069,6 +2069,13 @@ function OnlineFitnessCourses() {
               />
             </Link>
           </div>
+          <div className="col-md-12 text-center mt-4 p-0 pt-1 mb-4">
+            <div className="review-box-btn">
+              <Link to="/alumini-fgiit" className="custom clickof">
+                Alumini Events
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
       <section className="d-block d-md-none">
@@ -2183,9 +2190,9 @@ function OnlineFitnessCourses() {
                     All Courses
                     <ol>
                       <li>Nutri Trainer Course :- 6 Months</li>
-                      <li>Diploma in Nutrition Course :- 3 Months</li>
-                      <li>Diploma in Personal Training Course :- 3 Months</li>
-                      <li>Anabolic Androgenic Steroids :- 30 Days</li>
+                      <li>Diploma in Nutrition Course :- 6 Months</li>
+                      <li>Diploma in Personal Training Course :- 6 Months</li>
+                      <li>Anabolic Androgenic Steroids :- 1 Month</li>
                     </ol>
                   </div>
                 </div>

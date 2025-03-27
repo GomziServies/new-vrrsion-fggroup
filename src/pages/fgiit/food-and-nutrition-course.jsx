@@ -20,6 +20,7 @@ import { OnlineDiplomaNutritionCourseData } from "../../components/online-course
 import OurOnlineStudents from "../../components/course/ourOnlineStudents";
 import StudentTestimonial from "../../components/fgiit/studentsvideoreview";
 import { Helmet } from "react-helmet";
+import OnlineCourseReviews from "../../components/fgiit/onlineCourseReviews";
 
 function FoodAndNutritionCourse() {
   const canonicalUrl = window.location.href;
@@ -305,8 +306,14 @@ function FoodAndNutritionCourse() {
           content="https://fggroup.in/fgiit/food-and-nutrition-course"
         />
         <link rel="canonical" href={{ canonicalUrl }} />
-        <meta name="google-site-verification" content="qoYI59Yoq-GDH-dgwroLkQ3BURusdVprLz66uhF3-NY" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-K2X4NWNEP1"></script>
+        <meta
+          name="google-site-verification"
+          content="qoYI59Yoq-GDH-dgwroLkQ3BURusdVprLz66uhF3-NY"
+        />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-K2X4NWNEP1"
+        ></script>
         <script>
           {`window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -826,9 +833,9 @@ function FoodAndNutritionCourse() {
                       </h2>
                       <p className="text-muted">
                         Students will explore the fundamentals of human anatomy
-                        and physiology, focusing on how the body's
-                        {showMore[1] ? (
-                          <>
+                        and physiology, focusing on how the body's {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
                             systems and muscles respond to exercise.This
                             foundation enables them to design effective,
                             personalized training regimens based on scientific
@@ -857,19 +864,19 @@ function FoodAndNutritionCourse() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(1)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[1] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -936,9 +943,9 @@ function FoodAndNutritionCourse() {
                       </h2>
                       <p className="text-muted">
                         This module delves into the principles of nutrition and
-                        weight management, emphasizing dietary planning
-                        {showMore[2] ? (
-                          <>
+                        weight management, emphasizing dietary planning {' '}
+                        {/* {showMore[2] ? (
+                          <> */}
                             and metabolism.It highlights the synergy between
                             diet and exercise, equipping students to craft
                             sustainable, goal - oriented diet plans for clients,
@@ -968,19 +975,19 @@ function FoodAndNutritionCourse() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(2)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[2] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1044,9 +1051,9 @@ function FoodAndNutritionCourse() {
                       </h2>
                       <p className="text-muted">
                         Combining nutrition and fitness, this module emphasizes
-                        injury prevention and management through
-                        {showMore[3] ? (
-                          <>
+                        injury prevention and management through {' '}
+                        {/* {showMore[3] ? (
+                          <> */}
                             tailored meal plans and strength - training
                             principles.It prepares students to enhance
                             performance while minimizing injury risks through
@@ -1073,19 +1080,19 @@ function FoodAndNutritionCourse() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(3)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[3] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1190,9 +1197,9 @@ function FoodAndNutritionCourse() {
                       </h2>
                       <p className="text-muted">
                         This module introduces the role of therapeutic nutrition
-                        in recovery, alongside injury prevention and
-                        {showMore[4] ? (
-                          <>
+                        in recovery, alongside injury prevention and {' '}
+                        {/* {showMore[4] ? (
+                          <> */}
                             rehabilitation techniques.Students gain expertise in
                             safe recovery protocols and exercises that reduce
                             the risk of future injuries.
@@ -1213,7 +1220,7 @@ function FoodAndNutritionCourse() {
                                 <li className="list-unstyled">
                                   <b>Gastro Intestinal Disorders</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled">
                                   <b>
                                     Hernia, Diarrhoea, Conspaon, Pepc Ulcer,
                                     Ulcerve Colis, Crohns Diseases, Dumping
@@ -1223,7 +1230,7 @@ function FoodAndNutritionCourse() {
                                 <li className="list-unstyled">
                                   <b>Metabolic Disorders</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled">
                                   <b>
                                     Diabetes, Gout, Hypothyroidism,
                                     Hperthyroidism, Menopause, PCOS, PMS
@@ -1232,7 +1239,7 @@ function FoodAndNutritionCourse() {
                                 <li className="list-unstyled">
                                   <b>CardiovaScular Disorders</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled">
                                   <b>
                                     Hypertension, Atherosclerosis, Myocardial
                                     infacon
@@ -1241,7 +1248,7 @@ function FoodAndNutritionCourse() {
                                 <li className="list-unstyled">
                                   <b>Liver Disorders</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled">
                                   <b>
                                     Jaundice, Hepatitis, Diseases of gallbladder
                                   </b>
@@ -1249,31 +1256,31 @@ function FoodAndNutritionCourse() {
                                 <li className="list-unstyled">
                                   <b>Feblife Disorders</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled">
                                   <b>Typhoids, Tuberculosis</b>
                                 </li>
                                 <li className="list-unstyled">
                                   <b>Musculoskeletal Disorders</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled">
                                   <b>Osteoarthritis, Osteoporosis</b>
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
 
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(4)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[4] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1331,44 +1338,44 @@ function FoodAndNutritionCourse() {
                       </h2>
                       <p className="text-muted">
                         This module addresses advanced nutritional strategies
-                        and the implications of steroid use in fitness.
-                        {showMore[5] ? (
-                          <>
+                        and the implications of steroid use in fitness. {' '}
+                        {/* {showMore[5] ? (
+                          <> */}
                             Students learn to evaluate risks and benefits while
                             guiding clients toward healthier, sustainable
                             performance enhancement methods.
                             <div className="row">
-                              <ul className="col-6 mt-2 p-3">
+                              <ul className="col-12 mt-2 p-3">
                                 <li className="list-unstyled text-dark">
                                   <b>Specialized Nutrition Topics</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Diet For Healthy Skin, Hair & Nails</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Nutrition For Night Shift Workers</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Food Allergies & Food Intolerance</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Weight Management & Obesity</b>
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(5)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[5] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1433,9 +1440,9 @@ function FoodAndNutritionCourse() {
                       </h2>
                       <p className="text-muted">
                         Nutrition is a critical part of health and development.
-                        Better nutrition is related to improved infant,
-                        {showMore[6] ? (
-                          <>
+                        Better nutrition is related to improved infant, {' '}
+                        {/* {showMore[6] ? (
+                          <> */}
                             child and maternal health, stronger immune systems,
                             safer pregnancy and childbirth, lower risk of
                             non-communicable diseases (such as diabetes and
@@ -1463,19 +1470,19 @@ function FoodAndNutritionCourse() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(6)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[6] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1525,9 +1532,9 @@ function FoodAndNutritionCourse() {
                         Module 7: Counselling Techniques
                       </h2>
                       <p className="text-muted">
-                        Counseling techniques involve strategies such as active listening, empathy, and cognitive-behavioral interventions to support clients' emotional and mental well-being.
-                        {showMore[7] ? (
-                          <>
+                        Counseling techniques involve strategies such as active listening, empathy, and cognitive-behavioral interventions to support clients' emotional and mental well-being. {' '}
+                        {/* {showMore[7] ? (
+                          <> */}
                             Methods like reflective listening, motivational interviewing, and narrative therapy help individuals explore their feelings, overcome challenges, and develop healthier coping mechanisms, leading to personal growth and empowerment.
                             <div className="row">
                               <ul className="col-12 mt-2 p-3">
@@ -1545,19 +1552,19 @@ function FoodAndNutritionCourse() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(7)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[7] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1624,9 +1631,9 @@ function FoodAndNutritionCourse() {
                         Module 8: Sports Nutrition
                       </h2>
                       <p className="text-muted">
-                        Sports nutrition focuses on optimizing an athlete's diet to enhance performance, recovery, and overall health. A balanced intake of carbohydrates, proteins, fats,
-                        {showMore[8] ? (
-                          <>
+                        Sports nutrition focuses on optimizing an athlete's diet to enhance performance, recovery, and overall health. A balanced intake of carbohydrates, proteins, fats, {' '}
+                        {/* {showMore[8] ? (
+                          <> */}
                             and hydration supports energy, muscle repair, and endurance. Proper nutrition helps prevent injuries, boosts stamina, and ensures athletes maintain peak physical and mental performance.
                             <div className="row">
                               <ul className="col-12 mt-2 p-3">
@@ -1659,19 +1666,19 @@ function FoodAndNutritionCourse() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(8)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[8] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1740,9 +1747,9 @@ function FoodAndNutritionCourse() {
                       </h2>
                       <p className="text-muted">
                         In this hands-on module, students master behavior change
-                        techniques and client management strategies. By
-                        {showMore[9] ? (
-                          <>
+                        techniques and client management strategies. By {' '}
+                        {/* {showMore[9] ? (
+                          <> */}
                             applying theoretical knowledge in practical
                             settings, they develop skills to motivate and guide
                             clients effectively.
@@ -1771,19 +1778,19 @@ function FoodAndNutritionCourse() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(9)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[9] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1841,9 +1848,9 @@ function FoodAndNutritionCourse() {
                       </h2>
                       <p className="text-muted">
                         Focusing on tailored nutrition, this module equips
-                        students to create diet plans that align with
-                        {showMore[10] ? (
-                          <>
+                        students to create diet plans that align with {' '}
+                        {/* {showMore[10] ? (
+                          <> */}
                             individual goals.It emphasizes injury prevention
                             through nutritional support, enabling clients to
                             maintain long - term health and performance.
@@ -1863,19 +1870,19 @@ function FoodAndNutritionCourse() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(10)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[10] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
               </div>
@@ -1883,139 +1890,15 @@ function FoodAndNutritionCourse() {
           </div>
         </div>
       </section>
-      <section>
-        <div className="container-fluid margintop">
-          <div className="container blog2 pb-5">
-            <div className="">
-              <div className="covid text-center">
-                <h2 className="mt-2 h2-fs">
-                  Boost Your Career with{" "}
-                  <span className="m-0 text-blue-color">Nutrition Courses</span>
-                </h2>
-              </div>
-              <div className="thm-bg-clr dector mb-3"></div>
-              <div className="row">
-                <div className="col-lg-12">
-                  <div className="describe">
-                    <p>
-                      If you're passionate about health and wellness, enrolling in a nutrition course online is an excellent way to build a strong foundation in nutrition science. These courses cover essential topics such as human nutrition, meal planning, dietary management, and food science. Whether you pursue a diploma in nutrition course or a specialized fitness and nutrition course, the knowledge gained will prepare you to work in various sectors, including healthcare, sports, and wellness.
-                    </p>
-                    <p>
-                      A dietician course or dietitian course online is ideal for individuals aiming to become certified nutrition professionals. These programs offer in-depth learning on clinical nutrition, medical diets, and nutrition therapy, preparing you for a career as a registered dietitian. If you prefer a more holistic approach, a sports and nutrition course or fitness nutrition course focuses on fueling athletic performance and weight management.
-                    </p>
-                    <p>
-                      For those looking to specialize in health and nutrition courses, options like a diet and nutrition course or a food and nutrition course teach you how to guide individuals toward balanced, healthy diets.
-                    </p>
-                    <p>
-                      Whether pursuing a diploma in nutrition or a dietician online course, these qualifications equip you with the skills to make a difference in people's lives, enhancing their overall health and fitness. Start your nutrition journey today!
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <OnlineCourseReviews />
       <section className="margintop">
         <div className="container-fluid p-0">
-          {/* <div className="container">
-                  <div className="covid mb-4 text-center">
-                    <h2 className="h2-fs">
-                      <span className="m-0 text-blue-color">Course </span>
-                      include
-                    </h2>
-                  </div>
-                  <div className="thm-bg-clr dector"></div>
-                  <div className="row">
-                    <div className="col-lg-4 col-md-6 mt-3 position-relative">
-                      <div className="tabata blog2 py-5 imgty text-center">
-                        <LazyLoadImage
-                          effect="blur"
-                          className="lazy"
-                          src={
-                            process.env.PUBLIC_URL + "/assets/images/img/zoom.webp"
-                          }
-                          alt="FG Group"
-                        />
-                        <h2 className="h5-fs mt-3">Zoom session</h2>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 mt-3 position-relative">
-                      <div className="tabata blog2 py-5 imgty text-center">
-                        <LazyLoadImage
-                          effect="blur"
-                          className="lazy"
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/assets/images/img/open-book.webp"
-                          }
-                          alt="FG Group"
-                        />
-                        <h2 className="h5-fs mt-3">Book & Recorded session</h2>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 mt-3 position-relative">
-                      <div className="tabata blog2 py-5 imgty text-center">
-                        <LazyLoadImage
-                          effect="blur"
-                          className="lazy"
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/assets/images/img/group-chat.webp"
-                          }
-                          alt="FG Group"
-                        />
-                        <h2 className="h5-fs mt-3">Team Chat Support</h2>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 mt-3 position-relative">
-                      <div className="tabata blog2 py-5 imgty text-center">
-                        <LazyLoadImage
-                          effect="blur"
-                          className="lazy"
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/assets/images/img/online-test.webp"
-                          }
-                          alt="FG Group"
-                        />
-                        <h2 className="h5-fs mt-3">MCQs Based Exam</h2>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 mt-3 position-relative">
-                      <div className="tabata blog2 py-5 imgty text-center">
-                        <LazyLoadImage
-                          effect="blur"
-                          className="lazy"
-                          src={
-                            process.env.PUBLIC_URL + "/assets/images/img/score.webp"
-                          }
-                          alt="FG Group"
-                        />
-                        <h2 className="h5-fs mt-3">Case Study Based Project</h2>
-                      </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 mt-3 position-relative">
-                      <div className="tabata blog2 py-5 imgty text-center">
-                        <LazyLoadImage
-                          effect="blur"
-                          className="lazy"
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/assets/images/img/certificate.webp"
-                          }
-                          alt="FG Group"
-                        />
-                        <h2 className="h5-fs mt-3">Certification</h2>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
           <LazyLoadImage
             effect="blur"
             alt="FG Group"
             src={
-              process.env.PUBLIC_URL + "/assets/images/img/course-include-online.webp"
+              process.env.PUBLIC_URL +
+              "/assets/images/img/course-include-online.webp"
             }
             className="img-fluid mt-2 d-none d-md-block"
           />
@@ -2023,17 +1906,25 @@ function FoodAndNutritionCourse() {
             effect="blur"
             alt="FG Group"
             src={
-              process.env.PUBLIC_URL + "/assets/images/img/course-include-online-mobile.webp"
+              process.env.PUBLIC_URL +
+              "/assets/images/img/course-include-online-mobile.webp"
             }
             className="img-fluid mt-2 d-block d-md-none"
           />
         </div>
       </section>
-      <section className="mt-5">
+      <section className="mt-md-5 mt-3">
         <div className="container-fluid">
           <div className="container">
+            <div className="covid mb-4 text-center">
+              <h2 className="h2-fs">
+                <span className="m-0 text-blue-color">Our Institute </span>
+                Accreditation
+              </h2>
+            </div>
+            <div className="thm-bg-clr dector"></div>
             <div className="row mt-4 align-items-center">
-              <div className="col-md-6">
+              <div className="col-lg-6">
                 <div className="demoo">
                   <div className="new-h3">
                     <h2 className="ml-0 h3-fs fs-34">Why FGIIT?</h2>
@@ -2070,72 +1961,67 @@ function FoodAndNutritionCourse() {
                         <i className="fas fa-check"></i> Lifetime Support for
                         Students
                       </li>
-                      <li>
-                        <i className="fas fa-check"></i> Globally Recognized
-                        Certifications
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Comprehensive
-                        Curriculum Covering Latest Trends
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Interactive Live
-                        Sessions with Trainers and Peers
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Regular Assessments &
-                        Feedback
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Access to Exclusive
-                        Study Groups
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Updated Study Material
-                        and Case Studies
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Affordable Fees with
-                        EMI Options
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Collaborations with Top
-                        Fitness Brands
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Personalized Student
-                        Support Team
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Continuous Professional
-                        Development Opportunities
-                      </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6">
-                <div className="text-center">
-                  <p className="mb-0 taks-p">Demo Certificate</p>
+              <div className="col-lg-6">
+                <div>
+                  <LazyLoadImage
+                    effect="blur"
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/img/mobile-all-logo.webp"
+                    }
+                    className="img-fluid lazy"
+                    alt="FG Group"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="mt-5">
+        <div className="container-fluid">
+          <div className="container blog2">
+            <div className="row mt-4">
+              <div className="col-lg-6 certi text-center">
+                <p className="mt-md-4 mb-md-4 mt-0 mb-3">demo lecture</p>
+                <div className="ply1">
                   <LazyLoadImage
                     effect="blur"
                     className="lazy"
                     src={
                       process.env.PUBLIC_URL +
-                      "/assets/images/img/cnc_demo.webp"
+                      "/assets/images/img/online-course-dnc.webp"
                     }
                     width="100%"
-                    alt="Course Certificate"
+                    style={{ borderRadius: "10px" }}
+                    alt="fggroup"
                   />
+                  <div className="ply2">
+                    <Link
+                      className="custom"
+                      data-flashy-type="video"
+                      to="https://youtu.be/j6u_P9NYp4w"
+                    >
+                      <i className="far fa-play-circle fs-40 text-white"></i>
+                    </Link>
+                  </div>
                 </div>
-                <div>
-                  <span
-                    className="taks-p d-none d-md-block text-center"
-                    style={{ fontWeight: "500" }}
-                  >
-                    our Certificate is valid in 192 country
-                  </span>
-                </div>
+              </div>
+              <div className="col-lg-6 certi text-center">
+                <p className="mt-4 mb-md-4 mb-3">DNC demo Certificate</p>
+                <LazyLoadImage
+                  effect="blur"
+                  className="lazy"
+                  src={
+                    process.env.PUBLIC_URL + "/assets/images/img/cnc_demo.webp"
+                  }
+                  width="90%"
+                  alt="personal trainer and gym trainer course certificate"
+                />
               </div>
             </div>
           </div>
@@ -2143,116 +2029,62 @@ function FoodAndNutritionCourse() {
       </section>
       <MeetOurInstructure />
       {/* <OurStudentsWords /> */}
-      <StudentTestimonial testimonials={testimonials} />
-      <section className="margintop item-border-design">
-        <div className="container-fluid">
-          <div className="container">
-            <div className="covid text-center">
-              <h2 className="h2-fs">
-                Placement <span className="m-0 text-blue-color">Review</span>
-              </h2>
+      <OurOnlineStudents />
+      <section>
+        <div className="container-fluid margintop">
+          <div className="container blog2 pb-5">
+            <div className="">
+              <div className="covid text-center">
+                <h2 className="mt-2 h2-fs">
+                  Boost Your Career with{" "}
+                  <span className="m-0 text-blue-color">Nutrition Courses</span>
+                </h2>
+              </div>
+              <div className="thm-bg-clr dector mb-3"></div>
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="describe">
+                    <p>
+                      If you're passionate about health and wellness, enrolling
+                      in a nutrition course online is an excellent way to build
+                      a strong foundation in nutrition science. These courses
+                      cover essential topics such as human nutrition, meal
+                      planning, dietary management, and food science. Whether
+                      you pursue a diploma in nutrition course or a specialized
+                      fitness and nutrition course, the knowledge gained will
+                      prepare you to work in various sectors, including
+                      healthcare, sports, and wellness.
+                    </p>
+                    <p>
+                      A dietician course or dietitian course online is ideal for
+                      individuals aiming to become certified nutrition
+                      professionals. These programs offer in-depth learning on
+                      clinical nutrition, medical diets, and nutrition therapy,
+                      preparing you for a career as a registered dietitian. If
+                      you prefer a more holistic approach, a sports and
+                      nutrition course or fitness nutrition course focuses on
+                      fueling athletic performance and weight management.
+                    </p>
+                    <p>
+                      For those looking to specialize in health and nutrition
+                      courses, options like a diet and nutrition course or a
+                      food and nutrition course teach you how to guide
+                      individuals toward balanced, healthy diets.
+                    </p>
+                    <p>
+                      Whether pursuing a diploma in nutrition or a dietician
+                      online course, these qualifications equip you with the
+                      skills to make a difference in people's lives, enhancing
+                      their overall health and fitness. Start your nutrition
+                      journey today!
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="thm-bg-clr dector mb-4"></div>
-            <OwlCarousel
-              loop
-              autoplay
-              id="owl-demo5"
-              className="owl-carousel owl-theme"
-              responsive={{
-                0: {
-                  items: 1,
-                  dots: false,
-                },
-                600: {
-                  items: 2,
-                },
-                1000: {
-                  items: 3,
-                },
-              }}
-            >
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-6.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-3.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-16.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-7.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-13.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-1.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-9.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-            </OwlCarousel>
           </div>
         </div>
       </section>
-      <OurOnlineStudents />
       <section className="margintop d-block d-md-none">
         <div className="container-fluid p-0">
           <div>
@@ -2272,7 +2104,9 @@ function FoodAndNutritionCourse() {
           <div>
             <Link to="/fgiit/fitness-training-and-placement">
               <img
-                src={process.env.PUBLIC_URL + "/assets/images/img/tpcell-d.webp"}
+                src={
+                  process.env.PUBLIC_URL + "/assets/images/img/tpcell-d.webp"
+                }
                 width="100%"
                 className="lazy"
                 alt="fggroup"
@@ -2281,41 +2115,7 @@ function FoodAndNutritionCourse() {
           </div>
         </div>
       </section>
-      <section className="studentsreviewdpt mt-4 mb-5">
-        <div className="google-reviews-carousel">
-          <div className="covid text-center mt-5">
-            <h2 className="h2-fs">
-              Our <span className="m-0 text-blue-color">Google Reviews</span>
-            </h2>
-          </div>
-          <div className="thm-bg-clr dector mb-4"></div>
-          <OwlCarousel className="owl-theme" {...options}>
-            {reviewses.map((review, index) => (
-              <div key={index} className="item">
-                <div className="review-card">
-                  <img
-                    className="review-image"
-                    src={review.image}
-                    alt={review.name}
-                  />
-                  <div className="review-content">
-                    <h2 className="h3-fs">{review.name}</h2>
-                    <div className="stars">
-                      {"★".repeat(review.stars)}
-                      {"☆".repeat(5 - review.stars)}
-                    </div>
-                    <p className="review-text">{review.review}</p>
-                    <div className="google-icon">
-                      <i className="fab fa-google"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </OwlCarousel>
-        </div>
-      </section>
-      <section className="fwg-webinar-page-faq margintop mt-md-5 mt-0 pt-md-5 pt-0 pb-md-4 pb-0">
+      <section className="fwg-webinar-page-faq margintop mt-md-5 mt-4 pt-md-5 pt-0 pb-md-4 pb-0">
         <div className="container">
           <div className="covid text-center">
             <h2 className="h2-fs">
@@ -2333,7 +2133,10 @@ function FoodAndNutritionCourse() {
                     <i className="fas fa-chevron-right active"></i>
                   </div>
                 </div>
-                <div className="faq-answer active" style={{ maxHeight: "none" }}>
+                <div
+                  className="faq-answer active"
+                  style={{ maxHeight: "none" }}
+                >
                   <p>{item.answer}</p>
                 </div>
               </div>

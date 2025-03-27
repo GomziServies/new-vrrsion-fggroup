@@ -17,6 +17,7 @@ import { DiplomaInNutritionCourse } from "../../components/course/AllCourseData"
 import CourseForm from "../../components/course/courseForm";
 import { Helmet } from "react-helmet";
 import FlexibleFooter from "../../components/partials/Footer/flexiblefooter";
+import FlexibleAllReviews from "../../components/fgiit/flexibleAllReviews";
 
 function DieticianCourseOnline() {
   const canonicalUrl = window.location.href;
@@ -276,11 +277,11 @@ function DieticianCourseOnline() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 1: Understanding the Human body
                       </h2>
-                      {/* <p className="text-muted">
+                      <p className="text-muted">
                         Students will explore the fundamentals of human anatomy
-                        and physiology, focusing on how the body's
-                        {showMore[1] ? (
-                          <>
+                        and physiology, focusing on how the body's {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
                             systems and muscles respond to exercise.This
                             foundation enables them to design effective,
                             personalized training regimens based on scientific
@@ -309,40 +310,10 @@ function DieticianCourseOnline() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
-                      </p> */}
-                      <p className="text-muted">
-                        Students will explore the fundamentals of human
-                        anatomy and physiology, focusing on how the body's
-                        systems and muscles respond to exercise.This
-                        foundation enables them to design effective,
-                        personalized training regimens based on scientific
-                        understanding of movement and function.
-                        <div className="row">
-                          <ul className="mt-2 p-3">
-                            <li className="list-unstyled text-dark">
-                              <b>Human Anatomy</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Human Physiology</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Human Kinesiology</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Energy Metabolism</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Introduction To Living Beings: Physiology</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Anatomy Of Our Human Body</b>
-                            </li>
-                          </ul>
-                        </div>
+                        )} */}
                       </p>
                     </div>
                     {/* <span
@@ -416,11 +387,11 @@ function DieticianCourseOnline() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 2: Basics of Nutrition and the Fitness Industry
                       </h2>
-                      {/* <p className="text-muted">
+                      <p className="text-muted">
                         This module delves into the principles of nutrition and
-                        weight management, emphasizing dietary planning
-                        {showMore[2] ? (
-                          <>
+                        weight management, emphasizing dietary planning {' '}
+                        {/* {showMore[2] ? (
+                          <> */}
                             and metabolism.It highlights the synergy between
                             diet and exercise, equipping students to craft
                             sustainable, goal - oriented diet plans for clients,
@@ -450,43 +421,10 @@ function DieticianCourseOnline() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
-                      </p> */}
-                      <p className="text-muted">
-                        This module delves into the principles of nutrition
-                        and weight management, emphasizing dietary planning
-                        and metabolism. It highlights the synergy between diet
-                        and exercise, equipping students to craft sustainable,
-                        goal-oriented diet plans for clients, fostering
-                        long-term health and fitness.
-                        <div className="row">
-                          <ul className="mt-2 p-3">
-                            <li className="list-unstyled text-dark">
-                              <b>Carbohydrates</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Protein</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Lipids</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Water</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Energy metabolism</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Minerals</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b> Overview of the fitness industry</b>
-                            </li>
-                          </ul>
-                        </div>
+                        )} */}
                       </p>
                     </div>
                     {/* <span
@@ -557,11 +495,11 @@ function DieticianCourseOnline() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 3: Meal Planning and Food Groups
                       </h2>
-                      {/* <p className="text-muted">
+                      <p className="text-muted">
                         Combining nutrition and fitness, this module emphasizes
-                        injury prevention and management through
-                        {showMore[3] ? (
-                          <>
+                        injury prevention and management through {' '}
+                        {/* {showMore[3] ? (
+                          <> */}
                             tailored meal plans and strength - training
                             principles.It prepares students to enhance
                             performance while minimizing injury risks through
@@ -588,40 +526,10 @@ function DieticianCourseOnline() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
-                      </p> */}
-                      <p className="text-muted">
-                        Combining nutrition and fitness, this module
-                        emphasizes injury prevention and management through
-                        tailored meal plans and strength-training principles.
-                        It prepares students to enhance performance while
-                        minimizing injury risks through informed dietary and
-                        fitness strategies.
-                        <div className="row">
-                          <ul className="mt-2 pl-3">
-                            <li className="list-unstyled text-dark">
-                              <b>Meal Planning and Food Groups</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Fundamentals Of Meal Planning</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Food Groups</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Food Exchange List</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>
-                                Methods Of Improving Nutritional Quality Of
-                                Foods
-                              </b>
-                            </li>
-                          </ul>
-                        </div>
+                        )} */}
                       </p>
                     </div>
                     {/* <span
@@ -733,11 +641,11 @@ function DieticianCourseOnline() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 4: Therapeutic Nutrition
                       </h2>
-                      {/* <p className="text-muted">
+                      <p className="text-muted">
                         This module introduces the role of therapeutic nutrition
-                        in recovery, alongside injury prevention and
-                        {showMore[4] ? (
-                          <>
+                        in recovery, alongside injury prevention and {' '}
+                        {/* {showMore[4] ? (
+                          <> */}
                             rehabilitation techniques.Students gain expertise in
                             safe recovery protocols and exercises that reduce
                             the risk of future injuries.
@@ -758,7 +666,7 @@ function DieticianCourseOnline() {
                                 <li className="list-unstyled">
                                   <b>Gastro Intestinal Disorders</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled">
                                   <b>
                                     Hernia, Diarrhoea, Conspaon, Pepc Ulcer,
                                     Ulcerve Colis, Crohns Diseases, Dumping
@@ -768,7 +676,7 @@ function DieticianCourseOnline() {
                                 <li className="list-unstyled">
                                   <b>Metabolic Disorders</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled">
                                   <b>
                                     Diabetes, Gout, Hypothyroidism,
                                     Hperthyroidism, Menopause, PCOS, PMS
@@ -777,7 +685,7 @@ function DieticianCourseOnline() {
                                 <li className="list-unstyled">
                                   <b>CardiovaScular Disorders</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled">
                                   <b>
                                     Hypertension, Atherosclerosis, Myocardial
                                     infacon
@@ -786,7 +694,7 @@ function DieticianCourseOnline() {
                                 <li className="list-unstyled">
                                   <b>Liver Disorders</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled">
                                   <b>
                                     Jaundice, Hepatitis, Diseases of gallbladder
                                   </b>
@@ -794,94 +702,24 @@ function DieticianCourseOnline() {
                                 <li className="list-unstyled">
                                   <b>Feblife Disorders</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled">
                                   <b>Typhoids, Tuberculosis</b>
                                 </li>
                                 <li className="list-unstyled">
                                   <b>Musculoskeletal Disorders</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled">
                                   <b>Osteoarthritis, Osteoporosis</b>
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
-                      </p> */}
-                      <p className="text-muted">
-                        This module introduces the role of therapeutic
-                        nutrition in recovery, alongside injury prevention and
-                        rehabilitation techniques. Students gain expertise in
-                        safe recovery protocols and exercises that reduce the
-                        risk of future injuries.
-                        <div className="row">
-                          <ul className="col-md-12 mt-2 pl-3">
-                            <li className="list-unstyled">
-                              <b>Therapeutic Adaptations Of Normal Diet</b>
-                            </li>
-                            <li className="list-unstyled">
-                              <b>Fluid Diet</b>
-                            </li>
-                            <li className="list-unstyled">
-                              <b>Total Parenteral Nutrient</b>
-                            </li>
-                            <li className="list-unstyled">
-                              <b>Tube Feeding</b>
-                            </li>
-                            <li className="list-unstyled">
-                              <b>Gastro Intestinal Disorders</b>
-                            </li>
-                            <li className="list-unstyled list-style-none">
-                              <b>
-                                Hernia, Diarrhoea, Conspaon, Pepc Ulcer,
-                                Ulcerve Colis, Crohns Diseases, Dumping
-                                Syndrome, Dysphagia
-                              </b>
-                            </li>
-                            <li className="list-unstyled">
-                              <b>Metabolic Disorders</b>
-                            </li>
-                            <li className="list-unstyled list-style-none">
-                              <b>
-                                Diabetes, Gout, Hypothyroidism,
-                                Hperthyroidism, Menopause, PCOS, PMS
-                              </b>
-                            </li>
-                            <li className="list-unstyled">
-                              <b>CardiovaScular Disorders</b>
-                            </li>
-                            <li className="list-unstyled list-style-none">
-                              <b>
-                                Hypertension, Atherosclerosis, Myocardial
-                                infacon
-                              </b>
-                            </li>
-                            <li className="list-unstyled">
-                              <b>Liver Disorders</b>
-                            </li>
-                            <li className="list-unstyled list-style-none">
-                              <b>
-                                Jaundice, Hepatitis, Diseases of gallbladder
-                              </b>
-                            </li>
-                            <li className="list-unstyled">
-                              <b>Feblife Disorders</b>
-                            </li>
-                            <li className="list-unstyled list-style-none">
-                              <b>Typhoids, Tuberculosis</b>
-                            </li>
-                            <li className="list-unstyled">
-                              <b>Musculoskeletal Disorders</b>
-                            </li>
-                            <li className="list-unstyled list-style-none">
-                              <b>Osteoarthritis, Osteoporosis</b>
-                            </li>
-                          </ul>
-                        </div>
+                        )} */}
                       </p>
                     </div>
+
                     {/* <span
                       onClick={() => toggleReadMore(4)}
                       id="myBtnrb"
@@ -944,60 +782,37 @@ function DieticianCourseOnline() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 5: Weight Management Nutrition
                       </h2>
-                      {/* <p className="text-muted">
+                      <p className="text-muted">
                         This module addresses advanced nutritional strategies
-                        and the implications of steroid use in fitness.
-                        {showMore[5] ? (
-                          <>
+                        and the implications of steroid use in fitness. {' '}
+                        {/* {showMore[5] ? (
+                          <> */}
                             Students learn to evaluate risks and benefits while
                             guiding clients toward healthier, sustainable
                             performance enhancement methods.
                             <div className="row">
-                              <ul className="col-6 mt-2 p-3">
+                              <ul className="col-12 mt-2 p-3">
                                 <li className="list-unstyled text-dark">
                                   <b>Specialized Nutrition Topics</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Diet For Healthy Skin, Hair & Nails</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Nutrition For Night Shift Workers</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Food Allergies & Food Intolerance</b>
                                 </li>
-                                <li className="list-unstyled list-style-none">
+                                <li className="list-unstyled text-dark">
                                   <b>Weight Management & Obesity</b>
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
-                      </p> */}
-                      <p className="text-muted">
-                        This module addresses advanced nutritional strategies
-                        and the implications of steroid use in fitness.
-                        Students learn to evaluate risks and benefits while
-                        guiding clients toward healthier, sustainable
-                        performance enhancement methods.
-                        <div className="row">
-                          <ul className="col-12 mt-2 p-3">
-                            <li className="list-unstyled">
-                              <b>Diet For Healthy Skin, Hair & Nails</b>
-                            </li>
-                            <li className="list-unstyled">
-                              <b>Nutrition For Night Shift Workers</b>
-                            </li>
-                            <li className="list-unstyled">
-                              <b>Food Allergies & Food Intolerance</b>
-                            </li>
-                            <li className="list-unstyled">
-                              <b>Weight Management & Obesity</b>
-                            </li>
-                          </ul>
-                        </div>
+                        )} */}
                       </p>
                     </div>
                     {/* <span
@@ -1069,11 +884,11 @@ function DieticianCourseOnline() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 6: Nutrition During Lifespan
                       </h2>
-                      {/* <p className="text-muted">
+                      <p className="text-muted">
                         Nutrition is a critical part of health and development.
-                        Better nutrition is related to improved infant,
-                        {showMore[6] ? (
-                          <>
+                        Better nutrition is related to improved infant, {' '}
+                        {/* {showMore[6] ? (
+                          <> */}
                             child and maternal health, stronger immune systems,
                             safer pregnancy and childbirth, lower risk of
                             non-communicable diseases (such as diabetes and
@@ -1101,41 +916,10 @@ function DieticianCourseOnline() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
-                      </p> */}
-                      <p className="text-muted">
-                        Nutrition is a critical part of health and
-                        development. Better nutrition is related to improved
-                        infant, child and maternal health, stronger immune
-                        systems, safer pregnancy and childbirth, lower risk of
-                        non-communicable diseases (such as diabetes and
-                        cardiovascular disease), and longevity. Healthy
-                        children learn better.
-                        <div className="row">
-                          <ul className="mt-2 pl-3">
-                            <li className="list-unstyled text-dark">
-                              Nutrition During Infancy
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              Nutrition During Lactation
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              Nutrition During Pregnancy
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              Nutrition During Childhood
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              Nutrition During Adulthood
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              Nutrition During Older Adults
-                            </li>
-                          </ul>
-                        </div>
+                        )} */}
                       </p>
                     </div>
                     {/* <span
@@ -1193,10 +977,10 @@ function DieticianCourseOnline() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 7: Counselling Techniques
                       </h2>
-                      {/* <p className="text-muted">
-                        Counseling techniques involve strategies such as active listening, empathy, and cognitive-behavioral interventions to support clients' emotional and mental well-being.
-                        {showMore[7] ? (
-                          <>
+                      <p className="text-muted">
+                        Counseling techniques involve strategies such as active listening, empathy, and cognitive-behavioral interventions to support clients' emotional and mental well-being. {' '}
+                        {/* {showMore[7] ? (
+                          <> */}
                             Methods like reflective listening, motivational interviewing, and narrative therapy help individuals explore their feelings, overcome challenges, and develop healthier coping mechanisms, leading to personal growth and empowerment.
                             <div className="row">
                               <ul className="col-12 mt-2 p-3">
@@ -1214,26 +998,10 @@ function DieticianCourseOnline() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
-                      </p> */}
-                      <p className="text-muted">
-                        Counseling techniques involve strategies such as active listening, empathy, and cognitive-behavioral interventions to support clients' emotional and mental well-being. Methods like reflective listening, motivational interviewing, and narrative therapy help individuals explore their feelings, overcome challenges, and develop healthier coping mechanisms, leading to personal growth and empowerment.
-                        <div className="row">
-                          <ul className="col-12 mt-2 p-3">
-                            <li className="list-unstyled text-dark">
-                              <b>Counselling Skills</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Foundations of Group Fitness</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Group Fitness Class Design and Teaching</b>
-                            </li>
-                          </ul>
-                        </div>
+                        )} */}
                       </p>
                     </div>
                     {/* <span
@@ -1293,6 +1061,7 @@ function DieticianCourseOnline() {
                           </div>
                         </p>
                       </div>
+
                     </div>
                   </blockquote>
                   <blockquote className="blockquote d-md-none d-block mb-4">
@@ -1307,10 +1076,10 @@ function DieticianCourseOnline() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 8: Sports Nutrition
                       </h2>
-                      {/* <p className="text-muted">
-                        Sports nutrition focuses on optimizing an athlete's diet to enhance performance, recovery, and overall health. A balanced intake of carbohydrates, proteins, fats,
-                        {showMore[8] ? (
-                          <>
+                      <p className="text-muted">
+                        Sports nutrition focuses on optimizing an athlete's diet to enhance performance, recovery, and overall health. A balanced intake of carbohydrates, proteins, fats, {' '}
+                        {/* {showMore[8] ? (
+                          <> */}
                             and hydration supports energy, muscle repair, and endurance. Proper nutrition helps prevent injuries, boosts stamina, and ensures athletes maintain peak physical and mental performance.
                             <div className="row">
                               <ul className="col-12 mt-2 p-3">
@@ -1343,43 +1112,10 @@ function DieticianCourseOnline() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
-                      </p> */}
-                      <p className="text-muted">
-                        Sports nutrition focuses on optimizing an athlete's diet to enhance performance, recovery, and overall health. A balanced intake of carbohydrates, proteins, fats, and hydration supports energy, muscle repair, and endurance. Proper nutrition helps prevent injuries, boosts stamina, and ensures athletes maintain peak physical and mental performance.
-                        <div className="row">
-                          <ul className="col-12 mt-2 p-3">
-                            <li className="list-unstyled text-dark">
-                              <b>Introduction to Sports Nutrition</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Macronutrients for Sports Performance</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Micronutrients for Sports Performance</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Sports Supplements</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>
-                                Nutrition for Specific Sports and Populations
-                              </b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Meal Planning and Periodization</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>
-                                Sports Nutrition Case Studies and Practical
-                                Applications
-                              </b>
-                            </li>
-                          </ul>
-                        </div>
+                        )} */}
                       </p>
                     </div>
                     {/* <span
@@ -1455,11 +1191,11 @@ function DieticianCourseOnline() {
                         Module 9: Practical Application & Client Management,
                         Behavior Change
                       </h2>
-                      {/* <p className="text-muted">
+                      <p className="text-muted">
                         In this hands-on module, students master behavior change
-                        techniques and client management strategies. By
-                        {showMore[9] ? (
-                          <>
+                        techniques and client management strategies. By {' '}
+                        {/* {showMore[9] ? (
+                          <> */}
                             applying theoretical knowledge in practical
                             settings, they develop skills to motivate and guide
                             clients effectively.
@@ -1488,42 +1224,10 @@ function DieticianCourseOnline() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
-                      </p> */}
-                      <p className="text-muted">
-                        In this hands-on module, students master behavior
-                        change techniques and client management strategies. By
-                        applying theoretical knowledge in practical settings,
-                        they develop skills to motivate and guide clients
-                        effectively.
-                        <div className="row">
-                          <ul className="mt-2 pl-3">
-                            <li className="list-unstyled text-dark">
-                              <b>Theory of behaviour changes</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Client responsibilities</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>
-                                Creating a positive and supportive training
-                                environment
-                              </b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>
-                                Communication strategies for trainers and
-                                clients
-                              </b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Goal setting and motivation techniques</b>
-                            </li>
-                          </ul>
-                        </div>
+                        )} */}
                       </p>
                     </div>
                     {/* <span
@@ -1573,6 +1277,7 @@ function DieticianCourseOnline() {
                           </div>
                         </p>
                       </div>
+
                     </div>
                   </blockquote>
                   <blockquote className="blockquote d-md-none d-block mb-4">
@@ -1587,11 +1292,11 @@ function DieticianCourseOnline() {
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Module 10: How to Design Diet Plan
                       </h2>
-                      {/* <p className="text-muted">
+                      <p className="text-muted">
                         Focusing on tailored nutrition, this module equips
-                        students to create diet plans that align with
-                        {showMore[10] ? (
-                          <>
+                        students to create diet plans that align with {' '}
+                        {/* {showMore[10] ? (
+                          <> */}
                             individual goals.It emphasizes injury prevention
                             through nutritional support, enabling clients to
                             maintain long - term health and performance.
@@ -1611,33 +1316,10 @@ function DieticianCourseOnline() {
                                 </li>
                               </ul>
                             </div>
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
-                      </p> */}
-                      <p className="text-muted">
-                        Focusing on tailored nutrition, this module equips
-                        students to create diet plans that align with
-                        individual goals.It emphasizes injury prevention
-                        through nutritional support, enabling clients to
-                        maintain long - term health and performance.
-                        <div className="row">
-                          <ul className="mt-2 pl-3">
-                            <li className="list-unstyled text-dark">
-                              <b>How to make diet plan of All disesases</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Weight Management Diet Plan</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Sports Nutrition Diet Plan</b>
-                            </li>
-                            <li className="list-unstyled text-dark">
-                              <b>Case Studies of Diet plan</b>
-                            </li>
-                          </ul>
-                        </div>
+                        )} */}
                       </p>
                     </div>
                     {/* <span
@@ -1654,6 +1336,7 @@ function DieticianCourseOnline() {
           </div>
         </div>
       </section>
+      <FlexibleAllReviews />
       <CoursesInclude />
       <section className="mt-5">
         <div className="container-fluid">
@@ -1732,7 +1415,7 @@ function DieticianCourseOnline() {
           </div>
         </div>
       </section>
-      <AccreditedCertification />
+      {/* <AccreditedCertification /> */}
       <CourseReviewSection course_id="61e8b11b74eefa46b0554998" />
       <FlexibleFooter />
     </>

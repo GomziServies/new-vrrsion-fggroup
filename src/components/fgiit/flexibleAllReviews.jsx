@@ -25,7 +25,7 @@ const FlexibleAllReviews = () => {
         videoId={videoUrl}
         onClose={closeVideoModal}
       />
-      <section className="margintop">
+      <section className="mt-3">
         <div className="container-fluid">
             <div className="col-md-12">
               <div className="covid text-center mt-3">
@@ -98,7 +98,7 @@ const FlexibleAllReviews = () => {
                     className="lazy"
                     src={
                       process.env.PUBLIC_URL +
-                      "/assets/images/img/aas-certi-2.webp"
+                      "/assets/images/img/flexible-aas-certificate.webp"
                     }
                     alt="Pass out Student"
                     width="100%"
@@ -420,7 +420,7 @@ const FlexibleAllReviews = () => {
                   className="lazy"
                   src={
                     process.env.PUBLIC_URL +
-                    "/assets/images/img/aas-certi-2.webp"
+                    "/assets/images/img/flexible-aas-certificate.webp"
                   }
                   alt="Pass out Student"
                   width="100%"

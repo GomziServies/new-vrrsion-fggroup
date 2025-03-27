@@ -1,19 +1,23 @@
-import React from 'react';
+import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
-
 const InternationalCertificates = () => {
-
-    return (
-     <>
-   <section className="margintop">
+  return (
+    <>
+      <section className="mt-3">
         <div className="container-fluid">
           <div className="container tabata">
-            <div className="mb-4 text-center">
-              <h2 className="h2-fs">Internationally Accredited Certification</h2>
+            <div className="covid text-center">
+              <h2 className="mt-2 h2-fs">
+                Internationally{" "}
+                <span className="m-0 text-blue-color">
+                  Accredited Certification
+                </span>
+              </h2>
             </div>
+            <div className="thm-bg-clr dector mb-5"></div>
             <OwlCarousel
               loop
               autoplay
@@ -144,8 +148,8 @@ const InternationalCertificates = () => {
           </div>
         </div>
       </section>
-     </>
-    );
+    </>
+  );
 };
 
 export default InternationalCertificates;

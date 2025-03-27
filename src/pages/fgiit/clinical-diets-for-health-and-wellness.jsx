@@ -19,6 +19,9 @@ import { OnlineAdvanceClinicalNutritionCourseData } from "../../components/onlin
 import StudentTestimonial from "../../components/fgiit/studentsvideoreview";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import OurOfflineStudents from "../../components/course/ourOfflineStudents";
+import ModalVideo from "react-modal-video";
+import OnlineCourseReviews from "../../components/fgiit/onlineCourseReviews";
 
 function ClinicalDietsForHealthAndWellness() {
   const canonicalUrl = window.location.href;
@@ -28,6 +31,23 @@ function ClinicalDietsForHealthAndWellness() {
     modalRefnumber: "",
     modalSelectedCourse: "",
   });
+  const [isVideoOpen, setIsVideoOpen] = useState(false);
+  const [videoUrl, setVideoUrl] = useState("");
+  const [showMorev, setShowMorev] = useState(false);
+
+  const toggleReadMorev = () => {
+    setShowMorev(!showMorev);
+  };
+
+  const openVideoModal = (url) => {
+    setIsVideoOpen(true);
+    setVideoUrl(url);
+  };
+
+  const closeVideoModal = () => {
+    setIsVideoOpen(false);
+    setVideoUrl("");
+  };
 
   const handlePopupClose = () => {
     setShowModal(false);
@@ -258,8 +278,14 @@ function ClinicalDietsForHealthAndWellness() {
           content="https://fggroup.in/fgiit/clinical-diets-for-health-and-wellness"
         />
         <link rel="canonical" href={{ canonicalUrl }} />
-        <meta name="google-site-verification" content="qoYI59Yoq-GDH-dgwroLkQ3BURusdVprLz66uhF3-NY" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-K2X4NWNEP1"></script>
+        <meta
+          name="google-site-verification"
+          content="qoYI59Yoq-GDH-dgwroLkQ3BURusdVprLz66uhF3-NY"
+        />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-K2X4NWNEP1"
+        ></script>
         <script>
           {`window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -619,6 +645,12 @@ function ClinicalDietsForHealthAndWellness() {
         academy, certification course in yoga instructor, personal fitness
         training center, advanced diploma in fitness training
       </p>
+      <ModalVideo
+        channel="youtube"
+        isOpen={isVideoOpen}
+        videoId={videoUrl}
+        onClose={closeVideoModal}
+      />
       <SimpleHeader />
       <section style={{ marginTop: "100px" }}>
         <div className="container-fluid">
@@ -631,6 +663,7 @@ function ClinicalDietsForHealthAndWellness() {
                       <OwlCarousel
                         loop
                         autoplay
+                        dots={false}
                         id="owl-demo-physio"
                         className="owl-carousel owl-theme"
                         responsive={{
@@ -856,7 +889,6 @@ function ClinicalDietsForHealthAndWellness() {
           </div>
         </div>
       </section>
-
       <section className="pt-5 pb-5 new-content-add">
         <div className="container">
           <div className="">
@@ -906,25 +938,25 @@ function ClinicalDietsForHealthAndWellness() {
                         Human Physiology and Function of Cells
                       </h2>
                       <p className="text-muted">
-                        Understand the fundamental workings of the human body at the cellular level. This module
-                        {showMore[1] ? (
-                          <>
+                        Understand the fundamental workings of the human body at the cellular level. This module {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
                             covers cell functions, how cells process nutrients,
                             and the role of different systems (nervous,
                             cardiovascular, etc.) in maintaining health.
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(1)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[1] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -939,10 +971,10 @@ function ClinicalDietsForHealthAndWellness() {
                       </div>
                       <div className="col-md-6">
                         <h2 className="h5-fs text-primary font-weight-bold mt-3">
-                          Definition of Health
+                        Definition of Health
                         </h2>
                         <p className="text-muted">
-                          Explore the comprehensive definition of health beyond the absence of disease. Learn about the physical, mental, and social aspects of well-being and how to achieve balance for optimal health.
+                        Explore the comprehensive definition of health beyond the absence of disease. Learn about the physical, mental, and social aspects of well-being and how to achieve balance for optimal health.
                         </p>
                       </div>
                     </div>
@@ -957,26 +989,26 @@ function ClinicalDietsForHealthAndWellness() {
                     </div>
                     <div>
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
-                        Definition of Health
+                      Definition of Health
                       </h2>
                       <p className="text-muted">
-                        Explore the comprehensive definition of health beyond the absence of disease. Learn about
-                        {showMore[2] ? (
-                          <>
+                      Explore the comprehensive definition of health beyond the absence of disease. Learn about  {' '}
+                        {/* {showMore[2] ? (
+                          <> */}
                             the physical, mental, and social aspects of well-being and how to achieve balance for optimal health.
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(2)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[2] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -987,7 +1019,7 @@ function ClinicalDietsForHealthAndWellness() {
                           What Are Lifestyle Diseases?
                         </h2>
                         <p className="text-muted">
-                          Identify common lifestyle diseases such as diabetes, obesity, cardiovascular issues, and how poor lifestyle choices contribute to these conditions. Learn prevention strategies and interventions through nutrition and lifestyle modifications.
+                        Identify common lifestyle diseases such as diabetes, obesity, cardiovascular issues, and how poor lifestyle choices contribute to these conditions. Learn prevention strategies and interventions through nutrition and lifestyle modifications.
                         </p>
                       </div>
                       <div className="col-md-6 blockquote-img-container mt-2">
@@ -1012,23 +1044,23 @@ function ClinicalDietsForHealthAndWellness() {
                         What Are Lifestyle Diseases?
                       </h2>
                       <p className="text-muted">
-                        Identify common lifestyle diseases such as diabetes, obesity, cardiovascular issues, and
-                        {showMore[1] ? (
-                          <>
+                      Identify common lifestyle diseases such as diabetes, obesity, cardiovascular issues, and  {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
                             how poor lifestyle choices contribute to these conditions. Learn prevention strategies and interventions through nutrition and lifestyle modifications.
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(1)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[1] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1043,10 +1075,10 @@ function ClinicalDietsForHealthAndWellness() {
                       </div>
                       <div className="col-md-6">
                         <h2 className="h5-fs text-primary font-weight-bold mt-3">
-                          Food Macro and Micro Elements
+                        Food Macro and Micro Elements
                         </h2>
                         <p className="text-muted">
-                          Gain a deep understanding of macronutrients (proteins, fats, carbohydrates) and micronutrients (vitamins, minerals). Learn their roles in supporting the body's overall functioning, growth, and repair.
+                        Gain a deep understanding of macronutrients (proteins, fats, carbohydrates) and micronutrients (vitamins, minerals). Learn their roles in supporting the body's overall functioning, growth, and repair.
                         </p>
                       </div>
                     </div>
@@ -1061,26 +1093,26 @@ function ClinicalDietsForHealthAndWellness() {
                     </div>
                     <div>
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
-                        Food Macro and Micro Elements
+                      Food Macro and Micro Elements {' '}
                       </h2>
                       <p className="text-muted">
-                        Gain a deep understanding of macronutrients (proteins, fats, carbohydrates) and micronutrients
-                        {showMore[2] ? (
-                          <>
-                            (vitamins, minerals). Learn their roles in supporting the body's overall functioning, growth, and repair.
-                          </>
+                      Gain a deep understanding of macronutrients (proteins, fats, carbohydrates) and micronutrients
+                        {/* {showMore[2] ? (
+                          <> */}
+                             (vitamins, minerals). Learn their roles in supporting the body's overall functioning, growth, and repair.
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(2)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[2] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1091,7 +1123,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Food Digestion System
                         </h2>
                         <p className="text-muted">
-                          Discover the intricacies of the digestive system, from ingestion to nutrient absorption. This module explains how food is broken down and utilized by the body and the role of gut health in overall wellness.
+                        Discover the intricacies of the digestive system, from ingestion to nutrient absorption. This module explains how food is broken down and utilized by the body and the role of gut health in overall wellness.
                         </p>
                       </div>
                       <div className="col-md-6 blockquote-img-container mt-2">
@@ -1116,23 +1148,23 @@ function ClinicalDietsForHealthAndWellness() {
                         Food Digestion System
                       </h2>
                       <p className="text-muted">
-                        Discover the intricacies of the digestive system, from ingestion to nutrient absorption.
-                        {showMore[1] ? (
-                          <>
+                      Discover the intricacies of the digestive system, from ingestion to nutrient absorption.  {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
                             This module explains how food is broken down and utilized by the body and the role of gut health in overall wellness.
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(1)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[1] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1150,7 +1182,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Weight Management
                         </h2>
                         <p className="text-muted">
-                          Learn effective strategies for weight management, including calorie balancing, the role of metabolism, and sustainable diet plans that promote fat loss without sacrificing health.
+                        Learn effective strategies for weight management, including calorie balancing, the role of metabolism, and sustainable diet plans that promote fat loss without sacrificing health.
                         </p>
                       </div>
                     </div>
@@ -1168,23 +1200,23 @@ function ClinicalDietsForHealthAndWellness() {
                         Weight Management
                       </h2>
                       <p className="text-muted">
-                        Learn effective strategies for weight management, including calorie balancing, the
-                        {showMore[2] ? (
-                          <>
+                      Learn effective strategies for weight management, including calorie balancing, the  {' '}
+                        {/* {showMore[2] ? (
+                          <> */}
                             role of metabolism, and sustainable diet plans that promote fat loss without sacrificing health.
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(2)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[2] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1195,7 +1227,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Blood Sugar Control
                         </h2>
                         <p className="text-muted">
-                          Understand how blood sugar levels impact overall health and how to manage conditions like insulin resistance and diabetes. Learn about dietary interventions to maintain optimal blood sugar balance.
+                        Understand how blood sugar levels impact overall health and how to manage conditions like insulin resistance and diabetes. Learn about dietary interventions to maintain optimal blood sugar balance.
                         </p>
                       </div>
                       <div className="col-md-6 blockquote-img-container mt-2">
@@ -1220,23 +1252,23 @@ function ClinicalDietsForHealthAndWellness() {
                         Blood Sugar Control
                       </h2>
                       <p className="text-muted">
-                        Understand how blood sugar levels impact overall health and how to manage conditions
-                        {showMore[1] ? (
-                          <>
+                      Understand how blood sugar levels impact overall health and how to manage conditions  {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
                             like insulin resistance and diabetes. Learn about dietary interventions to maintain optimal blood sugar balance.
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(1)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[1] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1254,7 +1286,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Important Hormones of the Body
                         </h2>
                         <p className="text-muted">
-                          Delve into the world of hormones and how they regulate essential body functions such as metabolism, stress response, reproduction, and mood. Learn how nutrition can influence hormonal balance.
+                        Delve into the world of hormones and how they regulate essential body functions such as metabolism, stress response, reproduction, and mood. Learn how nutrition can influence hormonal balance.
                         </p>
                       </div>
                     </div>
@@ -1272,23 +1304,23 @@ function ClinicalDietsForHealthAndWellness() {
                         Important Hormones of the Body
                       </h2>
                       <p className="text-muted">
-                        Delve into the world of hormones and how they regulate essential body functions such as
-                        {showMore[2] ? (
-                          <>
+                      Delve into the world of hormones and how they regulate essential body functions such as  {' '}
+                        {/* {showMore[2] ? (
+                          <> */}
                             metabolism, stress response, reproduction, and mood. Learn how nutrition can influence hormonal balance.
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(2)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[2] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1299,7 +1331,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Worst Food Elements
                         </h2>
                         <p className="text-muted">
-                          Identify harmful food elements such as trans fats, processed sugars, and additives that can negatively impact health. Learn how to reduce or eliminate these from your diet to prevent disease and promote wellness.
+                        Identify harmful food elements such as trans fats, processed sugars, and additives that can negatively impact health. Learn how to reduce or eliminate these from your diet to prevent disease and promote wellness.
                         </p>
                       </div>
                       <div className="col-md-6 blockquote-img-container mt-2">
@@ -1324,23 +1356,23 @@ function ClinicalDietsForHealthAndWellness() {
                         Worst Food Elements
                       </h2>
                       <p className="text-muted">
-                        Identify harmful food elements such as trans fats, processed sugars, and additives that can
-                        {showMore[1] ? (
-                          <>
+                      Identify harmful food elements such as trans fats, processed sugars, and additives that can  {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
                             negatively impact health. Learn how to reduce or eliminate these from your diet to prevent disease and promote wellness.
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(1)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[1] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1358,7 +1390,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Essential Food Elements
                         </h2>
                         <p className="text-muted">
-                          Explore the nutrients essential for health, including vitamins, minerals, omega-3 fatty acids, and antioxidants. Learn how to incorporate these elements into a balanced diet to support energy, immunity, and longevity.
+                        Explore the nutrients essential for health, including vitamins, minerals, omega-3 fatty acids, and antioxidants. Learn how to incorporate these elements into a balanced diet to support energy, immunity, and longevity.
                         </p>
                       </div>
                     </div>
@@ -1376,23 +1408,23 @@ function ClinicalDietsForHealthAndWellness() {
                         Essential Food Elements
                       </h2>
                       <p className="text-muted">
-                        Explore the nutrients essential for health, including vitamins, minerals, omega-3
-                        {showMore[2] ? (
-                          <>
+                      Explore the nutrients essential for health, including vitamins, minerals, omega-3  {' '}
+                        {/* {showMore[2] ? (
+                          <> */}
                             fatty acids, and antioxidants. Learn how to incorporate these elements into a balanced diet to support energy, immunity, and longevity.
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(2)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[2] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1400,10 +1432,10 @@ function ClinicalDietsForHealthAndWellness() {
                     <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
                       <div className="col-md-6">
                         <h2 className="h5-fs text-primary font-weight-bold mt-3">
-                          Bone Health
+                        Bone Health
                         </h2>
                         <p className="text-muted">
-                          Understand the importance of nutrition in maintaining strong, healthy bones. Learn about calcium, vitamin D, and other key nutrients that support bone density and prevent conditions like osteoporosis.
+                        Understand the importance of nutrition in maintaining strong, healthy bones. Learn about calcium, vitamin D, and other key nutrients that support bone density and prevent conditions like osteoporosis.
                         </p>
                       </div>
                       <div className="col-md-6 blockquote-img-container mt-2">
@@ -1425,26 +1457,26 @@ function ClinicalDietsForHealthAndWellness() {
                     </div>
                     <div>
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
-                        Bone Health
+                      Bone Health
                       </h2>
                       <p className="text-muted">
-                        Understand the importance of nutrition in maintaining strong, healthy bones. Learn about
-                        {showMore[1] ? (
-                          <>
+                      Understand the importance of nutrition in maintaining strong, healthy bones. Learn about  {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
                             calcium, vitamin D, and other key nutrients that support bone density and prevent conditions like osteoporosis.
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(1)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[1] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1462,7 +1494,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Stress Control
                         </h2>
                         <p className="text-muted">
-                          Explore the relationship between stress and health, and learn nutrition-based strategies to manage stress effectively. This module also covers lifestyle changes that help reduce stress and its impact on the body.
+                        Explore the relationship between stress and health, and learn nutrition-based strategies to manage stress effectively. This module also covers lifestyle changes that help reduce stress and its impact on the body.
                         </p>
                       </div>
                     </div>
@@ -1480,23 +1512,23 @@ function ClinicalDietsForHealthAndWellness() {
                         Stress Control
                       </h2>
                       <p className="text-muted">
-                        Explore the relationship between stress and health, and learn nutrition-based strategies
-                        {showMore[2] ? (
-                          <>
+                      Explore the relationship between stress and health, and learn nutrition-based strategies  {' '}
+                        {/* {showMore[2] ? (
+                          <> */}
                             to manage stress effectively. This module also covers lifestyle changes that help reduce stress and its impact on the body.
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(2)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[2] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1507,7 +1539,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Important Blood Tests for Ensuring Sound Health
                         </h2>
                         <p className="text-muted">
-                          Learn about key blood tests that can provide insights into your overall health, including cholesterol levels, blood sugar, liver function, and inflammation markers. Understanding these tests helps in creating effective health plans.
+                        Learn about key blood tests that can provide insights into your overall health, including cholesterol levels, blood sugar, liver function, and inflammation markers. Understanding these tests helps in creating effective health plans.
                         </p>
                       </div>
                       <div className="col-md-6 blockquote-img-container mt-2">
@@ -1532,23 +1564,23 @@ function ClinicalDietsForHealthAndWellness() {
                         Important Blood Tests for Ensuring Sound Health
                       </h2>
                       <p className="text-muted">
-                        Learn about key blood tests that can provide insights into your overall health, including
-                        {showMore[1] ? (
-                          <>
+                      Learn about key blood tests that can provide insights into your overall health, including  {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
                             cholesterol levels, blood sugar, liver function, and inflammation markers. Understanding these tests helps in creating effective health plans.
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(1)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[1] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1566,7 +1598,7 @@ function ClinicalDietsForHealthAndWellness() {
                           High Uric Acid and Gout
                         </h2>
                         <p className="text-muted">
-                          Understand the causes and symptoms of high uric acid and gout. Learn dietary interventions to manage and prevent these painful conditions, focusing on reducing uric acid levels naturally.
+                        Understand the causes and symptoms of high uric acid and gout. Learn dietary interventions to manage and prevent these painful conditions, focusing on reducing uric acid levels naturally.
                         </p>
                       </div>
                     </div>
@@ -1584,23 +1616,23 @@ function ClinicalDietsForHealthAndWellness() {
                         High Uric Acid and Gout
                       </h2>
                       <p className="text-muted">
-                        Understand the causes and symptoms of high uric acid and gout. Learn dietary interventions
-                        {showMore[2] ? (
-                          <>
+                      Understand the causes and symptoms of high uric acid and gout. Learn dietary interventions  {' '}
+                        {/* {showMore[2] ? (
+                          <> */}
                             to manage and prevent these painful conditions, focusing on reducing uric acid levels naturally.
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(2)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[2] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1611,7 +1643,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Autoimmune Diseases
                         </h2>
                         <p className="text-muted">
-                          Delve into autoimmune diseases such as rheumatoid arthritis, lupus, and celiac disease. Learn about nutritional strategies that can help manage symptoms and improve quality of life for individuals with these conditions.
+                        Delve into autoimmune diseases such as rheumatoid arthritis, lupus, and celiac disease. Learn about nutritional strategies that can help manage symptoms and improve quality of life for individuals with these conditions.
                         </p>
                       </div>
                       <div className="col-md-6 blockquote-img-container mt-2">
@@ -1636,23 +1668,23 @@ function ClinicalDietsForHealthAndWellness() {
                         Autoimmune Diseases
                       </h2>
                       <p className="text-muted">
-                        Delve into autoimmune diseases such as rheumatoid arthritis, lupus, and celiac disease.
-                        {showMore[1] ? (
-                          <>
+                      Delve into autoimmune diseases such as rheumatoid arthritis, lupus, and celiac disease. {' '} 
+                        {/* {showMore[1] ? (
+                          <> */}
                             Learn about nutritional strategies that can help manage symptoms and improve quality of life for individuals with these conditions.
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(1)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[1] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1670,7 +1702,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Perfect Plan to Achieve Best Health
                         </h2>
                         <p className="text-muted">
-                          Create a comprehensive, personalized health plan. This module focuses on combining diet, exercise, and lifestyle strategies to help individuals reach optimal health and wellness.
+                        Create a comprehensive, personalized health plan. This module focuses on combining diet, exercise, and lifestyle strategies to help individuals reach optimal health and wellness.
                         </p>
                       </div>
                     </div>
@@ -1688,23 +1720,23 @@ function ClinicalDietsForHealthAndWellness() {
                         Perfect Plan to Achieve Best Health
                       </h2>
                       <p className="text-muted">
-                        Create a comprehensive, personalized health plan. This module focuses on combining diet,
-                        {showMore[2] ? (
-                          <>
+                      Create a comprehensive, personalized health plan. This module focuses on combining diet,  {' '}
+                        {/* {showMore[2] ? (
+                          <> */}
                             exercise, and lifestyle strategies to help individuals reach optimal health and wellness.
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(2)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[2] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1715,7 +1747,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Exercise Plan
                         </h2>
                         <p className="text-muted">
-                          Learn how to develop exercise plans that complement nutritional strategies. This module covers the basics of fitness, including strength, flexibility, and cardiovascular health, and how these fit into a healthy lifestyle.
+                        Learn how to develop exercise plans that complement nutritional strategies. This module covers the basics of fitness, including strength, flexibility, and cardiovascular health, and how these fit into a healthy lifestyle.
                         </p>
                       </div>
                       <div className="col-md-6 blockquote-img-container mt-2">
@@ -1738,25 +1770,26 @@ function ClinicalDietsForHealthAndWellness() {
                     <div>
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
                         Exercise Plan
+
                       </h2>
                       <p className="text-muted">
-                        Learn how to develop exercise plans that complement nutritional strategies. This
-                        {showMore[1] ? (
-                          <>
+                      Learn how to develop exercise plans that complement nutritional strategies. This  {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
                             module covers the basics of fitness, including strength, flexibility, and cardiovascular health, and how these fit into a healthy lifestyle.
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(1)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[1] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1774,7 +1807,7 @@ function ClinicalDietsForHealthAndWellness() {
                           How to Protect Against Heart Diseases, Control Blood Pressure, and High Cholesterol
                         </h2>
                         <p className="text-muted">
-                          Gain essential knowledge on how to protect heart health through nutrition. This includes managing cholesterol levels, blood pressure, and preventing heart disease through dietary changes and lifestyle interventions.
+                        Gain essential knowledge on how to protect heart health through nutrition. This includes managing cholesterol levels, blood pressure, and preventing heart disease through dietary changes and lifestyle interventions.
                         </p>
                       </div>
                     </div>
@@ -1792,23 +1825,23 @@ function ClinicalDietsForHealthAndWellness() {
                         How to Protect Against Heart Diseases, Control Blood Pressure, and High Cholesterol
                       </h2>
                       <p className="text-muted">
-                        Gain essential knowledge on how to protect heart health through nutrition. This
-                        {showMore[2] ? (
-                          <>
+                      Gain essential knowledge on how to protect heart health through nutrition. This  {' '}
+                        {/* {showMore[2] ? (
+                          <> */}
                             includes managing cholesterol levels, blood pressure, and preventing heart disease through dietary changes and lifestyle interventions.
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(2)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[2] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
                 <div className="col-lg-12 order-2 order-lg-1">
@@ -1819,7 +1852,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Role of Health and Wellness Consultant & How to Prepare Health Plans
                         </h2>
                         <p className="text-muted">
-                          Learn the responsibilities of a health and wellness consultant. Understand how to assess clients' health needs, create individualized health plans, and provide guidance on achieving sustainable wellness goals.
+                        Learn the responsibilities of a health and wellness consultant. Understand how to assess clients' health needs, create individualized health plans, and provide guidance on achieving sustainable wellness goals.
                         </p>
                       </div>
                       <div className="col-md-6 blockquote-img-container mt-2">
@@ -1844,23 +1877,23 @@ function ClinicalDietsForHealthAndWellness() {
                         Role of Health and Wellness Consultant & How to Prepare Health Plans
                       </h2>
                       <p className="text-muted">
-                        Learn the responsibilities of a health and wellness consultant. Understand how to
-                        {showMore[1] ? (
-                          <>
+                      Learn the responsibilities of a health and wellness consultant. Understand how to  {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
                             assess clients' health needs, create individualized health plans, and provide guidance on achieving sustainable wellness goals.
-                          </>
+                          {/* </>
                         ) : (
                           <span id="dotsx">...</span>
-                        )}
+                        )} */}
                       </p>
                     </div>
-                    <span
+                    {/* <span
                       onClick={() => toggleReadMore(1)}
                       id="myBtnrb"
                       className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
                     >
                       {showMore[1] ? "Read less" : "Read more"}
-                    </span>
+                    </span> */}
                   </blockquote>
                 </div>
               </div>
@@ -1868,101 +1901,9 @@ function ClinicalDietsForHealthAndWellness() {
           </div>
         </div>
       </section>
+      <OnlineCourseReviews />
       <section>
         <div className="container-fluid p-0">
-          {/* <div className="container">
-            <div className="covid mb-4 text-center">
-              <h2 className="h2-fs">
-                <span className="m-0 text-blue-color">Course </span>
-                include
-              </h2>
-            </div>
-            <div className="thm-bg-clr dector"></div>
-            <div className="row">
-              <div className="col-lg-4 col-md-6 col-6 mt-3 position-relative">
-                <div className="tabata blog2 blog2-height py-5 imgty text-center">
-                  <LazyLoadImage
-                    effect="blur"
-                    className="lazy"
-                    src={
-                      process.env.PUBLIC_URL + "/assets/images/img/seminar.webp"
-                    }
-                    alt="FG Group"
-                  />
-                  <h2 className="h5-fs mt-3">Study At Our Academy</h2>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-6 mt-3 position-relative">
-                <div className="tabata blog2 blog2-height py-5 imgty text-center">
-                  <LazyLoadImage
-                    effect="blur"
-                    className="lazy"
-                    src={
-                      process.env.PUBLIC_URL +
-                      "/assets/images/img/open-book.webp"
-                    }
-                    alt="FG Group"
-                  />
-                  <h2 className="h5-fs mt-3">E-Book & Recorded session</h2>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-6 mt-3 position-relative">
-                <div className="tabata blog2 blog2-height py-5 imgty text-center">
-                  <LazyLoadImage
-                    effect="blur"
-                    className="lazy"
-                    src={
-                      process.env.PUBLIC_URL +
-                      "/assets/images/img/group-chat.webp"
-                    }
-                    alt="FG Group"
-                  />
-                  <h2 className="h5-fs mt-3">Team Chat Support</h2>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-6 mt-3 position-relative">
-                <div className="tabata blog2 blog2-height py-5 imgty text-center">
-                  <LazyLoadImage
-                    effect="blur"
-                    className="lazy"
-                    src={
-                      process.env.PUBLIC_URL +
-                      "/assets/images/img/online-test.webp"
-                    }
-                    alt="FG Group"
-                  />
-                  <h2 className="h5-fs mt-3">MCQs Based Exam</h2>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-6 mt-3 position-relative">
-                <div className="tabata blog2 blog2-height py-5 imgty text-center">
-                  <LazyLoadImage
-                    effect="blur"
-                    className="lazy"
-                    src={
-                      process.env.PUBLIC_URL + "/assets/images/img/score.webp"
-                    }
-                    alt="FG Group"
-                  />
-                  <h2 className="h5-fs mt-3">Case Study Based Project</h2>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-6 mt-3 position-relative">
-                <div className="tabata blog2 blog2-height py-5 imgty text-center">
-                  <LazyLoadImage
-                    effect="blur"
-                    className="lazy"
-                    src={
-                      process.env.PUBLIC_URL +
-                      "/assets/images/img/certificate.webp"
-                    }
-                    alt="FG Group"
-                  />
-                  <h2 className="h5-fs mt-3">Certification</h2>
-                </div>
-              </div>
-            </div>
-          </div> */}
           <LazyLoadImage
             effect="blur"
             alt="FG Group"
@@ -1983,11 +1924,18 @@ function ClinicalDietsForHealthAndWellness() {
           />
         </div>
       </section>
-      <section className="mt-5">
+      <section className="mt-md-5 mt-3">
         <div className="container-fluid">
           <div className="container">
+            <div className="covid mb-4 text-center">
+              <h2 className="h2-fs">
+                <span className="m-0 text-blue-color">Our Institute </span>
+                Accreditation
+              </h2>
+            </div>
+            <div className="thm-bg-clr dector"></div>
             <div className="row mt-4 align-items-center">
-              <div className="col-md-6">
+              <div className="col-lg-6">
                 <div className="demoo">
                   <div className="new-h3">
                     <h2 className="ml-0 h3-fs fs-34">Why FGIIT?</h2>
@@ -2024,72 +1972,67 @@ function ClinicalDietsForHealthAndWellness() {
                         <i className="fas fa-check"></i> Lifetime Support for
                         Students
                       </li>
-                      <li>
-                        <i className="fas fa-check"></i> Globally Recognized
-                        Certifications
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Comprehensive
-                        Curriculum Covering Latest Trends
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Interactive Live
-                        Sessions with Trainers and Peers
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Regular Assessments &
-                        Feedback
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Access to Exclusive
-                        Study Groups
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Updated Study Material
-                        and Case Studies
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Affordable Fees with
-                        EMI Options
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Collaborations with Top
-                        Fitness Brands
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Personalized Student
-                        Support Team
-                      </li>
-                      <li>
-                        <i className="fas fa-check"></i> Continuous Professional
-                        Development Opportunities
-                      </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6">
-                <div className="text-center">
-                  <p className="mb-0 taks-p">Demo Certificate</p>
+              <div className="col-lg-6">
+                <div>
                   <LazyLoadImage
                     effect="blur"
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/img/mobile-all-logo.webp"
+                    }
+                    className="img-fluid lazy"
+                    alt="FG Group"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="mt-5">
+        <div className="container-fluid">
+          <div className="container blog2">
+            <div className="row mt-4">
+              <div className="col-lg-6 certi text-center">
+                <p className="my-4">demo lecture</p>
+                <div className="ply1">
+                  <img
+                    alt="Fg Group"
                     className="lazy"
                     src={
                       process.env.PUBLIC_URL +
-                      "/assets/images/img/recorded-session-certificate-6.webp"
+                      "/assets/images/img/intro-health-wellness.webp"
                     }
                     width="100%"
-                    alt="Course Certificate"
+                    style={{ borderRadius: "10px" }}
                   />
+                  <div className="ply2">
+                    <a
+                      aria-label="Fg Group"
+                      className="custom"
+                      onClick={() => openVideoModal("9ggHN60bYKo")}
+                    >
+                      <i className="far fa-play-circle text-white  fs-40"></i>
+                    </a>
+                  </div>
                 </div>
-                <div>
-                  <span
-                    className="taks-p d-none d-md-block text-center"
-                    style={{ fontWeight: "500" }}
-                  >
-                    our Certificate is valid in 192 country
-                  </span>
-                </div>
+              </div>
+              <div className="col-lg-6 certi text-center">
+                <p className="my-4">Health & Wellness demo Certificate</p>
+                <LazyLoadImage
+                  effect="blur"
+                  className="lazy"
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/img/recorded-session-certificate-6.webp"
+                  }
+                  width="90%"
+                  alt="Health & Wellness Masterclass course certificate"
+                />
               </div>
             </div>
           </div>
@@ -2097,100 +2040,68 @@ function ClinicalDietsForHealthAndWellness() {
       </section>
       <MeetOurInstructure />
       {/* <OurStudentsWords /> */}
-      <StudentTestimonial testimonials={testimonials} />
-      <section className="margintop item-border-design">
-        <div className="container-fluid">
-          <div className="container">
-            <div className="covid text-center">
-              <h2 className="h2-fs">
-                Placement <span className="m-0 text-blue-color">Review</span>
-              </h2>
+      <OurOfflineStudents />
+      <section>
+        <div className="container-fluid margintop">
+          <div className="container blog2 pb-5">
+            <div className="">
+              <div className="covid text-center">
+                <h2 className="mt-2 h2-fs">
+                Enhance Your Expertise with an{" "}
+                  <span className="m-0 text-blue-color">
+                  Online Advance Clinical Nutrition Course
+                  </span>
+                </h2>
+              </div>
+              <div className="thm-bg-clr dector mb-3"></div>
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="describe d-md-block d-none">
+                    <p>
+                    If you're passionate about nutrition and want to advance your career in healthcare, enrolling in an Online Advance Clinical Nutrition course is the perfect step. This program provides in-depth knowledge of medical nutrition therapy, disease management, and dietary interventions—all from the comfort of your home.
+                    </p>
+                    <p>
+                    A clinical course in nutrition focuses on understanding how food affects health, helping professionals design specialized diet plans for individuals with medical conditions such as diabetes, cardiovascular diseases, and digestive disorders. This advanced training is essential for those looking to work in hospitals, wellness centers, or as independent clinical nutritionists.
+                    </p>
+                    <p>
+                    With an Online Advance Clinical Nutrition course, you benefit from expert-led video lectures, interactive study materials, and live case study discussions. The curriculum includes nutritional assessment techniques, meal planning strategies, and the latest research in clinical nutrition. Online learning also allows flexibility, making it easier for working professionals and students to upskill at their own pace.
+                    </p>
+                    <p>
+                    Upon completing this clinical course, you gain certification that enhances your credibility and opens career opportunities in the healthcare and wellness industry. Take the next step toward becoming a certified clinical nutrition expert with this advanced online program.
+                    </p>
+                  </div>
+                  <div className="describe d-md-none d-block">
+                    <p>
+                    If you're passionate about nutrition and want to advance your career in healthcare, enrolling in an Online Advance Clinical Nutrition course is the perfect step. This program provides in-depth knowledge of medical nutrition therapy, disease management, and dietary interventions—all from the comfort of your home.
+                    </p>
+                    {showMorev ? (
+                      <span className="m-0">
+                        <p>
+                        A clinical course in nutrition focuses on understanding how food affects health, helping professionals design specialized diet plans for individuals with medical conditions such as diabetes, cardiovascular diseases, and digestive disorders. This advanced training is essential for those looking to work in hospitals, wellness centers, or as independent clinical nutritionists.
+                        </p>
+                        <p>
+                        With an Online Advance Clinical Nutrition course, you benefit from expert-led video lectures, interactive study materials, and live case study discussions. The curriculum includes nutritional assessment techniques, meal planning strategies, and the latest research in clinical nutrition. Online learning also allows flexibility, making it easier for working professionals and students to upskill at their own pace.
+                        </p>
+                        <p>
+                        Upon completing this clinical course, you gain certification that enhances your credibility and opens career opportunities in the healthcare and wellness industry. Take the next step toward becoming a certified clinical nutrition expert with this advanced online program.
+                        </p>
+                      </span>
+                    ) : (
+                      <p id="dotsx" className=" d-inline-block m-0">
+                        ...
+                      </p>
+                    )}
+                    <p
+                      onClick={toggleReadMorev}
+                      id="myBtnrg"
+                      className="text-info m-0 my-sm-2 my-md-0 ml-1 d-inline-block"
+                    >
+                      {showMorev ? "Read less" : "Read more"}
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="thm-bg-clr dector mb-4"></div>
-            <OwlCarousel
-              loop
-              autoplay
-              id="owl-demo5"
-              className="owl-carousel owl-theme"
-            >
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-6.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-3.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-16.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-7.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-13.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-1.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-              <div className="item mx-3">
-                <img
-                  className="lazy"
-                  width="100%"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/assets/images/placeintern/job-9.webp"
-                  }
-                  alt="job placement by our academy"
-                />
-              </div>
-            </OwlCarousel>
           </div>
         </div>
       </section>
@@ -2224,41 +2135,7 @@ function ClinicalDietsForHealthAndWellness() {
           </div>
         </div>
       </section>
-      <section className="studentsreviewdpt mt-4 mb-5">
-        <div className="google-reviews-carousel">
-          <div className="covid text-center mt-5">
-            <h2 className="h2-fs">
-              Our <span className="m-0 text-blue-color">Google Reviews</span>
-            </h2>
-          </div>
-          <div className="thm-bg-clr dector mb-4"></div>
-          <OwlCarousel className="owl-theme" {...options}>
-            {reviewses.map((review, index) => (
-              <div key={index} className="item">
-                <div className="review-card">
-                  <img
-                    className="review-image"
-                    src={review.image}
-                    alt={review.name}
-                  />
-                  <div className="review-content">
-                    <h2 className="h3-fs">{review.name}</h2>
-                    <div className="stars">
-                      {"★".repeat(review.stars)}
-                      {"☆".repeat(5 - review.stars)}
-                    </div>
-                    <p className="review-text">{review.review}</p>
-                    <div className="google-icon">
-                      <i className="fab fa-google"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </OwlCarousel>
-        </div>
-      </section>
-      <section className="fwg-webinar-page-faq margintop mt-md-5 mt-0 pt-md-5 pt-0 pb-md-4 pb-0">
+      <section className="fwg-webinar-page-faq margintop mt-md-5 mt-4 pt-md-5 pt-0 pb-md-4 pb-0">
         <div className="container">
           <div className="covid text-center">
             <h2 className="h2-fs">

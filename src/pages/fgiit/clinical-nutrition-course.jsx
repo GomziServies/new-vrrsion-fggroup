@@ -17,6 +17,7 @@ import { AdvanceClinicalNutrition } from "../../components/course/AllCourseData"
 import CourseForm from "../../components/course/courseForm";
 import { Helmet } from "react-helmet";
 import FlexibleFooter from "../../components/partials/Footer/flexiblefooter";
+import FlexibleAllReviews from "../../components/fgiit/flexibleAllReviews";
 
 function ClinicalNutritionCourse() {
   const canonicalUrl = window.location.href;
@@ -202,121 +203,1019 @@ function ClinicalNutritionCourse() {
           <RegistrationProcess />
         </div>
       </section>
-      <section>
-        <div className="container-fluid">
-          <div className="container">
-            <div className="row resip">
-              <div className="col-lg-12">
-                <div className="Info">
-                  <h2 className="h2-fs">Course Info</h2>
+      <section className="pt-5 pb-5 new-content-add">
+        <div className="container">
+          <div className="">
+            <div className="covid mb-4 mt-3 text-center">
+              <h2 className="h2-fs">
+                <span className="m-0 text-blue-color">Course </span>
+                Details
+              </h2>
+            </div>
+            <div className="thm-bg-clr dector"></div>
+            <div className="card-body p-4">
+              <div className="row align-items-center">
+                <div className="col-lg-12 order-2 order-lg-1">
+                  <blockquote className="blockquote d-md-block d-none mb-4">
+                    <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
+                      <div className="col-md-6">
+                        <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                          Human Physiology and Function of Cells
+                        </h2>
+                        <p className="text-muted">
+                          Understand the fundamental workings of the human body
+                          at the cellular level. This module covers cell
+                          functions, how cells process nutrients, and the role
+                          of different systems (nervous, cardiovascular, etc.)
+                          in maintaining health.
+                        </p>
+                      </div>
+                      <div className="col-md-6 blockquote-img-container mt-2">
+                        <img
+                          src="/assets/images/course-img/human-physiology.webp"
+                          alt="Fitness Industry"
+                          className="blackquote-img"
+                        />
+                      </div>
+                    </div>
+                  </blockquote>
+                  <blockquote className="blockquote d-md-none d-block mb-4">
+                    <div className="blockquote-img-container order-1 mt-2">
+                      <img
+                        src="/assets/images/course-img/human-physiology.webp"
+                        alt="Fitness Industry"
+                        className="blackquote-img"
+                      />
+                    </div>
+                    <div>
+                      <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                        Human Physiology and Function of Cells
+                      </h2>
+                      <p className="text-muted">
+                        Understand the fundamental workings of the human body at the cellular level. This module {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
+                            covers cell functions, how cells process nutrients,
+                            and the role of different systems (nervous,
+                            cardiovascular, etc.) in maintaining health.
+                          {/* </>
+                        ) : (
+                          <span id="dotsx">...</span>
+                        )} */}
+                      </p>
+                    </div>
+                    {/* <span
+                      onClick={() => toggleReadMore(1)}
+                      id="myBtnrb"
+                      className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
+                    >
+                      {showMore[1] ? "Read less" : "Read more"}
+                    </span> */}
+                  </blockquote>
                 </div>
-                <div className="Grocery1">
-                  <p>
-                    wellness consultant is a course where you learn how to fight
-                    diseases like diabetes, thyroid, PCOS, and cancer. these are
-                    the diseases is can not be controlled by medicine only, you
-                    need to have the support of nutrition, exercises, recovery,
-                    and rehab parts also. there are many modern research that
-                    suggests that intermittent fasting, low carb diet, keto
-                    diet, and many caloric deficit diets and exercise approaches
-                    are more helpful than medicine also, so this course will
-                    help you to achieve and gain knowledge about those kinds of
-                    therapies which are alternative medicine therapy.
-                  </p>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <ul className="p-0 new-li">
-                        <li>
-                          <i className="fas fa-check-circle"></i>Human
-                          physiology and function of cell
-                        </li>
-                        <li>
-                          <i className="fas fa-check-circle"></i>Definition of
-                          health
-                        </li>
-                        <li>
-                          <i className="fas fa-check-circle"></i>What is life
-                          style diseases?
-                        </li>
-                        <li>
-                          <i className="fas fa-check-circle"></i>Food macro and
-                          micro elements
-                        </li>
-                        <li>
-                          <i className="fas fa-check-circle"></i>Food digestion
-                          system
-                        </li>
-                        <li>
-                          <i className="fas fa-check-circle"></i>Weight
-                          management
-                        </li>
-                        <li>
-                          <i className="fas fa-check-circle"></i>Blood sugar
-                          control
-                        </li>
-                        <li>
-                          <i className="fas fa-check-circle"></i>Important
-                          hormones of the body
-                        </li>
-                        <li>
-                          <i className="fas fa-check-circle"></i>Worst food
-                          elements
-                        </li>
-                        <li>
-                          <i className="fas fa-check-circle"></i>Essential food
-                          element
-                        </li>
-                        <li>
-                          <i className="fas fa-check-circle"></i>Anti-aging
-                          process
-                        </li>
-                      </ul>
+                <div className="col-lg-12 order-2 order-lg-1">
+                  <blockquote className="blockquote d-md-block d-none mb-4">
+                    <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
+                      <div className="col-md-6 blockquote-img-container mt-2">
+                        <img
+                          src="/assets/images/course-img/definition-of-health.webp"
+                          alt="Fitness Industry"
+                          className="blackquote-img"
+                        />
+                      </div>
+                      <div className="col-md-6">
+                        <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                        Definition of Health
+                        </h2>
+                        <p className="text-muted">
+                        Explore the comprehensive definition of health beyond the absence of disease. Learn about the physical, mental, and social aspects of well-being and how to achieve balance for optimal health.
+                        </p>
+                      </div>
                     </div>
-                    <div className="col-md-6">
-                      <ul className="p-0 new-li">
-                        <li>
-                          <i className="fas fa-check-circle"></i>Bone health
-                        </li>
-                        <li>
-                          <i className="fas fa-check-circle"></i>Stress control
-                        </li>
-                        <li>
-                          <i className="fas fa-check-circle"></i>Important blood
-                          test which ensure sound health
-                        </li>
-                        <li>
-                          <i className="fas fa-check-circle"></i>High uric acid
-                          and gout
-                        </li>
-                        <li>
-                          <i className="fas fa-check-circle"></i>Auto immune
-                          diseases
-                        </li>
-                        <li>
-                          <i className="fas fa-check-circle"></i>Perfect plan to
-                          achieve best health
-                        </li>
-                        <li>
-                          <i className="fas fa-check-circle"></i>Exercise plan
-                        </li>
-                        <li>
-                          <i className="fas fa-check-circle"></i>How to protect
-                          heart diseases, control blood pressure, and high
-                          cholesterol
-                        </li>
-                        <li>
-                          <i className="fas fa-check-circle"></i>Role of health
-                          and wellness consultant and how to prepare health plan
-                        </li>
-                      </ul>
+                  </blockquote>
+                  <blockquote className="blockquote d-md-none d-block mb-4">
+                    <div className="blockquote-img-container order-1 mt-2">
+                      <img
+                        src="/assets/images/course-img/definition-of-health.webp"
+                        alt="Fitness Industry"
+                        className="blackquote-img"
+                      />
                     </div>
-                  </div>
+                    <div>
+                      <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                      Definition of Health
+                      </h2>
+                      <p className="text-muted">
+                      Explore the comprehensive definition of health beyond the absence of disease. Learn about  {' '}
+                        {/* {showMore[2] ? (
+                          <> */}
+                            the physical, mental, and social aspects of well-being and how to achieve balance for optimal health.
+                          {/* </>
+                        ) : (
+                          <span id="dotsx">...</span>
+                        )} */}
+                      </p>
+                    </div>
+                    {/* <span
+                      onClick={() => toggleReadMore(2)}
+                      id="myBtnrb"
+                      className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
+                    >
+                      {showMore[2] ? "Read less" : "Read more"}
+                    </span> */}
+                  </blockquote>
+                </div>
+                <div className="col-lg-12 order-2 order-lg-1">
+                  <blockquote className="blockquote d-md-block d-none mb-4">
+                    <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
+                      <div className="col-md-6">
+                        <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                          What Are Lifestyle Diseases?
+                        </h2>
+                        <p className="text-muted">
+                        Identify common lifestyle diseases such as diabetes, obesity, cardiovascular issues, and how poor lifestyle choices contribute to these conditions. Learn prevention strategies and interventions through nutrition and lifestyle modifications.
+                        </p>
+                      </div>
+                      <div className="col-md-6 blockquote-img-container mt-2">
+                        <img
+                          src="/assets/images/course-img/lifestyle-diseases.webp"
+                          alt="Fitness Industry"
+                          className="blackquote-img"
+                        />
+                      </div>
+                    </div>
+                  </blockquote>
+                  <blockquote className="blockquote d-md-none d-block mb-4">
+                    <div className="blockquote-img-container order-1 mt-2">
+                      <img
+                        src="/assets/images/course-img/lifestyle-diseases.webp"
+                        alt="Fitness Industry"
+                        className="blackquote-img"
+                      />
+                    </div>
+                    <div>
+                      <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                        What Are Lifestyle Diseases?
+                      </h2>
+                      <p className="text-muted">
+                      Identify common lifestyle diseases such as diabetes, obesity, cardiovascular issues, and  {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
+                            how poor lifestyle choices contribute to these conditions. Learn prevention strategies and interventions through nutrition and lifestyle modifications.
+                          {/* </>
+                        ) : (
+                          <span id="dotsx">...</span>
+                        )} */}
+                      </p>
+                    </div>
+                    {/* <span
+                      onClick={() => toggleReadMore(1)}
+                      id="myBtnrb"
+                      className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
+                    >
+                      {showMore[1] ? "Read less" : "Read more"}
+                    </span> */}
+                  </blockquote>
+                </div>
+                <div className="col-lg-12 order-2 order-lg-1">
+                  <blockquote className="blockquote d-md-block d-none mb-4">
+                    <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
+                      <div className="col-md-6 blockquote-img-container mt-2">
+                        <img
+                          src="/assets/images/course-img/food-macro.webp"
+                          alt="Fitness Industry"
+                          className="blackquote-img"
+                        />
+                      </div>
+                      <div className="col-md-6">
+                        <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                        Food Macro and Micro Elements
+                        </h2>
+                        <p className="text-muted">
+                        Gain a deep understanding of macronutrients (proteins, fats, carbohydrates) and micronutrients (vitamins, minerals). Learn their roles in supporting the body's overall functioning, growth, and repair.
+                        </p>
+                      </div>
+                    </div>
+                  </blockquote>
+                  <blockquote className="blockquote d-md-none d-block mb-4">
+                    <div className="blockquote-img-container order-1 mt-2">
+                      <img
+                        src="/assets/images/course-img/food-macro.webp"
+                        alt="Fitness Industry"
+                        className="blackquote-img"
+                      />
+                    </div>
+                    <div>
+                      <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                      Food Macro and Micro Elements {' '}
+                      </h2>
+                      <p className="text-muted">
+                      Gain a deep understanding of macronutrients (proteins, fats, carbohydrates) and micronutrients
+                        {/* {showMore[2] ? (
+                          <> */}
+                             (vitamins, minerals). Learn their roles in supporting the body's overall functioning, growth, and repair.
+                          {/* </>
+                        ) : (
+                          <span id="dotsx">...</span>
+                        )} */}
+                      </p>
+                    </div>
+                    {/* <span
+                      onClick={() => toggleReadMore(2)}
+                      id="myBtnrb"
+                      className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
+                    >
+                      {showMore[2] ? "Read less" : "Read more"}
+                    </span> */}
+                  </blockquote>
+                </div>
+                <div className="col-lg-12 order-2 order-lg-1">
+                  <blockquote className="blockquote d-md-block d-none mb-4">
+                    <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
+                      <div className="col-md-6">
+                        <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                          Food Digestion System
+                        </h2>
+                        <p className="text-muted">
+                        Discover the intricacies of the digestive system, from ingestion to nutrient absorption. This module explains how food is broken down and utilized by the body and the role of gut health in overall wellness.
+                        </p>
+                      </div>
+                      <div className="col-md-6 blockquote-img-container mt-2">
+                        <img
+                          src="/assets/images/course-img/food-digestion-system.webp"
+                          alt="Fitness Industry"
+                          className="blackquote-img"
+                        />
+                      </div>
+                    </div>
+                  </blockquote>
+                  <blockquote className="blockquote d-md-none d-block mb-4">
+                    <div className="blockquote-img-container order-1 mt-2">
+                      <img
+                        src="/assets/images/course-img/food-digestion-system.webp"
+                        alt="Fitness Industry"
+                        className="blackquote-img"
+                      />
+                    </div>
+                    <div>
+                      <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                        Food Digestion System
+                      </h2>
+                      <p className="text-muted">
+                      Discover the intricacies of the digestive system, from ingestion to nutrient absorption.  {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
+                            This module explains how food is broken down and utilized by the body and the role of gut health in overall wellness.
+                          {/* </>
+                        ) : (
+                          <span id="dotsx">...</span>
+                        )} */}
+                      </p>
+                    </div>
+                    {/* <span
+                      onClick={() => toggleReadMore(1)}
+                      id="myBtnrb"
+                      className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
+                    >
+                      {showMore[1] ? "Read less" : "Read more"}
+                    </span> */}
+                  </blockquote>
+                </div>
+                <div className="col-lg-12 order-2 order-lg-1">
+                  <blockquote className="blockquote d-md-block d-none mb-4">
+                    <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
+                      <div className="col-md-6 blockquote-img-container mt-2">
+                        <img
+                          src="/assets/images/course-img/weight-management.webp"
+                          alt="Fitness Industry"
+                          className="blackquote-img"
+                        />
+                      </div>
+                      <div className="col-md-6">
+                        <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                          Weight Management
+                        </h2>
+                        <p className="text-muted">
+                        Learn effective strategies for weight management, including calorie balancing, the role of metabolism, and sustainable diet plans that promote fat loss without sacrificing health.
+                        </p>
+                      </div>
+                    </div>
+                  </blockquote>
+                  <blockquote className="blockquote d-md-none d-block mb-4">
+                    <div className="blockquote-img-container order-1 mt-2">
+                      <img
+                        src="/assets/images/course-img/weight-management.webp"
+                        alt="Fitness Industry"
+                        className="blackquote-img"
+                      />
+                    </div>
+                    <div>
+                      <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                        Weight Management
+                      </h2>
+                      <p className="text-muted">
+                      Learn effective strategies for weight management, including calorie balancing, the  {' '}
+                        {/* {showMore[2] ? (
+                          <> */}
+                            role of metabolism, and sustainable diet plans that promote fat loss without sacrificing health.
+                          {/* </>
+                        ) : (
+                          <span id="dotsx">...</span>
+                        )} */}
+                      </p>
+                    </div>
+                    {/* <span
+                      onClick={() => toggleReadMore(2)}
+                      id="myBtnrb"
+                      className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
+                    >
+                      {showMore[2] ? "Read less" : "Read more"}
+                    </span> */}
+                  </blockquote>
+                </div>
+                <div className="col-lg-12 order-2 order-lg-1">
+                  <blockquote className="blockquote d-md-block d-none mb-4">
+                    <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
+                      <div className="col-md-6">
+                        <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                          Blood Sugar Control
+                        </h2>
+                        <p className="text-muted">
+                        Understand how blood sugar levels impact overall health and how to manage conditions like insulin resistance and diabetes. Learn about dietary interventions to maintain optimal blood sugar balance.
+                        </p>
+                      </div>
+                      <div className="col-md-6 blockquote-img-container mt-2">
+                        <img
+                          src="/assets/images/course-img/blood-sugar-control.webp"
+                          alt="Fitness Industry"
+                          className="blackquote-img"
+                        />
+                      </div>
+                    </div>
+                  </blockquote>
+                  <blockquote className="blockquote d-md-none d-block mb-4">
+                    <div className="blockquote-img-container order-1 mt-2">
+                      <img
+                        src="/assets/images/course-img/blood-sugar-control.webp"
+                        alt="Fitness Industry"
+                        className="blackquote-img"
+                      />
+                    </div>
+                    <div>
+                      <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                        Blood Sugar Control
+                      </h2>
+                      <p className="text-muted">
+                      Understand how blood sugar levels impact overall health and how to manage conditions  {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
+                            like insulin resistance and diabetes. Learn about dietary interventions to maintain optimal blood sugar balance.
+                          {/* </>
+                        ) : (
+                          <span id="dotsx">...</span>
+                        )} */}
+                      </p>
+                    </div>
+                    {/* <span
+                      onClick={() => toggleReadMore(1)}
+                      id="myBtnrb"
+                      className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
+                    >
+                      {showMore[1] ? "Read less" : "Read more"}
+                    </span> */}
+                  </blockquote>
+                </div>
+                <div className="col-lg-12 order-2 order-lg-1">
+                  <blockquote className="blockquote d-md-block d-none mb-4">
+                    <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
+                      <div className="col-md-6 blockquote-img-container mt-2">
+                        <img
+                          src="/assets/images/course-img/hormones-of-the-body.webp"
+                          alt="Fitness Industry"
+                          className="blackquote-img"
+                        />
+                      </div>
+                      <div className="col-md-6">
+                        <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                          Important Hormones of the Body
+                        </h2>
+                        <p className="text-muted">
+                        Delve into the world of hormones and how they regulate essential body functions such as metabolism, stress response, reproduction, and mood. Learn how nutrition can influence hormonal balance.
+                        </p>
+                      </div>
+                    </div>
+                  </blockquote>
+                  <blockquote className="blockquote d-md-none d-block mb-4">
+                    <div className="blockquote-img-container order-1 mt-2">
+                      <img
+                        src="/assets/images/course-img/hormones-of-the-body.webp"
+                        alt="Fitness Industry"
+                        className="blackquote-img"
+                      />
+                    </div>
+                    <div>
+                      <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                        Important Hormones of the Body
+                      </h2>
+                      <p className="text-muted">
+                      Delve into the world of hormones and how they regulate essential body functions such as  {' '}
+                        {/* {showMore[2] ? (
+                          <> */}
+                            metabolism, stress response, reproduction, and mood. Learn how nutrition can influence hormonal balance.
+                          {/* </>
+                        ) : (
+                          <span id="dotsx">...</span>
+                        )} */}
+                      </p>
+                    </div>
+                    {/* <span
+                      onClick={() => toggleReadMore(2)}
+                      id="myBtnrb"
+                      className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
+                    >
+                      {showMore[2] ? "Read less" : "Read more"}
+                    </span> */}
+                  </blockquote>
+                </div>
+                <div className="col-lg-12 order-2 order-lg-1">
+                  <blockquote className="blockquote d-md-block d-none mb-4">
+                    <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
+                      <div className="col-md-6">
+                        <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                          Worst Food Elements
+                        </h2>
+                        <p className="text-muted">
+                        Identify harmful food elements such as trans fats, processed sugars, and additives that can negatively impact health. Learn how to reduce or eliminate these from your diet to prevent disease and promote wellness.
+                        </p>
+                      </div>
+                      <div className="col-md-6 blockquote-img-container mt-2">
+                        <img
+                          src="/assets/images/course-img/worst-food.webp"
+                          alt="Fitness Industry"
+                          className="blackquote-img"
+                        />
+                      </div>
+                    </div>
+                  </blockquote>
+                  <blockquote className="blockquote d-md-none d-block mb-4">
+                    <div className="blockquote-img-container order-1 mt-2">
+                      <img
+                        src="/assets/images/course-img/worst-food.webp"
+                        alt="Fitness Industry"
+                        className="blackquote-img"
+                      />
+                    </div>
+                    <div>
+                      <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                        Worst Food Elements
+                      </h2>
+                      <p className="text-muted">
+                      Identify harmful food elements such as trans fats, processed sugars, and additives that can  {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
+                            negatively impact health. Learn how to reduce or eliminate these from your diet to prevent disease and promote wellness.
+                          {/* </>
+                        ) : (
+                          <span id="dotsx">...</span>
+                        )} */}
+                      </p>
+                    </div>
+                    {/* <span
+                      onClick={() => toggleReadMore(1)}
+                      id="myBtnrb"
+                      className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
+                    >
+                      {showMore[1] ? "Read less" : "Read more"}
+                    </span> */}
+                  </blockquote>
+                </div>
+                <div className="col-lg-12 order-2 order-lg-1">
+                  <blockquote className="blockquote d-md-block d-none mb-4">
+                    <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
+                      <div className="col-md-6 blockquote-img-container mt-2">
+                        <img
+                          src="/assets/images/course-img/essential-food.webp"
+                          alt="Fitness Industry"
+                          className="blackquote-img"
+                        />
+                      </div>
+                      <div className="col-md-6">
+                        <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                          Essential Food Elements
+                        </h2>
+                        <p className="text-muted">
+                        Explore the nutrients essential for health, including vitamins, minerals, omega-3 fatty acids, and antioxidants. Learn how to incorporate these elements into a balanced diet to support energy, immunity, and longevity.
+                        </p>
+                      </div>
+                    </div>
+                  </blockquote>
+                  <blockquote className="blockquote d-md-none d-block mb-4">
+                    <div className="blockquote-img-container order-1 mt-2">
+                      <img
+                        src="/assets/images/course-img/essential-food.webp"
+                        alt="Fitness Industry"
+                        className="blackquote-img"
+                      />
+                    </div>
+                    <div>
+                      <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                        Essential Food Elements
+                      </h2>
+                      <p className="text-muted">
+                      Explore the nutrients essential for health, including vitamins, minerals, omega-3  {' '}
+                        {/* {showMore[2] ? (
+                          <> */}
+                            fatty acids, and antioxidants. Learn how to incorporate these elements into a balanced diet to support energy, immunity, and longevity.
+                          {/* </>
+                        ) : (
+                          <span id="dotsx">...</span>
+                        )} */}
+                      </p>
+                    </div>
+                    {/* <span
+                      onClick={() => toggleReadMore(2)}
+                      id="myBtnrb"
+                      className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
+                    >
+                      {showMore[2] ? "Read less" : "Read more"}
+                    </span> */}
+                  </blockquote>
+                </div>
+                <div className="col-lg-12 order-2 order-lg-1">
+                  <blockquote className="blockquote d-md-block d-none mb-4">
+                    <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
+                      <div className="col-md-6">
+                        <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                        Bone Health
+                        </h2>
+                        <p className="text-muted">
+                        Understand the importance of nutrition in maintaining strong, healthy bones. Learn about calcium, vitamin D, and other key nutrients that support bone density and prevent conditions like osteoporosis.
+                        </p>
+                      </div>
+                      <div className="col-md-6 blockquote-img-container mt-2">
+                        <img
+                          src="/assets/images/course-img/bone-health.webp"
+                          alt="Fitness Industry"
+                          className="blackquote-img"
+                        />
+                      </div>
+                    </div>
+                  </blockquote>
+                  <blockquote className="blockquote d-md-none d-block mb-4">
+                    <div className="blockquote-img-container order-1 mt-2">
+                      <img
+                        src="/assets/images/course-img/bone-health.webp"
+                        alt="Fitness Industry"
+                        className="blackquote-img"
+                      />
+                    </div>
+                    <div>
+                      <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                      Bone Health
+                      </h2>
+                      <p className="text-muted">
+                      Understand the importance of nutrition in maintaining strong, healthy bones. Learn about  {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
+                            calcium, vitamin D, and other key nutrients that support bone density and prevent conditions like osteoporosis.
+                          {/* </>
+                        ) : (
+                          <span id="dotsx">...</span>
+                        )} */}
+                      </p>
+                    </div>
+                    {/* <span
+                      onClick={() => toggleReadMore(1)}
+                      id="myBtnrb"
+                      className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
+                    >
+                      {showMore[1] ? "Read less" : "Read more"}
+                    </span> */}
+                  </blockquote>
+                </div>
+                <div className="col-lg-12 order-2 order-lg-1">
+                  <blockquote className="blockquote d-md-block d-none mb-4">
+                    <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
+                      <div className="col-md-6 blockquote-img-container mt-2">
+                        <img
+                          src="/assets/images/course-img/stress-control.webp"
+                          alt="Fitness Industry"
+                          className="blackquote-img"
+                        />
+                      </div>
+                      <div className="col-md-6">
+                        <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                          Stress Control
+                        </h2>
+                        <p className="text-muted">
+                        Explore the relationship between stress and health, and learn nutrition-based strategies to manage stress effectively. This module also covers lifestyle changes that help reduce stress and its impact on the body.
+                        </p>
+                      </div>
+                    </div>
+                  </blockquote>
+                  <blockquote className="blockquote d-md-none d-block mb-4">
+                    <div className="blockquote-img-container order-1 mt-2">
+                      <img
+                        src="/assets/images/course-img/stress-control.webp"
+                        alt="Fitness Industry"
+                        className="blackquote-img"
+                      />
+                    </div>
+                    <div>
+                      <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                        Stress Control
+                      </h2>
+                      <p className="text-muted">
+                      Explore the relationship between stress and health, and learn nutrition-based strategies  {' '}
+                        {/* {showMore[2] ? (
+                          <> */}
+                            to manage stress effectively. This module also covers lifestyle changes that help reduce stress and its impact on the body.
+                          {/* </>
+                        ) : (
+                          <span id="dotsx">...</span>
+                        )} */}
+                      </p>
+                    </div>
+                    {/* <span
+                      onClick={() => toggleReadMore(2)}
+                      id="myBtnrb"
+                      className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
+                    >
+                      {showMore[2] ? "Read less" : "Read more"}
+                    </span> */}
+                  </blockquote>
+                </div>
+                <div className="col-lg-12 order-2 order-lg-1">
+                  <blockquote className="blockquote d-md-block d-none mb-4">
+                    <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
+                      <div className="col-md-6">
+                        <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                          Important Blood Tests for Ensuring Sound Health
+                        </h2>
+                        <p className="text-muted">
+                        Learn about key blood tests that can provide insights into your overall health, including cholesterol levels, blood sugar, liver function, and inflammation markers. Understanding these tests helps in creating effective health plans.
+                        </p>
+                      </div>
+                      <div className="col-md-6 blockquote-img-container mt-2">
+                        <img
+                          src="/assets/images/course-img/blood-tests.webp"
+                          alt="Fitness Industry"
+                          className="blackquote-img"
+                        />
+                      </div>
+                    </div>
+                  </blockquote>
+                  <blockquote className="blockquote d-md-none d-block mb-4">
+                    <div className="blockquote-img-container order-1 mt-2">
+                      <img
+                        src="/assets/images/course-img/blood-tests.webp"
+                        alt="Fitness Industry"
+                        className="blackquote-img"
+                      />
+                    </div>
+                    <div>
+                      <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                        Important Blood Tests for Ensuring Sound Health
+                      </h2>
+                      <p className="text-muted">
+                      Learn about key blood tests that can provide insights into your overall health, including  {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
+                            cholesterol levels, blood sugar, liver function, and inflammation markers. Understanding these tests helps in creating effective health plans.
+                          {/* </>
+                        ) : (
+                          <span id="dotsx">...</span>
+                        )} */}
+                      </p>
+                    </div>
+                    {/* <span
+                      onClick={() => toggleReadMore(1)}
+                      id="myBtnrb"
+                      className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
+                    >
+                      {showMore[1] ? "Read less" : "Read more"}
+                    </span> */}
+                  </blockquote>
+                </div>
+                <div className="col-lg-12 order-2 order-lg-1">
+                  <blockquote className="blockquote d-md-block d-none mb-4">
+                    <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
+                      <div className="col-md-6 blockquote-img-container mt-2">
+                        <img
+                          src="/assets/images/course-img/high-uric-acid.webp"
+                          alt="Fitness Industry"
+                          className="blackquote-img"
+                        />
+                      </div>
+                      <div className="col-md-6">
+                        <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                          High Uric Acid and Gout
+                        </h2>
+                        <p className="text-muted">
+                        Understand the causes and symptoms of high uric acid and gout. Learn dietary interventions to manage and prevent these painful conditions, focusing on reducing uric acid levels naturally.
+                        </p>
+                      </div>
+                    </div>
+                  </blockquote>
+                  <blockquote className="blockquote d-md-none d-block mb-4">
+                    <div className="blockquote-img-container order-1 mt-2">
+                      <img
+                        src="/assets/images/course-img/high-uric-acid.webp"
+                        alt="Fitness Industry"
+                        className="blackquote-img"
+                      />
+                    </div>
+                    <div>
+                      <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                        High Uric Acid and Gout
+                      </h2>
+                      <p className="text-muted">
+                      Understand the causes and symptoms of high uric acid and gout. Learn dietary interventions  {' '}
+                        {/* {showMore[2] ? (
+                          <> */}
+                            to manage and prevent these painful conditions, focusing on reducing uric acid levels naturally.
+                          {/* </>
+                        ) : (
+                          <span id="dotsx">...</span>
+                        )} */}
+                      </p>
+                    </div>
+                    {/* <span
+                      onClick={() => toggleReadMore(2)}
+                      id="myBtnrb"
+                      className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
+                    >
+                      {showMore[2] ? "Read less" : "Read more"}
+                    </span> */}
+                  </blockquote>
+                </div>
+                <div className="col-lg-12 order-2 order-lg-1">
+                  <blockquote className="blockquote d-md-block d-none mb-4">
+                    <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
+                      <div className="col-md-6">
+                        <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                          Autoimmune Diseases
+                        </h2>
+                        <p className="text-muted">
+                        Delve into autoimmune diseases such as rheumatoid arthritis, lupus, and celiac disease. Learn about nutritional strategies that can help manage symptoms and improve quality of life for individuals with these conditions.
+                        </p>
+                      </div>
+                      <div className="col-md-6 blockquote-img-container mt-2">
+                        <img
+                          src="/assets/images/course-img/autoimmune-diseases.webp"
+                          alt="Fitness Industry"
+                          className="blackquote-img"
+                        />
+                      </div>
+                    </div>
+                  </blockquote>
+                  <blockquote className="blockquote d-md-none d-block mb-4">
+                    <div className="blockquote-img-container order-1 mt-2">
+                      <img
+                        src="/assets/images/course-img/autoimmune-diseases.webp"
+                        alt="Fitness Industry"
+                        className="blackquote-img"
+                      />
+                    </div>
+                    <div>
+                      <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                        Autoimmune Diseases
+                      </h2>
+                      <p className="text-muted">
+                      Delve into autoimmune diseases such as rheumatoid arthritis, lupus, and celiac disease. {' '} 
+                        {/* {showMore[1] ? (
+                          <> */}
+                            Learn about nutritional strategies that can help manage symptoms and improve quality of life for individuals with these conditions.
+                          {/* </>
+                        ) : (
+                          <span id="dotsx">...</span>
+                        )} */}
+                      </p>
+                    </div>
+                    {/* <span
+                      onClick={() => toggleReadMore(1)}
+                      id="myBtnrb"
+                      className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
+                    >
+                      {showMore[1] ? "Read less" : "Read more"}
+                    </span> */}
+                  </blockquote>
+                </div>
+                <div className="col-lg-12 order-2 order-lg-1">
+                  <blockquote className="blockquote d-md-block d-none mb-4">
+                    <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
+                      <div className="col-md-6 blockquote-img-container mt-2">
+                        <img
+                          src="/assets/images/course-img/health-plan.webp"
+                          alt="Fitness Industry"
+                          className="blackquote-img"
+                        />
+                      </div>
+                      <div className="col-md-6">
+                        <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                          Perfect Plan to Achieve Best Health
+                        </h2>
+                        <p className="text-muted">
+                        Create a comprehensive, personalized health plan. This module focuses on combining diet, exercise, and lifestyle strategies to help individuals reach optimal health and wellness.
+                        </p>
+                      </div>
+                    </div>
+                  </blockquote>
+                  <blockquote className="blockquote d-md-none d-block mb-4">
+                    <div className="blockquote-img-container order-1 mt-2">
+                      <img
+                        src="/assets/images/course-img/health-plan.webp"
+                        alt="Fitness Industry"
+                        className="blackquote-img"
+                      />
+                    </div>
+                    <div>
+                      <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                        Perfect Plan to Achieve Best Health
+                      </h2>
+                      <p className="text-muted">
+                      Create a comprehensive, personalized health plan. This module focuses on combining diet,  {' '}
+                        {/* {showMore[2] ? (
+                          <> */}
+                            exercise, and lifestyle strategies to help individuals reach optimal health and wellness.
+                          {/* </>
+                        ) : (
+                          <span id="dotsx">...</span>
+                        )} */}
+                      </p>
+                    </div>
+                    {/* <span
+                      onClick={() => toggleReadMore(2)}
+                      id="myBtnrb"
+                      className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
+                    >
+                      {showMore[2] ? "Read less" : "Read more"}
+                    </span> */}
+                  </blockquote>
+                </div>
+                <div className="col-lg-12 order-2 order-lg-1">
+                  <blockquote className="blockquote d-md-block d-none mb-4">
+                    <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
+                      <div className="col-md-6">
+                        <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                          Exercise Plan
+                        </h2>
+                        <p className="text-muted">
+                        Learn how to develop exercise plans that complement nutritional strategies. This module covers the basics of fitness, including strength, flexibility, and cardiovascular health, and how these fit into a healthy lifestyle.
+                        </p>
+                      </div>
+                      <div className="col-md-6 blockquote-img-container mt-2">
+                        <img
+                          src="/assets/images/course-img/exercise-plan.webp"
+                          alt="Fitness Industry"
+                          className="blackquote-img"
+                        />
+                      </div>
+                    </div>
+                  </blockquote>
+                  <blockquote className="blockquote d-md-none d-block mb-4">
+                    <div className="blockquote-img-container order-1 mt-2">
+                      <img
+                        src="/assets/images/course-img/exercise-plan.webp"
+                        alt="Fitness Industry"
+                        className="blackquote-img"
+                      />
+                    </div>
+                    <div>
+                      <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                        Exercise Plan
+
+                      </h2>
+                      <p className="text-muted">
+                      Learn how to develop exercise plans that complement nutritional strategies. This  {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
+                            module covers the basics of fitness, including strength, flexibility, and cardiovascular health, and how these fit into a healthy lifestyle.
+                          {/* </>
+                        ) : (
+                          <span id="dotsx">...</span>
+                        )} */}
+                      </p>
+                    </div>
+                    {/* <span
+                      onClick={() => toggleReadMore(1)}
+                      id="myBtnrb"
+                      className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
+                    >
+                      {showMore[1] ? "Read less" : "Read more"}
+                    </span> */}
+                  </blockquote>
+                </div>
+                <div className="col-lg-12 order-2 order-lg-1">
+                  <blockquote className="blockquote d-md-block d-none mb-4">
+                    <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
+                      <div className="col-md-6 blockquote-img-container mt-2">
+                        <img
+                          src="/assets/images/course-img/heart-disease.webp"
+                          alt="Fitness Industry"
+                          className="blackquote-img"
+                        />
+                      </div>
+                      <div className="col-md-6">
+                        <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                          How to Protect Against Heart Diseases, Control Blood Pressure, and High Cholesterol
+                        </h2>
+                        <p className="text-muted">
+                        Gain essential knowledge on how to protect heart health through nutrition. This includes managing cholesterol levels, blood pressure, and preventing heart disease through dietary changes and lifestyle interventions.
+                        </p>
+                      </div>
+                    </div>
+                  </blockquote>
+                  <blockquote className="blockquote d-md-none d-block mb-4">
+                    <div className="blockquote-img-container order-1 mt-2">
+                      <img
+                        src="/assets/images/course-img/heart-disease.webp"
+                        alt="Fitness Industry"
+                        className="blackquote-img"
+                      />
+                    </div>
+                    <div>
+                      <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                        How to Protect Against Heart Diseases, Control Blood Pressure, and High Cholesterol
+                      </h2>
+                      <p className="text-muted">
+                      Gain essential knowledge on how to protect heart health through nutrition. This  {' '}
+                        {/* {showMore[2] ? (
+                          <> */}
+                            includes managing cholesterol levels, blood pressure, and preventing heart disease through dietary changes and lifestyle interventions.
+                          {/* </>
+                        ) : (
+                          <span id="dotsx">...</span>
+                        )} */}
+                      </p>
+                    </div>
+                    {/* <span
+                      onClick={() => toggleReadMore(2)}
+                      id="myBtnrb"
+                      className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
+                    >
+                      {showMore[2] ? "Read less" : "Read more"}
+                    </span> */}
+                  </blockquote>
+                </div>
+                <div className="col-lg-12 order-2 order-lg-1">
+                  <blockquote className="blockquote d-md-block d-none mb-4">
+                    <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
+                      <div className="col-md-6">
+                        <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                          Role of Health and Wellness Consultant & How to Prepare Health Plans
+                        </h2>
+                        <p className="text-muted">
+                        Learn the responsibilities of a health and wellness consultant. Understand how to assess clients' health needs, create individualized health plans, and provide guidance on achieving sustainable wellness goals.
+                        </p>
+                      </div>
+                      <div className="col-md-6 blockquote-img-container mt-2">
+                        <img
+                          src="/assets/images/course-img/health-consultant.webp"
+                          alt="Fitness Industry"
+                          className="blackquote-img"
+                        />
+                      </div>
+                    </div>
+                  </blockquote>
+                  <blockquote className="blockquote d-md-none d-block mb-4">
+                    <div className="blockquote-img-container order-1 mt-2">
+                      <img
+                        src="/assets/images/course-img/health-consultant.webp"
+                        alt="Fitness Industry"
+                        className="blackquote-img"
+                      />
+                    </div>
+                    <div>
+                      <h2 className="h5-fs text-primary font-weight-bold mt-3">
+                        Role of Health and Wellness Consultant & How to Prepare Health Plans
+                      </h2>
+                      <p className="text-muted">
+                      Learn the responsibilities of a health and wellness consultant. Understand how to  {' '}
+                        {/* {showMore[1] ? (
+                          <> */}
+                            assess clients' health needs, create individualized health plans, and provide guidance on achieving sustainable wellness goals.
+                          {/* </>
+                        ) : (
+                          <span id="dotsx">...</span>
+                        )} */}
+                      </p>
+                    </div>
+                    {/* <span
+                      onClick={() => toggleReadMore(1)}
+                      id="myBtnrb"
+                      className="readMore text-primary fs-1 m-0 my-sm-2 mb-md-1"
+                    >
+                      {showMore[1] ? "Read less" : "Read more"}
+                    </span> */}
+                  </blockquote>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <FlexibleAllReviews />
       <CourseInclude />
       <section className="mt-5">
         <div className="container-fluid">
