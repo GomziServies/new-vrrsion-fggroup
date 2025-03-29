@@ -126,7 +126,7 @@ function BestBooksForPowerlifting() {
       <Helmet>
         <title>Powerlifting - A Complete Guide to Theory and Practice</title>
         <meta name="description" content="Master powerlifting with our complete guide covering essential theory and practical techniques for all levels!" />
-        <meta name="keyword" content="" />
+        <meta name="keyword" content="Powerlifting - A Comprehensive Guide To Theory And Practice, Powerlifting - A Comprehensive Guide To Theory And Practice Book, Powerlifting - A Comprehensive Book To Theory And Practice, Powerlifting - A Comprehensive Study Material, Powerlifting - A Comprehensive Book, study material, course material, powerlifting book, comprehensive book, powerlifting, powerlifting coaching, powerlifting training for beginners, best books for powerlifting, books about powerlifting, power lifting exercises, health books, study material, fitness books, books, best fitness books, workout book, fitness ebook, best health and fitness books, books about exercise, book of workouts, fitness trainer books, exercise workout book, ebook, online books, e book, best books, Health and Wellness Books, Strength Training Books, Sports Science Books, Sports Training Books, Sports Coaching Books, Advanced Fitness Books, Exercise Science Books, Gym Workout Books, Bodybuilding Books, Certification Study Material" />
         <meta property="og:title" content="Powerlifting - A Complete Guide to Theory and Practice" />
         <meta property="og:description" content="Master powerlifting with our complete guide covering essential theory and practical techniques for all levels!" />
         <meta property="og:image" content="https://fggroup.in/assets/images/logo/fg_group.webp" />

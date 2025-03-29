@@ -126,7 +126,7 @@ function InjuryRehab() {
       <Helmet>
         <title>Injury Rehab Study Material - Essential Training Guide</title>
         <meta name="description" content="Get FGIIT's Injury Rehab study material. Essential training guide to master rehabilitation techniques and enhance skills!" />
-        <meta name="keyword" content="" />
+        <meta name="keyword" content="Injury Rehab,Injury Rehab Book,Injury Rehab Study Material,Fgiit Injury Rehab Book,Fgiit Injury Rehab Study Material,study material,course material,health books,study material,fitness books,books,personal training books,book personal trainer,best fitness books,workout book,fitness ebook,best health and fitness books,books about exercise,book of workouts,fitness trainer books,exercise workout book,ebook,online books,e book,best books,Gym Trainer Books,Health and Wellness Books,Physiotherapy Books,Anatomy and Physiology Books,Health and Fitness books,Courses books,Courses Material,Courses Study Material,Fgiit Health and fitness Book,Fgiit Health and fitness Material,Online Injury Rehabilitation Course,Physical Therapy and Sports Rehabilitation,Injury Prevention and Recovery Course,Physiotherapy Certification Course,Physical Medicine and Rehabilitation Course,Injury Management Training" />
         <meta property="og:title" content="Injury Rehab Study Material - Essential Training Guide" />
         <meta property="og:description" content="Get FGIIT's Injury Rehab study material. Essential training guide to master rehabilitation techniques and enhance skills!" />
         <meta property="og:image" content="https://fggroup.in/assets/images/logo/fg_group.webp" />

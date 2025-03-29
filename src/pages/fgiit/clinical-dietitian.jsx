@@ -182,8 +182,9 @@ function ClinicalDietitian() {
         />
         <meta
           name="keyword"
-          content="clinical, advance, course, online courses, nutrition courses online, dietician course online, dietician course, certified nutritionist course, wellness consultant, offline course, clinical nutrition course, weight management, nutrition, dietetics course, nutrition course, Clinical Course, certified nutritionist, nutritionist course, nutritionist"
+          content="clinical, advance, course, online courses, nutrition courses online, dietician course online, dietician course, certified nutritionist course, wellness consultant, offline course, clinical nutrition course, weight management, nutrition, dietetics course, nutrition course, Clinical Course, certified nutritionist, nutritionist course, nutritionist, Advanced Clinical Nutrition Course, Clinical Nutrition and Dietetics Course, Medical Nutrition Therapy Course, Online Diet and Nutrition Course, Clinical Dietetics Course Online, Clinical Nutrition Training, Best Clinical Nutrition Certification, Functional Nutrition Course Online, Diploma in Clinical Nutrition, Holistic Nutrition Course Online, Online Dietitian Certification Course, Certified Clinical Nutritionist, Weight Loss Nutrition Course, Online Advanced Dietetics Course, Certified Nutrition Specialist Online, Clinical Nutrition Degree Online, Best Online Clinical Nutrition Program, Nutrition and Wellness Coaching Certification, Integrative and Functional Nutrition Course, Sports and Clinical Nutrition Course, Certified Clinical Dietitian Online, Health and Clinical Nutrition Course"
         />
+
         <meta
           property="og:title"
           content="Course will help you to become better clinical dietitian."
@@ -237,7 +238,7 @@ function ClinicalDietitian() {
         </noscript>
       </Helmet>
       <p className="d-none">
-     clinical, advance, course, online courses, nutrition courses online, dietician course online, dietician course, certified nutritionist course, wellness consultant, offline course, clinical nutrition course, weight management, nutrition, dietetics course, nutrition course, Clinical Course, certified nutritionist, nutritionist course, nutritionist
+        clinical, advance, course, online courses, nutrition courses online, dietician course online, dietician course, certified nutritionist course, wellness consultant, offline course, clinical nutrition course, weight management, nutrition, dietetics course, nutrition course, Clinical Course, certified nutritionist, nutritionist course, nutritionist, Advanced Clinical Nutrition Course, Clinical Nutrition and Dietetics Course, Medical Nutrition Therapy Course, Online Diet and Nutrition Course, Clinical Dietetics Course Online, Clinical Nutrition Training, Best Clinical Nutrition Certification, Functional Nutrition Course Online, Diploma in Clinical Nutrition, Holistic Nutrition Course Online, Online Dietitian Certification Course, Certified Clinical Nutritionist, Weight Loss Nutrition Course, Online Advanced Dietetics Course, Certified Nutrition Specialist Online, Clinical Nutrition Degree Online, Best Online Clinical Nutrition Program, Nutrition and Wellness Coaching Certification, Integrative and Functional Nutrition Course, Sports and Clinical Nutrition Course, Certified Clinical Dietitian Online, Health and Clinical Nutrition Course
       </p>
       <ModalVideo
         channel="youtube"

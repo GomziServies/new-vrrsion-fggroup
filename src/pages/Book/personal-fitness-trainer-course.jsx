@@ -129,15 +129,36 @@ function PersonalTrainingBook() {
     <>
       <Helmet>
         <title>Top Personal Training Books & Courses for Future Trainers</title>
-        <meta name="description" content="Unlock your potential with the top personal training books and courses designed for aspiring trainers. Start your journey!" />
-        <meta name="keyword" content="" />
-        <meta property="og:title" content="Top Personal Training Books & Courses for Future Trainers" />
-        <meta property="og:description" content="Unlock your potential with the top personal training books and courses designed for aspiring trainers. Start your journey!" />
-        <meta property="og:image" content="https://fggroup.in/assets/images/logo/fg_group.webp" />
-        <meta property="og:url" content="https://fggroup.in/book/personal-fitness-trainer-course" />
+        <meta
+          name="description"
+          content="Unlock your potential with the top personal training books and courses designed for aspiring trainers. Start your journey!"
+        />
+        <meta name="keyword" content="Diploma In Personal Training Course, Diploma In Personal Training Course Book, Personal Training Course Book, Diploma In Personal Training Course Study Material, Personal Training Course Study Material, Personal Training Book, study material, books, personal training course, personal training, personal trainer certification, fitness ebook, personal training near me, becoming a personal trainer, personal trainer training, personal training at home, personal trainer training course, personal fitness trainer course, trainer course, workout book, physical trainer courses, book a personal trainer, Personal Training Course Online, Personal Training Course, Diploma In Personal Training Course, training course, personal training, course, training program, online pt courses, pt course, pt training, personal trainer course near me, gym trainer course, pt training course, personal trainer certificate, personal training books, book personal trainer, best fitness books, workout book, fitness ebook, best health and fitness books" />
+        <meta
+          property="og:title"
+          content="Top Personal Training Books & Courses for Future Trainers"
+        />
+        <meta
+          property="og:description"
+          content="Unlock your potential with the top personal training books and courses designed for aspiring trainers. Start your journey!"
+        />
+        <meta
+          property="og:image"
+          content="https://fggroup.in/assets/images/logo/fg_group.webp"
+        />
+        <meta
+          property="og:url"
+          content="https://fggroup.in/book/personal-fitness-trainer-course"
+        />
         <link rel="canonical" href={{ canonicalUrl }} />
-        <meta name="google-site-verification" content="qoYI59Yoq-GDH-dgwroLkQ3BURusdVprLz66uhF3-NY" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-K2X4NWNEP1"></script>
+        <meta
+          name="google-site-verification"
+          content="qoYI59Yoq-GDH-dgwroLkQ3BURusdVprLz66uhF3-NY"
+        />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-K2X4NWNEP1"
+        ></script>
         <script>
           {`window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -434,7 +455,6 @@ function PersonalTrainingBook() {
                 <div className="col-lg-12 order-2 order-lg-1">
                   <blockquote className="blockquote d-md-block d-none mb-4">
                     <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
-
                       <div className="col-md-6">
                         <h2 className="h5-fs text-primary font-weight-bold mt-3">
                           Module 3: Strength Training and Fitness Components
@@ -614,7 +634,6 @@ function PersonalTrainingBook() {
                           </div>
                         </p>
                       </div>
-
                     </div>
                   </blockquote>
                   <blockquote className="blockquote d-md-none d-block mb-4">
@@ -686,7 +705,6 @@ function PersonalTrainingBook() {
                 <div className="col-lg-12 order-2 order-lg-1">
                   <blockquote className="blockquote d-md-block d-none mb-4">
                     <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
-
                       <div className="col-md-6">
                         <h2 className="h5-fs text-primary font-weight-bold mt-3">
                           Module 5: Injury Rehabilitation and Prevention
@@ -980,7 +998,6 @@ function PersonalTrainingBook() {
                 <div className="col-lg-12 order-2 order-lg-1">
                   <blockquote className="blockquote d-md-block d-none mb-4">
                     <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
-
                       <div className="col-md-6">
                         <h2 className="h5-fs text-primary font-weight-bold mt-3">
                           Module 7: Powerlifting Masterclass
@@ -1122,7 +1139,14 @@ function PersonalTrainingBook() {
                           Module 8: Counselling Techniques
                         </h2>
                         <p className="text-muted">
-                          Counseling techniques include active listening, empathy, and goal-setting to help individuals navigate challenges. Methods like cognitive-behavioral therapy, mindfulness, and solution-focused approaches empower clients to develop coping strategies. Effective counseling fosters self-awareness, emotional resilience, and personal growth, promoting mental well-being and long-term positive change.
+                          Counseling techniques include active listening,
+                          empathy, and goal-setting to help individuals navigate
+                          challenges. Methods like cognitive-behavioral therapy,
+                          mindfulness, and solution-focused approaches empower
+                          clients to develop coping strategies. Effective
+                          counseling fosters self-awareness, emotional
+                          resilience, and personal growth, promoting mental
+                          well-being and long-term positive change.
                           <div className="row">
                             <ul className="col-12 mt-2 p-3">
                               <li className="list-unstyled text-dark">
@@ -1138,7 +1162,6 @@ function PersonalTrainingBook() {
                           </div>
                         </p>
                       </div>
-
                     </div>
                   </blockquote>
                   <blockquote className="blockquote d-md-none d-block mb-4">
@@ -1154,10 +1177,16 @@ function PersonalTrainingBook() {
                         Module 8: Counselling Techniques
                       </h2>
                       <p className="text-muted">
-                        Counseling techniques include active listening, empathy, and goal-setting to help individuals navigate challenges. Methods like cognitive-behavioral therapy,
+                        Counseling techniques include active listening, empathy,
+                        and goal-setting to help individuals navigate
+                        challenges. Methods like cognitive-behavioral therapy,
                         {showMore[8] ? (
                           <>
-                            mindfulness, and solution-focused approaches empower clients to develop coping strategies. Effective counseling fosters self-awareness, emotional resilience, and personal growth, promoting mental well-being and long-term positive change.
+                            mindfulness, and solution-focused approaches empower
+                            clients to develop coping strategies. Effective
+                            counseling fosters self-awareness, emotional
+                            resilience, and personal growth, promoting mental
+                            well-being and long-term positive change.
                             <div className="row">
                               <ul className="col-12 mt-2 p-3">
                                 <li className="list-unstyled text-dark">
@@ -1197,7 +1226,14 @@ function PersonalTrainingBook() {
                           Module 9: Group Instructor Masterclass
                         </h2>
                         <p className="text-muted">
-                          A Group Instructor Masterclass is designed to refine teaching skills, elevate class management, and improve participant engagement. It covers techniques for motivating diverse groups, structuring effective workouts, and fostering a positive environment. Instructors gain the confidence and expertise to lead dynamic, inclusive fitness sessions that inspire results.
+                          A Group Instructor Masterclass is designed to refine
+                          teaching skills, elevate class management, and improve
+                          participant engagement. It covers techniques for
+                          motivating diverse groups, structuring effective
+                          workouts, and fostering a positive environment.
+                          Instructors gain the confidence and expertise to lead
+                          dynamic, inclusive fitness sessions that inspire
+                          results.
                           <div className="row">
                             <ul className="col-12 mt-2 p-3">
                               <li className="list-unstyled text-dark">
@@ -1238,10 +1274,16 @@ function PersonalTrainingBook() {
                         Module 9: Group Instructor Masterclass
                       </h2>
                       <p className="text-muted">
-                        A Group Instructor Masterclass is designed to refine teaching skills, elevate class management, and improve participant engagement. It covers techniques
+                        A Group Instructor Masterclass is designed to refine
+                        teaching skills, elevate class management, and improve
+                        participant engagement. It covers techniques
                         {showMore[9] ? (
                           <>
-                            for motivating diverse groups, structuring effective workouts, and fostering a positive environment. Instructors gain the confidence and expertise to lead dynamic, inclusive fitness sessions that inspire results.
+                            for motivating diverse groups, structuring effective
+                            workouts, and fostering a positive environment.
+                            Instructors gain the confidence and expertise to
+                            lead dynamic, inclusive fitness sessions that
+                            inspire results.
                             <div className="row">
                               <ul className="col-12 mt-2 p-3">
                                 <li className="list-unstyled text-dark">
@@ -1321,7 +1363,6 @@ function PersonalTrainingBook() {
                           </div>
                         </p>
                       </div>
-
                     </div>
                   </blockquote>
                   <blockquote className="blockquote d-md-none d-block mb-4">
@@ -1404,10 +1445,8 @@ function PersonalTrainingBook() {
           <div className="tabata margintop">
             <div className="covid text-center">
               <h2 className="mt-2 h2-fs">
-              Order your book and get it delivered to{" "}
-                <span className="m-0 text-blue-color">
-                your home
-                </span>
+                Order your book and get it delivered to{" "}
+                <span className="m-0 text-blue-color">your home</span>
               </h2>
             </div>
             <OwlCarousel

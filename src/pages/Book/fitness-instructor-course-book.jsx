@@ -124,7 +124,7 @@ function FitnessInstructorCourseBook() {
       <Helmet>
         <title>Group Instructor Masterclass: Essential Study Material & Books</title>
         <meta name="description" content="Master group instruction with our essential study materials and books in the Group Instructor Masterclass. Enroll now!" />
-        <meta name="keyword" content="" />
+        <meta name="keyword" content="Group Instructor Masterclass, Group Instructor Masterclass Book, Group Instructor Masterclass Study Material, Instructor Masterclass Study Material, Instructor Masterclass Book, Group Instructor Study Material, Group Instructor Book, study material, course material, book, coaching books, group books, book group books, book groups, fitness instructor course, gym instructor, Gym Trainer Books, fitness books, books, best fitness books, workout book, fitness ebook, best health and fitness books, books about exercise, book of workouts, ebook, online books, e book, best books, Strength Training Books, Sports Training Books, Certified Trainer Study Guide, Sports Coaching Books, Advanced Fitness Books, Exercise Science Books, Gym Workout Books, Bodybuilding Books, Weight Training Books, Health Coaching Books, Certification Study Material, Sports Medicine Books" />
         <meta property="og:title" content="Group Instructor Masterclass: Essential Study Material & Books" />
         <meta property="og:description" content="Master group instruction with our essential study materials and books in the Group Instructor Masterclass. Enroll now!" />
         <meta property="og:image" content="https://fggroup.in/assets/images/logo/fg_group.webp" />
