@@ -87,7 +87,7 @@ function HomeHeader() {
         <div className="lang">
           <ul>
             <li>
-              <Link to="/fitnesswithgomzi/weight-loss-programs">
+              <Link to="/fitnesswithgomzi/fitness-programs">
                 <img
                   alt="Fg Group"
                   style={{ width: "25px" }}
@@ -154,7 +154,7 @@ function HomeHeader() {
               alt="Fg Group"
             />
           </Link>
-          <Link to="/fitnesswithgomzi/weight-loss-programs">FWG</Link>
+          <Link to="/fitnesswithgomzi/fitness-programs">FWG</Link>
           <Link to="/fgiit/fitness-courses">FGIIT</Link>
           <Link to="/equipments/equipments">Equipments</Link>
           <Link to="https://www.gomzilifesciences.in/" target="_blank">

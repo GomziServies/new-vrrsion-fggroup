@@ -209,8 +209,7 @@ function NutritionBook() {
           <div className="">
             <div className="covid mb-4 mt-3 text-center">
               <h2 className="h2-fs">
-                <span className="m-0 text-blue-color">Syllabus </span>
-                Info
+                Our <span className="m-0 text-blue-color">Live Course Syllabus</span>
               </h2>
             </div>
             <div className="thm-bg-clr dector"></div>

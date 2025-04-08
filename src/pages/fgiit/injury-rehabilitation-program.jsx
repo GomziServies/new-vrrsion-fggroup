@@ -222,7 +222,7 @@ function InjuryRehabilitationProgram() {
         </noscript>
       </Helmet>
       <p className="d-none">
-     Offline injury rehabilitation masterclass, injury rehabilitation masterclass, injury rehabilitation masterclass offline, Offline Course Of Physiotherapy, Course Of Physiotherapy Offline, course of physiotherapy, course of physical therapy, physical rehabilitation, physical treatment, physical therapy classes, physical therapy programs, physical therapy programs near me, therapist courses, physical therapy courses near me, physical therapy training near me, pt therapy, physical rehab, center for physical therapy, physical rehabilitation courses, pt rehab, Sports Injury Rehabilitation Course, Certified Physiotherapy Course, Post Injury Rehabilitation, Best Physiotherapy Certification, Physiotherapy Diploma Course, Sports Therapy Certification, Advanced Rehabilitation Training, Best Sports Therapy Course, Physiotherapy Course Near Me, Strength and Rehab Course, Recovery and Rehabilitation Course, Injury Recovery Course, Sports Injury Recovery Training, Orthopedic Rehabilitation Certification, Personal Trainer Injury Rehab Course, Rehab Specialist Certification, Functional Movement and Injury Prevention, Sports Physiotherapy Course, Advanced Physical Therapy Training, Certified Rehabilitation Specialist Course, Strength and Conditioning for Rehabilitation, Post Surgery Rehabilitation Course, Online Injury Rehabilitation Course, Physical Therapy and Sports Rehabilitation, Injury Prevention and Recovery Course, Physiotherapy Certification Course, Physical Medicine and Rehabilitation Course, Injury Management Training, Manual Therapy and Rehabilitation Course, Movement Therapy Certification
+        Offline injury rehabilitation masterclass, injury rehabilitation masterclass, injury rehabilitation masterclass offline, Offline Course Of Physiotherapy, Course Of Physiotherapy Offline, course of physiotherapy, course of physical therapy, physical rehabilitation, physical treatment, physical therapy classes, physical therapy programs, physical therapy programs near me, therapist courses, physical therapy courses near me, physical therapy training near me, pt therapy, physical rehab, center for physical therapy, physical rehabilitation courses, pt rehab, Sports Injury Rehabilitation Course, Certified Physiotherapy Course, Post Injury Rehabilitation, Best Physiotherapy Certification, Physiotherapy Diploma Course, Sports Therapy Certification, Advanced Rehabilitation Training, Best Sports Therapy Course, Physiotherapy Course Near Me, Strength and Rehab Course, Recovery and Rehabilitation Course, Injury Recovery Course, Sports Injury Recovery Training, Orthopedic Rehabilitation Certification, Personal Trainer Injury Rehab Course, Rehab Specialist Certification, Functional Movement and Injury Prevention, Sports Physiotherapy Course, Advanced Physical Therapy Training, Certified Rehabilitation Specialist Course, Strength and Conditioning for Rehabilitation, Post Surgery Rehabilitation Course, Online Injury Rehabilitation Course, Physical Therapy and Sports Rehabilitation, Injury Prevention and Recovery Course, Physiotherapy Certification Course, Physical Medicine and Rehabilitation Course, Injury Management Training, Manual Therapy and Rehabilitation Course, Movement Therapy Certification
       </p>
       <ModalVideo
         channel="youtube"
@@ -1545,13 +1545,15 @@ function InjuryRehabilitationProgram() {
                     style={{ borderRadius: "10px" }}
                     alt="fggroup"
                   />
-                  <div className="ply2">
+                  <div className="video-btn play-btn">
                     <a
                       aria-label="Fg Group"
-                      className="custom"
                       onClick={() => openVideoModal("z9ULms1ia10")}
+                      className="custom clickof"
                     >
-                      <i className="far fa-play-circle fs-40 text-white"></i>
+                      <span className="newthing">
+                        <i className="fas fa-play"></i>
+                      </span>
                     </a>
                   </div>
                 </div>

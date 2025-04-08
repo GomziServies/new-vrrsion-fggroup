@@ -6531,6 +6531,19 @@ input::-webkit-outer-spin-button {
   margin-right: 5px;
 }
 
+.pdf-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none; /* Disables right-click (prevents Save As) */
+}
+
+iframe {
+  pointer-events: auto; /* Allows scrolling */
+  user-select: none; /* Disables text selection */
+}
+
 .bg-skill {
   color: #155724;
   background-color: #6eb500 !important;
@@ -6679,4 +6692,10 @@ iframe {
   .flexible-course-img {
     width: 59px;
   }
+}
+
+.cryo-title {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: #000 !important;
 }

@@ -78,7 +78,7 @@ const CourseReviews = () => {
 
                         <div className="video-btn">
                           <a
-                            onClick={() => openVideoModal("IB3r7I7Z2zY")}
+                            onClick={() => openVideoModal("a17jKkAjQB4")}
                             aria-label="Fg Group"
                             className="custom"
                           >
@@ -201,7 +201,7 @@ const CourseReviews = () => {
 
                         <div className="video-btn">
                           <a
-                            onClick={() => openVideoModal("IB3r7I7Z2zY")}
+                            onClick={() => openVideoModal("a17jKkAjQB4")}
                             aria-label="Fg Group"
                             className="custom"
                           >

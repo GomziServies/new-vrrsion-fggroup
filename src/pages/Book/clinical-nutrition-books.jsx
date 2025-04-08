@@ -100,8 +100,8 @@ function ClinicalNutritionBooks() {
     // Change the price to 199
     setShowAddressForm(false);
     setShowEBook(true);
-    document.querySelector(".prices").innerText = "₹199/-";
-    document.querySelector(".m-prices").innerText = "₹199/-";
+    document.querySelector(".prices").innerText = "₹1050/-";
+    document.querySelector(".m-prices").innerText = "₹1050/-";
 
     // Hide/show the buttons based on the selected language
     if (currentBookLang === "english") {

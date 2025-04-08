@@ -254,7 +254,7 @@ function FWGFormPage() {
                   <div className="mb-0 p-0">
                     <div className="d-block next-form" id="formmi">
                       <div className="close-btn">
-                        <Link to="/fitnesswithgomzi/weight-loss-programs">
+                        <Link to="/fitnesswithgomzi/fitness-programs">
                           <i className="fas fa-times"></i>
                         </Link>
                       </div>

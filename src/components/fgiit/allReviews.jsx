@@ -121,7 +121,7 @@ const AllReviews = () => {
 
                         <div className="video-btn">
                           <a
-                            onClick={() => openVideoModal("IB3r7I7Z2zY")}
+                            onClick={() => openVideoModal("a17jKkAjQB4")}
                             aria-label="Fg Group"
                             className="custom"
                           >
@@ -276,7 +276,7 @@ const AllReviews = () => {
 
                         <div className="video-btn">
                           <a
-                            onClick={() => openVideoModal("IB3r7I7Z2zY")}
+                            onClick={() => openVideoModal("a17jKkAjQB4")}
                             aria-label="Fg Group"
                             className="custom"
                           >
@@ -1607,127 +1607,127 @@ const AllReviews = () => {
             </div> */}
             {/* Placement Review */}
             <div className="d-md-block d-none">
-                <div className="row pt-4">
-                  <OwlCarousel
-                    loop
-                    autoplay
-                    dots={false}
-                    id="owl-review"
-                    className="owl-carousel owl-theme"
-                    responsive={{
-                      0: {
-                        items: 1,
-                      },
-                      600: {
-                        items: 3,
-                      },
-                      1000: {
-                        items: 3,
-                      },
-                    }}
-                  >
-                    <div className="item px-3">
-                      <img
-                        className="lazy"
-                        width="100%"
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/images/placeintern/job-10.webp"
-                        }
-                        alt="job placement by our academy"
-                      />
-                    </div>
-                    <div className="item px-3">
-                      <img
-                        className="lazy"
-                        width="100%"
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/images/placeintern/job-11.webp"
-                        }
-                        alt="job placement by our academy"
-                      />
-                    </div>
-                    <div className="item px-3">
-                      <img
-                        className="lazy"
-                        width="100%"
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/images/placeintern/job-12.webp"
-                        }
-                        alt="job placement by our academy"
-                      />
-                    </div>
-                    <div className="item px-3">
-                      <img
-                        className="lazy"
-                        width="100%"
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/images/placeintern/job-15.webp"
-                        }
-                        alt="job placement by our academy"
-                      />
-                    </div>
-                    <div className="item px-3">
-                      <img
-                        className="lazy"
-                        width="100%"
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/images/placeintern/job-14.webp"
-                        }
-                        alt="job placement by our academy"
-                      />
-                    </div>
-                    <div className="item px-3">
-                      <img
-                        className="lazy"
-                        width="100%"
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/images/placeintern/job-4.webp"
-                        }
-                        alt="job placement by our academy"
-                      />
-                    </div>
-                    <div className="item px-3">
-                      <img
-                        className="lazy"
-                        width="100%"
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/images/placeintern/job-2.webp"
-                        }
-                        alt="job placement by our academy"
-                      />
-                    </div>
-                    <div className="item px-3">
-                      <img
-                        className="lazy"
-                        width="100%"
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/images/placeintern/job-5.webp"
-                        }
-                        alt="job placement by our academy"
-                      />
-                    </div>
-                    <div className="item px-3">
-                      <img
-                        className="lazy"
-                        width="100%"
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/images/placeintern/job-8.webp"
-                        }
-                        alt="job placement by our academy"
-                      />
-                    </div>
-                  </OwlCarousel>
-                </div>
+              <div className="row pt-4">
+                <OwlCarousel
+                  loop
+                  autoplay
+                  dots={false}
+                  id="owl-review"
+                  className="owl-carousel owl-theme"
+                  responsive={{
+                    0: {
+                      items: 1,
+                    },
+                    600: {
+                      items: 3,
+                    },
+                    1000: {
+                      items: 3,
+                    },
+                  }}
+                >
+                  <div className="item px-3">
+                    <img
+                      className="lazy"
+                      width="100%"
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/placeintern/job-10.webp"
+                      }
+                      alt="job placement by our academy"
+                    />
+                  </div>
+                  <div className="item px-3">
+                    <img
+                      className="lazy"
+                      width="100%"
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/placeintern/job-11.webp"
+                      }
+                      alt="job placement by our academy"
+                    />
+                  </div>
+                  <div className="item px-3">
+                    <img
+                      className="lazy"
+                      width="100%"
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/placeintern/job-12.webp"
+                      }
+                      alt="job placement by our academy"
+                    />
+                  </div>
+                  <div className="item px-3">
+                    <img
+                      className="lazy"
+                      width="100%"
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/placeintern/job-15.webp"
+                      }
+                      alt="job placement by our academy"
+                    />
+                  </div>
+                  <div className="item px-3">
+                    <img
+                      className="lazy"
+                      width="100%"
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/placeintern/job-14.webp"
+                      }
+                      alt="job placement by our academy"
+                    />
+                  </div>
+                  <div className="item px-3">
+                    <img
+                      className="lazy"
+                      width="100%"
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/placeintern/job-4.webp"
+                      }
+                      alt="job placement by our academy"
+                    />
+                  </div>
+                  <div className="item px-3">
+                    <img
+                      className="lazy"
+                      width="100%"
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/placeintern/job-2.webp"
+                      }
+                      alt="job placement by our academy"
+                    />
+                  </div>
+                  <div className="item px-3">
+                    <img
+                      className="lazy"
+                      width="100%"
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/placeintern/job-5.webp"
+                      }
+                      alt="job placement by our academy"
+                    />
+                  </div>
+                  <div className="item px-3">
+                    <img
+                      className="lazy"
+                      width="100%"
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/placeintern/job-8.webp"
+                      }
+                      alt="job placement by our academy"
+                    />
+                  </div>
+                </OwlCarousel>
               </div>
+            </div>
           </div>
           <div className="d-md-none d-block">
             {/* Student Review */}

@@ -154,7 +154,7 @@ function RapidWeightLoss() {
         <meta property="og:description" content="Control your weight and get healthier today with our different types of fitness
         transformation programs meeting your specific needs." />
         <meta property="og:image" content="https://fggroup.in/assets/images/logo/fg_group.webp" />
-        <meta property="og:url" content="https://fggroup.in/fitnesswithgomzi/rapid-weight-loss" />
+        <meta property="og:url" content="https://fggroup.in/fitnesswithgomzi/weight-loss-programs" />
         <link rel="canonical" href={{ canonicalUrl }} />
         <meta name="google-site-verification" content="qoYI59Yoq-GDH-dgwroLkQ3BURusdVprLz66uhF3-NY" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-K2X4NWNEP1"></script>

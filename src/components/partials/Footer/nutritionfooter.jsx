@@ -41,7 +41,7 @@ function NutritionFooter() {
               <div className="col-md-2 f2">
                 <h2 className="h4-fs">FG Brands</h2>
                 <p className="mb-4">
-                  <Link to="https://fggroup.in/fitnesswithgomzi/rapid-weight-loss" target="_blank">
+                  <Link to="https://fggroup.in/fitnesswithgomzi/weight-loss-programs" target="_blank">
                     Fitness With Gomzi
                   </Link>
                 </p>

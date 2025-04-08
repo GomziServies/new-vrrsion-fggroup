@@ -411,7 +411,7 @@ function OnlinePersonalTrainingCourse() {
         </noscript>
       </Helmet>
       <p className="d-none">
-     Online Diploma In Personal Training Course, Diploma In Personal Training Course Online, Online Personal Training Course, Personal Training Course Online, Personal Training Course, Diploma In Personal Training Course, training course, personal training, course, training program, online pt courses, pt course, pt training, personal trainer course near me, gym trainer course, pt training course, personal trainer certificate, fitness trainer certification, online personal trainer, online personal trainer certification, personal fitness trainer, gym trainer, certificate in personal training, personal trainer classes, personal trainer near me, personal training programs, certified personal trainer certification, personal fitness trainer certification, best personal trainer certification, personal trainer certification near me, fitness trainer, personal trainer training, personal trainer and nutritionist, become certified personal trainer, fitness trainer near me, gym trainer near me, personal fitness trainer near me, personal gym trainer near me, trainers near me, personal trainer classes near me, private trainer near me, personal trainer training course, certified personal training certification, fitness coach, top personal training certifications, gym personal trainer, personal trainer classes online
+        Online Diploma In Personal Training Course, Diploma In Personal Training Course Online, Online Personal Training Course, Personal Training Course Online, Personal Training Course, Diploma In Personal Training Course, training course, personal training, course, training program, online pt courses, pt course, pt training, personal trainer course near me, gym trainer course, pt training course, personal trainer certificate, fitness trainer certification, online personal trainer, online personal trainer certification, personal fitness trainer, gym trainer, certificate in personal training, personal trainer classes, personal trainer near me, personal training programs, certified personal trainer certification, personal fitness trainer certification, best personal trainer certification, personal trainer certification near me, fitness trainer, personal trainer training, personal trainer and nutritionist, become certified personal trainer, fitness trainer near me, gym trainer near me, personal fitness trainer near me, personal gym trainer near me, trainers near me, personal trainer classes near me, private trainer near me, personal trainer training course, certified personal training certification, fitness coach, top personal training certifications, gym personal trainer, personal trainer classes online
       </p>
       <ModalVideo
         channel="youtube"
@@ -440,9 +440,9 @@ function OnlinePersonalTrainingCourse() {
                       />
                       <div className="video-btn play-btn">
                         <a
-                          onClick={() => openVideoModal("7LEFrtgo09M")}
-                          className="custom clickof"
                           aria-label="Fg Group"
+                          onClick={() => openVideoModal("w-NICMzjpfw")}
+                          className="custom clickof"
                         >
                           <span className="newthing">
                             <i className="fas fa-play"></i>
@@ -603,35 +603,35 @@ function OnlinePersonalTrainingCourse() {
                         and physiology, focusing on how the body's {' '}
                         {/* {showMore[1] ? (
                           <> */}
-                            systems and muscles respond to exercise.This
-                            foundation enables them to design effective,
-                            personalized training regimens based on scientific
-                            understanding of movement and function.
-                            <div className="row">
-                              <ul className="mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>Human Anatomy</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Human Physiology</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Human Kinesiology</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Energy Metabolism</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Introduction To Living Beings: Physiology
-                                  </b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Anatomy Of Our Human Body</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        systems and muscles respond to exercise.This
+                        foundation enables them to design effective,
+                        personalized training regimens based on scientific
+                        understanding of movement and function.
+                        <div className="row">
+                          <ul className="mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Human Anatomy</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Human Physiology</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Human Kinesiology</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Energy Metabolism</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Introduction To Living Beings: Physiology
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Anatomy Of Our Human Body</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -713,36 +713,36 @@ function OnlinePersonalTrainingCourse() {
                         weight management, emphasizing dietary planning {' '}
                         {/* {showMore[2] ? (
                           <> */}
-                            and metabolism.It highlights the synergy between
-                            diet and exercise, equipping students to craft
-                            sustainable, goal - oriented diet plans for clients,
-                            fostering long - term health and fitness.
-                            <div className="row">
-                              <ul className="mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>Carbohydrates</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Protein</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Lipids</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Water</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Energy metabolism</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Minerals</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Overview of the fitness industry</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        and metabolism.It highlights the synergy between
+                        diet and exercise, equipping students to craft
+                        sustainable, goal - oriented diet plans for clients,
+                        fostering long - term health and fitness.
+                        <div className="row">
+                          <ul className="mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Carbohydrates</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Protein</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Lipids</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Water</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Energy metabolism</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Minerals</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Overview of the fitness industry</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -833,46 +833,46 @@ function OnlinePersonalTrainingCourse() {
                         injury prevention and management through {' '}
                         {/* {showMore[3] ? (
                           <> */}
-                            tailored meal plans and strength - training
-                            principles.It prepares students to enhance
-                            performance while minimizing injury risks through
-                            informed dietary and fitness strategies.
-                            <div className="row">
-                              <ul className="mt-2 pl-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Strength Training and Fitness Components
-                                  </b>
+                        tailored meal plans and strength - training
+                        principles.It prepares students to enhance
+                        performance while minimizing injury risks through
+                        informed dietary and fitness strategies.
+                        <div className="row">
+                          <ul className="mt-2 pl-3">
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Strength Training and Fitness Components
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Strength training exercises for</b>
+                              <ul>
+                                <li className="list-unstyled ml-2">
+                                  <b>Legs</b>
                                 </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Strength training exercises for</b>
-                                  <ul>
-                                    <li className="list-unstyled ml-2">
-                                      <b>Legs</b>
-                                    </li>
-                                    <li className="list-unstyled ml-2">
-                                      <b>Back</b>
-                                    </li>
-                                    <li className="list-unstyled ml-2">
-                                      <b>Chest</b>
-                                    </li>
-                                    <li className="list-unstyled ml-2">
-                                      <b>Biceps</b>
-                                    </li>
-                                    <li className="list-unstyled ml-2">
-                                      <b>Triceps</b>
-                                    </li>
-                                    <li className="list-unstyled ml-2">
-                                      <b>Abs</b>
-                                    </li>
-                                    <li className="list-unstyled ml-2">
-                                      <b>Shoulders</b>
-                                    </li>
-                                  </ul>
+                                <li className="list-unstyled ml-2">
+                                  <b>Back</b>
+                                </li>
+                                <li className="list-unstyled ml-2">
+                                  <b>Chest</b>
+                                </li>
+                                <li className="list-unstyled ml-2">
+                                  <b>Biceps</b>
+                                </li>
+                                <li className="list-unstyled ml-2">
+                                  <b>Triceps</b>
+                                </li>
+                                <li className="list-unstyled ml-2">
+                                  <b>Abs</b>
+                                </li>
+                                <li className="list-unstyled ml-2">
+                                  <b>Shoulders</b>
                                 </li>
                               </ul>
-                            </div>
-                          {/* </>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -960,41 +960,41 @@ function OnlinePersonalTrainingCourse() {
                         module examines the impact of anabolic androgenic {' '}
                         {/* {showMore[4] ? (
                           <> */}
-                            steroids and alternative training practices.
-                            Students learn to guide clients responsibly while
-                            tailoring programs across different life stages.
-                            <div className="row">
-                              <ul className="col-12 mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>Exercise Science and Programming</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Types of grips</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Scheduling of exercises</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Principles of exercises</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Periodization and programming</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Creating a workout routine</b>
-                                </li>
-                                <li className="list-unstyled mt-2 text-dark">
-                                  <b>Components of fitness</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Sports specific training</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Theory of planning</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        steroids and alternative training practices.
+                        Students learn to guide clients responsibly while
+                        tailoring programs across different life stages.
+                        <div className="row">
+                          <ul className="col-12 mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Exercise Science and Programming</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Types of grips</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Scheduling of exercises</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Principles of exercises</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Periodization and programming</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Creating a workout routine</b>
+                            </li>
+                            <li className="list-unstyled mt-2 text-dark">
+                              <b>Components of fitness</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Sports specific training</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Theory of planning</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1088,47 +1088,47 @@ function OnlinePersonalTrainingCourse() {
                         in recovery, alongside injury prevention and {' '}
                         {/* {showMore[5] ? (
                           <> */}
-                            rehabilitation techniques.Students gain expertise in
-                            safe recovery protocols and exercises that reduce
-                            the risk of future injuries.
-                            <div className="row">
-                              <ul className="mt-2 pl-3">
-                                <li className="list-unstyled">
-                                  <b>Introduction to Injury Rehabilitation</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Assessment and Diagnosis</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Cupping Therapy</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Principles of Exercise Prescription</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Therapeutic Modalities</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Manual Therapy Techniques</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>
-                                    Pain Management in Injury Specific
-                                    Rehabilitation
-                                  </b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Special Populations in Rehabilitation</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>
-                                    CPR, Dry Needling, IASTM, Rigid Taping,
-                                    Mobility, Electro Therapy, Exercise Therapy
-                                  </b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        rehabilitation techniques.Students gain expertise in
+                        safe recovery protocols and exercises that reduce
+                        the risk of future injuries.
+                        <div className="row">
+                          <ul className="mt-2 pl-3">
+                            <li className="list-unstyled">
+                              <b>Introduction to Injury Rehabilitation</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Assessment and Diagnosis</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Cupping Therapy</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Principles of Exercise Prescription</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Therapeutic Modalities</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Manual Therapy Techniques</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>
+                                Pain Management in Injury Specific
+                                Rehabilitation
+                              </b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Special Populations in Rehabilitation</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>
+                                CPR, Dry Needling, IASTM, Rigid Taping,
+                                Mobility, Electro Therapy, Exercise Therapy
+                              </b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1236,59 +1236,59 @@ function OnlinePersonalTrainingCourse() {
                         and the implications of steroid use in fitness. {' '}
                         {/* {showMore[6] ? (
                           <> */}
-                            Students learn to evaluate risks and benefits while
-                            guiding clients toward healthier, sustainable
-                            performance enhancement methods.
-                            <div className="row">
-                              <ul className="col-12 mt-2 p-3">
-                                <li className="list-unstyled">
-                                  <b>
-                                    Anabolics, Androgenic, Peptides, SARMs
-                                    Compounds
-                                  </b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Peak weak- Cutting/Bulking</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Managing Gyno</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Pct (Post Cycle Therapy)</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Blood test</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Diuretic</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Bikini</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>How to study reports</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>How physiology works</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Cycle Designing</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Bodybuilding</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Men physique</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Powerlifting</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Women cycle</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        Students learn to evaluate risks and benefits while
+                        guiding clients toward healthier, sustainable
+                        performance enhancement methods.
+                        <div className="row">
+                          <ul className="col-12 mt-2 p-3">
+                            <li className="list-unstyled">
+                              <b>
+                                Anabolics, Androgenic, Peptides, SARMs
+                                Compounds
+                              </b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Peak weak- Cutting/Bulking</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Managing Gyno</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Pct (Post Cycle Therapy)</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Blood test</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Diuretic</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Bikini</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>How to study reports</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>How physiology works</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Cycle Designing</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Bodybuilding</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Men physique</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Powerlifting</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Women cycle</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1381,44 +1381,44 @@ function OnlinePersonalTrainingCourse() {
                         powerlifting, this module focuses on therapeutic diets {' '}
                         {/* {showMore[7] ? (
                           <> */}
-                            and techniques for key strength - building
-                            exercises. Students are trained to support clients
-                            in achieving both wellness and performance goals.
-                            <div className="row">
-                              <ul className="col-12 mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>Biomechanics and Technique</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Strength Training Principles</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Programming and Training Plans</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Equipment and Gear</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Rules and Regulations</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Injury Prevention and Rehabilitation</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Coaching and Communication</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Practical Training</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Legal Aspects of Coaching</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Powerlifting Plan</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        and techniques for key strength - building
+                        exercises. Students are trained to support clients
+                        in achieving both wellness and performance goals.
+                        <div className="row">
+                          <ul className="col-12 mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Biomechanics and Technique</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Strength Training Principles</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Programming and Training Plans</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Equipment and Gear</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Rules and Regulations</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Injury Prevention and Rehabilitation</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Coaching and Communication</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Practical Training</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Legal Aspects of Coaching</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Powerlifting Plan</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1483,24 +1483,24 @@ function OnlinePersonalTrainingCourse() {
                         Counseling techniques include active listening, empathy, and goal-setting to help individuals navigate challenges. Methods like cognitive-behavioral therapy, {' '}
                         {/* {showMore[8] ? (
                           <> */}
-                            mindfulness, and solution-focused approaches empower clients to develop coping strategies. Effective counseling fosters self-awareness, emotional resilience, and personal growth, promoting mental well-being and long-term positive change.
-                            <div className="row">
-                              <ul className="col-12 mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>Counselling Skills</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Foundations of Group Fitness</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Group Fitness Class Design and Teaching</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Introduction to Sports Nutrition</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        mindfulness, and solution-focused approaches empower clients to develop coping strategies. Effective counseling fosters self-awareness, emotional resilience, and personal growth, promoting mental well-being and long-term positive change.
+                        <div className="row">
+                          <ul className="col-12 mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Counselling Skills</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Foundations of Group Fitness</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Group Fitness Class Design and Teaching</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Introduction to Sports Nutrition</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1567,24 +1567,24 @@ function OnlinePersonalTrainingCourse() {
                         A Group Instructor Masterclass is designed to refine teaching skills, elevate class management, and improve participant engagement. It covers techniques {' '}
                         {/* {showMore[9] ? (
                           <> */}
-                            for motivating diverse groups, structuring effective workouts, and fostering a positive environment. Instructors gain the confidence and expertise to lead dynamic, inclusive fitness sessions that inspire results.
-                            <div className="row">
-                              <ul className="col-12 mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>TRX Band Training</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Functional Training</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Tabata Training</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Group Fitness Class Design and Teaching</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        for motivating diverse groups, structuring effective workouts, and fostering a positive environment. Instructors gain the confidence and expertise to lead dynamic, inclusive fitness sessions that inspire results.
+                        <div className="row">
+                          <ul className="col-12 mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>TRX Band Training</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Functional Training</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Tabata Training</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Group Fitness Class Design and Teaching</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1668,35 +1668,35 @@ function OnlinePersonalTrainingCourse() {
                         techniques and client management strategies. By {' '}
                         {/* {showMore[10] ? (
                           <> */}
-                            applying theoretical knowledge in practical
-                            settings, they develop skills to motivate and guide
-                            clients effectively.
-                            <div className="row">
-                              <ul className="mt-2 pl-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>Theory of behavior changes</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Client responsibilities</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Creating a positive and supportive training
-                                    environment
-                                  </b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Communication strategies for trainers and
-                                    clients
-                                  </b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Goal setting and motivation techniques</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        applying theoretical knowledge in practical
+                        settings, they develop skills to motivate and guide
+                        clients effectively.
+                        <div className="row">
+                          <ul className="mt-2 pl-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Theory of behavior changes</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Client responsibilities</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Creating a positive and supportive training
+                                environment
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Communication strategies for trainers and
+                                clients
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Goal setting and motivation techniques</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1828,16 +1828,16 @@ function OnlinePersonalTrainingCourse() {
                     style={{ borderRadius: "10px" }}
                     alt="fggroup"
                   />
-                  <div className="ply2">
-                    <Link
-                      className="custom"
-                      data-flashy-type="video"
-                      to="https://youtu.be/ZYoKVIfbJzY"
+                  <div className="video-btn play-btn">
+                    <a
+                      aria-label="Fg Group"
+                      onClick={() => openVideoModal("ZYoKVIfbJzY")}
+                      className="custom clickof"
                     >
-                      <i
-                        className="far fa-play-circle fs-40 text-white"
-                      ></i>
-                    </Link>
+                      <span className="newthing">
+                        <i className="fas fa-play"></i>
+                      </span>
+                    </a>
                   </div>
                 </div>
               </div>

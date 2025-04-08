@@ -20,7 +20,7 @@ export const RapidWeightLossProgramData = {
 	prices12: 30000,
 	onlinePrices: 12000,
 	program_id: "61837af8f7accb5ce2db4d82",
-	link: "/fitnesswithgomzi/rapid-weight-loss",
+	link: "/fitnesswithgomzi/weight-loss-programs",
 	planId: {
 		three: "plan_PT00s6L2O8cwmy",
 		six: "plan_PT016vLeZUtCxG",
@@ -82,7 +82,7 @@ export const ClinicalDietProgramData = {
 	prices12: 30000,
 	onlinePrices: 12000,
 	program_id: "6754439e1641f45026d04749",
-	link: "community/dietitian-for-clinical-illness",
+	link: "community/clinical-illness",
 	planId: {
 		three: "plan_PT01hptEnoW96e",
 		six: "plan_PT01teeNck9OAE",
@@ -141,7 +141,7 @@ export const PrepCoachingProgramData = {
 	prices12: 30000,
 	onlinePrices: 12000,
 	program_id: "638aadeed6d471bcfa86115d",
-	link: "fitnesswithgomzi/prep-coaching-for-bodybuilding",
+	link: "fitnesswithgomzi/bodybuilding-program",
 	planId: {
 		three: "plan_PT02cGlqm86OdC",
 		six: "plan_PT02l6d88UcIGf",
@@ -149,4 +149,31 @@ export const PrepCoachingProgramData = {
 	},
 	offline_purchase_id: "plan_PF7CvupACTi6Ro",
 	online_purchase_id: "plan_PFC2Mn8m3Lh11i",
+}
+
+export const CryolipolysisFitnessProgramData = {
+	courseImage: "/assets/images/fwg/cryolipolysis.webp",
+	videoCode: "HxhYb_Aa0uI",
+	name: "Cryolipolysis Treatment",
+	description: "Cryolipolysis is an innovative fat-freezing technology designed to provide full-range ",
+	showMoreDesc:
+		"cooling and heating for targeted fat reduction. Utilizing precise temperature control, it freezes fat cells at -10℃ and heats up to 45℃, ensuring effective and customizable body contouring.",
+	info1: [
+		// {title: "Clinical Diet", icon: 'fas fa-bowl-food'},
+		{ title: "Targets stubborn fat areas like abdomen, thighs, arms", icon: "fas fa-bowl-food" },
+		{ title: "No need for anesthesia or invasive procedures", icon: "fas fa-chalkboard-teacher" },
+		{ title: "Clinically proven fat reduction technology", icon: "fas fa-video" },
+		{ title: "Quick sessions with noticeable results", icon: "fa-solid fa-gift" },
+	],
+	prices3: 15000,
+	prices6: 24000,
+	prices12: 30000,
+	program_id: "6010e9f3eb38ac0a706af298",
+	link: "fitnesswithgomzi/cryolipolysis",
+	planId: {
+		three: "plan_P9ChCuL649eZf5",
+		six: "plan_P9CgclgV7cDErA",
+		nine: "plan_P9Cg956yEsWOo3",
+		twelve: "plan_P9CfjfymjHuhzN",
+	},
 }

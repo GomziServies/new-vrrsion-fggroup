@@ -188,7 +188,7 @@ function Home() {
               </div>
               <div className="col-md-3 hd">
                 <Link
-                  to="/fitnesswithgomzi/weight-loss-programs"
+                  to="/fitnesswithgomzi/fitness-programs"
                   className="d-flex justify-content-end"
                 >
                   Explore
@@ -235,7 +235,7 @@ function Home() {
                         </div>
                         <div className="css-os4jsf-darkThemeAction-imageActionWrapper">
                           <div className="action-text">
-                            <a href="/fitnesswithgomzi/rapid-weight-loss">
+                            <a href="/fitnesswithgomzi/weight-loss-programs">
                               know more
                             </a>
                           </div>
@@ -326,7 +326,7 @@ function Home() {
                         </div>
                         <div className="css-os4jsf-darkThemeAction-imageActionWrapper">
                           <div className="action-text">
-                            <a href="/community/dietitian-for-clinical-illness">
+                            <a href="/community/clinical-illness">
                               know more
                             </a>
                           </div>
@@ -413,7 +413,7 @@ function Home() {
                         </div>
                         <div className="css-os4jsf-darkThemeAction-imageActionWrapper">
                           <div className="action-text">
-                            <Link to="/fitnesswithgomzi/prep-coaching-for-bodybuilding">
+                            <Link to="/fitnesswithgomzi/bodybuilding-program">
                               know more
                             </Link>
                           </div>
@@ -469,7 +469,7 @@ function Home() {
                     Fitness made easy with healthy diet & effective exercises.
                     <div className="css-1moqeru-actionButton-darkThemeActionButton">
                       <div className="action-text">
-                        <Link to="/fitnesswithgomzi/rapid-weight-loss">
+                        <Link to="/fitnesswithgomzi/weight-loss-programs">
                           know more
                         </Link>
                       </div>
@@ -539,7 +539,7 @@ function Home() {
                     celebs and certified Cult coaches.
                     <div className="css-1moqeru-actionButton-darkThemeActionButton">
                       <div className="action-text">
-                        <a href="/community/dietitian-for-clinical-illness">
+                        <a href="/community/clinical-illness">
                           know more
                         </a>
                       </div>
@@ -611,7 +611,7 @@ function Home() {
                     Make your physique like a bodybuilder in just 6 months.
                     <div className="css-1moqeru-actionButton-darkThemeActionButton">
                       <div className="action-text">
-                        <a href="/fitnesswithgomzi/prep-coaching-for-bodybuilding">
+                        <a href="/fitnesswithgomzi/bodybuilding-program">
                           know more
                         </a>
                       </div>

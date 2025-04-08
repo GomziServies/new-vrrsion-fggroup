@@ -5,22 +5,16 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import FgiitFooter from "../../components/partials/Footer/fgiitfooter";
-import { sendInquiry } from "../../assets/js/utils/contact-us";
 import ScholarshipModal from "../../assets/js/popup/scholarship";
 import LoginModal from "../../assets/js/popup/login";
 import { createCourseOrder } from "../../assets/js/utils/fitness-course";
 import ModalVideo from "react-modal-video";
 import WhatsappHeaderApp from "../../components/whatsappHeaderBtn";
-import DownloadPdf from "../../pdf/FGIIT-online-fitness-courses.pdf";
 import InfoDownloadPdf from "../../pdf/information.pdf";
-import Diploma_in_dietitian_course from "./pdf/online/Diploma_in_dietitian_course.pdf";
 import { Link } from "react-router-dom";
 import PartnerLogo from "../../components/fgiit/partnerLogo";
-import PlacementReview from "../../components/fgiit/placementReview";
 import "react-lazy-load-image-component/src/effects/blur.css";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import MeetOurInstructure from "../../components/fgiit/meetInstructure";
-import OurStudentsWords from "../../components/fgiit/ourStudentsReview";
 import { Helmet } from "react-helmet";
 import ContactInquiryForm from "../../components/fgiit/contactInquiryForm";
 import OnlineFitnessCourse from "../../components/fgiit/onlineFitnessCourseInIndia";
@@ -169,7 +163,7 @@ function OnlineFitnessCourses() {
         </noscript>
       </Helmet>
       <p className="d-none">
-     Fitness Courses Online, Fitness Courses in India Online, Fitness Courses, Fitness Courses in India, Online Fitness Courses in India, Online Fitness Course, fitness trainer course, personal trainer course, fitness and nutrition courses, personal trainer course online, personal trainer certification, certified fitness trainer course, fitness trainer certification, pt training courses, personal trainer certification online, personal trainer classes, fitness coach certification, certified personal trainer certification, personal trainer certification course, personal fitness trainer certification, personal trainer certification near me, personal trainer training, personal training, fitness trainer certification online, personal trainer classes near me, pt certification, fitness nutrition course, online personal trainer, personal trainer training course, online fitness certification, online fitness instructor course, Sports Nutrition Course Online, Best Online Fitness Courses, Health and Fitness Courses, Online PT Course, Online Strength and Conditioning Course, Weight Loss Coach Certification, Certified Nutritionist Course Online, Online Health and Wellness Courses, Online Fitness Coaching Certification, Best Personal Trainer Certification Online, Certified Online Personal Trainer, Online Gym Instructor Course
+        Fitness Courses Online, Fitness Courses in India Online, Fitness Courses, Fitness Courses in India, Online Fitness Courses in India, Online Fitness Course, fitness trainer course, personal trainer course, fitness and nutrition courses, personal trainer course online, personal trainer certification, certified fitness trainer course, fitness trainer certification, pt training courses, personal trainer certification online, personal trainer classes, fitness coach certification, certified personal trainer certification, personal trainer certification course, personal fitness trainer certification, personal trainer certification near me, personal trainer training, personal training, fitness trainer certification online, personal trainer classes near me, pt certification, fitness nutrition course, online personal trainer, personal trainer training course, online fitness certification, online fitness instructor course, Sports Nutrition Course Online, Best Online Fitness Courses, Health and Fitness Courses, Online PT Course, Online Strength and Conditioning Course, Weight Loss Coach Certification, Certified Nutritionist Course Online, Online Health and Wellness Courses, Online Fitness Coaching Certification, Best Personal Trainer Certification Online, Certified Online Personal Trainer, Online Gym Instructor Course
       </p>
       <WhatsappHeaderApp
         message={"Hello, I wanted to know more about FGIIT Online Courses. "}
@@ -1860,8 +1854,8 @@ function OnlineFitnessCourses() {
                     All Courses
                     <ol>
                       <li>Nutri Trainer Course :- 6 Months</li>
-                      <li>Diploma in Nutrition Course :- 6 Months</li>
-                      <li>Diploma in Personal Training Course :- 6 Months</li>
+                      <li>Diploma in Nutrition Course :- 4 Months</li>
+                      <li>Diploma in Personal Training Course :- 4 Months</li>
                       <li>Anabolic Androgenic Steroids :- 1 Month</li>
                     </ol>
                   </div>
@@ -1997,7 +1991,7 @@ function OnlineFitnessCourses() {
                   data-parent="#accordion"
                 >
                   <div className="card-body">
-                  Government-approved and internationally accredited certification Expert faculties with over 5 years of industry experience 100% placement support and a mandatory internship at top firms Bilingual learning materials (English and Hindi) Lifetime support, including access to demo lectures and chat support
+                    Government-approved and internationally accredited certification Expert faculties with over 5 years of industry experience 100% placement support and a mandatory internship at top firms Bilingual learning materials (English and Hindi) Lifetime support, including access to demo lectures and chat support
                   </div>
                 </div>
               </div>
@@ -2025,7 +2019,7 @@ function OnlineFitnessCourses() {
                   data-parent="#accordion"
                 >
                   <div className="card-body">
-                  Yes, the course includes MCQ-based exams and a case study-based project to assess understanding and practical application of personal training concepts.
+                    Yes, the course includes MCQ-based exams and a case study-based project to assess understanding and practical application of personal training concepts.
                   </div>
                 </div>
               </div>
@@ -2053,7 +2047,7 @@ function OnlineFitnessCourses() {
                   data-parent="#accordion"
                 >
                   <div className="card-body">
-                  FGIIT's course includes unique topics such as group instructor training, anabolics and androgenic steroids, powerlifting, and injury rehabilitation. This makes FGIIT the most knowledgeable and value-for-money course in the industry.
+                    FGIIT's course includes unique topics such as group instructor training, anabolics and androgenic steroids, powerlifting, and injury rehabilitation. This makes FGIIT the most knowledgeable and value-for-money course in the industry.
                   </div>
                 </div>
               </div>

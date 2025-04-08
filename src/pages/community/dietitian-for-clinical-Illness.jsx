@@ -184,7 +184,7 @@ function DietitianForClinicalIllness() {
         />
         <meta
           property="og:url"
-          content="https://fggroup.in/community/dietitian-for-clinical-Illness"
+          content="https://fggroup.in/community/clinical-illness"
         />
         <link rel="canonical" href={{ canonicalUrl }} />
         <script>
@@ -1972,7 +1972,7 @@ function DietitianForClinicalIllness() {
                               </div>
                               <p>
                                 Follow my fatty liver treatment plan:{" "}
-                                <Link to="https://fggroup.in/community/dietitian-for-clinical-Illness.html">
+                                <Link to="https://fggroup.in/community/clinical-illness.html">
                                   Click here
                                 </Link>
                               </p>

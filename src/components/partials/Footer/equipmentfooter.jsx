@@ -27,7 +27,7 @@ function HomeFooter() {
               <div className="col-md-2 f2">
                 <h2 className="h4-fs">FG Brands</h2>
                 <p className="mb-4">
-                  <Link to="/fitnesswithgomzi/rapid-weight-loss">
+                  <Link to="/fitnesswithgomzi/weight-loss-programs">
                     Fitness With Gomzi
                   </Link>
                 </p>
@@ -125,12 +125,12 @@ function HomeFooter() {
               </div>
               <div className="col-lg-4 col-md-6 c p-0">
                 <div>
-                  <Link to="/fitnesswithgomzi/rapid-weight-loss">
+                  <Link to="/fitnesswithgomzi/weight-loss-programs">
                     Best Dietitian In Surat
                   </Link>
                 </div>
                 <div>
-                  <Link to="/fitnesswithgomzi/rapid-weight-loss">
+                  <Link to="/fitnesswithgomzi/weight-loss-programs">
                     Online Dietitian Consultation
                   </Link>
                 </div>

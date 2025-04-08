@@ -8,9 +8,9 @@ import UserOrder from "./pages/account/order";
 //User Account
 import Home from "./pages/home";
 import OnlineCheckOut from "./pages/fgiit/online-check-out";
-import HomePageFwg from "./pages/fitnesswithgomzi/fwg-homepage";
-import OnlineClinicalDietProgram from "./pages/fitnesswithgomzi/online-clinical-diet-program";
-import OnlineCorporateFitnessProgram from "./pages/fitnesswithgomzi/online-corporate-fitness-program";
+import HomePageFwg from "./pages/fitnesswithgomzi/fitness-programs";
+import ClinicalIllness from "./pages/fitnesswithgomzi/clinical-illness";
+import CorporateFitnessProgram from "./pages/fitnesswithgomzi/corporate-fitness-program";
 import OnlineProgramCheckOut from "./pages/fitnesswithgomzi/check-out";
 import ThankYouPage from "./pages/fgiit/thank-you-purchase-book";
 import ThankYouPageInternational from "./pages/fgiit/thank-you-purchase-international";
@@ -24,6 +24,18 @@ import ChatBotFWG from "./pages/fitnesswithgomzi/fwg-chatbot";
 import ContactPage from "./pages/contact";
 import AboutUsPage from "./pages/about-us";
 import FgiitTermsCondition from "./pages/fgiit-terms-condition";
+import WeightLossProgramme from "./pages/Book/weight-reduction-programs";
+import ClinicalDietToRecoverYourHealthPart1 from "./pages/Book/heart-healthy-diet";
+import ClinicalDietToRecoverYourHealthPart2 from "./pages/Book/clinical-illness-diets-exercise";
+import HealthAndWellnessProgramBook from "./pages/Book/corporate wellness";
+import PrepCoachingProgramBook from "./pages/Book/muscle-building";
+import FlexibleFitnessPlans from "./pages/fitnesswithgomzi/fitness-plans";
+import CryolipolysisFitnessProgram from "./pages/fitnesswithgomzi/cryolipolysis";
+import FitnessPrograms from "./pages/fitnesswithgomzi/fitness-programs";
+import FlexibleWeightLossProgram from "./pages/fitnesswithgomzi/weight-loss-diet";
+import FlexibleWeightManagment from "./pages/fitnesswithgomzi/weight-managment";
+import FlexibleCorporateWellness from "./pages/fitnesswithgomzi/corporate-wellness-program";
+import FlexiblePrepCoachingForBodybuilding from "./pages/fitnesswithgomzi/body-building-program";
 
 //INPT Page
 const INPTPage = lazy(() =>
@@ -225,9 +237,6 @@ const HealthBooks = lazy(() =>
 );
 
 // Book
-const WeightLossProgramme = lazy(() =>
-  import("./pages/Book/weight-loss-programme")
-);
 const CheckOutBook = lazy(() => import("./pages/Book/check-out"));
 const PersonalTrainingBook = lazy(() =>
   import("./pages/Book/personal-fitness-trainer-course")
@@ -253,18 +262,6 @@ const FitnessBooks = lazy(() =>
 const WeightManagementProgram = lazy(() =>
   import("./pages/Book/weight-management-program")
 );
-const ClinicalDietToRecoverYourHealthPart1 = lazy(() =>
-  import("./pages/Book/clinical-diet-to-recover-your-health-part-1")
-);
-const ClinicalDietToRecoverYourHealthPart2 = lazy(() =>
-  import("./pages/Book/clinical-diet-to-recover-your-health-part-2")
-);
-const HealthAndWellnessProgramBook = lazy(() =>
-  import("./pages/Book/health-and-wellness-program-book")
-);
-const PrepCoachingProgramBook = lazy(() =>
-  import("./pages/Book/prep-coaching-program-book")
-);
 const FitnessCoursesBook = lazy(() =>
   import("./pages/Book/fitness-courses-book")
 );
@@ -273,20 +270,8 @@ const InHomeExerciseMachine = lazy(() =>
 );
 
 // FWG
-const FlexibleWeightLossProgram = lazy(() =>
-  import("./pages/fitnesswithgomzi/flexible-weight-loss-program")
-);
-const FlexibleWeightManagment = lazy(() =>
-  import("./pages/fitnesswithgomzi/flexible-weight-managment")
-);
 const FlexibleClinicalDiets = lazy(() =>
   import("./pages/fitnesswithgomzi/flexible-clinical-diets")
-);
-const FlexibleCorporateWellness = lazy(() =>
-  import("./pages/fitnesswithgomzi/flexible-corporate-wellness")
-);
-const FlexiblePrepCoachingForBodybuilding = lazy(() =>
-  import("./pages/fitnesswithgomzi/flexible-prep-coaching-for-bodybuilding")
 );
 const FWGFormPage = lazy(() => import("./pages/fitnesswithgomzi/fwg-form"));
 const LightWeightVsHeavyWeight = lazy(() =>
@@ -313,17 +298,14 @@ const MacrosCalculation = lazy(() =>
 const BenefitsOfSprouts = lazy(() =>
   import("./pages/fitnesswithgomzi/benefits-of-sprouts")
 );
-const PrepCoachingForBodybuilding = lazy(() =>
-  import("./pages/fitnesswithgomzi/prep-coaching-for-bodybuilding")
+const BodybuildingProgram = lazy(() =>
+  import("./pages/fitnesswithgomzi/bodybuilding-program")
 );
 const HealthAndFitnessBooks = lazy(() =>
-  import("./pages/fitnesswithgomzi/health-and-fitness-books")
+  import("./pages/fitnesswithgomzi/health-book")
 );
-const FlexibleFitnessPlans = lazy(() =>
-  import("./pages/fitnesswithgomzi/flexible-fitness-plans")
-);
-const OnlineRapidWeightLoss = lazy(() =>
-  import("./pages/fitnesswithgomzi/online-rapid-weight-loss")
+const WeightLossPrograms = lazy(() =>
+  import("./pages/fitnesswithgomzi/weight-loss-programs")
 );
 const OnlinePersonalTraining = lazy(() =>
   import("./pages/fitnesswithgomzi/online-personal-training")
@@ -872,7 +854,7 @@ function App() {
         {/* equipments */}
         {/* Book */}
         <Route
-          path="/book/weight-loss-programme"
+          path="/book/weight-reduction-programs"
           element={<WeightLossProgramme />}
         />
         <Route path="/book/check-out" element={<CheckOutBook />} />
@@ -908,19 +890,19 @@ function App() {
           element={<WeightManagementProgram />}
         />
         <Route
-          path="/book/clinical-diet-to-recover-your-health-part-1"
+          path="/book/heart-healthy-diet"
           element={<ClinicalDietToRecoverYourHealthPart1 />}
         />
         <Route
-          path="/book/clinical-diet-to-recover-your-health-part-2"
+          path="/book/clinical-illness-diets-exercise"
           element={<ClinicalDietToRecoverYourHealthPart2 />}
         />
         <Route
-          path="/book/health-and-wellness-program-book"
+          path="/book/corporate-wellness"
           element={<HealthAndWellnessProgramBook />}
         />
         <Route
-          path="/book/prep-coaching-program-book"
+          path="/book/muscle-building"
           element={<PrepCoachingProgramBook />}
         />
         <Route
@@ -938,13 +920,13 @@ function App() {
         {/* Book */}
         {/* FWG Routes Start*/}
         <Route
-          path="/fitnesswithgomzi/weight-loss-programs"
-          element={<HomePageFwg />}
+          path="/fitnesswithgomzi/fitness-programs"
+          element={<FitnessPrograms />}
         />{" "}
         {/* FWG main page */}
         <Route
-          path="/fitnesswithgomzi/rapid-weight-loss"
-          element={<OnlineRapidWeightLoss />}
+          path="/fitnesswithgomzi/weight-loss-programs"
+          element={<WeightLossPrograms />}
         />
         {/* RTP 1.0 */}
         <Route
@@ -953,36 +935,41 @@ function App() {
         />
         {/* RTP 2.0 */}
         <Route
-          path="/community/dietitian-for-clinical-illness"
-          element={<OnlineClinicalDietProgram />}
+          path="/community/clinical-illness"
+          element={<ClinicalIllness />}
         />
         {/* RTP 3.0 */}
         <Route
           path="/corporate-fitness-programs"
-          element={<OnlineCorporateFitnessProgram />}
+          element={<CorporateFitnessProgram />}
         />
         {/* RTP 4.0 */}
         <Route
-          path="/fitnesswithgomzi/prep-coaching-for-bodybuilding"
-          element={<PrepCoachingForBodybuilding />}
+          path="/fitnesswithgomzi/bodybuilding-program"
+          element={<BodybuildingProgram />}
         />
         {/* RTP 5.0 */}
         <Route
-          path="/fitnesswithgomzi/health-and-fitness-books"
+          path="/fitnesswithgomzi/health-book"
           element={<HealthAndFitnessBooks />}
+        />
+        {/* Cryolipolysis */}
+        <Route
+          path="/fitnesswithgomzi/cryolipolysis"
+          element={<CryolipolysisFitnessProgram />}
         />
         {/* Fitness Book */}
         <Route
-          path="/fitnesswithgomzi/flexible-fitness-plans"
+          path="/fitnesswithgomzi/fitness-plans"
           element={<FlexibleFitnessPlans />}
         />
         {/* Fitness Plans */}
         <Route
-          path="/fitnesswithgomzi/flexible-weight-loss-program"
+          path="/fitnesswithgomzi/weight-loss-diet"
           element={<FlexibleWeightLossProgram />}
         />
         <Route
-          path="/fitnesswithgomzi/flexible-weight-managment"
+          path="/fitnesswithgomzi/weight-managment"
           element={<FlexibleWeightManagment />}
         />
         <Route
@@ -990,11 +977,11 @@ function App() {
           element={<FlexibleClinicalDiets />}
         />
         <Route
-          path="/fitnesswithgomzi/flexible-corporate-wellness"
+          path="/fitnesswithgomzi/corporate-wellness-program"
           element={<FlexibleCorporateWellness />}
         />
         <Route
-          path="/fitnesswithgomzi/flexible-prep-coaching-for-bodybuilding"
+          path="/fitnesswithgomzi/body-building-program"
           element={<FlexiblePrepCoachingForBodybuilding />}
         />
         <Route
@@ -1138,7 +1125,7 @@ function App() {
         />
         <Route
           path="/fitnesswithgomzi/online-clinical-diet-program"
-          element={<OnlineClinicalDietProgram />}
+          element={<ClinicalIllness />}
         /> */}
         {/* <Route
           path="/fitnesswithgomzi/online-rapid-weight-loss"

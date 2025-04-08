@@ -73,11 +73,11 @@ function FitnessCoursesBook() {
   return (
     <>
       <Helmet>
-        <title>fitness industry related books</title>
-        <meta name="description" content="health and fitness industry related books will help you to gain knowledge about nutrition personal training steroids and injuries" />
-        <meta name="keyword" content="" />
-        <meta property="og:title" content="fitness industry related books" />
-        <meta property="og:description" content="health and fitness industry related books will help you to gain knowledge about nutrition personal training steroids and injuries" />
+        <title>Top Fitness Courses Books for Better Health & Fitness</title>
+        <meta name="description" content="Explore top fitness courses books to enhance your health and fitness knowledge. Start learning today and improve your workouts!" />
+        <meta name="keyword" content="weight loss program, weight management program, clinical diet, health and wellness program, best weight loss program, meal plan for weight loss, diet plan for weight loss, weight loss plan, diet programs, employee wellness programs, weight loss clinics, corporate wellness, best diet plan for weight loss, health coaching, diet meal plans for weight loss, weight loss diet plan for men, top weight loss programs, healthy weight loss, workplace wellness, weight loss exercise plan, weight management clinic, healthy meal plans for weight loss, weight loss workout plan, Nutrition Coaching, Weight Loss Supplements, Personalized Diet Plan, Fat Loss Program, Best Meal Plan for Weight Loss, Online Weight Loss Program, Personal Training for Weight Loss, Natural Weight Loss Program, Healthy Eating Plan, Online Fitness Coaching, Health and Nutrition Coaching, Virtual Weight Loss Program, Body Transformation Program, High Protein Diet for Weight Loss, Online Wellness Coaching, Best Online Weight Loss Program, Affordable Weight Loss Program, Medical Weight Loss Program, Nutrition Plan for Weight Loss, Sustainable Weight Loss Plan, Weight Management Training, Lifestyle Coaching for Weight Loss, Effective Weight Loss Strategies, Online Nutrition Programs, Long-Term Weight Management" />
+        <meta property="og:title" content="Top Fitness Courses Books for Better Health & Fitness" />
+        <meta property="og:description" content="Explore top fitness courses books to enhance your health and fitness knowledge. Start learning today and improve your workouts!" />
         <meta property="og:image" content="https://fggroup.in/assets/images/logo/fg_group.webp" />
         <meta property="og:url" content="https://fggroup.in/book/fitness-courses-book" />
         <link rel="canonical" href={{ canonicalUrl }} />
@@ -109,6 +109,9 @@ function FitnessCoursesBook() {
         </noscript>
       </Helmet>
       {showModal && <LoginModal onClose={closeModal} />}
+      <p className="d-none">
+      weight loss program, weight management program, clinical diet, health and wellness program, best weight loss program, meal plan for weight loss, diet plan for weight loss, weight loss plan, diet programs, employee wellness programs, weight loss clinics, corporate wellness, best diet plan for weight loss, health coaching, diet meal plans for weight loss, weight loss diet plan for men, top weight loss programs, healthy weight loss, workplace wellness, weight loss exercise plan, weight management clinic, healthy meal plans for weight loss, weight loss workout plan, Nutrition Coaching, Weight Loss Supplements, Personalized Diet Plan, Fat Loss Program, Best Meal Plan for Weight Loss, Online Weight Loss Program, Personal Training for Weight Loss, Natural Weight Loss Program, Healthy Eating Plan, Online Fitness Coaching, Health and Nutrition Coaching, Virtual Weight Loss Program, Body Transformation Program, High Protein Diet for Weight Loss, Online Wellness Coaching, Best Online Weight Loss Program, Affordable Weight Loss Program, Medical Weight Loss Program, Nutrition Plan for Weight Loss, Sustainable Weight Loss Plan, Weight Management Training, Lifestyle Coaching for Weight Loss, Effective Weight Loss Strategies, Online Nutrition Programs, Long-Term Weight Management
+      </p>
       <SimpleHeader />
       <section style={{ marginTop: "100px" }}>
         <div className="container-fluid">

@@ -192,7 +192,7 @@ function OfflineClinicalDietProgram() {
         />
         <meta
           property="og:url"
-          content="https://fggroup.in/fitnesswithgomzi/rapid-weight-loss"
+          content="https://fggroup.in/fitnesswithgomzi/weight-loss-programs"
         />
         <link rel="canonical" href={{ canonicalUrl }} />
         <meta name="google-site-verification" content="qoYI59Yoq-GDH-dgwroLkQ3BURusdVprLz66uhF3-NY" />

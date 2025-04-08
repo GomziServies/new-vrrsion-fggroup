@@ -277,7 +277,7 @@ function FlexibleFitnessCourses() {
                     <div className="ply3">
                       <a
                         className="custom"
-                        onClick={() => openVideoModal("lF9NOlXS2B4")}
+                        onClick={() => openVideoModal("6jeemCKOoyo")}
                         aria-label="Fg Group"
                       >
                         <i
@@ -303,9 +303,9 @@ function FlexibleFitnessCourses() {
                     <p>Purchase the course and start learning right away</p>
                   </div>
                   <div className="price">
-                    <p className="mt-2 fs-30">₹1769 GST included</p>
+                    <p className="mt-2 fs-30">₹1,769 GST included</p>
                     {/* <span className="fs-20">
-                      <del>₹1769/-</del>
+                      <del>₹1,769/-</del>
                     </span>
                     <span
                       className="p1 mx-2 fs-20"
@@ -343,7 +343,7 @@ function FlexibleFitnessCourses() {
                     <div className="ply3">
                       <a
                         className="custom"
-                        onClick={() => openVideoModal("QNxwm6wNIUU")}
+                        onClick={() => openVideoModal("Wre-DqRq5XA")}
                         aria-label="Fg Group"
                       >
                         <i
@@ -369,9 +369,9 @@ function FlexibleFitnessCourses() {
                     <p>Purchase the course and start learning right away</p>
                   </div>
                   <div className="price">
-                    <p className="mt-2 fs-30">₹1769 GST included</p>
+                    <p className="mt-2 fs-30">₹1,769 GST included</p>
                     {/* <span className="fs-20">
-                      <del>₹1769/-</del>
+                      <del>₹1,769/-</del>
                     </span>
                     <span
                       className="p1 mx-2 fs-20"
@@ -407,7 +407,7 @@ function FlexibleFitnessCourses() {
                     <div className="ply3">
                       <a
                         className="custom"
-                        onClick={() => openVideoModal("BC_iv0dgfeo")}
+                        onClick={() => openVideoModal("YFV1syX6jnQ")}
                         aria-label="Fg Group"
                       >
                         <i
@@ -431,9 +431,9 @@ function FlexibleFitnessCourses() {
                     <p>Purchase the course and start learning right away</p>
                   </div>
                   <div className="price">
-                    <p className="mt-2 fs-30">₹1769 GST included</p>
+                    <p className="mt-2 fs-30">₹1,769 GST included</p>
                     {/* <span className="fs-20">
-                      <del>₹1769/-</del>
+                      <del>₹1,769/-</del>
                     </span>
                     <span
                       className="p1 mx-2 fs-20"
@@ -471,7 +471,7 @@ function FlexibleFitnessCourses() {
                     <div className="ply3">
                       <a
                         className="custom"
-                        onClick={() => openVideoModal("yteT5qfarrw")}
+                        onClick={() => openVideoModal("w-NICMzjpfw")}
                         aria-label="Fg Group"
                       >
                         <i
@@ -497,7 +497,7 @@ function FlexibleFitnessCourses() {
                     <p>Purchase the course and start learning right away</p>
                   </div>
                   <div className="price">
-                    <p className="mt-2 fs-30">₹3539 GST included</p>
+                    <p className="mt-2 fs-30">₹3,539 GST included</p>
                     {/* <span className="fs-20">
                       <del>₹3539/-</del>
                     </span>
@@ -537,7 +537,7 @@ function FlexibleFitnessCourses() {
                     <div className="ply3">
                       <a
                         className="custom"
-                        onClick={() => openVideoModal("nAk1IHX_vxY")}
+                        onClick={() => openVideoModal("Dn_pH0xfCaA")}
                         aria-label="Fg Group"
                       >
                         <i
@@ -561,7 +561,7 @@ function FlexibleFitnessCourses() {
                     <p>Purchase the course and start learning right away</p>
                   </div>
                   <div className="price">
-                    <p className="mt-2 fs-30">₹3539 GST included</p>
+                    <p className="mt-2 fs-30">₹3,539 GST included</p>
                     {/* <span className="fs-20">
                       <del>₹3539/-</del>
                     </span>
@@ -624,7 +624,7 @@ function FlexibleFitnessCourses() {
                     <p>Purchase the course and start learning right away</p>
                   </div>
                   <div className="price">
-                    <p className="mt-2 fs-30">₹3539 GST included</p>
+                    <p className="mt-2 fs-30">₹3,539 GST included</p>
                     {/* <span className="fs-20">
                       <del>₹3539/-</del>
                     </span>
@@ -691,7 +691,7 @@ function FlexibleFitnessCourses() {
                     <p>Purchase the course and start learning right away</p>
                   </div>
                   <div className="price">
-                    <p className="mt-2 fs-30">₹3539 GST included</p>
+                    <p className="mt-2 fs-30">₹3,539 GST included</p>
                     {/* <span className="fs-20">
                       <del>₹3539/-</del>
                     </span>
@@ -729,7 +729,7 @@ function FlexibleFitnessCourses() {
                     <div className="ply3">
                       <a
                         className="custom"
-                        onClick={() => openVideoModal("vEjTAqSzU44")}
+                        onClick={() => openVideoModal("daQHz5LXdFw")}
                         aria-label="Fg Group"
                       >
                         <i
@@ -794,7 +794,7 @@ function FlexibleFitnessCourses() {
                   <div className="ply3" style={{ left: "5px", bottom: "-1px" }}>
                     <a
                       className="custom"
-                      onClick={() => openVideoModal("lF9NOlXS2B4")}
+                      onClick={() => openVideoModal("6jeemCKOoyo")}
                       aria-label="Fg Group"
                     >
                       <i
@@ -813,9 +813,9 @@ function FlexibleFitnessCourses() {
                   className="line-li d-flex pl-0"
                   style={{ listStyle: "none" }}
                 >
-                  <li className="ml-0">
+                  {/* <li className="ml-0">
                     <i className="fas fa-clock"></i> 1 Months
-                  </li>
+                  </li> */}
                   <li>
                     <i className="fas fa-users"></i> Flexible Time
                   </li>
@@ -837,9 +837,9 @@ function FlexibleFitnessCourses() {
                   Methods
                 </p>
                 <div className="price pb-3">
-                  <p className="mt-2 fs-22">₹1769 GST included</p>
+                  <p className="mt-2 fs-22">₹1,769 GST included</p>
                   {/* <span className="fs-20">
-                    <del>₹1769/-</del>
+                    <del>₹1,769/-</del>
                   </span>
                   <span
                     className="p1 mx-2 fs-20"
@@ -875,7 +875,7 @@ function FlexibleFitnessCourses() {
                   <div className="ply3" style={{ left: "5px", bottom: "-1px" }}>
                     <a
                       className="custom"
-                      onClick={() => openVideoModal("QNxwm6wNIUU")}
+                      onClick={() => openVideoModal("Wre-DqRq5XA")}
                       aria-label="Fg Group"
                     >
                       <i
@@ -894,9 +894,9 @@ function FlexibleFitnessCourses() {
                   className="line-li d-flex pl-0"
                   style={{ listStyle: "none" }}
                 >
-                  <li className="ml-0">
+                  {/* <li className="ml-0">
                     <i className="fas fa-clock"></i> 1 Months
-                  </li>
+                  </li> */}
                   <li>
                     <i className="fas fa-users"></i> Flexible Time
                   </li>
@@ -916,9 +916,9 @@ function FlexibleFitnessCourses() {
                   From Injury.
                 </p>
                 <div className="price pb-3">
-                  <p className="mt-2 fs-22">₹1769 GST included</p>
+                  <p className="mt-2 fs-22">₹1,769 GST included</p>
                   {/* <span className="fs-20">
-                    <del>₹1769/-</del>
+                    <del>₹1,769/-</del>
                   </span>
                   <span
                     className="p1 mx-2 fs-20"
@@ -951,7 +951,7 @@ function FlexibleFitnessCourses() {
                   <div className="ply3" style={{ left: "5px", bottom: "-1px" }}>
                     <a
                       className="custom"
-                      onClick={() => openVideoModal("BC_iv0dgfeo")}
+                      onClick={() => openVideoModal("YFV1syX6jnQ")}
                       aria-label="Fg Group"
                     >
                       <i
@@ -970,9 +970,9 @@ function FlexibleFitnessCourses() {
                   className="line-li d-flex pl-0"
                   style={{ listStyle: "none" }}
                 >
-                  <li className="ml-0">
+                  {/* <li className="ml-0">
                     <i className="fas fa-clock"></i> 1 Months
-                  </li>
+                  </li> */}
                   <li>
                     <i className="fas fa-users"></i> Flexible Time
                   </li>
@@ -992,9 +992,9 @@ function FlexibleFitnessCourses() {
                   Results.
                 </p>
                 <div className="price pb-3">
-                  <p className="mt-2 fs-22">₹1769 GST included</p>
+                  <p className="mt-2 fs-22">₹1,769 GST included</p>
                   {/* <span className="fs-20">
-                    <del>₹1769/-</del>
+                    <del>₹1,769/-</del>
                   </span>
                   <span
                     className="p1 mx-2 fs-20"
@@ -1030,7 +1030,7 @@ function FlexibleFitnessCourses() {
                   <div className="ply3" style={{ left: "5px", bottom: "-1px" }}>
                     <a
                       className="custom"
-                      onClick={() => openVideoModal("yteT5qfarrw")}
+                      onClick={() => openVideoModal("w-NICMzjpfw")}
                       aria-label="Fg Group"
                     >
                       <i
@@ -1049,9 +1049,9 @@ function FlexibleFitnessCourses() {
                   className="line-li d-flex pl-0"
                   style={{ listStyle: "none" }}
                 >
-                  <li className="ml-0">
+                  {/* <li className="ml-0">
                     <i className="fas fa-clock"></i> 3 Months
-                  </li>
+                  </li> */}
                   <li>
                     <i className="fas fa-users"></i> Flexible Time
                   </li>
@@ -1071,7 +1071,7 @@ function FlexibleFitnessCourses() {
                   Required To Become A Personal Trainer.
                 </p>
                 <div className="price pb-3">
-                  <p className="mt-2 fs-22">₹3539 GST included</p>
+                  <p className="mt-2 fs-22">₹3,539 GST included</p>
                   {/* <span className="fs-20">
                     <del>₹3539/-</del>
                   </span>
@@ -1109,7 +1109,7 @@ function FlexibleFitnessCourses() {
                   <div className="ply3" style={{ left: "5px", bottom: "-1px" }}>
                     <a
                       className="custom"
-                      onClick={() => openVideoModal("nAk1IHX_vxY")}
+                      onClick={() => openVideoModal("Dn_pH0xfCaA")}
                       aria-label="Fg Group"
                     >
                       <i
@@ -1128,9 +1128,9 @@ function FlexibleFitnessCourses() {
                   className="line-li d-flex pl-0"
                   style={{ listStyle: "none" }}
                 >
-                  <li className="ml-0">
+                  {/* <li className="ml-0">
                     <i className="fas fa-clock"></i> 3 Months
-                  </li>
+                  </li> */}
                   <li>
                     <i className="fas fa-users"></i> Flexible Time
                   </li>
@@ -1150,7 +1150,7 @@ function FlexibleFitnessCourses() {
                   Advanced.
                 </p>
                 <div className="price pb-3">
-                  <p className="mt-2 fs-22">₹3539 GST included</p>
+                  <p className="mt-2 fs-22">₹3,539 GST included</p>
                   {/* <span className="fs-20">
                     <del>₹3539/-</del>
                   </span>
@@ -1207,9 +1207,9 @@ function FlexibleFitnessCourses() {
                   className="line-li d-flex pl-0"
                   style={{ listStyle: "none" }}
                 >
-                  <li className="ml-0">
+                  {/* <li className="ml-0">
                     <i className="fas fa-clock"></i> 2 Months
-                  </li>
+                  </li> */}
                   <li>
                     <i className="fas fa-users"></i> Flexible Time
                   </li>
@@ -1228,7 +1228,7 @@ function FlexibleFitnessCourses() {
                   diseases like diabetes, thyroid, PCOS, and cancer.
                 </p>
                 <div className="price pb-3">
-                  <p className="mt-2 fs-22">₹3539 GST included</p>
+                  <p className="mt-2 fs-22">₹3,539 GST included</p>
                   {/* <span className="fs-20">
                     <del>₹3539/-</del>
                   </span>
@@ -1282,9 +1282,9 @@ function FlexibleFitnessCourses() {
                   className="line-li d-flex pl-0"
                   style={{ listStyle: "none" }}
                 >
-                  <li className="ml-0">
+                  {/* <li className="ml-0">
                     <i className="fas fa-clock"></i> 2 Months
-                  </li>
+                  </li> */}
                   <li>
                     <i className="fas fa-users"></i> Flexible Time
                   </li>
@@ -1306,7 +1306,7 @@ function FlexibleFitnessCourses() {
                   improve the use of energy and to improve talent.
                 </p>
                 <div className="price pb-3">
-                  <p className="mt-2 fs-22">₹3539 GST included</p>
+                  <p className="mt-2 fs-22">₹3,539 GST included</p>
                   {/* <span className="fs-20">
                     <del>₹3539/-</del>
                   </span>
@@ -1341,7 +1341,7 @@ function FlexibleFitnessCourses() {
                   <div className="ply3" style={{ left: "5px", bottom: "-1px" }}>
                     <a
                       className="custom"
-                      onClick={() => openVideoModal("vEjTAqSzU44")}
+                      onClick={() => openVideoModal("daQHz5LXdFw")}
                       aria-label="Fg Group"
                     >
                       <i
@@ -1360,9 +1360,9 @@ function FlexibleFitnessCourses() {
                   className="line-li d-flex pl-0"
                   style={{ listStyle: "none" }}
                 >
-                  <li className="ml-0">
+                  {/* <li className="ml-0">
                     <i className="fas fa-clock"></i> 6 Months
-                  </li>
+                  </li> */}
                   <li>
                     <i className="fas fa-users"></i> Flexible Time
                   </li>

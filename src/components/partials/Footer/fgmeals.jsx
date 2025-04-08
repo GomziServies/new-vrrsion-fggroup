@@ -42,7 +42,7 @@ function FgmealsFooter() {
               <div className="col-md-3 f2">
                 <h2 className="h4-fs">FG Brands</h2>
                 <p className="mb-4">
-                  <Link to="/fitnesswithgomzi/rapid-weight-loss">
+                  <Link to="/fitnesswithgomzi/weight-loss-programs">
                     Fitness With Gomzi
                   </Link>
                 </p>

@@ -30,7 +30,7 @@ export const OnlineDiplomaPersonalTrainingCourseData = {
   showMoreDesc:
     "Trainer Which Every Client Wants. A Personal Trainer Creates One-On-One Fitness Programs For Their Clients, Clients, Motivating, And Guiding Them To Achieve Their Goals. Clients May Wish To Lose Weight Or Gain Muscle, And As A Personal Trainer, You'll Instruct And Assist Them With Exercising Appropriately Utilizing Exercises And Explicit Plans.",
   info: [
-    "6 Months",
+    "4 Months",
     "Live Zoom Classes",
     "Pre Recorded Videos & Hard Copy Book Delivery at Your Home",
     "For more details Tap on Whatsaap Button",
@@ -54,7 +54,7 @@ export const OnlineDiplomaNutritionCourseData = {
   showMoreDesc:
     "We Are Teaching Our Nutritionist Students That How To Make A Diet For Clinically Ill Patients For Fat Loss And Muscle Building Or First Aid Kit. In This Course, We Are Also Teaching A Diverse Subject Which Is Given Below In Syllabus Segments. Nutrition Course India.",
   info: [
-    "6 Months",
+    "4 Months",
     "Live Zoom Classes",
     "Recorded Video and Hard Copy of Books Available",
     "For More Details send whatsapp message",
@@ -78,7 +78,7 @@ export const OnlineAnabolicAndrogenicCourseData = {
   showMoreDesc:
     "thing to know for athletes these days. In the era, where everyone is using performance-enhancing drugs to win, you should not be left out from the victory or make any decision that can harm your life. So our objective is to spread the knowledge anabolic substance, doses, safety, and complications to every individual who is in sports - course for bodybuilding",
   info: [
-    "1.5 Month",
+    "1 Month",
     "Live Zoom Classes",
     "Recorded Video and Hard Copy of Books Available",
     "For More Details send whatsapp message",
@@ -295,7 +295,7 @@ export const OnlineAdvanceClinicalNutritionCourseData = {
   showMoreDesc:
     "cancer. these are the diseases is can not be controlled by medicine only, you need to have the support of nutrition, exercises, recovery, and rehab parts also. there are many modern research that suggests that intermittent fasting, low carb diet, keto diet, and many caloric deficit diets and exercise approaches are more helpful than medicine also, so this course will help you to achieve and gain knowledge about those kinds of therapies which are alternative medicine therapy.",
   info: [
-    "6 Months",
+    "45 Days",
     "Live Zoom Classes",
     "Recorded Video and Hard Copy of Books Available",
     "For More Details send whatsapp message",

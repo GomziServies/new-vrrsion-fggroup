@@ -491,7 +491,7 @@ function FitnessBrandFranchise() {
             <div className="col-12 text-center mb-4 mb-md-4 globly">
               <a
                 className="btn btn-success btn-whats bg-hvr"
-                href="/fitnesswithgomzi/weight-loss-programs"
+                href="/fitnesswithgomzi/fitness-programs"
                 id="fwgser"
               >
                 FWG services
@@ -567,7 +567,7 @@ function FitnessBrandFranchise() {
                               To Achieving Your...
                             </p>
                             <Link
-                              to="/fitnesswithgomzi/rapid-weight-loss"
+                              to="/fitnesswithgomzi/weight-loss-programs"
                               className="btn btn-info btn-whats"
                             >
                               Know More
@@ -623,7 +623,7 @@ function FitnessBrandFranchise() {
                               You Wish Or You..
                             </p>
                             <Link
-                              to="/community/dietitian-for-clinical-Illness"
+                              to="/community/clinical-illness"
                               className="btn btn-info btn-whats"
                             >
                               Know More
@@ -702,7 +702,7 @@ function FitnessBrandFranchise() {
                               Under FG-GROUP Exclusive Online Coaching...
                             </p>
                             <Link
-                              to="/fitnesswithgomzi/prep-coaching-for-bodybuilding"
+                              to="/fitnesswithgomzi/bodybuilding-program"
                               className="btn btn-info btn-whats"
                             >
                               Know More
@@ -779,7 +779,7 @@ function FitnessBrandFranchise() {
                             Achieving Your...
                           </p>
                           <Link
-                            to="/fitnesswithgomzi/rapid-weight-loss"
+                            to="/fitnesswithgomzi/weight-loss-programs"
                             className="btn btn-outline-white w-100 text-white"
                             style={{ borderRadius: "10px" }}
                           >
@@ -851,7 +851,7 @@ function FitnessBrandFranchise() {
                             You Wish Or You..
                           </p>
                           <Link
-                            to="/community/dietitian-for-clinical-Illness"
+                            to="/community/clinical-illness"
                             className="btn btn-outline-white w-100 text-white"
                             style={{ borderRadius: "10px" }}
                           >
@@ -946,7 +946,7 @@ function FitnessBrandFranchise() {
                             FG-GROUP Exclusive Online Coaching...
                           </p>
                           <Link
-                            to="/fitnesswithgomzi/prep-coaching-for-bodybuilding"
+                            to="/fitnesswithgomzi/bodybuilding-program"
                             className="btn btn-outline-white w-100 text-white"
                             style={{ borderRadius: "10px" }}
                           >
@@ -1061,7 +1061,7 @@ function FitnessBrandFranchise() {
                             Major Courses Like Personal Training...
                           </p>
                           <Link
-                            to="/fitnesswithgomzi/rapid-weight-loss"
+                            to="/fitnesswithgomzi/weight-loss-programs"
                             className="btn btn-info btn-whats"
                           >
                             Know More
@@ -1115,7 +1115,7 @@ function FitnessBrandFranchise() {
                             Wherever Students Square Measure Given...
                           </p>
                           <Link
-                            to="/community/dietitian-for-clinical-Illness"
+                            to="/community/clinical-illness"
                             className="btn btn-info btn-whats"
                           >
                             Know More
@@ -1204,7 +1204,7 @@ function FitnessBrandFranchise() {
                             Major Courses Like Personal Training...
                           </p>
                           <Link
-                            to="/fitnesswithgomzi/rapid-weight-loss"
+                            to="/fitnesswithgomzi/weight-loss-programs"
                             className="btn btn-outline-white w-100 text-white"
                             style={{ borderRadius: "10px" }}
                           >
@@ -1274,7 +1274,7 @@ function FitnessBrandFranchise() {
                             Wherever Students Square Measure Given...
                           </p>
                           <Link
-                            to="/community/dietitian-for-clinical-Illness"
+                            to="/community/clinical-illness"
                             className="btn btn-outline-white w-100 text-white"
                             style={{ borderRadius: "10px" }}
                           >

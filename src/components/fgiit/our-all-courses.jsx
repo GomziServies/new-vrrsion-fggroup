@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
@@ -160,9 +160,19 @@ const OurAllCourses = () => {
     );
   };
 
+  useEffect(() => {
+    // Import jQuery
+    const $ = window.$;
+
+    // Replace default navigation icons with Font Awesome icon
+    $(".owl-prev").html('<i class="fas fa-arrow-left"></i>');
+    $(".owl-next").html('<i class="fas fa-arrow-right"></i>');
+  }, []);
+
   const options = {
     loop: true,
     dots: false,
+    nav: true,
     responsive: {
       0: {
         items: 1,
@@ -232,7 +242,7 @@ const OurAllCourses = () => {
             <div className="col-md-12 d-none d-md-block">
               <OwlCarousel
                 id="owl-demo"
-                className="owl-carousel owl-theme"
+                className="owl-carousel owl-theme new-owl-btn"
                 key={showMoreList.join("")}
                 {...options}
               >
@@ -248,9 +258,9 @@ const OurAllCourses = () => {
                           alt="fggroup"
                         />
                       </div>
-                      <div className="cart-t course-card d-flex flex-column justify-content-between">
+                      <div className="cart-t course-card text-left d-flex flex-column justify-content-between">
                         <div>
-                          <h2 className="h4-fs">{card.title}</h2>
+                          <h2 className="h4-fs text-dark">{card.title}</h2>
                           <div className="mt-2 mb-2">
                             <i className="fas fa-star"></i>
                             <i className="fas fa-star"></i>
@@ -261,12 +271,20 @@ const OurAllCourses = () => {
                               {card.rating} ({card.rating_count})
                             </span>
                           </div>
-                          <div className="mb-3 d-none d-md-block">
-                            <span className="d-none d-md-block mb-0">
-                              {showMoreList[index]
-                                ? card.full_desc
-                                : card.description}
-                            </span>
+                          <div className="mb-3 d-none d-md-block text-dark">
+                            {showMoreList[index]
+                              ? (
+                                <span className="d-none d-md-block mb-0" style={{ overflowY: 'scroll', height: '165px' }}>
+                                  {card.full_desc}
+                                </span>
+
+                              )
+                              : (
+                                <span className="d-none d-md-block mb-0 text-dark">
+                                  {card.description}
+                                </span>
+
+                              )}
                             <p
                               onClick={() => toggleReadMore1(index)}
                               className="text-info pe-auto"

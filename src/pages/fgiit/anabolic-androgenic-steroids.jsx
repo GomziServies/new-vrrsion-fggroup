@@ -19,6 +19,7 @@ import CourseForm from "../../components/course/courseForm";
 import { Helmet } from "react-helmet";
 import FlexibleFooter from "../../components/partials/Footer/flexiblefooter";
 import FlexibleAllReviews from "../../components/fgiit/flexibleAllReviews";
+import ModalVideo from "react-modal-video";
 
 function AnabolicAndrogenicSteroids() {
   const canonicalUrl = window.location.href;
@@ -26,12 +27,24 @@ function AnabolicAndrogenicSteroids() {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const [menuOpen, setMenuOpen] = useState(false);
   const [courses, setCourses] = useState(null);
+  const [isVideoOpen, setIsVideoOpen] = useState(false);
+  const [videoUrl, setVideoUrl] = useState("");
   const [showMore, setShowMore] = useState(Array(5).fill(false));
 
   const toggleReadMore = (index) => {
     const updatedShowMore = [...showMore];
     updatedShowMore[index] = !updatedShowMore[index];
     setShowMore(updatedShowMore);
+  };
+
+  const openVideoModal = (url) => {
+    setIsVideoOpen(true);
+    setVideoUrl(url);
+  };
+
+  const closeVideoModal = () => {
+    setIsVideoOpen(false);
+    setVideoUrl("");
   };
 
   const [isAuthenticated, setIsAuthenticated] = useState(
@@ -114,6 +127,12 @@ function AnabolicAndrogenicSteroids() {
       <p className="d-none"> anabolic androgenic steroids masterclass, anabolic androgenic steroids, anabolic testosterone, anabolic androgenic, anabolic steroid testosterone, androgenic, testosterone anabolic steroid, bodybuilding, anabolic androgenic steroids, anabolic course, bodybuilding certification, body building course, bodybuilding coach course, personal training bodybuilding, bodybuilding coach online, bodybuilding coach certification, bodybuilder coach near me, online coaching for bodybuilding, personal body building trainer, bodybuilding course, anabolic course, bodybuilding certification, body building course, bodybuilding coach course, personal training bodybuilding, bodybuilding coach, bodybuilding coach certification, Anabolic Steroid Course, Advanced Bodybuilding Course, Bodybuilding and Nutrition Course, Bodybuilding Training Program, Steroids and Bodybuilding Certification, Strength and Conditioning Course, Personal Trainer Bodybuilding, Steroid Education Masterclass, Performance Enhancement Course, Bodybuilding and Supplements Course, Certified Bodybuilding Coach Course, Fitness and Bodybuilding Course, Anabolic Steroid Masterclass, Muscle Building and Steroids Course, Strength Training Bodybuilding Course
       </p>
       {showModal && <LoginModal onClose={closeModal} />}
+      <ModalVideo
+        channel="youtube"
+        isOpen={isVideoOpen}
+        videoId={videoUrl}
+        onClose={closeVideoModal}
+      />
       <SimpleHeader />
       <section style={{ marginTop: "100px" }}>
         <div className="container-fluid">
@@ -296,7 +315,7 @@ function AnabolicAndrogenicSteroids() {
                     <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
                       <div className="col-md-6 blockquote-img-container mt-2">
                         <img
-                          src="/assets/images/course-img/nutrition.webp"
+                          src="/assets/images/course-img/side-effects-and-precautions.webp"
                           alt="Fitness Industry"
                           className="blackquote-img"
                         />
@@ -353,7 +372,7 @@ function AnabolicAndrogenicSteroids() {
                   <blockquote className="blockquote d-md-none d-block mb-4">
                     <div className="blockquote-img-container order-1 mt-2">
                       <img
-                        src="/assets/images/course-img/nutrition.webp"
+                        src="/assets/images/course-img/side-effects-and-precautions.webp"
                         alt="Fitness Industry"
                         className="blackquote-img"
                       />
@@ -849,15 +868,15 @@ function AnabolicAndrogenicSteroids() {
                     }
                   />
                   <div className="video-btn play-btn">
-                    <Link
-                      to="https://youtu.be/TKn2FwMOHak"
-                      data-flashy-type="video"
+                    <a
+                      aria-label="Fg Group"
+                      onClick={() => openVideoModal("TKn2FwMOHak")}
                       className="custom clickof"
                     >
                       <span className="newthing">
                         <i className="fas fa-play"></i>
                       </span>
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -912,6 +931,7 @@ function AnabolicAndrogenicSteroids() {
       </section>
       <CourseReviewSection course_id="62d313f6430256c7c261cbd0" />
       <FlexibleFooter />
+
     </>
   );
 }

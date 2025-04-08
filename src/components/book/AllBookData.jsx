@@ -15,7 +15,9 @@ export const PersonalTrainingBookData = {
   link: '/book/personal-fitness-trainer-course',
   rating: "4.5",
   prices: "3,000",
-  mentor: "Dr. Gautam Jani",
+  mentor: [
+    "Dt. Chirag Pandey",
+  ],
   BuyButton: {
     BuyBook: "61e9e0855043184f0c080396",
     BuyHindiBook: "63ab0300300b35043933f6e6",
@@ -41,7 +43,9 @@ export const BechelorNutritionBookData = {
   link: '/book/bachelor-nutrition',
   rating: "4.5",
   prices: "3899",
-  mentor: "Dt. Nitin Patel",
+  mentor: [
+    "Dt. Chirag Pandey",
+  ],
   BuyButton: {
     BuyBook: "66e40d8e2101d8d273e9faf4",
     BuyHindiBook: "63cabb9030c1fbb40c3ff6e6",
@@ -67,7 +71,10 @@ export const AdvanceClinicalNutritionBookData = {
   link: '/book/clinical-nutrition-books',
   rating: "4.5",
   prices: "2,100",
-  mentor: "Dr. Ishaver Patel",
+  mentor: [
+    "Dt. Foram Desai",
+    "Dr. Ishaver Patel",
+  ],
   BuyButton: {
     BuyBook: "627eaf826c033c16f2d5bc14",
     BuyHindiBook: "63ab0300300b35043933f6e6",
@@ -84,10 +91,12 @@ export const RapidTransformation1BookData = {
   ],
 
   name: "Rapid Transformation Program - Clinical Diets Part - One",
-  link: "/book/clinical-diet-to-recover-your-health-part-1",
+  link: "/book/heart-healthy-diet",
   rating: "4.5",
   prices: "599",
-  mentor: "Dr. Ishaver Patel",
+  mentor: [
+    "Dt. Foram Desai",
+  ],
   BuyButton: {
     BuyBook: "643560dc207a1775b981c1a5",
     BuyEBook: "64356215207a1775b981c1f7",
@@ -101,10 +110,12 @@ export const RapidTransformation2BookData = {
     "/assets/images/book/rtp-3.0-p-2.2.webp",
   ],
   name: " Rapid Transformation Program - Clinical Diets Part - Two",
-  link: "/book/clinical-diet-to-recover-your-health-part-2",
+  link: "/book/clinical-illness-diets-exercise",
   rating: "4.5",
   prices: "599",
-  mentor: "Dr. Ishaver Patel",
+  mentor: [
+    "Dt. Foram Desai",
+  ],
   BuyButton: {
     BuyBook: "64356128207a1775b981c1af",
     BuyEBook: "64356217207a1775b981c1fc",
@@ -125,7 +136,9 @@ export const FitnessCoursesAllBookData = {
   link: "/book/fitness-courses-book",
   rating: "4.5",
   prices: "2999",
-  mentor: "Dr. Ishaver Patel",
+  mentor: [
+    "Dt. Foram Desai",
+  ],
   BuyButton: {
     BuyBook: "64340c3f207a1775b981b7ff",
   },
@@ -148,7 +161,9 @@ export const GroupInstructorMasterclassBookData = {
   link: "/book/fitness-instructor-course-book",
   rating: "4.5",
   prices: "2,100",
-  mentor: "Dt. Nitin Patel",
+  mentor: [
+    "Dt. Chirag Pandey",
+  ],
   BuyButton: {
     BuyBook: "63e105ac7a3e9fcd8e427eb9",
     BuyHindiBook: "63ee1d29b1024ae2b05b755b",
@@ -164,10 +179,12 @@ export const RapidTransformationBookData = {
     "/assets/images/book/rtp-4.0-book-2.webp",
   ],
   name: "Rapid Transformation Program - Corporate Wellness Program",
-  link: "/book/health-and-wellness-program-book",
+  link: "/book/corporate-wellness",
   rating: "4.5",
   prices: "599",
-  mentor: "Dr. Ishaver Patel",
+  mentor: [
+    "Dt. Foram Desai",
+  ],
   BuyButton: {
     BuyBook: "643406ad207a1775b981b743",
     BuyEBook: "64340769207a1775b981b788",
@@ -189,7 +206,10 @@ export const FGIITAllCoursesBookData = {
   link: "/book/fitness-books",
   rating: "4.5",
   prices: "15,600",
-  mentor: "Dr. Chintan Shinde",
+  mentor: [
+    "Dt. Foram Desai",
+    "Dt. Chirag Pandey",
+  ],
   BuyButton: {
     BuyBook: "62b37790313eebcfe6f3d58a",
   },
@@ -207,7 +227,10 @@ export const InjuryRehabBookData = {
   link: "/book/injury-rehab",
   rating: "4.5",
   prices: "2,100",
-  mentor: "Dr. Asha Jiyani (BPT MIAP)",
+  mentor: [
+    "Dr. Asha Jiyani (BPT MIAP)",
+    "Dt. Foram Desai",
+  ],
   BuyButton: {
     BuyBook: "61e9fe3e0c90317bf00039c9",
     BuyEBook: "63017f2e75a5c30be576ddec",
@@ -231,7 +254,10 @@ export const DiplomainHealthBookData = {
   link: "/book/health-and-fitness-books",
   rating: "4.5",
   prices: "2,100",
-  mentor: "Dr. Chintan Shinde",
+  mentor: [
+    "Dr. Chintan Shinde",
+    "Dt. Foram Desai",
+  ],
   BuyButton: {
     BuyBook: "637f51591897aa74293a55cb",
     BuyHindiBook: "63ee1db0b1024ae2b05b7566",
@@ -257,7 +283,11 @@ export const DiplomaInNutritionBookData = {
   link: "/book/nutrition-and-dietetics-course",
   rating: "4.5",
   prices: "3,000",
-  mentor: "Dr. Gautam Jani",
+  mentor: "Dt. Chirag Pandey",
+  mentor: [
+    "Dt. Foram Desai",
+    "Dt. Chirag Pandey",
+  ],
   BuyButton: {
     BuyBook: "61e9e457e0abd8059477f657",
     BuyHindiBook: "63cabb9030c1fbb40c3ff6e6",
@@ -281,7 +311,9 @@ export const PowerliftingBookData = {
   link: "/book/best-books-for-powerlifting",
   rating: "4.5",
   prices: "2,100",
-  mentor: "Dr. Chintan Shinde",
+  mentor: [
+    "Dt. Chirag Pandey",
+  ],
   BuyButton: {
     BuyBook: "65969524d2a0ae9153ba5b40",
     BuyHindiBook: "66b33a733f891bb7f5bbef49",
@@ -297,10 +329,12 @@ export const RapidTransformationPrepBookData = {
     "/assets/images/book/rtp-5.0-book-2.webp",
   ],
   name: "Rapid Transformation Program - Prep Coaching",
-  link: "/book/prep-coaching-program-book",
+  link: "/book/muscle-building",
   rating: "4.5",
   prices: "599",
-  mentor: "Dr. Ishaver Patel",
+  mentor: [
+    "Dt. Foram Desai",
+  ],
   BuyButton: {
     BuyBook: "643406e0207a1775b981b749",
     BuyEBook: "643407fe207a1775b981b78e",
@@ -324,7 +358,9 @@ export const AnabolicAndrogenicSteroidsBookData = {
   link: "/book/steroids-book",
   rating: "4.5",
   prices: "2,100",
-  mentor: "Dr. Gautam Jani",
+  mentor: [
+    "Dt. Chirag Pandey",
+  ],
   BuyButton: {
     BuyBook: "61e9f4c00c90317bf0003960",
     BuyHindiBook: "63e1014a7a3e9fcd8e427e50",
@@ -341,10 +377,12 @@ export const RapidTransformationWeightLossBookData = {
   ],
 
   name: "Rapid Transformation Program - Weight Loss Programme",
-  link: "/book/weight-loss-programme",
+  link: "/book/weight-reduction-programs",
   rating: "4.5",
   prices: "599",
-  mentor: "Dr. Ishaver Patel",
+  mentor: [
+    "Dt. Foram Desai",
+  ],
   BuyButton: {
     BuyBook: "61e9f4db0c90317bf000396a",
     BuyEBook: "631cea6d560daa3f48aea89a",
@@ -361,7 +399,9 @@ export const RTP2BookData = {
   link: "/book/weight-management-program",
   rating: "4.5",
   prices: "599",
-  mentor: "Dr. Ishaver Patel",
+  mentor: [
+    "Dt. Foram Desai",
+  ],
   BuyButton: {
     BuyBook: "631ce9de560daa3f48aea88b",
     BuyEBook: "631cea6d560daa3f48aea89a",

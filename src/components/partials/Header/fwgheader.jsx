@@ -72,12 +72,12 @@ function FwgHeader() {
         <div className="lang">
           <ul>
             <li>
-              <Link to="/fitnesswithgomzi/weight-loss-programs">
+              <Link to="/fitnesswithgomzi/fitness-programs">
                 <p className="m-0">FWG</p>
               </Link>
             </li>
             <li>
-              <Link to="/fitnesswithgomzi/rapid-weight-loss">
+              <Link to="/fitnesswithgomzi/weight-loss-programs">
                 <p className="m-0">RTP 1.0</p>
               </Link>
             </li>
@@ -87,7 +87,7 @@ function FwgHeader() {
               </Link>
             </li> */}
             <li>
-              <Link to="/community/dietitian-for-clinical-illness">
+              <Link to="/community/clinical-illness">
                 <p className="m-0">RTP 3.0</p>
               </Link>
             </li>
@@ -97,7 +97,7 @@ function FwgHeader() {
               </Link>
             </li>
             <li>
-              <Link to="/fitnesswithgomzi/prep-coaching-for-bodybuilding">
+              <Link to="/fitnesswithgomzi/bodybuilding-program">
                 <p className="m-0">RTP 5.0</p>
               </Link>
             </li>
@@ -107,7 +107,7 @@ function FwgHeader() {
               </Link>
             </li>
             <li>
-              <Link to="/fitnesswithgomzi/flexible-fitness-plans">
+              <Link to="/fitnesswithgomzi/fitness-plans">
                 <p className="m-0">Fitness Plans</p>
               </Link>
             </li>
@@ -132,18 +132,18 @@ function FwgHeader() {
               alt="Fg Group"
             />
           </Link>
-          <Link to="/fitnesswithgomzi/weight-loss-programs">FWG</Link>
-          <Link to="/fitnesswithgomzi/rapid-weight-loss">RTP 1.0</Link>
+          <Link to="/fitnesswithgomzi/fitness-programs">FWG</Link>
+          <Link to="/fitnesswithgomzi/weight-loss-programs">RTP 1.0</Link>
           {/* <Link to="/fitnesswithgomzi/online-personal-training">RTP 2.0</Link> */}
-          <Link to="/community/dietitian-for-clinical-illness">RTP 3.0</Link>
+          <Link to="/community/clinical-illness">RTP 3.0</Link>
           <Link to="/corporate-fitness-programs">RTP 4.0</Link>
-          <Link to="/fitnesswithgomzi/prep-coaching-for-bodybuilding">
+          <Link to="/fitnesswithgomzi/bodybuilding-program">
             RTP 5.0
           </Link>
           <Link to="/book/health-books">
             Fitness Book
           </Link>
-          <Link to="/fitnesswithgomzi/flexible-fitness-plans">
+          <Link to="/fitnesswithgomzi/fitness-plans">
             Fitness Plans
           </Link>
           <Link to="https://gyms.fggroup.in/">Gyms</Link>

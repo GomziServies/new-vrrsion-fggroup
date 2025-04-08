@@ -293,7 +293,7 @@ function CourseForDietician() {
         </noscript>
       </Helmet>
       <p className="d-none">
-     Offline Diploma In Nutrition Course, course for dietitians, Offline course for dietitians, course for dietitians offline, Fgiit Offline Diploma In Nutrition Course, Diploma In Nutrition Course Offline, Offline Nutrition Course, Nutrition Course Offline, Diploma In Nutrition Course, Nutrition Course, fitness and nutrition courses, dietician course, nutrition certification, certified nutritionist course, sports nutrition courses, nutrition coach certification, diet and nutrition course, nutrition courses near me, health and nutrition courses, food and nutrition course, clinical nutrition courses, diploma of nutrition, sports and nutrition course, Advanced Nutrition Course, Accredited Nutrition Course, Holistic Nutrition Course, Functional Nutrition Course, Professional Nutritionist Course, Diploma in Clinical Nutrition, Sports Dietitian Course, Nutrition Science Course, Weight Loss Nutrition Course, Personal Trainer Nutrition Certification, Certified Dietitian Program, Dietitian and Nutritionist Certification, Exercise Science and Nutrition Course, dietitian course, Best Nutrition Certification, Accredited Dietetics Course, Nutrition Coach Training, Nutrition and Fitness Certification, Wellness and Nutrition Course, Nutritional Therapy Course, Health Coaching and Nutrition Certification, Diploma in Nutrition and Wellness, Best Dietitian Certification, Accredited Nutritionist Certification, Fitness and Health Nutrition Certification, Personal Fitness Nutrition Course, Diploma in Holistic Nutrition, Dietitian Certification Course, Nutrition and Dietetics Course, bachelor of nutrition and dietetics, nutrition and dietetics, diploma in nutrition and dietetics
+        Offline Diploma In Nutrition Course, course for dietitians, Offline course for dietitians, course for dietitians offline, Fgiit Offline Diploma In Nutrition Course, Diploma In Nutrition Course Offline, Offline Nutrition Course, Nutrition Course Offline, Diploma In Nutrition Course, Nutrition Course, fitness and nutrition courses, dietician course, nutrition certification, certified nutritionist course, sports nutrition courses, nutrition coach certification, diet and nutrition course, nutrition courses near me, health and nutrition courses, food and nutrition course, clinical nutrition courses, diploma of nutrition, sports and nutrition course, Advanced Nutrition Course, Accredited Nutrition Course, Holistic Nutrition Course, Functional Nutrition Course, Professional Nutritionist Course, Diploma in Clinical Nutrition, Sports Dietitian Course, Nutrition Science Course, Weight Loss Nutrition Course, Personal Trainer Nutrition Certification, Certified Dietitian Program, Dietitian and Nutritionist Certification, Exercise Science and Nutrition Course, dietitian course, Best Nutrition Certification, Accredited Dietetics Course, Nutrition Coach Training, Nutrition and Fitness Certification, Wellness and Nutrition Course, Nutritional Therapy Course, Health Coaching and Nutrition Certification, Diploma in Nutrition and Wellness, Best Dietitian Certification, Accredited Nutritionist Certification, Fitness and Health Nutrition Certification, Personal Fitness Nutrition Course, Diploma in Holistic Nutrition, Dietitian Certification Course, Nutrition and Dietetics Course, bachelor of nutrition and dietetics, nutrition and dietetics, diploma in nutrition and dietetics
       </p>
       <SimpleHeader />
       <section style={{ marginTop: "100px" }}>
@@ -316,15 +316,15 @@ function CourseForDietician() {
                         }
                       />
                       <div className="video-btn play-btn">
-                        <Link
-                          to="https://www.youtube.com/watch?v=sbBI0l3noqE"
-                          data-flashy-type="video"
+                        <a
+                          aria-label="Fg Group"
+                          onClick={() => openVideoModal("sbBI0l3noqE")}
                           className="custom clickof"
                         >
                           <span className="newthing">
                             <i className="fas fa-play"></i>
                           </span>
-                        </Link>
+                        </a>
                       </div>
                     </div>
                     <div className="d-md-block d-none">
@@ -1648,7 +1648,7 @@ function CourseForDietician() {
                     style={{ borderRadius: "10px" }}
                     alt="fggroup"
                   />
-                  <div className="ply2">
+                  {/* <div className="ply2">
                     <Link
                       className="custom"
                       data-flashy-type="video"
@@ -1656,6 +1656,17 @@ function CourseForDietician() {
                     >
                       <i className="far fa-play-circle fs-40 text-white"></i>
                     </Link>
+                  </div> */}
+                  <div className="video-btn play-btn">
+                    <a
+                      aria-label="Fg Group"
+                      onClick={() => openVideoModal("j6u_P9NYp4w")}
+                      className="custom clickof"
+                    >
+                      <span className="newthing">
+                        <i className="fas fa-play"></i>
+                      </span>
+                    </a>
                   </div>
                 </div>
               </div>

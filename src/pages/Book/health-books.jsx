@@ -150,7 +150,7 @@ function HealthBooks() {
                       </h2>
                     </Link>
                     <p>
-                      Dr. Gautam Jani, Dt. Foram Desai, Dt. Nitin Patel | 1
+                      Dr. Gautam Jani, Dt. Chirag Pandey | 1
                       december 2019
                     </p>
                   </div>
@@ -211,7 +211,7 @@ function HealthBooks() {
                       <h2 className="h2-fs">Diploma In Nutrition Book</h2>
                     </Link>
                     <p>
-                      Dr. Gautam Jani, Dt. Foram Desai, Dt. Nitin Patel | 1
+                      Dr. Gautam Jani, Dt. Foram Desai, Dt. Chirag Pandey | 1
                       december 2019
                     </p>
                   </div>
@@ -626,7 +626,7 @@ function HealthBooks() {
                       <h2 className="h2-fs">FGIIT All Courses Books Combo</h2>
                     </Link>
                     <p>
-                      Dr. Gautam Jani, Dt. Foram Desai, Dt. Nitin Patel, Dr.
+                      Dr. Gautam Jani, Dt. Foram Desai, Dt. Chirag Pandey, Dr.
                       Asha Jiyani, Dr. Ishaver Patel | 1 december 2019
                     </p>
                   </div>
@@ -1096,7 +1096,7 @@ function HealthBooks() {
                       <h2 className="h2-fs">Bachelor of Nutrition</h2>
                     </Link>
                     <p>
-                      Dr. Gautam Jani, Dt. Foram Desai, Dt. Nitin Patel | 1
+                      Dr. Gautam Jani, Dt. Foram Desai, Dt. Chirag Pandey | 1
                       december 2019
                     </p>
                   </div>

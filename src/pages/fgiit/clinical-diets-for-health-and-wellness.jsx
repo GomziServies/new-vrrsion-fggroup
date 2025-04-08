@@ -313,7 +313,7 @@ function ClinicalDietsForHealthAndWellness() {
         </noscript>
       </Helmet>
       <p className="d-none">
-     clinical, advance, course, online courses, nutrition courses online, dietician course online, dietician course, certified nutritionist course, wellness consultant, offline course, clinical nutrition course, weight management, nutrition, dietetics course, nutrition course, Clinical Course, certified nutritionist, nutritionist course, nutritionist, Advanced Clinical Nutrition Course, Clinical Nutrition and Dietetics Course, Medical Nutrition Therapy Course, Online Diet and Nutrition Course, Clinical Dietetics Course Online, Clinical Nutrition Training, Best Clinical Nutrition Certification, Functional Nutrition Course Online, Diploma in Clinical Nutrition, Holistic Nutrition Course Online, Online Dietitian Certification Course, Certified Clinical Nutritionist, Weight Loss Nutrition Course, Online Advanced Dietetics Course, Certified Nutrition Specialist Online, Clinical Nutrition Degree Online, Best Online Clinical Nutrition Program, Nutrition and Wellness Coaching Certification, Integrative and Functional Nutrition Course, Sports and Clinical Nutrition Course, Certified Clinical Dietitian Online, Health and Clinical Nutrition Course
+        clinical, advance, course, online courses, nutrition courses online, dietician course online, dietician course, certified nutritionist course, wellness consultant, offline course, clinical nutrition course, weight management, nutrition, dietetics course, nutrition course, Clinical Course, certified nutritionist, nutritionist course, nutritionist, Advanced Clinical Nutrition Course, Clinical Nutrition and Dietetics Course, Medical Nutrition Therapy Course, Online Diet and Nutrition Course, Clinical Dietetics Course Online, Clinical Nutrition Training, Best Clinical Nutrition Certification, Functional Nutrition Course Online, Diploma in Clinical Nutrition, Holistic Nutrition Course Online, Online Dietitian Certification Course, Certified Clinical Nutritionist, Weight Loss Nutrition Course, Online Advanced Dietetics Course, Certified Nutrition Specialist Online, Clinical Nutrition Degree Online, Best Online Clinical Nutrition Program, Nutrition and Wellness Coaching Certification, Integrative and Functional Nutrition Course, Sports and Clinical Nutrition Course, Certified Clinical Dietitian Online, Health and Clinical Nutrition Course
       </p>
       <ModalVideo
         channel="youtube"
@@ -611,10 +611,10 @@ function ClinicalDietsForHealthAndWellness() {
                         Understand the fundamental workings of the human body at the cellular level. This module {' '}
                         {/* {showMore[1] ? (
                           <> */}
-                            covers cell functions, how cells process nutrients,
-                            and the role of different systems (nervous,
-                            cardiovascular, etc.) in maintaining health.
-                          {/* </>
+                        covers cell functions, how cells process nutrients,
+                        and the role of different systems (nervous,
+                        cardiovascular, etc.) in maintaining health.
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -641,10 +641,10 @@ function ClinicalDietsForHealthAndWellness() {
                       </div>
                       <div className="col-md-6">
                         <h2 className="h5-fs text-primary font-weight-bold mt-3">
-                        Definition of Health
+                          Definition of Health
                         </h2>
                         <p className="text-muted">
-                        Explore the comprehensive definition of health beyond the absence of disease. Learn about the physical, mental, and social aspects of well-being and how to achieve balance for optimal health.
+                          Explore the comprehensive definition of health beyond the absence of disease. Learn about the physical, mental, and social aspects of well-being and how to achieve balance for optimal health.
                         </p>
                       </div>
                     </div>
@@ -659,14 +659,14 @@ function ClinicalDietsForHealthAndWellness() {
                     </div>
                     <div>
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
-                      Definition of Health
+                        Definition of Health
                       </h2>
                       <p className="text-muted">
-                      Explore the comprehensive definition of health beyond the absence of disease. Learn about  {' '}
+                        Explore the comprehensive definition of health beyond the absence of disease. Learn about  {' '}
                         {/* {showMore[2] ? (
                           <> */}
-                            the physical, mental, and social aspects of well-being and how to achieve balance for optimal health.
-                          {/* </>
+                        the physical, mental, and social aspects of well-being and how to achieve balance for optimal health.
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -689,7 +689,7 @@ function ClinicalDietsForHealthAndWellness() {
                           What Are Lifestyle Diseases?
                         </h2>
                         <p className="text-muted">
-                        Identify common lifestyle diseases such as diabetes, obesity, cardiovascular issues, and how poor lifestyle choices contribute to these conditions. Learn prevention strategies and interventions through nutrition and lifestyle modifications.
+                          Identify common lifestyle diseases such as diabetes, obesity, cardiovascular issues, and how poor lifestyle choices contribute to these conditions. Learn prevention strategies and interventions through nutrition and lifestyle modifications.
                         </p>
                       </div>
                       <div className="col-md-6 blockquote-img-container mt-2">
@@ -714,11 +714,11 @@ function ClinicalDietsForHealthAndWellness() {
                         What Are Lifestyle Diseases?
                       </h2>
                       <p className="text-muted">
-                      Identify common lifestyle diseases such as diabetes, obesity, cardiovascular issues, and  {' '}
+                        Identify common lifestyle diseases such as diabetes, obesity, cardiovascular issues, and  {' '}
                         {/* {showMore[1] ? (
                           <> */}
-                            how poor lifestyle choices contribute to these conditions. Learn prevention strategies and interventions through nutrition and lifestyle modifications.
-                          {/* </>
+                        how poor lifestyle choices contribute to these conditions. Learn prevention strategies and interventions through nutrition and lifestyle modifications.
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -745,10 +745,10 @@ function ClinicalDietsForHealthAndWellness() {
                       </div>
                       <div className="col-md-6">
                         <h2 className="h5-fs text-primary font-weight-bold mt-3">
-                        Food Macro and Micro Elements
+                          Food Macro and Micro Elements
                         </h2>
                         <p className="text-muted">
-                        Gain a deep understanding of macronutrients (proteins, fats, carbohydrates) and micronutrients (vitamins, minerals). Learn their roles in supporting the body's overall functioning, growth, and repair.
+                          Gain a deep understanding of macronutrients (proteins, fats, carbohydrates) and micronutrients (vitamins, minerals). Learn their roles in supporting the body's overall functioning, growth, and repair.
                         </p>
                       </div>
                     </div>
@@ -763,14 +763,14 @@ function ClinicalDietsForHealthAndWellness() {
                     </div>
                     <div>
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
-                      Food Macro and Micro Elements {' '}
+                        Food Macro and Micro Elements {' '}
                       </h2>
                       <p className="text-muted">
-                      Gain a deep understanding of macronutrients (proteins, fats, carbohydrates) and micronutrients
+                        Gain a deep understanding of macronutrients (proteins, fats, carbohydrates) and micronutrients
                         {/* {showMore[2] ? (
                           <> */}
-                             (vitamins, minerals). Learn their roles in supporting the body's overall functioning, growth, and repair.
-                          {/* </>
+                        (vitamins, minerals). Learn their roles in supporting the body's overall functioning, growth, and repair.
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -793,7 +793,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Food Digestion System
                         </h2>
                         <p className="text-muted">
-                        Discover the intricacies of the digestive system, from ingestion to nutrient absorption. This module explains how food is broken down and utilized by the body and the role of gut health in overall wellness.
+                          Discover the intricacies of the digestive system, from ingestion to nutrient absorption. This module explains how food is broken down and utilized by the body and the role of gut health in overall wellness.
                         </p>
                       </div>
                       <div className="col-md-6 blockquote-img-container mt-2">
@@ -818,11 +818,11 @@ function ClinicalDietsForHealthAndWellness() {
                         Food Digestion System
                       </h2>
                       <p className="text-muted">
-                      Discover the intricacies of the digestive system, from ingestion to nutrient absorption.  {' '}
+                        Discover the intricacies of the digestive system, from ingestion to nutrient absorption.  {' '}
                         {/* {showMore[1] ? (
                           <> */}
-                            This module explains how food is broken down and utilized by the body and the role of gut health in overall wellness.
-                          {/* </>
+                        This module explains how food is broken down and utilized by the body and the role of gut health in overall wellness.
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -852,7 +852,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Weight Management
                         </h2>
                         <p className="text-muted">
-                        Learn effective strategies for weight management, including calorie balancing, the role of metabolism, and sustainable diet plans that promote fat loss without sacrificing health.
+                          Learn effective strategies for weight management, including calorie balancing, the role of metabolism, and sustainable diet plans that promote fat loss without sacrificing health.
                         </p>
                       </div>
                     </div>
@@ -870,11 +870,11 @@ function ClinicalDietsForHealthAndWellness() {
                         Weight Management
                       </h2>
                       <p className="text-muted">
-                      Learn effective strategies for weight management, including calorie balancing, the  {' '}
+                        Learn effective strategies for weight management, including calorie balancing, the  {' '}
                         {/* {showMore[2] ? (
                           <> */}
-                            role of metabolism, and sustainable diet plans that promote fat loss without sacrificing health.
-                          {/* </>
+                        role of metabolism, and sustainable diet plans that promote fat loss without sacrificing health.
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -897,7 +897,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Blood Sugar Control
                         </h2>
                         <p className="text-muted">
-                        Understand how blood sugar levels impact overall health and how to manage conditions like insulin resistance and diabetes. Learn about dietary interventions to maintain optimal blood sugar balance.
+                          Understand how blood sugar levels impact overall health and how to manage conditions like insulin resistance and diabetes. Learn about dietary interventions to maintain optimal blood sugar balance.
                         </p>
                       </div>
                       <div className="col-md-6 blockquote-img-container mt-2">
@@ -922,11 +922,11 @@ function ClinicalDietsForHealthAndWellness() {
                         Blood Sugar Control
                       </h2>
                       <p className="text-muted">
-                      Understand how blood sugar levels impact overall health and how to manage conditions  {' '}
+                        Understand how blood sugar levels impact overall health and how to manage conditions  {' '}
                         {/* {showMore[1] ? (
                           <> */}
-                            like insulin resistance and diabetes. Learn about dietary interventions to maintain optimal blood sugar balance.
-                          {/* </>
+                        like insulin resistance and diabetes. Learn about dietary interventions to maintain optimal blood sugar balance.
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -956,7 +956,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Important Hormones of the Body
                         </h2>
                         <p className="text-muted">
-                        Delve into the world of hormones and how they regulate essential body functions such as metabolism, stress response, reproduction, and mood. Learn how nutrition can influence hormonal balance.
+                          Delve into the world of hormones and how they regulate essential body functions such as metabolism, stress response, reproduction, and mood. Learn how nutrition can influence hormonal balance.
                         </p>
                       </div>
                     </div>
@@ -974,11 +974,11 @@ function ClinicalDietsForHealthAndWellness() {
                         Important Hormones of the Body
                       </h2>
                       <p className="text-muted">
-                      Delve into the world of hormones and how they regulate essential body functions such as  {' '}
+                        Delve into the world of hormones and how they regulate essential body functions such as  {' '}
                         {/* {showMore[2] ? (
                           <> */}
-                            metabolism, stress response, reproduction, and mood. Learn how nutrition can influence hormonal balance.
-                          {/* </>
+                        metabolism, stress response, reproduction, and mood. Learn how nutrition can influence hormonal balance.
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1001,7 +1001,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Worst Food Elements
                         </h2>
                         <p className="text-muted">
-                        Identify harmful food elements such as trans fats, processed sugars, and additives that can negatively impact health. Learn how to reduce or eliminate these from your diet to prevent disease and promote wellness.
+                          Identify harmful food elements such as trans fats, processed sugars, and additives that can negatively impact health. Learn how to reduce or eliminate these from your diet to prevent disease and promote wellness.
                         </p>
                       </div>
                       <div className="col-md-6 blockquote-img-container mt-2">
@@ -1026,11 +1026,11 @@ function ClinicalDietsForHealthAndWellness() {
                         Worst Food Elements
                       </h2>
                       <p className="text-muted">
-                      Identify harmful food elements such as trans fats, processed sugars, and additives that can  {' '}
+                        Identify harmful food elements such as trans fats, processed sugars, and additives that can  {' '}
                         {/* {showMore[1] ? (
                           <> */}
-                            negatively impact health. Learn how to reduce or eliminate these from your diet to prevent disease and promote wellness.
-                          {/* </>
+                        negatively impact health. Learn how to reduce or eliminate these from your diet to prevent disease and promote wellness.
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1060,7 +1060,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Essential Food Elements
                         </h2>
                         <p className="text-muted">
-                        Explore the nutrients essential for health, including vitamins, minerals, omega-3 fatty acids, and antioxidants. Learn how to incorporate these elements into a balanced diet to support energy, immunity, and longevity.
+                          Explore the nutrients essential for health, including vitamins, minerals, omega-3 fatty acids, and antioxidants. Learn how to incorporate these elements into a balanced diet to support energy, immunity, and longevity.
                         </p>
                       </div>
                     </div>
@@ -1078,11 +1078,11 @@ function ClinicalDietsForHealthAndWellness() {
                         Essential Food Elements
                       </h2>
                       <p className="text-muted">
-                      Explore the nutrients essential for health, including vitamins, minerals, omega-3  {' '}
+                        Explore the nutrients essential for health, including vitamins, minerals, omega-3  {' '}
                         {/* {showMore[2] ? (
                           <> */}
-                            fatty acids, and antioxidants. Learn how to incorporate these elements into a balanced diet to support energy, immunity, and longevity.
-                          {/* </>
+                        fatty acids, and antioxidants. Learn how to incorporate these elements into a balanced diet to support energy, immunity, and longevity.
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1102,10 +1102,10 @@ function ClinicalDietsForHealthAndWellness() {
                     <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
                       <div className="col-md-6">
                         <h2 className="h5-fs text-primary font-weight-bold mt-3">
-                        Bone Health
+                          Bone Health
                         </h2>
                         <p className="text-muted">
-                        Understand the importance of nutrition in maintaining strong, healthy bones. Learn about calcium, vitamin D, and other key nutrients that support bone density and prevent conditions like osteoporosis.
+                          Understand the importance of nutrition in maintaining strong, healthy bones. Learn about calcium, vitamin D, and other key nutrients that support bone density and prevent conditions like osteoporosis.
                         </p>
                       </div>
                       <div className="col-md-6 blockquote-img-container mt-2">
@@ -1127,14 +1127,14 @@ function ClinicalDietsForHealthAndWellness() {
                     </div>
                     <div>
                       <h2 className="h5-fs text-primary font-weight-bold mt-3">
-                      Bone Health
+                        Bone Health
                       </h2>
                       <p className="text-muted">
-                      Understand the importance of nutrition in maintaining strong, healthy bones. Learn about  {' '}
+                        Understand the importance of nutrition in maintaining strong, healthy bones. Learn about  {' '}
                         {/* {showMore[1] ? (
                           <> */}
-                            calcium, vitamin D, and other key nutrients that support bone density and prevent conditions like osteoporosis.
-                          {/* </>
+                        calcium, vitamin D, and other key nutrients that support bone density and prevent conditions like osteoporosis.
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1164,7 +1164,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Stress Control
                         </h2>
                         <p className="text-muted">
-                        Explore the relationship between stress and health, and learn nutrition-based strategies to manage stress effectively. This module also covers lifestyle changes that help reduce stress and its impact on the body.
+                          Explore the relationship between stress and health, and learn nutrition-based strategies to manage stress effectively. This module also covers lifestyle changes that help reduce stress and its impact on the body.
                         </p>
                       </div>
                     </div>
@@ -1182,11 +1182,11 @@ function ClinicalDietsForHealthAndWellness() {
                         Stress Control
                       </h2>
                       <p className="text-muted">
-                      Explore the relationship between stress and health, and learn nutrition-based strategies  {' '}
+                        Explore the relationship between stress and health, and learn nutrition-based strategies  {' '}
                         {/* {showMore[2] ? (
                           <> */}
-                            to manage stress effectively. This module also covers lifestyle changes that help reduce stress and its impact on the body.
-                          {/* </>
+                        to manage stress effectively. This module also covers lifestyle changes that help reduce stress and its impact on the body.
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1209,7 +1209,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Important Blood Tests for Ensuring Sound Health
                         </h2>
                         <p className="text-muted">
-                        Learn about key blood tests that can provide insights into your overall health, including cholesterol levels, blood sugar, liver function, and inflammation markers. Understanding these tests helps in creating effective health plans.
+                          Learn about key blood tests that can provide insights into your overall health, including cholesterol levels, blood sugar, liver function, and inflammation markers. Understanding these tests helps in creating effective health plans.
                         </p>
                       </div>
                       <div className="col-md-6 blockquote-img-container mt-2">
@@ -1234,11 +1234,11 @@ function ClinicalDietsForHealthAndWellness() {
                         Important Blood Tests for Ensuring Sound Health
                       </h2>
                       <p className="text-muted">
-                      Learn about key blood tests that can provide insights into your overall health, including  {' '}
+                        Learn about key blood tests that can provide insights into your overall health, including  {' '}
                         {/* {showMore[1] ? (
                           <> */}
-                            cholesterol levels, blood sugar, liver function, and inflammation markers. Understanding these tests helps in creating effective health plans.
-                          {/* </>
+                        cholesterol levels, blood sugar, liver function, and inflammation markers. Understanding these tests helps in creating effective health plans.
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1268,7 +1268,7 @@ function ClinicalDietsForHealthAndWellness() {
                           High Uric Acid and Gout
                         </h2>
                         <p className="text-muted">
-                        Understand the causes and symptoms of high uric acid and gout. Learn dietary interventions to manage and prevent these painful conditions, focusing on reducing uric acid levels naturally.
+                          Understand the causes and symptoms of high uric acid and gout. Learn dietary interventions to manage and prevent these painful conditions, focusing on reducing uric acid levels naturally.
                         </p>
                       </div>
                     </div>
@@ -1286,11 +1286,11 @@ function ClinicalDietsForHealthAndWellness() {
                         High Uric Acid and Gout
                       </h2>
                       <p className="text-muted">
-                      Understand the causes and symptoms of high uric acid and gout. Learn dietary interventions  {' '}
+                        Understand the causes and symptoms of high uric acid and gout. Learn dietary interventions  {' '}
                         {/* {showMore[2] ? (
                           <> */}
-                            to manage and prevent these painful conditions, focusing on reducing uric acid levels naturally.
-                          {/* </>
+                        to manage and prevent these painful conditions, focusing on reducing uric acid levels naturally.
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1313,7 +1313,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Autoimmune Diseases
                         </h2>
                         <p className="text-muted">
-                        Delve into autoimmune diseases such as rheumatoid arthritis, lupus, and celiac disease. Learn about nutritional strategies that can help manage symptoms and improve quality of life for individuals with these conditions.
+                          Delve into autoimmune diseases such as rheumatoid arthritis, lupus, and celiac disease. Learn about nutritional strategies that can help manage symptoms and improve quality of life for individuals with these conditions.
                         </p>
                       </div>
                       <div className="col-md-6 blockquote-img-container mt-2">
@@ -1338,11 +1338,11 @@ function ClinicalDietsForHealthAndWellness() {
                         Autoimmune Diseases
                       </h2>
                       <p className="text-muted">
-                      Delve into autoimmune diseases such as rheumatoid arthritis, lupus, and celiac disease. {' '} 
+                        Delve into autoimmune diseases such as rheumatoid arthritis, lupus, and celiac disease. {' '}
                         {/* {showMore[1] ? (
                           <> */}
-                            Learn about nutritional strategies that can help manage symptoms and improve quality of life for individuals with these conditions.
-                          {/* </>
+                        Learn about nutritional strategies that can help manage symptoms and improve quality of life for individuals with these conditions.
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1372,7 +1372,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Perfect Plan to Achieve Best Health
                         </h2>
                         <p className="text-muted">
-                        Create a comprehensive, personalized health plan. This module focuses on combining diet, exercise, and lifestyle strategies to help individuals reach optimal health and wellness.
+                          Create a comprehensive, personalized health plan. This module focuses on combining diet, exercise, and lifestyle strategies to help individuals reach optimal health and wellness.
                         </p>
                       </div>
                     </div>
@@ -1390,11 +1390,11 @@ function ClinicalDietsForHealthAndWellness() {
                         Perfect Plan to Achieve Best Health
                       </h2>
                       <p className="text-muted">
-                      Create a comprehensive, personalized health plan. This module focuses on combining diet,  {' '}
+                        Create a comprehensive, personalized health plan. This module focuses on combining diet,  {' '}
                         {/* {showMore[2] ? (
                           <> */}
-                            exercise, and lifestyle strategies to help individuals reach optimal health and wellness.
-                          {/* </>
+                        exercise, and lifestyle strategies to help individuals reach optimal health and wellness.
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1417,7 +1417,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Exercise Plan
                         </h2>
                         <p className="text-muted">
-                        Learn how to develop exercise plans that complement nutritional strategies. This module covers the basics of fitness, including strength, flexibility, and cardiovascular health, and how these fit into a healthy lifestyle.
+                          Learn how to develop exercise plans that complement nutritional strategies. This module covers the basics of fitness, including strength, flexibility, and cardiovascular health, and how these fit into a healthy lifestyle.
                         </p>
                       </div>
                       <div className="col-md-6 blockquote-img-container mt-2">
@@ -1443,11 +1443,11 @@ function ClinicalDietsForHealthAndWellness() {
 
                       </h2>
                       <p className="text-muted">
-                      Learn how to develop exercise plans that complement nutritional strategies. This  {' '}
+                        Learn how to develop exercise plans that complement nutritional strategies. This  {' '}
                         {/* {showMore[1] ? (
                           <> */}
-                            module covers the basics of fitness, including strength, flexibility, and cardiovascular health, and how these fit into a healthy lifestyle.
-                          {/* </>
+                        module covers the basics of fitness, including strength, flexibility, and cardiovascular health, and how these fit into a healthy lifestyle.
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1477,7 +1477,7 @@ function ClinicalDietsForHealthAndWellness() {
                           How to Protect Against Heart Diseases, Control Blood Pressure, and High Cholesterol
                         </h2>
                         <p className="text-muted">
-                        Gain essential knowledge on how to protect heart health through nutrition. This includes managing cholesterol levels, blood pressure, and preventing heart disease through dietary changes and lifestyle interventions.
+                          Gain essential knowledge on how to protect heart health through nutrition. This includes managing cholesterol levels, blood pressure, and preventing heart disease through dietary changes and lifestyle interventions.
                         </p>
                       </div>
                     </div>
@@ -1495,11 +1495,11 @@ function ClinicalDietsForHealthAndWellness() {
                         How to Protect Against Heart Diseases, Control Blood Pressure, and High Cholesterol
                       </h2>
                       <p className="text-muted">
-                      Gain essential knowledge on how to protect heart health through nutrition. This  {' '}
+                        Gain essential knowledge on how to protect heart health through nutrition. This  {' '}
                         {/* {showMore[2] ? (
                           <> */}
-                            includes managing cholesterol levels, blood pressure, and preventing heart disease through dietary changes and lifestyle interventions.
-                          {/* </>
+                        includes managing cholesterol levels, blood pressure, and preventing heart disease through dietary changes and lifestyle interventions.
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1522,7 +1522,7 @@ function ClinicalDietsForHealthAndWellness() {
                           Role of Health and Wellness Consultant & How to Prepare Health Plans
                         </h2>
                         <p className="text-muted">
-                        Learn the responsibilities of a health and wellness consultant. Understand how to assess clients' health needs, create individualized health plans, and provide guidance on achieving sustainable wellness goals.
+                          Learn the responsibilities of a health and wellness consultant. Understand how to assess clients' health needs, create individualized health plans, and provide guidance on achieving sustainable wellness goals.
                         </p>
                       </div>
                       <div className="col-md-6 blockquote-img-container mt-2">
@@ -1547,11 +1547,11 @@ function ClinicalDietsForHealthAndWellness() {
                         Role of Health and Wellness Consultant & How to Prepare Health Plans
                       </h2>
                       <p className="text-muted">
-                      Learn the responsibilities of a health and wellness consultant. Understand how to  {' '}
+                        Learn the responsibilities of a health and wellness consultant. Understand how to  {' '}
                         {/* {showMore[1] ? (
                           <> */}
-                            assess clients' health needs, create individualized health plans, and provide guidance on achieving sustainable wellness goals.
-                          {/* </>
+                        assess clients' health needs, create individualized health plans, and provide guidance on achieving sustainable wellness goals.
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1680,13 +1680,15 @@ function ClinicalDietsForHealthAndWellness() {
                     width="100%"
                     style={{ borderRadius: "10px" }}
                   />
-                  <div className="ply2">
+                  <div className="video-btn play-btn">
                     <a
                       aria-label="Fg Group"
-                      className="custom"
                       onClick={() => openVideoModal("9ggHN60bYKo")}
+                      className="custom clickof"
                     >
-                      <i className="far fa-play-circle text-white  fs-40"></i>
+                      <span className="newthing">
+                        <i className="fas fa-play"></i>
+                      </span>
                     </a>
                   </div>
                 </div>
@@ -1717,9 +1719,9 @@ function ClinicalDietsForHealthAndWellness() {
             <div className="">
               <div className="covid text-center">
                 <h2 className="mt-2 h2-fs">
-                Enhance Your Expertise with an{" "}
+                  Enhance Your Expertise with an{" "}
                   <span className="m-0 text-blue-color">
-                  Online Advance Clinical Nutrition Course
+                    Online Advance Clinical Nutrition Course
                   </span>
                 </h2>
               </div>
@@ -1728,32 +1730,32 @@ function ClinicalDietsForHealthAndWellness() {
                 <div className="col-lg-12">
                   <div className="describe d-md-block d-none">
                     <p>
-                    If you're passionate about nutrition and want to advance your career in healthcare, enrolling in an Online Advance Clinical Nutrition course is the perfect step. This program provides in-depth knowledge of medical nutrition therapy, disease management, and dietary interventions—all from the comfort of your home.
+                      If you're passionate about nutrition and want to advance your career in healthcare, enrolling in an Online Advance Clinical Nutrition course is the perfect step. This program provides in-depth knowledge of medical nutrition therapy, disease management, and dietary interventions—all from the comfort of your home.
                     </p>
                     <p>
-                    A clinical course in nutrition focuses on understanding how food affects health, helping professionals design specialized diet plans for individuals with medical conditions such as diabetes, cardiovascular diseases, and digestive disorders. This advanced training is essential for those looking to work in hospitals, wellness centers, or as independent clinical nutritionists.
+                      A clinical course in nutrition focuses on understanding how food affects health, helping professionals design specialized diet plans for individuals with medical conditions such as diabetes, cardiovascular diseases, and digestive disorders. This advanced training is essential for those looking to work in hospitals, wellness centers, or as independent clinical nutritionists.
                     </p>
                     <p>
-                    With an Online Advance Clinical Nutrition course, you benefit from expert-led video lectures, interactive study materials, and live case study discussions. The curriculum includes nutritional assessment techniques, meal planning strategies, and the latest research in clinical nutrition. Online learning also allows flexibility, making it easier for working professionals and students to upskill at their own pace.
+                      With an Online Advance Clinical Nutrition course, you benefit from expert-led video lectures, interactive study materials, and live case study discussions. The curriculum includes nutritional assessment techniques, meal planning strategies, and the latest research in clinical nutrition. Online learning also allows flexibility, making it easier for working professionals and students to upskill at their own pace.
                     </p>
                     <p>
-                    Upon completing this clinical course, you gain certification that enhances your credibility and opens career opportunities in the healthcare and wellness industry. Take the next step toward becoming a certified clinical nutrition expert with this advanced online program.
+                      Upon completing this clinical course, you gain certification that enhances your credibility and opens career opportunities in the healthcare and wellness industry. Take the next step toward becoming a certified clinical nutrition expert with this advanced online program.
                     </p>
                   </div>
                   <div className="describe d-md-none d-block">
                     <p>
-                    If you're passionate about nutrition and want to advance your career in healthcare, enrolling in an Online Advance Clinical Nutrition course is the perfect step. This program provides in-depth knowledge of medical nutrition therapy, disease management, and dietary interventions—all from the comfort of your home.
+                      If you're passionate about nutrition and want to advance your career in healthcare, enrolling in an Online Advance Clinical Nutrition course is the perfect step. This program provides in-depth knowledge of medical nutrition therapy, disease management, and dietary interventions—all from the comfort of your home.
                     </p>
                     {showMorev ? (
                       <span className="m-0">
                         <p>
-                        A clinical course in nutrition focuses on understanding how food affects health, helping professionals design specialized diet plans for individuals with medical conditions such as diabetes, cardiovascular diseases, and digestive disorders. This advanced training is essential for those looking to work in hospitals, wellness centers, or as independent clinical nutritionists.
+                          A clinical course in nutrition focuses on understanding how food affects health, helping professionals design specialized diet plans for individuals with medical conditions such as diabetes, cardiovascular diseases, and digestive disorders. This advanced training is essential for those looking to work in hospitals, wellness centers, or as independent clinical nutritionists.
                         </p>
                         <p>
-                        With an Online Advance Clinical Nutrition course, you benefit from expert-led video lectures, interactive study materials, and live case study discussions. The curriculum includes nutritional assessment techniques, meal planning strategies, and the latest research in clinical nutrition. Online learning also allows flexibility, making it easier for working professionals and students to upskill at their own pace.
+                          With an Online Advance Clinical Nutrition course, you benefit from expert-led video lectures, interactive study materials, and live case study discussions. The curriculum includes nutritional assessment techniques, meal planning strategies, and the latest research in clinical nutrition. Online learning also allows flexibility, making it easier for working professionals and students to upskill at their own pace.
                         </p>
                         <p>
-                        Upon completing this clinical course, you gain certification that enhances your credibility and opens career opportunities in the healthcare and wellness industry. Take the next step toward becoming a certified clinical nutrition expert with this advanced online program.
+                          Upon completing this clinical course, you gain certification that enhances your credibility and opens career opportunities in the healthcare and wellness industry. Take the next step toward becoming a certified clinical nutrition expert with this advanced online program.
                         </p>
                       </span>
                     ) : (

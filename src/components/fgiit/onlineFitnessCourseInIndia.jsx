@@ -79,7 +79,7 @@ const OnlineFitnessCourse = () => {
                     </div>
                     <div className="video-btn play-btn">
                       <a
-                        onClick={() => openVideoModal("hxQoFHOFyPM")}
+                        onClick={() => openVideoModal("daQHz5LXdFw")}
                         className="custom clickof"
                         aria-label="Fg Group"
                       >
@@ -127,7 +127,6 @@ const OnlineFitnessCourse = () => {
                     <div className="pb-1"></div>
                     <Link
                       to="/fgiit/online-fitness-and-nutrition-courses"
-                      target="_blank"
                       className="btn mb-lg-2"
                     >
                       View More
@@ -158,7 +157,7 @@ const OnlineFitnessCourse = () => {
                     </div>
                     <div className="video-btn play-btn">
                       <a
-                        onClick={() => openVideoModal("1SEoO-6Jg_4")}
+                        onClick={() => openVideoModal("w-NICMzjpfw")}
                         className="custom clickof"
                         aria-label="Fg Group"
                       >
@@ -174,7 +173,7 @@ const OnlineFitnessCourse = () => {
                       style={{ listStyle: "none" }}
                     >
                       <li className="ml-0">
-                        <i className="fas fa-clock"></i> 6 Months
+                        <i className="fas fa-clock"></i> 4 Months
                       </li>
                       <li>
                         <i className="fas fa-chalkboard-teacher"></i> Live Zoom Classes
@@ -206,7 +205,6 @@ const OnlineFitnessCourse = () => {
                     <div className="pb-1"></div>
                     <Link
                       to="/fgiit/online-personal-training-course"
-                      target="_blank"
                       className="btn mb-lg-2"
                     >
                       View More
@@ -237,7 +235,7 @@ const OnlineFitnessCourse = () => {
                     </div>
                     <div className="video-btn play-btn">
                       <a
-                        onClick={() => openVideoModal("O5yxDzKXZm0")}
+                        onClick={() => openVideoModal("Dn_pH0xfCaA")}
                         className="custom clickof"
                         aria-label="Fg Group"
                       >
@@ -253,7 +251,7 @@ const OnlineFitnessCourse = () => {
                       style={{ listStyle: "none" }}
                     >
                       <li className="ml-0">
-                        <i className="fas fa-clock"></i> 6 Months
+                        <i className="fas fa-clock"></i> 4 Months
                       </li>
                       <li>
                         <i className="fas fa-chalkboard-teacher"></i> Live Zoom Classes
@@ -285,7 +283,6 @@ const OnlineFitnessCourse = () => {
                     <div className="pb-1"></div>
                     <Link
                       to="/fgiit/food-and-nutrition-course"
-                      target="_blank"
                       className="btn mb-lg-2"
                     >
                       View More
@@ -316,7 +313,7 @@ const OnlineFitnessCourse = () => {
                     </div>
                     <div className="video-btn play-btn">
                       <a
-                        onClick={() => openVideoModal("6gpp4-8PWPs")}
+                        onClick={() => openVideoModal("6jeemCKOoyo")}
                         className="custom clickof"
                         aria-label="Fg Group"
                       >
@@ -364,7 +361,6 @@ const OnlineFitnessCourse = () => {
                     <div className="pb-1"></div>
                     <Link
                       to="/fgiit/anabolic-steroid-testosterone"
-                      target="_blank"
                       className="btn mb-lg-2"
                     >
                       View More
@@ -395,7 +391,7 @@ const OnlineFitnessCourse = () => {
                     </div>
                     <div className="video-btn play-btn">
                       <a
-                        onClick={() => openVideoModal("7LEFrtgo09M")}
+                        onClick={() => openVideoModal("YFV1syX6jnQ")}
                         className="custom clickof"
                         aria-label="Fg Group"
                       >
@@ -443,7 +439,6 @@ const OnlineFitnessCourse = () => {
                     <div className="pb-1"></div>
                     <Link
                       to="/fgiit/online-fitness-instructor-course"
-                      target="_blank"
                       className="btn mb-lg-2"
                     >
                       View More
@@ -474,7 +469,7 @@ const OnlineFitnessCourse = () => {
                     </div>
                     <div className="video-btn play-btn">
                       <a
-                        onClick={() => openVideoModal("p3-OhJ9hLGQ")}
+                        onClick={() => openVideoModal("VOZknXbvG-0")}
                         className="custom clickof"
                         aria-label="Fg Group"
                       >
@@ -522,7 +517,6 @@ const OnlineFitnessCourse = () => {
                     <div className="pb-1"></div>
                     <Link
                       to="/fgiit/online-powerlifting-course"
-                      target="_blank"
                       className="btn mb-lg-2"
                     >
                       View More
@@ -601,7 +595,6 @@ const OnlineFitnessCourse = () => {
                     <div className="pb-1"></div>
                     <Link
                       to="/fgiit/clinical-diets-for-health-and-wellness"
-                      target="_blank"
                       className="btn mb-lg-2"
                     >
                       View More
@@ -631,7 +624,7 @@ const OnlineFitnessCourse = () => {
                     </div>
                     <div className="video-btn play-btn">
                       <a
-                        onClick={() => openVideoModal("95SVQ5yhLYE")}
+                        onClick={() => openVideoModal("Wre-DqRq5XA")}
                         className="custom clickof"
                         aria-label="Fg Group"
                       >
@@ -679,7 +672,6 @@ const OnlineFitnessCourse = () => {
                     <div className="pb-1"></div>
                     <Link
                       to="/fgiit/course-of-physiotherapy"
-                      target="_blank"
                       className="btn mb-lg-2"
                     >
                       View More

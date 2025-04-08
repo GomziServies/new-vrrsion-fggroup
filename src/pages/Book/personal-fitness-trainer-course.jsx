@@ -1,5 +1,3 @@
-/* eslint-disable no-script-url */
-
 import React, { useEffect, useState } from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
@@ -227,8 +225,7 @@ function PersonalTrainingBook() {
           <div className="border-0">
             <div className="covid mb-4 mt-3 text-center">
               <h2 className="h2-fs">
-                <span className="m-0 text-blue-color">Syllabus </span>
-                Details
+                Our <span className="m-0 text-blue-color">Live Course Syllabus</span>
               </h2>
             </div>
             <div className="thm-bg-clr dector"></div>

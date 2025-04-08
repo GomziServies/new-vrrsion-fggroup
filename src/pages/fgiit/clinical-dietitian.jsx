@@ -1715,13 +1715,15 @@ function ClinicalDietitian() {
                     width="100%"
                     style={{ borderRadius: "10px" }}
                   />
-                  <div className="ply2">
+                  <div className="video-btn play-btn">
                     <a
                       aria-label="Fg Group"
-                      className="custom"
                       onClick={() => openVideoModal("9ggHN60bYKo")}
+                      className="custom clickof"
                     >
-                      <i className="far fa-play-circle text-white  fs-40"></i>
+                      <span className="newthing">
+                        <i className="fas fa-play"></i>
+                      </span>
                     </a>
                   </div>
                 </div>

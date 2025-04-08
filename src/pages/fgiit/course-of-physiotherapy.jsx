@@ -1605,13 +1605,15 @@ function CourseOfPhysiotherapy() {
                     style={{ borderRadius: "10px" }}
                     alt="fggroup"
                   />
-                  <div className="ply2">
+                  <div className="video-btn play-btn">
                     <a
                       aria-label="Fg Group"
-                      className="custom"
                       onClick={() => openVideoModal("z9ULms1ia10")}
+                      className="custom clickof"
                     >
-                      <i className="far fa-play-circle fs-40 text-white"></i>
+                      <span className="newthing">
+                        <i className="fas fa-play"></i>
+                      </span>
                     </a>
                   </div>
                 </div>

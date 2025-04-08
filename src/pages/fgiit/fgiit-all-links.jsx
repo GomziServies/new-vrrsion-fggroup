@@ -339,7 +339,7 @@ function FgiitAllLinks() {
                             Courses Books
                           </p>
                           <p>
-                            Dr. Gautam Jani, Dt. Foram Desai, Dt. Nitin Patel,
+                            Dr. Gautam Jani, Dt. Foram Desai, Dt. Chirag Pandey,
                             Dr. Asha Jiyani, Dr. Ishaver Patel
                           </p>
                         </div>
@@ -369,7 +369,7 @@ function FgiitAllLinks() {
                             Courses Books
                           </p>
                           <p>
-                            Dr. Gautam Jani, Dt. Foram Desai, Dt. Nitin Patel,
+                            Dr. Gautam Jani, Dt. Foram Desai, Dt. Chirag Pandey,
                             Dr. Asha Jiyani, Dr. Ishaver Patel
                           </p>
                         </div>

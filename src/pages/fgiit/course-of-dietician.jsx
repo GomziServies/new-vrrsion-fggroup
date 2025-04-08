@@ -376,17 +376,6 @@ function CourseOfDietician() {
                           "/assets/images/fgiit/nutri-trainer-banner.webp"
                         }
                       />
-                      {/* <div className="video-btn play-btn">
-                    <Link
-                      to="https://www.youtube.com/watch?v=xnuCqgppc4U"
-                      data-flashy-type="video"
-                      className="custom clickof"
-                    >
-                      <span className="newthing">
-                        <i className="fas fa-play"></i>
-                      </span>
-                    </Link>
-                  </div> */}
                       <div className="video-btn play-btn">
                         <a
                           aria-label="Fg Group"
@@ -2586,14 +2575,16 @@ function CourseOfDietician() {
                     style={{ borderRadius: "10px" }}
                     alt="fggroup"
                   />
-                  <div className="ply2">
-                    <Link
-                      className="custom"
-                      data-flashy-type="video"
-                      to="https://youtu.be/ZYoKVIfbJzY"
+                  <div className="video-btn play-btn">
+                    <a
+                      aria-label="Fg Group"
+                      onClick={() => openVideoModal("ZYoKVIfbJzY")}
+                      className="custom clickof"
                     >
-                      <i className="far fa-play-circle fs-40 text-white"></i>
-                    </Link>
+                      <span className="newthing">
+                        <i className="fas fa-play"></i>
+                      </span>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -2728,7 +2719,7 @@ function CourseOfDietician() {
             </div>
           </div>
         </div>
-      </section>
+      </section >
       <OurOfflineStudents />
       {/* <section className="margintop">
         <div className="container-fluid">

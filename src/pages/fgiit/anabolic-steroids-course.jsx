@@ -217,7 +217,7 @@ function AnabolicSteroidsCourse() {
         </noscript>
       </Helmet>
       <p className="d-none">
-     Offline Anabolic-Androgenic Steroids Masterclass, bodybuilding course, Offline bodybuilding course, bodybuilding course Offline, Anabolic-Androgenic Steroids Masterclass Offline, Fgiit Offline Anabolic-Androgenic Steroids Masterclass, anabolic course, bodybuilding certification, body building course, bodybuilding coach course, personal training bodybuilding, bodybuilding coach , bodybuilding coach certification, Anabolic Steroid Course, Advanced Bodybuilding Course, Bodybuilding and Nutrition Course, Bodybuilding Training Program, Steroids and Bodybuilding Certification, Strength and Conditioning Course, Personal Trainer Bodybuilding, Steroid Education Masterclass, Performance Enhancement Course, Bodybuilding and Supplements Course, Certified Bodybuilding Coach Course, Fitness and Bodybuilding Course, Anabolic Steroid Masterclass, Muscle Building and Steroids Course, Strength Training Bodybuilding Course, Best Bodybuilding Course, Steroid Use and Bodybuilding Course, Certified Anabolic Steroid Coach, Fitness Coaching for Bodybuilders, Bodybuilding Techniques Course, Professional Bodybuilding Course, Anabolic Nutrition and Bodybuilding, Anabolic Coaching Program, Certified Strength and Bodybuilding Coach, Muscle Growth and Steroid Education, Online Personal Trainer and Bodybuilding, Advanced Steroids in Bodybuilding, Bodybuilding Diet and Supplements, Bodybuilding and Steroid Use Masterclass, Fitness and Bodybuilding Training, Bodybuilding Coaching and Mentorship, Steroids Education and Bodybuilding Course, Bodybuilding Lifestyle and Nutrition Course, Bodybuilding Masterclass, Bodybuilding Supplements Course, Steroid Use and Fitness Course, Bodybuilding Coach Certification Program
+        Offline Anabolic-Androgenic Steroids Masterclass, bodybuilding course, Offline bodybuilding course, bodybuilding course Offline, Anabolic-Androgenic Steroids Masterclass Offline, Fgiit Offline Anabolic-Androgenic Steroids Masterclass, anabolic course, bodybuilding certification, body building course, bodybuilding coach course, personal training bodybuilding, bodybuilding coach , bodybuilding coach certification, Anabolic Steroid Course, Advanced Bodybuilding Course, Bodybuilding and Nutrition Course, Bodybuilding Training Program, Steroids and Bodybuilding Certification, Strength and Conditioning Course, Personal Trainer Bodybuilding, Steroid Education Masterclass, Performance Enhancement Course, Bodybuilding and Supplements Course, Certified Bodybuilding Coach Course, Fitness and Bodybuilding Course, Anabolic Steroid Masterclass, Muscle Building and Steroids Course, Strength Training Bodybuilding Course, Best Bodybuilding Course, Steroid Use and Bodybuilding Course, Certified Anabolic Steroid Coach, Fitness Coaching for Bodybuilders, Bodybuilding Techniques Course, Professional Bodybuilding Course, Anabolic Nutrition and Bodybuilding, Anabolic Coaching Program, Certified Strength and Bodybuilding Coach, Muscle Growth and Steroid Education, Online Personal Trainer and Bodybuilding, Advanced Steroids in Bodybuilding, Bodybuilding Diet and Supplements, Bodybuilding and Steroid Use Masterclass, Fitness and Bodybuilding Training, Bodybuilding Coaching and Mentorship, Steroids Education and Bodybuilding Course, Bodybuilding Lifestyle and Nutrition Course, Bodybuilding Masterclass, Bodybuilding Supplements Course, Steroid Use and Fitness Course, Bodybuilding Coach Certification Program
       </p>
       <ModalVideo
         channel="youtube"
@@ -391,28 +391,28 @@ function AnabolicSteroidsCourse() {
                         Androgen Receptor Modulators (SARMs) and {' '}
                         {/* {showMore[1] ? (
                           <> */}
-                            peptides, exploring their roles in muscle growth,
-                            recovery, and competition preparation. Key topics
-                            include "peak week" protocols, Post Cycle Therapy
-                            (PCT) for post-steroid recovery, the importance of
-                            regular blood tests to monitor health markers, and
-                            the use of diuretics to enhance conditioning for
-                            competitive events.
-                            <div className="row">
-                              <ul className="mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Anabolics, Androgenic, Peptides, Sarms
-                                    compounds Study
-                                  </b>
-                                </li>
+                        peptides, exploring their roles in muscle growth,
+                        recovery, and competition preparation. Key topics
+                        include "peak week" protocols, Post Cycle Therapy
+                        (PCT) for post-steroid recovery, the importance of
+                        regular blood tests to monitor health markers, and
+                        the use of diuretics to enhance conditioning for
+                        competitive events.
+                        <div className="row">
+                          <ul className="mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Anabolics, Androgenic, Peptides, Sarms
+                                compounds Study
+                              </b>
+                            </li>
 
-                                <li className="list-unstyled text-dark">
-                                  <b>Overview of steroid use in bodybuilding</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                            <li className="list-unstyled text-dark">
+                              <b>Overview of steroid use in bodybuilding</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -432,7 +432,7 @@ function AnabolicSteroidsCourse() {
                     <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
                       <div className="col-md-6 blockquote-img-container mt-2">
                         <img
-                          src="/assets/images/course-img/nutrition.webp"
+                          src="/assets/images/course-img/side-effects-and-precautions.webp"
                           alt="Fitness Industry"
                           className="blackquote-img"
                         />
@@ -489,7 +489,7 @@ function AnabolicSteroidsCourse() {
                   <blockquote className="blockquote d-md-none d-block mb-4">
                     <div className="blockquote-img-container order-1 mt-2">
                       <img
-                        src="/assets/images/course-img/nutrition.webp"
+                        src="/assets/images/course-img/side-effects-and-precautions.webp"
                         alt="Fitness Industry"
                         className="blackquote-img"
                       />
@@ -503,46 +503,46 @@ function AnabolicSteroidsCourse() {
                         module delves into common side effects like hair loss, {' '}
                         {/* {showMore[2] ? (
                           <> */}
-                            acne, mood swings, aggression, and changes in sexual
-                            function. Students will learn how to identify,
-                            manage, and mitigate these effects through
-                            harm-reduction strategies while understanding the
-                            psychological and physiological implications of
-                            steroid use.
-                            <div className="row">
-                              <ul className="p-3 mt-2">
-                                <li className="list-unstyled text-dark">
-                                  <b>Managing Gyno</b>
+                        acne, mood swings, aggression, and changes in sexual
+                        function. Students will learn how to identify,
+                        manage, and mitigate these effects through
+                        harm-reduction strategies while understanding the
+                        psychological and physiological implications of
+                        steroid use.
+                        <div className="row">
+                          <ul className="p-3 mt-2">
+                            <li className="list-unstyled text-dark">
+                              <b>Managing Gyno</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Side effects/Precautions:</b>
+                              <ol className="pt-0">
+                                <li className="list-unstyled">
+                                  <b>Hair loss</b>
                                 </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Side effects/Precautions:</b>
-                                  <ol className="pt-0">
-                                    <li className="list-unstyled">
-                                      <b>Hair loss</b>
-                                    </li>
-                                    <li className="list-unstyled">
-                                      <b>Acne</b>
-                                    </li>
-                                    <li className="list-unstyled">
-                                      <b>Mood Swings</b>
-                                    </li>
-                                    <li className="list-unstyled">
-                                      <b>Insomnia</b>
-                                    </li>
-                                    <li className="list-unstyled">
-                                      <b>Angerness</b>
-                                    </li>
-                                    <li className="list-unstyled">
-                                      <b>Sexual activity</b>
-                                    </li>
-                                    <li className="list-unstyled">
-                                      <b>Many more</b>
-                                    </li>
-                                  </ol>
+                                <li className="list-unstyled">
+                                  <b>Acne</b>
                                 </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                                <li className="list-unstyled">
+                                  <b>Mood Swings</b>
+                                </li>
+                                <li className="list-unstyled">
+                                  <b>Insomnia</b>
+                                </li>
+                                <li className="list-unstyled">
+                                  <b>Angerness</b>
+                                </li>
+                                <li className="list-unstyled">
+                                  <b>Sexual activity</b>
+                                </li>
+                                <li className="list-unstyled">
+                                  <b>Many more</b>
+                                </li>
+                              </ol>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -612,25 +612,25 @@ function AnabolicSteroidsCourse() {
                         Cycle Therapy (PCT) and the importance of blood tests {' '}
                         {/* {showMore[3] ? (
                           <> */}
-                            to monitor health during and after steroid cycles.
-                            Students will gain insights into managing hormone
-                            recovery and maintaining overall health while
-                            ensuring the safety and effectiveness of steroid
-                            protocols.
-                            <div className="row">
-                              <ul className="mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>Pct (Post Cycle Therapy)</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Oct (On Cycle Therapy)</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Blood test</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        to monitor health during and after steroid cycles.
+                        Students will gain insights into managing hormone
+                        recovery and maintaining overall health while
+                        ensuring the safety and effectiveness of steroid
+                        protocols.
+                        <div className="row">
+                          <ul className="mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Pct (Post Cycle Therapy)</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Oct (On Cycle Therapy)</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Blood test</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -710,34 +710,34 @@ function AnabolicSteroidsCourse() {
                         tailored to various fitness goals, including {' '}
                         {/* {showMore[4] ? (
                           <> */}
-                            bodybuilding, men's physique competitions, and
-                            powerlifting. Special attention is given to
-                            tailoring cycles for female clients, adapting
-                            protocols to meet their unique physiological needs
-                            while ensuring safety and effectiveness.
-                            <div className="row">
-                              <ul className="p-3 mt-2">
-                                <li className="list-unstyled text-dark">
-                                  <b>Cycle Designing</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Bodybuilding Cycle</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Men physique Cycle</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Powerlifting Cycle</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Women Cycle</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Bikni Cycle</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        bodybuilding, men's physique competitions, and
+                        powerlifting. Special attention is given to
+                        tailoring cycles for female clients, adapting
+                        protocols to meet their unique physiological needs
+                        while ensuring safety and effectiveness.
+                        <div className="row">
+                          <ul className="p-3 mt-2">
+                            <li className="list-unstyled text-dark">
+                              <b>Cycle Designing</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Bodybuilding Cycle</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Men physique Cycle</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Powerlifting Cycle</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Women Cycle</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Bikni Cycle</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -811,29 +811,29 @@ function AnabolicSteroidsCourse() {
                         transformation, this module teaches students to {' '}
                         {/* {showMore[5] ? (
                           <> */}
-                            interpret health reports and physiological changes
-                            related to anabolic steroid use. Emphasis is placed
-                            on understanding how the body responds to these
-                            substances, equipping students to make informed
-                            decisions for their client's health and fitness
-                            journeys.
-                            <div className="row">
-                              <ul className="mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>How to Study reports</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>How Physiology Work</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Which Blood Test have to do in Pre/Post
-                                    Prep
-                                  </b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        interpret health reports and physiological changes
+                        related to anabolic steroid use. Emphasis is placed
+                        on understanding how the body responds to these
+                        substances, equipping students to make informed
+                        decisions for their client's health and fitness
+                        journeys.
+                        <div className="row">
+                          <ul className="mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>How to Study reports</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>How Physiology Work</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Which Blood Test have to do in Pre/Post
+                                Prep
+                              </b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -915,37 +915,37 @@ function AnabolicSteroidsCourse() {
                         the critical final stages of competition preparation, {' '}
                         {/* {showMore[6] ? (
                           <> */}
-                            known as "peak week." Topics include monitoring
-                            physiological changes, interpreting health reports,
-                            and optimizing client readiness for bikini and
-                            physique competitions, ensuring a science-backed
-                            approach to achieving peak physical conditioning.
-                            <div className="row">
-                              <ul className="p-3 mt-2">
-                                <li className="list-unstyled text-dark">
-                                  <b>Meal planning for peak week</b>
-                                </li>
+                        known as "peak week." Topics include monitoring
+                        physiological changes, interpreting health reports,
+                        and optimizing client readiness for bikini and
+                        physique competitions, ensuring a science-backed
+                        approach to achieving peak physical conditioning.
+                        <div className="row">
+                          <ul className="p-3 mt-2">
+                            <li className="list-unstyled text-dark">
+                              <b>Meal planning for peak week</b>
+                            </li>
 
-                                <li className="list-unstyled text-dark">
-                                  <b>Carbohydrate loading strategies</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Dietary manipulations for peak week</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Water loading and manipulation</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Sodium and electrolyte management</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Mental preparation and mindset strategies
-                                  </b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                            <li className="list-unstyled text-dark">
+                              <b>Carbohydrate loading strategies</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Dietary manipulations for peak week</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Water loading and manipulation</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Sodium and electrolyte management</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Mental preparation and mindset strategies
+                              </b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1069,21 +1069,21 @@ function AnabolicSteroidsCourse() {
                     className="lazy"
                     src={
                       process.env.PUBLIC_URL +
-                      "/assets/images/img/online-course-aas.webp"
+                      "/assets/images/img/anabolic_cycle.webp"
                     }
                     width="100%"
                     style={{ borderRadius: "10px" }}
                     alt="fggroup"
                   />
-                  <div className="ply2">
+                  <div className="video-btn play-btn">
                     <a
-                      className="custom"
                       aria-label="Fg Group"
-                      onClick={() => openVideoModal("677aZl2Hqhs")}
+                      onClick={() => openVideoModal("TKn2FwMOHak")}
+                      className="custom clickof"
                     >
-                      <i
-                        className="far fa-play-circle text-white  fs-40"
-                      ></i>
+                      <span className="newthing">
+                        <i className="fas fa-play"></i>
+                      </span>
                     </a>
                   </div>
                 </div>

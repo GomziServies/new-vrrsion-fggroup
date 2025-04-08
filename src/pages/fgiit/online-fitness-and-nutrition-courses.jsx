@@ -3,8 +3,6 @@ import "../../assets/css/home.css";
 import "../../assets/css/new-popup.css";
 import Modal from "react-bootstrap/Modal";
 import OwlCarousel from "react-owl-carousel";
-// import "owl.carousel/dist/assets/owl.carousel.css";
-// import "owl.carousel/dist/assets/owl.theme.default.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { Form } from "react-bootstrap";
 import FgiitFooter from "../../components/partials/Footer/fgiitfooter";
@@ -16,7 +14,6 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 import MeetOurInstructure from "../../components/fgiit/meetInstructure";
 import { OnlineNutriTrainingCourseData } from "../../components/online-course/OnlineCourseDataLoader";
 import ModalVideo from "react-modal-video";
-import StudentTestimonial from "../../components/fgiit/studentsvideoreview";
 import OnlineCourseForm from "../../components/online-course/onlineCourseForm";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -405,7 +402,7 @@ function OnlineFitnessAndNutritionCourses() {
         </noscript>
       </Helmet>
       <p className="d-none">
-     Nutri Trainer Course, Online Nutri Trainer Course, Fgiit Online Nutri Trainer Course, nutrition courses in india, course of nutritionist, fitness and nutrition courses, Online fitness and nutrition courses, nutrition certification, sports nutrition courses, fitness nutrition course, nutrition courses near me, health and nutrition courses, food and nutrition course, nutritionist diploma, dietician and nutritionist course, courses in nutrition and dietetics, health and nutrition training, nutritionist course, nutrition courses online, nutrition coach certification, nutritionist degree online, nutritionist certification online, nutrition certificate, become a nutritionist online, nutritionist training, Best Online Nutrition Courses, Clinical Nutrition Course Online, Online Nutrition Coach Course, Holistic Nutrition Certification Online, Advanced Nutrition Course Online, Functional Nutrition Certification, Diet and Nutrition Course Online, Online Dietician Course, Best Sports Nutrition Certification, Online Clinical Dietetics Course, Online Holistic Nutrition Course, Medical Nutrition Therapy Course Online, Certified Nutrition Specialist Course Online, Health and Wellness Nutrition Course, Advanced Dietetics Course Online, Certified Online Nutritionist, Online Nutrition Science Course, Sports and Clinical Nutrition Course, Online Weight Management Nutrition Course, Nutrition and Wellness Coaching Online, Best Online Sports Nutrition Course, Certified Dietitian Nutritionist Online, Online Nutrition Business Certification
+        Nutri Trainer Course, Online Nutri Trainer Course, Fgiit Online Nutri Trainer Course, nutrition courses in india, course of nutritionist, fitness and nutrition courses, Online fitness and nutrition courses, nutrition certification, sports nutrition courses, fitness nutrition course, nutrition courses near me, health and nutrition courses, food and nutrition course, nutritionist diploma, dietician and nutritionist course, courses in nutrition and dietetics, health and nutrition training, nutritionist course, nutrition courses online, nutrition coach certification, nutritionist degree online, nutritionist certification online, nutrition certificate, become a nutritionist online, nutritionist training, Best Online Nutrition Courses, Clinical Nutrition Course Online, Online Nutrition Coach Course, Holistic Nutrition Certification Online, Advanced Nutrition Course Online, Functional Nutrition Certification, Diet and Nutrition Course Online, Online Dietician Course, Best Sports Nutrition Certification, Online Clinical Dietetics Course, Online Holistic Nutrition Course, Medical Nutrition Therapy Course Online, Certified Nutrition Specialist Course Online, Health and Wellness Nutrition Course, Advanced Dietetics Course Online, Certified Online Nutritionist, Online Nutrition Science Course, Sports and Clinical Nutrition Course, Online Weight Management Nutrition Course, Nutrition and Wellness Coaching Online, Best Online Sports Nutrition Course, Certified Dietitian Nutritionist Online, Online Nutrition Business Certification
       </p>
       <ModalVideo
         channel="youtube"
@@ -2770,14 +2767,16 @@ function OnlineFitnessAndNutritionCourses() {
                     style={{ borderRadius: "10px" }}
                     alt="fggroup"
                   />
-                  <div className="ply2">
-                    <Link
-                      className="custom"
-                      data-flashy-type="video"
-                      to="https://youtu.be/ZYoKVIfbJzY"
+                  <div className="video-btn play-btn">
+                    <a
+                      aria-label="Fg Group"
+                      onClick={() => openVideoModal("ZYoKVIfbJzY")}
+                      className="custom clickof"
                     >
-                      <i className="far fa-play-circle fs-40 text-white"></i>
-                    </Link>
+                      <span className="newthing">
+                        <i className="fas fa-play"></i>
+                      </span>
+                    </a>
                   </div>
                 </div>
               </div>

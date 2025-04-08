@@ -18,13 +18,15 @@ import MeetOurInstructure from "../../components/fgiit/meetInstructure";
 import OnlineCourseForm from "../../components/online-course/onlineCourseForm";
 import { OnlineDiplomaNutritionCourseData } from "../../components/online-course/OnlineCourseDataLoader";
 import OurOnlineStudents from "../../components/course/ourOnlineStudents";
-import StudentTestimonial from "../../components/fgiit/studentsvideoreview";
 import { Helmet } from "react-helmet";
 import OnlineCourseReviews from "../../components/fgiit/onlineCourseReviews";
+import ModalVideo from "react-modal-video";
 
 function FoodAndNutritionCourse() {
   const canonicalUrl = window.location.href;
   const [showModal, setShowModal] = useState(false);
+  const [isVideoOpen, setIsVideoOpen] = useState(false);
+  const [videoUrl, setVideoUrl] = useState("");
   const [formData, setFormData] = useState({
     modalRefname: "",
     modalRefnumber: "",
@@ -71,6 +73,16 @@ function FoodAndNutritionCourse() {
         text: "An error occurred while submitting the form. Please try again later.",
       });
     }
+  };
+
+  const openVideoModal = (url) => {
+    setIsVideoOpen(true);
+    setVideoUrl(url);
+  };
+
+  const closeVideoModal = () => {
+    setIsVideoOpen(false);
+    setVideoUrl("");
   };
 
   const openForm = () => {
@@ -341,7 +353,7 @@ function FoodAndNutritionCourse() {
         </noscript>
       </Helmet>
       <p className="d-none">
-     Online Diploma In Nutrition Course, Diploma In Nutrition Course Online, Nutrition Course Online, Diploma In Nutrition Course, Online Nutrition Course, Nutrition Course, diploma in nutrition, certificate in nutrition, nutrition, certificate course in nutrition, fitness and nutrition courses, dietician course, nutrition certification online, sports nutrition courses, dietitian course online, dietitian course, personal trainer and nutritionist near me, fitness nutrition course, nutrition coach certification, nutrition courses near me, health and nutrition courses, diet and nutrition course, personal fitness certification, nutrition class online, food and nutrition course, dietician online course, clinical nutrition courses, nutritionist study, sports and nutrition course, Advanced Nutrition Course Online, Functional Nutrition Certification, Diet and Nutrition Course Online, Online Dietician Course, Best Sports Nutrition Certification, Online Clinical Dietetics Course, Online Holistic Nutrition Course, Medical Nutrition Therapy Course Online, Certified Nutrition Specialist Course Online, Health and Wellness Nutrition Course, Advanced Dietetics Course Online, Certified Online Nutritionist, Online Nutrition Science Course, Sports and Clinical Nutrition Course, Online Weight Management Nutrition Course, Nutrition and Wellness Coaching Online, Best Online Sports Nutrition Course, Certified Dietitian Nutritionist Online
+        Online Diploma In Nutrition Course, Diploma In Nutrition Course Online, Nutrition Course Online, Diploma In Nutrition Course, Online Nutrition Course, Nutrition Course, diploma in nutrition, certificate in nutrition, nutrition, certificate course in nutrition, fitness and nutrition courses, dietician course, nutrition certification online, sports nutrition courses, dietitian course online, dietitian course, personal trainer and nutritionist near me, fitness nutrition course, nutrition coach certification, nutrition courses near me, health and nutrition courses, diet and nutrition course, personal fitness certification, nutrition class online, food and nutrition course, dietician online course, clinical nutrition courses, nutritionist study, sports and nutrition course, Advanced Nutrition Course Online, Functional Nutrition Certification, Diet and Nutrition Course Online, Online Dietician Course, Best Sports Nutrition Certification, Online Clinical Dietetics Course, Online Holistic Nutrition Course, Medical Nutrition Therapy Course Online, Certified Nutrition Specialist Course Online, Health and Wellness Nutrition Course, Advanced Dietetics Course Online, Certified Online Nutritionist, Online Nutrition Science Course, Sports and Clinical Nutrition Course, Online Weight Management Nutrition Course, Nutrition and Wellness Coaching Online, Best Online Sports Nutrition Course, Certified Dietitian Nutritionist Online
       </p>
       <SimpleHeader />
       <section style={{ marginTop: "100px" }}>
@@ -357,21 +369,22 @@ function FoodAndNutritionCourse() {
                         width="100%"
                         alt="Fg Group"
                         style={{ borderRadius: "10px" }}
+                        className=" course-detail"
                         src={
                           process.env.PUBLIC_URL +
                           "/assets/images/fgiit/dnc-second-new.webp"
                         }
                       />
                       <div className="video-btn play-btn">
-                        <Link
-                          to="https://youtu.be/sbBI0l3noqE"
-                          data-flashy-type="video"
+                        <a
+                          aria-label="Fg Group"
+                          onClick={() => openVideoModal("sbBI0l3noqE")}
                           className="custom clickof"
                         >
                           <span className="newthing">
                             <i className="fas fa-play"></i>
                           </span>
-                        </Link>
+                        </a>
                       </div>
                     </div>
                     <div className="d-md-block d-none">
@@ -506,35 +519,35 @@ function FoodAndNutritionCourse() {
                         and physiology, focusing on how the body's {' '}
                         {/* {showMore[1] ? (
                           <> */}
-                            systems and muscles respond to exercise.This
-                            foundation enables them to design effective,
-                            personalized training regimens based on scientific
-                            understanding of movement and function.
-                            <div className="row">
-                              <ul className="mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>Human Anatomy</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Human Physiology</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Human Kinesiology</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Energy Metabolism</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Introduction To Living Beings: Physiology
-                                  </b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Anatomy Of Our Human Body</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        systems and muscles respond to exercise.This
+                        foundation enables them to design effective,
+                        personalized training regimens based on scientific
+                        understanding of movement and function.
+                        <div className="row">
+                          <ul className="mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Human Anatomy</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Human Physiology</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Human Kinesiology</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Energy Metabolism</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Introduction To Living Beings: Physiology
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Anatomy Of Our Human Body</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -616,36 +629,36 @@ function FoodAndNutritionCourse() {
                         weight management, emphasizing dietary planning {' '}
                         {/* {showMore[2] ? (
                           <> */}
-                            and metabolism.It highlights the synergy between
-                            diet and exercise, equipping students to craft
-                            sustainable, goal - oriented diet plans for clients,
-                            fostering long - term health and fitness.
-                            <div className="row">
-                              <ul className="mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>Carbohydrates</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Protein</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Lipids</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Water</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Energy metabolism</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Minerals</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Overview of the fitness industry</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        and metabolism.It highlights the synergy between
+                        diet and exercise, equipping students to craft
+                        sustainable, goal - oriented diet plans for clients,
+                        fostering long - term health and fitness.
+                        <div className="row">
+                          <ul className="mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Carbohydrates</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Protein</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Lipids</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Water</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Energy metabolism</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Minerals</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Overview of the fitness industry</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -724,33 +737,33 @@ function FoodAndNutritionCourse() {
                         injury prevention and management through {' '}
                         {/* {showMore[3] ? (
                           <> */}
-                            tailored meal plans and strength - training
-                            principles.It prepares students to enhance
-                            performance while minimizing injury risks through
-                            informed dietary and fitness strategies.
-                            <div className="row">
-                              <ul className="mt-2 pl-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>Meal Planning and Food Groups</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Fundamentals Of Meal Planning</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Food Groups</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Food Exchange List</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Methods Of Improving Nutritional Quality Of
-                                    Foods
-                                  </b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        tailored meal plans and strength - training
+                        principles.It prepares students to enhance
+                        performance while minimizing injury risks through
+                        informed dietary and fitness strategies.
+                        <div className="row">
+                          <ul className="mt-2 pl-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Meal Planning and Food Groups</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Fundamentals Of Meal Planning</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Food Groups</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Food Exchange List</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Methods Of Improving Nutritional Quality Of
+                                Foods
+                              </b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -870,74 +883,74 @@ function FoodAndNutritionCourse() {
                         in recovery, alongside injury prevention and {' '}
                         {/* {showMore[4] ? (
                           <> */}
-                            rehabilitation techniques.Students gain expertise in
-                            safe recovery protocols and exercises that reduce
-                            the risk of future injuries.
-                            <div className="row">
-                              <ul className="col-md-12 mt-2 pl-3">
-                                <li className="list-unstyled">
-                                  <b>Therapeutic Adaptations Of Normal Diet</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Fluid Diet</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Total Parenteral Nutrient</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Tube Feeding</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Gastro Intestinal Disorders</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>
-                                    Hernia, Diarrhoea, Conspaon, Pepc Ulcer,
-                                    Ulcerve Colis, Crohns Diseases, Dumping
-                                    Syndrome, Dysphagia
-                                  </b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Metabolic Disorders</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>
-                                    Diabetes, Gout, Hypothyroidism,
-                                    Hperthyroidism, Menopause, PCOS, PMS
-                                  </b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>CardiovaScular Disorders</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>
-                                    Hypertension, Atherosclerosis, Myocardial
-                                    infacon
-                                  </b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Liver Disorders</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>
-                                    Jaundice, Hepatitis, Diseases of gallbladder
-                                  </b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Feblife Disorders</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Typhoids, Tuberculosis</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Musculoskeletal Disorders</b>
-                                </li>
-                                <li className="list-unstyled">
-                                  <b>Osteoarthritis, Osteoporosis</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        rehabilitation techniques.Students gain expertise in
+                        safe recovery protocols and exercises that reduce
+                        the risk of future injuries.
+                        <div className="row">
+                          <ul className="col-md-12 mt-2 pl-3">
+                            <li className="list-unstyled">
+                              <b>Therapeutic Adaptations Of Normal Diet</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Fluid Diet</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Total Parenteral Nutrient</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Tube Feeding</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Gastro Intestinal Disorders</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>
+                                Hernia, Diarrhoea, Conspaon, Pepc Ulcer,
+                                Ulcerve Colis, Crohns Diseases, Dumping
+                                Syndrome, Dysphagia
+                              </b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Metabolic Disorders</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>
+                                Diabetes, Gout, Hypothyroidism,
+                                Hperthyroidism, Menopause, PCOS, PMS
+                              </b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>CardiovaScular Disorders</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>
+                                Hypertension, Atherosclerosis, Myocardial
+                                infacon
+                              </b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Liver Disorders</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>
+                                Jaundice, Hepatitis, Diseases of gallbladder
+                              </b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Feblife Disorders</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Typhoids, Tuberculosis</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Musculoskeletal Disorders</b>
+                            </li>
+                            <li className="list-unstyled">
+                              <b>Osteoarthritis, Osteoporosis</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1011,29 +1024,29 @@ function FoodAndNutritionCourse() {
                         and the implications of steroid use in fitness. {' '}
                         {/* {showMore[5] ? (
                           <> */}
-                            Students learn to evaluate risks and benefits while
-                            guiding clients toward healthier, sustainable
-                            performance enhancement methods.
-                            <div className="row">
-                              <ul className="col-12 mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>Specialized Nutrition Topics</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Diet For Healthy Skin, Hair & Nails</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Nutrition For Night Shift Workers</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Food Allergies & Food Intolerance</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Weight Management & Obesity</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        Students learn to evaluate risks and benefits while
+                        guiding clients toward healthier, sustainable
+                        performance enhancement methods.
+                        <div className="row">
+                          <ul className="col-12 mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Specialized Nutrition Topics</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Diet For Healthy Skin, Hair & Nails</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Nutrition For Night Shift Workers</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Food Allergies & Food Intolerance</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Weight Management & Obesity</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1113,34 +1126,34 @@ function FoodAndNutritionCourse() {
                         Better nutrition is related to improved infant, {' '}
                         {/* {showMore[6] ? (
                           <> */}
-                            child and maternal health, stronger immune systems,
-                            safer pregnancy and childbirth, lower risk of
-                            non-communicable diseases (such as diabetes and
-                            cardiovascular disease), and longevity. Healthy
-                            children learn better.
-                            <div className="row">
-                              <ul className="mt-2 pl-3">
-                                <li className="list-unstyled text-dark">
-                                  Nutrition During Infancy
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  Nutrition During Lactation
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  Nutrition During Pregnancy
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  Nutrition During Childhood
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  Nutrition During Adulthood
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  Nutrition During Older Adults
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        child and maternal health, stronger immune systems,
+                        safer pregnancy and childbirth, lower risk of
+                        non-communicable diseases (such as diabetes and
+                        cardiovascular disease), and longevity. Healthy
+                        children learn better.
+                        <div className="row">
+                          <ul className="mt-2 pl-3">
+                            <li className="list-unstyled text-dark">
+                              Nutrition During Infancy
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              Nutrition During Lactation
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              Nutrition During Pregnancy
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              Nutrition During Childhood
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              Nutrition During Adulthood
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              Nutrition During Older Adults
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1205,24 +1218,24 @@ function FoodAndNutritionCourse() {
                         Counseling techniques involve strategies such as active listening, empathy, and cognitive-behavioral interventions to support clients' emotional and mental well-being. {' '}
                         {/* {showMore[7] ? (
                           <> */}
-                            Methods like reflective listening, motivational interviewing, and narrative therapy help individuals explore their feelings, overcome challenges, and develop healthier coping mechanisms, leading to personal growth and empowerment.
-                            <div className="row">
-                              <ul className="col-12 mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>Counselling Skills</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Foundations of Group Fitness</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Group Fitness Class Design and Teaching</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Introduction to Sports Nutrition</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        Methods like reflective listening, motivational interviewing, and narrative therapy help individuals explore their feelings, overcome challenges, and develop healthier coping mechanisms, leading to personal growth and empowerment.
+                        <div className="row">
+                          <ul className="col-12 mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Counselling Skills</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Foundations of Group Fitness</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Group Fitness Class Design and Teaching</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Introduction to Sports Nutrition</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1304,39 +1317,39 @@ function FoodAndNutritionCourse() {
                         Sports nutrition focuses on optimizing an athlete's diet to enhance performance, recovery, and overall health. A balanced intake of carbohydrates, proteins, fats, {' '}
                         {/* {showMore[8] ? (
                           <> */}
-                            and hydration supports energy, muscle repair, and endurance. Proper nutrition helps prevent injuries, boosts stamina, and ensures athletes maintain peak physical and mental performance.
-                            <div className="row">
-                              <ul className="col-12 mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>Introduction to Sports Nutrition</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Macronutrients for Sports Performance</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Micronutrients for Sports Performance</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Sports Supplements</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Nutrition for Specific Sports and
-                                    Populations
-                                  </b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Meal Planning and Periodization</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Sports Nutrition Case Studies and Practical
-                                    Applications
-                                  </b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        and hydration supports energy, muscle repair, and endurance. Proper nutrition helps prevent injuries, boosts stamina, and ensures athletes maintain peak physical and mental performance.
+                        <div className="row">
+                          <ul className="col-12 mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Introduction to Sports Nutrition</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Macronutrients for Sports Performance</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Micronutrients for Sports Performance</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Sports Supplements</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Nutrition for Specific Sports and
+                                Populations
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Meal Planning and Periodization</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Sports Nutrition Case Studies and Practical
+                                Applications
+                              </b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1420,35 +1433,35 @@ function FoodAndNutritionCourse() {
                         techniques and client management strategies. By {' '}
                         {/* {showMore[9] ? (
                           <> */}
-                            applying theoretical knowledge in practical
-                            settings, they develop skills to motivate and guide
-                            clients effectively.
-                            <div className="row">
-                              <ul className="mt-2 pl-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>Theory of behavior changes</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Client responsibilities</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Creating a positive and supportive training
-                                    environment
-                                  </b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Communication strategies for trainers and
-                                    clients
-                                  </b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Goal setting and motivation techniques</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        applying theoretical knowledge in practical
+                        settings, they develop skills to motivate and guide
+                        clients effectively.
+                        <div className="row">
+                          <ul className="mt-2 pl-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Theory of behavior changes</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Client responsibilities</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Creating a positive and supportive training
+                                environment
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Communication strategies for trainers and
+                                clients
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Goal setting and motivation techniques</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1521,26 +1534,26 @@ function FoodAndNutritionCourse() {
                         students to create diet plans that align with {' '}
                         {/* {showMore[10] ? (
                           <> */}
-                            individual goals.It emphasizes injury prevention
-                            through nutritional support, enabling clients to
-                            maintain long - term health and performance.
-                            <div className="row">
-                              <ul className="mt-2 pl-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>How to make diet plan of All disesases</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Weight Management Diet Plan</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Sports Nutrition Diet Plan</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Case Studies of Diet plan</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        individual goals.It emphasizes injury prevention
+                        through nutritional support, enabling clients to
+                        maintain long - term health and performance.
+                        <div className="row">
+                          <ul className="mt-2 pl-3">
+                            <li className="list-unstyled text-dark">
+                              <b>How to make diet plan of All disesases</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Weight Management Diet Plan</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Sports Nutrition Diet Plan</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Case Studies of Diet plan</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1670,7 +1683,7 @@ function FoodAndNutritionCourse() {
                     style={{ borderRadius: "10px" }}
                     alt="fggroup"
                   />
-                  <div className="ply2">
+                  {/* <div className="ply2">
                     <Link
                       className="custom"
                       data-flashy-type="video"
@@ -1678,6 +1691,17 @@ function FoodAndNutritionCourse() {
                     >
                       <i className="far fa-play-circle fs-40 text-white"></i>
                     </Link>
+                  </div> */}
+                  <div className="video-btn play-btn">
+                    <a
+                      aria-label="Fg Group"
+                      onClick={() => openVideoModal("j6u_P9NYp4w")}
+                      className="custom clickof"
+                    >
+                      <span className="newthing">
+                        <i className="fas fa-play"></i>
+                      </span>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -1946,6 +1970,12 @@ function FoodAndNutritionCourse() {
         </div>
       </Modal>
       <FgiitFooter />
+      <ModalVideo
+        channel="youtube"
+        isOpen={isVideoOpen}
+        videoId={videoUrl}
+        onClose={closeVideoModal}
+      />
     </>
   );
 }

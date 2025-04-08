@@ -207,8 +207,7 @@ function SteriodsBook() {
           <div className="">
             <div className="covid mb-4 mt-3 text-center">
               <h2 className="h2-fs">
-                <span className="m-0 text-blue-color">Course </span>
-                Info
+                Our <span className="m-0 text-blue-color">Live Course Syllabus</span>
               </h2>
             </div>
             <div className="thm-bg-clr dector"></div>
@@ -314,7 +313,7 @@ function SteriodsBook() {
                     <div className="mb-4 d-flex align-items-center justify-content-center flex-column flex-md-row">
                       <div className="col-md-6 blockquote-img-container mt-2">
                         <img
-                          src="/assets/images/course-img/nutrition.webp"
+                          src="/assets/images/course-img/side-effects-and-precautions.webp"
                           alt="Fitness Industry"
                           className="blackquote-img"
                         />
@@ -371,7 +370,7 @@ function SteriodsBook() {
                   <blockquote className="blockquote d-md-none d-block mb-4">
                     <div className="blockquote-img-container order-1 mt-2">
                       <img
-                        src="/assets/images/course-img/nutrition.webp"
+                        src="/assets/images/course-img/side-effects-and-precautions.webp"
                         alt="Fitness Industry"
                         className="blackquote-img"
                       />

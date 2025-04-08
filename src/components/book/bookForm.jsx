@@ -244,28 +244,23 @@ const BookForm = ({
                 </p>
               </div>
             </li>
-            <li>
-              <div>
-                <img
-                  alt="Fg Group"
-                  className="lazy mr-3"
-                  src={
-                    process.env.PUBLIC_URL + "/assets/images/img/yellow.webp"
-                  }
-                />
-                <p>Dt. Foram Desai</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <img
-                  className="lazy mr-3"
-                  src={process.env.PUBLIC_URL + "/assets/images/img/pink.webp"}
-                  alt="FG Group"
-                />
-                <p>{booksData.mentor}</p>
-              </div>
-            </li>
+            {
+              booksData?.mentor?.map((data, index) => {
+                const color = ['yellow', 'pink']
+                return (
+                  <li key={index}>
+                    <div>
+                      <img
+                        className="lazy mr-3"
+                        src={process.env.PUBLIC_URL + `/assets/images/img/${color[index]}.webp`}
+                        alt="FG Group"
+                      />
+                      <p>{data}</p>
+                    </div>
+                  </li>
+                )
+              })
+            }
           </ul>
         </div>
       </div>

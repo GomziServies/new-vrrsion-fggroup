@@ -107,8 +107,8 @@ function InjuryRehab() {
     // Change the price to 199
     setShowAddressForm(false);
     setShowEBook(true);
-    document.querySelector(".prices").innerText = "₹199/-";
-    document.querySelector(".m-prices").innerText = "₹199/-";
+    document.querySelector(".prices").innerText = "₹1050/-";
+    document.querySelector(".m-prices").innerText = "₹1050/-";
 
     document.getElementById("btn_ebook").style.display = "none";
     document.getElementById("m-btn_ebook").style.display = "inline-block";
@@ -204,8 +204,7 @@ function InjuryRehab() {
           <div className="">
             <div className="covid mb-4 mt-3 text-center">
               <h2 className="h2-fs">
-                <span className="m-0 text-blue-color">Syllabus </span>
-                Details
+                Our <span className="m-0 text-blue-color">Live Course Syllabus</span>
               </h2>
             </div>
             <div className="thm-bg-clr dector"></div>

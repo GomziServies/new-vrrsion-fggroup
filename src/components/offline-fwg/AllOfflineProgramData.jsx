@@ -60,7 +60,7 @@ export const OfflineClinicalDietProgramData = {
 	],
 	prices: 24000,
 	plan_id: "6010e9f3eb38ac0a706af298",
-	link: "community/dietitian-for-clinical-illness",
+	link: "community/clinical-illness",
 	planId: {
 		three: "plan_P9ChCuL649eZf5",
 		six: "plan_P9CgclgV7cDErA",
@@ -126,7 +126,7 @@ export const OfflinePrepCoachingProgramData = {
 	],
 	prices: 24000,
 	plan_id: "6010e9f3eb38ac0a706af298",
-	link: "fitnesswithgomzi/prep-coaching-for-bodybuilding",
+	link: "fitnesswithgomzi/bodybuilding-program",
 	planId: {
 		three: "plan_P9ChCuL649eZf5",
 		six: "plan_P9CgclgV7cDErA",
@@ -161,7 +161,7 @@ export const OfflineRapidWeightLossProgramData = {
 	],
 	prices: 24000,
 	plan_id: "6010e9f3eb38ac0a706af298",
-	link: "/fitnesswithgomzi/rapid-weight-loss",
+	link: "/fitnesswithgomzi/weight-loss-programs",
 	planId: {
 		three: "plan_P9ChCuL649eZf5",
 		six: "plan_P9CgclgV7cDErA",

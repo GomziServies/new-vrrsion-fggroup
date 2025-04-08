@@ -115,11 +115,11 @@ function WeightManagementProgram() {
   return (
     <>
       <Helmet>
-        <title>Weight management program focus for weight watcher to maintain weight</title>
-        <meta name="description" content="Among 100% of those who lose weight that time to regain weight in just 1 year after the fat loss program." />
-        <meta name="keyword" content="" />
-        <meta property="og:title" content="Weight management program focus for weight watcher to maintain weight" />
-        <meta property="og:description" content="Among 100% of those who lose weight that time to regain weight in just 1 year after the fat loss program." />
+        <title>Achieve Your Goals with a Weight Management Program</title>
+        <meta name="description" content="Take control of your health with a proven weight management program. Achieve your goals and maintain a balanced lifestyle today!" />
+        <meta name="keyword" content="weight management program, weight management, weight loss, fat loss, weight loss programmes, muscle building, weight gain, exercise routine, diet charts, fitness, keto diet plan, noom diet, lose weight fast, weight loss programs, mass gainer, best weight loss program, fat burner, weight loss supplements, best way to lose weight, meal plan for weight loss, best weight loss supplements, gyms, saxenda weight loss, fastest way to lose weight, best diet to lose weight, noom weight loss, best fat burner for men, found weight loss, workout routine, best way to lose belly fat, fasting for weight loss, weight loss shots, diet plan for weight loss, healthy meals for weight loss, Weight Loss Program, rapid, transformation, program, weight loss program, weight loss, books, fast weight loss" />
+        <meta property="og:title" content="Achieve Your Goals with a Weight Management Program" />
+        <meta property="og:description" content="Take control of your health with a proven weight management program. Achieve your goals and maintain a balanced lifestyle today!" />
         <meta property="og:image" content="https://fggroup.in/assets/images/logo/fg_group.webp" />
         <meta property="og:url" content="https://fggroup.in/book/weight-management-program" />
         <link rel="canonical" href={{ canonicalUrl }} />
@@ -152,7 +152,9 @@ function WeightManagementProgram() {
       </Helmet>
       {showModal && <LoginModal onClose={closeModal} />}
       {emailModal && <EmailModal onClose={closeEmailModal} />}
-
+      <p className="d-none">
+      weight management program, weight management, weight loss, fat loss, weight loss programmes, muscle building, weight gain, exercise routine, diet charts, fitness, keto diet plan, noom diet, lose weight fast, weight loss programs, mass gainer, best weight loss program, fat burner, weight loss supplements, best way to lose weight, meal plan for weight loss, best weight loss supplements, gyms, saxenda weight loss, fastest way to lose weight, best diet to lose weight, noom weight loss, best fat burner for men, found weight loss, workout routine, best way to lose belly fat, fasting for weight loss, weight loss shots, diet plan for weight loss, healthy meals for weight loss, Weight Loss Program, rapid, transformation, program, weight loss program, weight loss, books, fast weight loss
+      </p>
       <SimpleHeader />
       <section style={{ marginTop: "100px" }}>
         <div className="container-fluid">

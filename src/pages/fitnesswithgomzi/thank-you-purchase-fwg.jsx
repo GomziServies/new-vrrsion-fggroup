@@ -104,7 +104,7 @@ function ThankYouPageFWG() {
                   </div>
                   <Link
                     className="go-home"
-                    to="/fitnesswithgomzi/weight-loss-programs"
+                    to="/fitnesswithgomzi/fitness-programs"
                   >
                     Go Back
                   </Link>
