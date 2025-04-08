@@ -16,8 +16,6 @@ import ModalVideo from "react-modal-video";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import OnlineProgramFormFwg from "../../components/online-fwg/onlineProgramForm";
-import HowItWork from "../../components/fwg/howItWork";
-import BlogsRtpTwo from "../../components/fwg/blog-rtp-two";
 import InquiryForm from "../../components/fwg/inquiry-form";
 import { CryolipolysisFitnessProgramData } from "../../components/online-fwg/AllOnlineProgramData";
 import WhatsAppAnchor from "../../components/sendtowhatsapp";
@@ -280,7 +278,7 @@ function CryolipolysisFitnessProgram() {
                 </div>
                 <div className="mt-2">
                   <WhatsAppAnchor
-                    message="Hello, I wanted to know more about the Online Corporate Fitness Program."
+                    message="Hello, I wanted to know more about the Cryolipolysis Treatment."
                     options={{ pageRef: true }}
                   />
                 </div>
@@ -753,182 +751,182 @@ function CryolipolysisFitnessProgram() {
                     },
                   }}
                 > */}
-                  <div className="col-md-3">
-                    <img
-                      className="img-fluid"
-                      src={
-                        process.env.PUBLIC_URL + "/assets/images/fwg/e-1.webp"
-                      }
-                      style={{
-                        borderRadius: "5px",
-                        boxShadow:
-                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
-                      }}
-                      alt="weight loss transformation"
-                    />
-                  </div>
-                  <div className="col-md-3">
-                    <img
-                      className="img-fluid"
-                      src={
-                        process.env.PUBLIC_URL + "/assets/images/fwg/e-2.webp"
-                      }
-                      style={{
-                        borderRadius: "5px",
-                        boxShadow:
-                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
-                      }}
-                      alt="weight loss transformation"
-                    />
-                  </div>
-                  <div className="col-md-3">
-                    <img
-                      className="img-fluid"
-                      src={
-                        process.env.PUBLIC_URL + "/assets/images/fwg/e-3.webp"
-                      }
-                      style={{
-                        borderRadius: "5px",
-                        boxShadow:
-                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
-                      }}
-                      alt="weight loss transformation"
-                    />
-                  </div>
-                  <div className="col-md-3">
-                    <img
-                      className="img-fluid"
-                      src={
-                        process.env.PUBLIC_URL + "/assets/images/fwg/e-4.webp"
-                      }
-                      style={{
-                        borderRadius: "5px",
-                        boxShadow:
-                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
-                      }}
-                      alt="weight loss transformation"
-                    />
-                  </div>
-                  <div className="col-md-3 mt-3">
-                    <img
-                      className="img-fluid"
-                      src={
-                        process.env.PUBLIC_URL + "/assets/images/fwg/e-5.webp"
-                      }
-                      style={{
-                        borderRadius: "5px",
-                        boxShadow:
-                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
-                      }}
-                      alt="weight loss transformation"
-                    />
-                  </div>
+                <div className="col-md-3">
+                  <img
+                    className="img-fluid"
+                    src={
+                      process.env.PUBLIC_URL + "/assets/images/fwg/e-1.webp"
+                    }
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    alt="weight loss transformation"
+                  />
+                </div>
+                <div className="col-md-3">
+                  <img
+                    className="img-fluid"
+                    src={
+                      process.env.PUBLIC_URL + "/assets/images/fwg/e-2.webp"
+                    }
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    alt="weight loss transformation"
+                  />
+                </div>
+                <div className="col-md-3">
+                  <img
+                    className="img-fluid"
+                    src={
+                      process.env.PUBLIC_URL + "/assets/images/fwg/e-3.webp"
+                    }
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    alt="weight loss transformation"
+                  />
+                </div>
+                <div className="col-md-3">
+                  <img
+                    className="img-fluid"
+                    src={
+                      process.env.PUBLIC_URL + "/assets/images/fwg/e-4.webp"
+                    }
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    alt="weight loss transformation"
+                  />
+                </div>
+                <div className="col-md-3 mt-3">
+                  <img
+                    className="img-fluid"
+                    src={
+                      process.env.PUBLIC_URL + "/assets/images/fwg/e-5.webp"
+                    }
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    alt="weight loss transformation"
+                  />
+                </div>
 
-                  <div className="col-md-3 mt-3">
-                    <img
-                      className="img-fluid"
-                      src={
-                        process.env.PUBLIC_URL +
-                        "/assets/images/fwg/seminar/seminar-1.webp"
-                      }
-                      style={{
-                        borderRadius: "5px",
-                        boxShadow:
-                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
-                      }}
-                      alt="weight loss transformation"
-                    />
-                  </div>
-                  <div className="col-md-3 mt-3">
-                    <img
-                      className="img-fluid"
-                      style={{
-                        borderRadius: "5px",
-                        boxShadow:
-                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
-                      }}
-                      src={
-                        process.env.PUBLIC_URL +
-                        "/assets/images/fwg/seminar/seminar-7.webp"
-                      }
-                      alt="weight loss transformation"
-                    />
-                  </div>
-                  <div className="col-md-3 mt-3">
-                    <img
-                      className="img-fluid"
-                      style={{
-                        borderRadius: "5px",
-                        boxShadow:
-                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
-                      }}
-                      src={
-                        process.env.PUBLIC_URL +
-                        "/assets/images/fwg/seminar/seminar-1.webp"
-                      }
-                      alt="weight loss transformation"
-                    />
-                  </div>
-                  <div className="col-md-3 mt-3">
-                    <img
-                      className="img-fluid"
-                      style={{
-                        borderRadius: "5px",
-                        boxShadow:
-                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
-                      }}
-                      src={
-                        process.env.PUBLIC_URL +
-                        "/assets/images/fwg/seminar/seminar-2.webp"
-                      }
-                      alt="weight loss transformation"
-                    />
-                  </div>
-                  <div className="col-md-3 mt-3">
-                    <img
-                      className="img-fluid"
-                      style={{
-                        borderRadius: "5px",
-                        boxShadow:
-                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
-                      }}
-                      src={
-                        process.env.PUBLIC_URL +
-                        "/assets/images/fwg/seminar/seminar-3.webp"
-                      }
-                      alt="weight loss transformation"
-                    />
-                  </div>
-                  <div className="col-md-3 mt-3">
-                    <img
-                      className="img-fluid"
-                      style={{
-                        borderRadius: "5px",
-                        boxShadow:
-                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
-                      }}
-                      src={
-                        process.env.PUBLIC_URL +
-                        "/assets/images/fwg/seminar/seminar-5.webp"
-                      }
-                      alt="weight loss transformation"
-                    />
-                  </div>
-                  <div className="col-md-3 mt-3">
-                    <img
-                      className="img-fluid"
-                      style={{
-                        borderRadius: "5px",
-                        boxShadow:
-                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
-                      }}
-                      src={
-                        process.env.PUBLIC_URL +
-                        "/assets/images/fwg/seminar/seminar-4.webp"
-                      }
-                      alt="weight loss transformation"
-                    />
-                  </div>
+                <div className="col-md-3 mt-3">
+                  <img
+                    className="img-fluid"
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/seminar/seminar-1.webp"
+                    }
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    alt="weight loss transformation"
+                  />
+                </div>
+                <div className="col-md-3 mt-3">
+                  <img
+                    className="img-fluid"
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/seminar/seminar-7.webp"
+                    }
+                    alt="weight loss transformation"
+                  />
+                </div>
+                <div className="col-md-3 mt-3">
+                  <img
+                    className="img-fluid"
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/seminar/seminar-1.webp"
+                    }
+                    alt="weight loss transformation"
+                  />
+                </div>
+                <div className="col-md-3 mt-3">
+                  <img
+                    className="img-fluid"
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/seminar/seminar-2.webp"
+                    }
+                    alt="weight loss transformation"
+                  />
+                </div>
+                <div className="col-md-3 mt-3">
+                  <img
+                    className="img-fluid"
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/seminar/seminar-3.webp"
+                    }
+                    alt="weight loss transformation"
+                  />
+                </div>
+                <div className="col-md-3 mt-3">
+                  <img
+                    className="img-fluid"
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/seminar/seminar-5.webp"
+                    }
+                    alt="weight loss transformation"
+                  />
+                </div>
+                <div className="col-md-3 mt-3">
+                  <img
+                    className="img-fluid"
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/seminar/seminar-4.webp"
+                    }
+                    alt="weight loss transformation"
+                  />
+                </div>
                 {/* </OwlCarousel> */}
               </div>
             </div>
@@ -1102,10 +1100,10 @@ function CryolipolysisFitnessProgram() {
                     />
                     <div className="card__content">
                       <h2 className="card__header h2-fs">
-                      What is 360° Cryolipolysis?
+                        What is 360° Cryolipolysis?
                       </h2>
                       <p className="card__text">
-                      360° Cryolipolysis is an innovative fat-freezing technology designed to provide full-range cooling and heating for targeted fat reduction. Utilizing precise temperature control, it freezes fat cells at -10℃ and he...
+                        360° Cryolipolysis is an innovative fat-freezing technology designed to provide full-range cooling and heating for targeted fat reduction. Utilizing precise temperature control, it freezes fat cells at -10℃ and he...
                       </p>
                       <Link
                         to="/blogs/cryolipolysis-machine"
@@ -1219,10 +1217,10 @@ function CryolipolysisFitnessProgram() {
 
                     <div className="card__content">
                       <h2 className="card__header h2-fs">
-                      What is 360° Cryolipolysis?
+                        What is 360° Cryolipolysis?
                       </h2>
                       <p className="card__text mb-0">
-                      360° Cryolipolysis is an innovative fat-freezing technology designed to provide full-range cooling and heating for targeted fat reduction. Utilizing precise temperature control, it freezes fat cells at -10℃ and he...
+                        360° Cryolipolysis is an innovative fat-freezing technology designed to provide full-range cooling and heating for targeted fat reduction. Utilizing precise temperature control, it freezes fat cells at -10℃ and he...
                       </p>
                       <Link
                         to="/blogs/cryolipolysis-machine"
@@ -1282,16 +1280,14 @@ function CryolipolysisFitnessProgram() {
                   <div className="faq-question">{item.question}</div>
                   <div className="icon-container">
                     <i
-                      className={`fas fa-chevron-right ${
-                        activeIndex === index ? "active" : ""
-                      }`}
+                      className={`fas fa-chevron-right ${activeIndex === index ? "active" : ""
+                        }`}
                     ></i>
                   </div>
                 </div>
                 <div
-                  className={`faq-answer ${
-                    activeIndex === index ? "active" : ""
-                  }`}
+                  className={`faq-answer ${activeIndex === index ? "active" : ""
+                    }`}
                   style={{ maxHeight: activeIndex === index ? "200px" : "0" }}
                 >
                   <p>{item.answer}</p>
