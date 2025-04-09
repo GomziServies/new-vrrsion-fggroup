@@ -2586,9 +2586,9 @@ function FgiitWebinar() {
                   <option value="Injury Rehabilitation Workshop">
                     Injury Rehabilitation Workshop
                   </option>
-                  <option value="Advance Clinical Nutrition Workshop">
+                  {/* <option value="Advance Clinical Nutrition Workshop">
                     Advance Clinical Nutrition Workshop
-                  </option>
+                  </option> */}
                 </select>
                 <p className="mb-0 mt-4">Write Your Message</p>
                 <textarea

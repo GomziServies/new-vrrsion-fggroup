@@ -9,7 +9,6 @@ import { sendInquiry } from "../../assets/js/utils/contact-us";
 import Modal from "react-bootstrap/Modal";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
-import { Link } from "react-router-dom";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -24,6 +23,7 @@ import ClientsTestimonial from "../../components/fwg/clinetvideoreview";
 import WhatsappHeaderApp from "../../components/whatsappHeaderBtn";
 import { Helmet } from "react-helmet";
 import ModalVideo from "react-modal-video";
+import { Link } from "react-router-dom";
 
 function WeightLossPrograms() {
   const canonicalUrl = window.location.href;
@@ -243,7 +243,16 @@ function WeightLossPrograms() {
         </noscript>
       </Helmet>
       <p className="d-none">
-     Rapid Weight Loss Program, weight, loss, program, fitness, weight loss exercise, rapid, weight loss workout plan, online weight loss program, fat loss program, fast weight loss, best exercise to lose weight, exercise plan to lose weight, fast weight loss diet plan, best exercise for fat loss, best exercise for weight loss, good workouts to lose weight, weight loss training program, faster way to weight loss, best program for weight loss, at home weight loss workouts, fitness plan to lose weight, workout programs for weight loss, exercise program for weight loss, workouts for weight loss at gym, program for weight loss, weight loss, weight-loss-programs
+        Rapid Weight Loss Program, weight, loss, program, fitness, weight loss
+        exercise, rapid, weight loss workout plan, online weight loss program,
+        fat loss program, fast weight loss, best exercise to lose weight,
+        exercise plan to lose weight, fast weight loss diet plan, best exercise
+        for fat loss, best exercise for weight loss, good workouts to lose
+        weight, weight loss training program, faster way to weight loss, best
+        program for weight loss, at home weight loss workouts, fitness plan to
+        lose weight, workout programs for weight loss, exercise program for
+        weight loss, workouts for weight loss at gym, program for weight loss,
+        weight loss, weight-loss-programs
       </p>
       <FwgHeader />
       <WhatsappHeaderApp

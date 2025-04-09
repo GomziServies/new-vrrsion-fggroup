@@ -2698,7 +2698,7 @@ function CourseOfDietician() {
                       <h2 className="h4-fs">Injury Rehabilitation Workshop</h2>
                     </div>
                   </div>
-                  <div className="item mx-2">
+                  {/* <div className="item mx-2">
                     <img
                       src={
                         process.env.PUBLIC_URL +
@@ -2713,7 +2713,7 @@ function CourseOfDietician() {
                         Advance Clinical Nutrition Workshop
                       </h2>
                     </div>
-                  </div>
+                  </div> */}
                 </OwlCarousel>
               </div>
             </div>

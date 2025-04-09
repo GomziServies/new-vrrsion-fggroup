@@ -82,15 +82,15 @@ function OnlineTrxBandWorkshop() {
     setIsVideoOpen(false);
     setVideoUrl("");
   };
-  const [activeIndex, setActiveIndex] = useState(null);
+  // const [activeIndex, setActiveIndex] = useState(null);
 
-  const toggleAnswer = (index) => {
-    if (activeIndex === index) {
-      setActiveIndex(null); // Collapse the currently active item
-    } else {
-      setActiveIndex(index); // Set the clicked item as active
-    }
-  };
+  // const toggleAnswer = (index) => {
+  //   if (activeIndex === index) {
+  //     setActiveIndex(null);
+  //   } else {
+  //     setActiveIndex(index);
+  //   }
+  // };
 
   const faqItems = [
     {
@@ -948,12 +948,12 @@ function OnlineTrxBandWorkshop() {
                           >
                             Injury Rehabilitation Workshop
                           </option>
-                          <option
+                          {/* <option
                             className="field"
                             value="Advance Clinical Nutrition Workshop"
                           >
                             Advance Clinical Nutrition Workshop
-                          </option>
+                          </option> */}
                         </select>
                       </div>
                     </Form>

@@ -193,13 +193,13 @@ export const RapidTransformationBookData = {
 
 export const FGIITAllCoursesBookData = {
   englishbookImg: [
-    "/assets/images/book/FGIIT-boook-combo.webp",
+    "/assets/images/book/fgiit-book-combo.webp",
     "/assets/images/img/cnc-1.webp",
     "/assets/images/img/cpt-1.webp",
     "/assets/images/img/aas-1.webp",
     "/assets/images/book/group-front.webp",
     "/assets/images/img/injury-rehab-2.webp",
-    "/assets/images/img/health-wellness-1.webp",
+    // "/assets/images/img/health-wellness-1.webp",
   ],
 
   name: "FGIIT All Courses Books Combo",

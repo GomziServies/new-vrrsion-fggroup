@@ -201,7 +201,7 @@ function FitnessAndNutritionCourses() {
         </noscript>
       </Helmet>
       <p className="d-none">
-     course nutrition, fitness and nutrition courses, certified nutritionist course, dietician course, diploma of nutrition, fitness nutrition course, nutrition courses near me, health and nutrition courses, diet and nutrition course, food and nutrition course, best nutritionist in india, courses in nutrition, nutritionist dietician course, sports nutrition diploma, clinical nutrition course, certified sports nutritionist, advanced nutrition course, diploma in dietetics, accredited nutrition course, best dietetics course, food science and nutrition course, holistic nutrition diploma, weight management course, fitness and health diploma, best fitness nutrition certification, diploma in nutrition and dietetics, exercise nutrition course, best sports nutrition certification, fitness dietician course, health coaching certification, functional nutrition course, nutrition course for fitness trainers, certified holistic nutritionist, weight loss nutrition course, advanced sports nutrition course, diploma in clinical nutrition, international nutrition course, dietician diploma course, certificate in sports nutrition, best fitness and nutrition course, diploma in holistic nutrition, gym nutrition course, accredited dietetics course, sports nutrition course offline, dietitian training program, short course in nutrition, personal trainer nutrition course, nutrition certification course, offline fitness trainer course
+        course nutrition, fitness and nutrition courses, certified nutritionist course, dietician course, diploma of nutrition, fitness nutrition course, nutrition courses near me, health and nutrition courses, diet and nutrition course, food and nutrition course, best nutritionist in india, courses in nutrition, nutritionist dietician course, sports nutrition diploma, clinical nutrition course, certified sports nutritionist, advanced nutrition course, diploma in dietetics, accredited nutrition course, best dietetics course, food science and nutrition course, holistic nutrition diploma, weight management course, fitness and health diploma, best fitness nutrition certification, diploma in nutrition and dietetics, exercise nutrition course, best sports nutrition certification, fitness dietician course, health coaching certification, functional nutrition course, nutrition course for fitness trainers, certified holistic nutritionist, weight loss nutrition course, advanced sports nutrition course, diploma in clinical nutrition, international nutrition course, dietician diploma course, certificate in sports nutrition, best fitness and nutrition course, diploma in holistic nutrition, gym nutrition course, accredited dietetics course, sports nutrition course offline, dietitian training program, short course in nutrition, personal trainer nutrition course, nutrition certification course, offline fitness trainer course
       </p>
       <WhatsappHeaderApp
         message={"Hello, I wanted to know more about Offline Courses. "}
@@ -789,7 +789,7 @@ function FitnessAndNutritionCourses() {
                           </h2>
                         </div>
                       </div>
-                      <div className="item mx-2">
+                      {/* <div className="item mx-2">
                         <img
                           src={
                             process.env.PUBLIC_URL +
@@ -804,7 +804,7 @@ function FitnessAndNutritionCourses() {
                             Advance Clinical Nutrition Workshop
                           </h2>
                         </div>
-                      </div>
+                      </div> */}
                     </OwlCarousel>
                   </div>
                 </div>
@@ -2198,9 +2198,9 @@ function FitnessAndNutritionCourses() {
                 <option value="Injury Rehabilitation Workshop">
                   Injury Rehabilitation Workshop
                 </option>
-                <option value="Advance Clinical Nutrition Workshop">
+                {/* <option value="Advance Clinical Nutrition Workshop">
                   Advance Clinical Nutrition Workshop
-                </option>
+                </option> */}
               </select>
               <p className="mb-0 mt-4">Write Your Message</p>
               <textarea

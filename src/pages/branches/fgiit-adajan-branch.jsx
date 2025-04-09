@@ -201,9 +201,9 @@ function FGIITAdajanBranch() {
                     <li className="paragraph disc">
                       Injury Rehabilitation Workshop
                     </li>
-                    <li className="paragraph disc">
+                    {/* <li className="paragraph disc">
                       Advance Clinical Nutrition Workshop
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -715,7 +715,7 @@ function FGIITAdajanBranch() {
                   </div>
                 </div>
               </div>
-              <div className="mb-5 item mx-2">
+              {/* <div className="mb-5 item mx-2">
                 <div className="card border-0 rounded-0 box-shadow">
                   <img
                     className="card-img-top rounded-0"
@@ -737,7 +737,7 @@ function FGIITAdajanBranch() {
                       Fight Diseases Like Diabetes,Cancer. These Are The
                       Diseases Is Can Not Be Controlled By Medicine Only.
                     </p>
-                    {/* <h2 className="h3-fs h3">
+                    <h2 className="h3-fs h3">
                       ₹1999/-
                       <del
                         style={{
@@ -748,7 +748,7 @@ function FGIITAdajanBranch() {
                       >
                         3999/-
                       </del>
-                    </h2> */}
+                    </h2>
                     <div>
                       <Link
                         to="https://api.whatsapp.com/send?phone=8866842520&amp;text=Hello I want to know more about FGIIT Courses in Adajan branch."
@@ -766,7 +766,7 @@ function FGIITAdajanBranch() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="mb-5 item mx-2">
                 <div className="card border-0 rounded-0 box-shadow">
                   <img
@@ -1789,7 +1789,7 @@ function FGIITAdajanBranch() {
                 <h2 className="h2-fs section-title h2">Demo Lectures</h2>
               </div>
               <div className="col-md-6">
-                <div className="ply1 black-before">
+                <div className="ply1">
                   <LazyLoadImage
                     effect="blur"
                     src={
@@ -1817,7 +1817,7 @@ function FGIITAdajanBranch() {
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="ply1 black-before">
+                <div className="ply1">
                   <LazyLoadImage
                     effect="blur"
                     src={
@@ -1845,7 +1845,7 @@ function FGIITAdajanBranch() {
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="ply1 black-before">
+                <div className="ply1">
                   <LazyLoadImage
                     effect="blur"
                     src={
@@ -1875,7 +1875,7 @@ function FGIITAdajanBranch() {
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="ply1 black-before">
+                <div className="ply1">
                   <LazyLoadImage
                     effect="blur"
                     src={
@@ -1902,8 +1902,9 @@ function FGIITAdajanBranch() {
                   <h2 className="h4-fs h4">Group Instructure Masterclass</h2>
                 </div>
               </div>
+              <div className="col"></div>
               <div className="col-md-6">
-                <div className="ply1 black-before">
+                <div className="ply1">
                   <LazyLoadImage
                     effect="blur"
                     src={
@@ -1930,8 +1931,9 @@ function FGIITAdajanBranch() {
                   <h2 className="h4-fs h4">Injury Rehabilitation Masterclass</h2>
                 </div>
               </div>
-              <div className="col-md-6">
-                <div className="ply1 black-before">
+              <div className="col"></div>
+              {/* <div className="col-md-6">
+                <div className="ply1">
                   <LazyLoadImage
                     effect="blur"
                     src={
@@ -1957,7 +1959,7 @@ function FGIITAdajanBranch() {
                 <div className="mt-2">
                   <h2 className="h4-fs h4">Advance Clinical Nutrition</h2>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -2092,6 +2094,7 @@ function FGIITAdajanBranch() {
                 <h2 className="h4-fs text-white h4">Anabolic Androgenic Steroids</h2>
               </div>
             </div>
+            <div className="col"></div>
             <div className="col-md-6 col-6">
               <LazyLoadImage
                 effect="blur"
@@ -2109,7 +2112,8 @@ function FGIITAdajanBranch() {
                 </h2>
               </div>
             </div>
-            <div className="col-md-6 col-6">
+            <div className="col"></div>
+            {/* <div className="col-md-6 col-6">
               <LazyLoadImage
                 effect="blur"
                 src={
@@ -2125,7 +2129,7 @@ function FGIITAdajanBranch() {
                   Advance Clinical Nutrition Workshop
                 </h2>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <LazyLoadImage
@@ -2269,9 +2273,9 @@ function FGIITAdajanBranch() {
                 <option value="Injury Rehabilitation Workshop">
                   Injury Rehabilitation Workshop
                 </option>
-                <option value="Advance Clinical Nutrition Workshop">
+                {/* <option value="Advance Clinical Nutrition Workshop">
                   Advance Clinical Nutrition Workshop
-                </option>
+                </option> */}
               </select>
               <p className="mb-0 mt-4">Write Your Message</p>
               <textarea

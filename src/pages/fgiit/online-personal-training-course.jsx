@@ -2,9 +2,6 @@ import React, { useState } from "react";
 import "../../assets/css/home.css";
 import "../../assets/css/new-popup.css";
 import Modal from "react-bootstrap/Modal";
-import OwlCarousel from "react-owl-carousel";
-// import "owl.carousel/dist/assets/owl.carousel.css";
-// import "owl.carousel/dist/assets/owl.theme.default.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { Form } from "react-bootstrap";
 import FgiitFooter from "../../components/partials/Footer/fgiitfooter";
@@ -16,7 +13,6 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 import MeetOurInstructure from "../../components/fgiit/meetInstructure";
 import { OnlineDiplomaPersonalTrainingCourseData } from "../../components/online-course/OnlineCourseDataLoader";
 import ModalVideo from "react-modal-video";
-import StudentTestimonial from "../../components/fgiit/studentsvideoreview";
 import OnlineCourseForm from "../../components/online-course/onlineCourseForm";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -35,69 +31,69 @@ function OnlinePersonalTrainingCourse() {
   });
   const [isVideoOpen, setIsVideoOpen] = useState(false);
   const [videoUrl, setVideoUrl] = useState("");
-  const [showMore, setShowMore] = useState(Array(5).fill(false));
+  // const [showMore, setShowMore] = useState(Array(5).fill(false));
 
-  const toggleReadMore = (index) => {
-    const updatedShowMore = [...showMore];
-    updatedShowMore[index] = !updatedShowMore[index];
-    setShowMore(updatedShowMore);
-  };
+  // const toggleReadMore = (index) => {
+  //   const updatedShowMore = [...showMore];
+  //   updatedShowMore[index] = !updatedShowMore[index];
+  //   setShowMore(updatedShowMore);
+  // };
 
-  const reviewImages = [
-    "/assets/images/fwg/sanjeev.webp",
-    "/assets/images/fwg/shailesh.webp",
-    "/assets/images/fwg/pankaj.webp",
-    "/assets/images/fwg/ramiz.webp",
-  ];
+  // const reviewImages = [
+  //   "/assets/images/fwg/sanjeev.webp",
+  //   "/assets/images/fwg/shailesh.webp",
+  //   "/assets/images/fwg/pankaj.webp",
+  //   "/assets/images/fwg/ramiz.webp",
+  // ];
 
-  const reviewses = [
-    {
-      name: "Sanjeev Rawat",
-      stars: 5,
-      review:
-        "I found the FGIIT institute (diploma in personal trainer certificate) very helpful and an excellent start to my fitness career. ",
-      fullReview:
-        "I found the FGIIT institute (diploma in personal trainer certificate) very helpful and an excellent start to my fitness career. Thanks to the team! Overall, I can say that this institute is one of the best and one can surely rely on.",
-      image: reviewImages[0],
-    },
-    {
-      name: "Shailesh Athawale",
-      stars: 5,
-      review:
-        "Best place to learn. The video lectures were really helpful, and Gautam Sir explained everything clearly. ",
-      fullReview:
-        "Best place to learn. The video lectures were really helpful. The way Gautam Sir explained each topic was really great. It was so easy to understand. Overall, I can say that this institute is one of the best and one can surely rely on.",
-      image: reviewImages[1],
-    },
-    {
-      name: "Pankaj Dey",
-      stars: 5,
-      review:
-        "FGIIT's Personal Training course helped me switch careers. The hands-on training and exercise physiology instruction were... ",
-      fullReview:
-        "amazing. Pankaj talks about how FGIIT's Personal Training course helped him switch careers. In his review, he praises the hands-on training and detailed instruction on exercise physiology. He also shares how the course enhanced his ability to design effective fitness programs tailored to individual goals.",
-      image: reviewImages[2],
-    },
-    {
-      name: "Ramish Parvez",
-      stars: 5,
-      review:
-        "FGIIT is a great institute. The trainers explained everything clearly and gave valuable knowledge for a fitness career. ",
-      fullReview:
-        "FGIIT is a great institute. The trainers and lecturers taught us in a very easy language and gave us knowledgeable information, which is helpful in the fitness trainer field. All team members of FGIIT are good-natured.",
-      image: reviewImages[3],
-    },
-  ];
+  // const reviewses = [
+  //   {
+  //     name: "Sanjeev Rawat",
+  //     stars: 5,
+  //     review:
+  //       "I found the FGIIT institute (diploma in personal trainer certificate) very helpful and an excellent start to my fitness career. ",
+  //     fullReview:
+  //       "I found the FGIIT institute (diploma in personal trainer certificate) very helpful and an excellent start to my fitness career. Thanks to the team! Overall, I can say that this institute is one of the best and one can surely rely on.",
+  //     image: reviewImages[0],
+  //   },
+  //   {
+  //     name: "Shailesh Athawale",
+  //     stars: 5,
+  //     review:
+  //       "Best place to learn. The video lectures were really helpful, and Gautam Sir explained everything clearly. ",
+  //     fullReview:
+  //       "Best place to learn. The video lectures were really helpful. The way Gautam Sir explained each topic was really great. It was so easy to understand. Overall, I can say that this institute is one of the best and one can surely rely on.",
+  //     image: reviewImages[1],
+  //   },
+  //   {
+  //     name: "Pankaj Dey",
+  //     stars: 5,
+  //     review:
+  //       "FGIIT's Personal Training course helped me switch careers. The hands-on training and exercise physiology instruction were... ",
+  //     fullReview:
+  //       "amazing. Pankaj talks about how FGIIT's Personal Training course helped him switch careers. In his review, he praises the hands-on training and detailed instruction on exercise physiology. He also shares how the course enhanced his ability to design effective fitness programs tailored to individual goals.",
+  //     image: reviewImages[2],
+  //   },
+  //   {
+  //     name: "Ramish Parvez",
+  //     stars: 5,
+  //     review:
+  //       "FGIIT is a great institute. The trainers explained everything clearly and gave valuable knowledge for a fitness career. ",
+  //     fullReview:
+  //       "FGIIT is a great institute. The trainers and lecturers taught us in a very easy language and gave us knowledgeable information, which is helpful in the fitness trainer field. All team members of FGIIT are good-natured.",
+  //     image: reviewImages[3],
+  //   },
+  // ];
 
-  const [showMoreList, setShowMoreList] = useState(
-    new Array(reviewses.length).fill(false)
-  );
+  // const [showMoreList, setShowMoreList] = useState(
+  //   new Array(reviewses.length).fill(false)
+  // );
 
-  const toggleReadMore1 = (index) => {
-    setShowMoreList((prevState) =>
-      prevState.map((item, i) => (i === index ? !item : item))
-    );
-  };
+  // const toggleReadMore1 = (index) => {
+  //   setShowMoreList((prevState) =>
+  //     prevState.map((item, i) => (i === index ? !item : item))
+  //   );
+  // };
 
   const handlePopupClose = () => {
     setShowModal(false);
@@ -154,15 +150,15 @@ function OnlinePersonalTrainingCourse() {
     setIsVideoOpen(false);
     setVideoUrl("");
   };
-  const [activeIndex, setActiveIndex] = useState(null);
+  // const [activeIndex, setActiveIndex] = useState(null);
 
-  const toggleAnswer = (index) => {
-    if (activeIndex === index) {
-      setActiveIndex(null); // Collapse the currently active item
-    } else {
-      setActiveIndex(index); // Set the clicked item as active
-    }
-  };
+  // const toggleAnswer = (index) => {
+  //   if (activeIndex === index) {
+  //     setActiveIndex(null); // Collapse the currently active item
+  //   } else {
+  //     setActiveIndex(index); // Set the clicked item as active
+  //   }
+  // };
 
   const faqItems = [
     {
@@ -280,72 +276,72 @@ function OnlinePersonalTrainingCourse() {
   //   },
   // ];
 
-  const options = {
-    loop: true,
-    margin: 20,
-    nav: true,
-    dots: false,
-    autoplay: true,
-    navText: [
-      '<i class="fas fa-arrow-left"></i>',
-      '<i class="fas fa-arrow-right"></i>',
-    ],
-    autoplayTimeout: 5000,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      600: {
-        items: 2,
-      },
-      1000: {
-        items: 3,
-      },
-    },
-  };
+  // const options = {
+  //   loop: true,
+  //   margin: 20,
+  //   nav: true,
+  //   dots: false,
+  //   autoplay: true,
+  //   navText: [
+  //     '<i class="fas fa-arrow-left"></i>',
+  //     '<i class="fas fa-arrow-right"></i>',
+  //   ],
+  //   autoplayTimeout: 5000,
+  //   responsive: {
+  //     0: {
+  //       items: 1,
+  //     },
+  //     600: {
+  //       items: 2,
+  //     },
+  //     1000: {
+  //       items: 3,
+  //     },
+  //   },
+  // };
 
-  const testimonials = [
-    {
-      name: "Divya Chauhan",
-      description:
-        "Divya review describes her journey in the FGIIT Diploma in Personal Training course. She discusses how the course transformed her understanding of fitness and exercise science, emphasizing the supportive instructors and in-depth curriculum that covered strength training, anatomy, and client assessments.",
-      videoUrl: "OAvT2XECZq8",
-      imageUrl: "/assets/images/fgiit/student-review/divya-chauhan.webp",
-      date: "13 March 2023",
-    },
-    {
-      name: "Bhargavraj Parmar",
-      description:
-        "Bhargavraj describes the Diploma in Nutrition as life-changing. In her video, she discusses how the program improved her knowledge of healthy eating habits and the role of nutrition in disease management. Bhargavraj highlights the professionalism of the instructors and the value of the course material.",
-      videoUrl: "a17jKkAjQB4",
-      imageUrl: "/assets/images/fgiit/student-review/bhargvaraj.webp",
-      date: "13 March 2023",
-    },
-    {
-      name: "Kaushik Parmar",
-      description:
-        "Kaushik talks about how FGIIT's Personal Training course helped him switch careers. In his review, he praises the hands-on training and detailed instruction on exercise physiology. He also shares how the course enhanced his ability to design effective fitness programs tailored to individual goals.",
-      videoUrl: "IIG46Av6HQc",
-      imageUrl: "/assets/images/fgiit/student-review/kp-dpt.webp",
-      date: "13 March 2023",
-    },
-    {
-      name: "Mohsina",
-      description:
-        "Mohsina shares her positive experience with FGIIT's course, mentioning how it covered everything from beginner fitness levels to advanced strength training techniques. She enjoyed the balance between classroom learning and practical application, which helped her understand client needs better.",
-      videoUrl: "vbQgsE_1Fcc",
-      imageUrl: "/assets/images/fgiit/student-review/mohsina.webp",
-      date: "13 March 2023",
-    },
-    {
-      name: "Satish Nishad",
-      description:
-        "In Satish review, he highlights how the Diploma in Personal Training at FGIIT expanded his knowledge beyond basic training techniques. He found the modules on injury prevention and rehabilitation particularly useful for working with a variety of clients safely and effectively.",
-      videoUrl: "NN8TOL_pwOk",
-      imageUrl: "/assets/images/fgiit/student-review/satish-dpt.webp",
-      date: "13 March 2023",
-    },
-  ];
+  // const testimonials = [
+  //   {
+  //     name: "Divya Chauhan",
+  //     description:
+  //       "Divya review describes her journey in the FGIIT Diploma in Personal Training course. She discusses how the course transformed her understanding of fitness and exercise science, emphasizing the supportive instructors and in-depth curriculum that covered strength training, anatomy, and client assessments.",
+  //     videoUrl: "OAvT2XECZq8",
+  //     imageUrl: "/assets/images/fgiit/student-review/divya-chauhan.webp",
+  //     date: "13 March 2023",
+  //   },
+  //   {
+  //     name: "Bhargavraj Parmar",
+  //     description:
+  //       "Bhargavraj describes the Diploma in Nutrition as life-changing. In her video, she discusses how the program improved her knowledge of healthy eating habits and the role of nutrition in disease management. Bhargavraj highlights the professionalism of the instructors and the value of the course material.",
+  //     videoUrl: "a17jKkAjQB4",
+  //     imageUrl: "/assets/images/fgiit/student-review/bhargvaraj.webp",
+  //     date: "13 March 2023",
+  //   },
+  //   {
+  //     name: "Kaushik Parmar",
+  //     description:
+  //       "Kaushik talks about how FGIIT's Personal Training course helped him switch careers. In his review, he praises the hands-on training and detailed instruction on exercise physiology. He also shares how the course enhanced his ability to design effective fitness programs tailored to individual goals.",
+  //     videoUrl: "IIG46Av6HQc",
+  //     imageUrl: "/assets/images/fgiit/student-review/kp-dpt.webp",
+  //     date: "13 March 2023",
+  //   },
+  //   {
+  //     name: "Mohsina",
+  //     description:
+  //       "Mohsina shares her positive experience with FGIIT's course, mentioning how it covered everything from beginner fitness levels to advanced strength training techniques. She enjoyed the balance between classroom learning and practical application, which helped her understand client needs better.",
+  //     videoUrl: "vbQgsE_1Fcc",
+  //     imageUrl: "/assets/images/fgiit/student-review/mohsina.webp",
+  //     date: "13 March 2023",
+  //   },
+  //   {
+  //     name: "Satish Nishad",
+  //     description:
+  //       "In Satish review, he highlights how the Diploma in Personal Training at FGIIT expanded his knowledge beyond basic training techniques. He found the modules on injury prevention and rehabilitation particularly useful for working with a variety of clients safely and effectively.",
+  //     videoUrl: "NN8TOL_pwOk",
+  //     imageUrl: "/assets/images/fgiit/student-review/satish-dpt.webp",
+  //     date: "13 March 2023",
+  //   },
+  // ];
   return (
     <>
       <Helmet>
@@ -2083,12 +2079,12 @@ function OnlinePersonalTrainingCourse() {
                           >
                             Injury Rehabilitation Workshop
                           </option>
-                          <option
+                          {/* <option
                             className="field"
                             value="Advance Clinical Nutrition Workshop"
                           >
                             Advance Clinical Nutrition Workshop
-                          </option>
+                          </option> */}
                         </select>
                       </div>
                     </Form>

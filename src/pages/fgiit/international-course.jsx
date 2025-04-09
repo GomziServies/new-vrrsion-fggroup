@@ -610,7 +610,7 @@ function InternationalCourse() {
                       </div>
                     </div>
                   </div>
-                  <div className="item mx-md-3 mx-2">
+                  {/* <div className="item mx-md-3 mx-2">
                     <div className="blog p-0" style={{ borderRadius: "10px" }}>
                       <div className="ply position-relative">
                         <img
@@ -683,7 +683,7 @@ function InternationalCourse() {
                         </Link>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="item mx-md-3 mx-2">
                     <div className="blog p-0" style={{ borderRadius: "10px" }}>
                       <div className="ply position-relative">
@@ -2012,7 +2012,7 @@ function InternationalCourse() {
         </div>
       </section>
       <InternationalFlags />
-        <ContactInquiryForm note={"International Course Page Inquiry"} />
+      <ContactInquiryForm note={"International Course Page Inquiry"} />
       <FgiitFooter />
     </>
   );

@@ -20,10 +20,8 @@ function HealthBooks() {
   };
 
   useEffect(() => {
-    // Import jQuery
     const $ = window.$;
 
-    // Replace default navigation icons with Font Awesome icon
     $(".owl-prev").html('<i class="fas fa-arrow-left"></i>');
     $(".owl-next").html('<i class="fas fa-arrow-right"></i>');
   }, []);
@@ -424,7 +422,7 @@ function HealthBooks() {
             </div>
           </div>
         </section>
-        <section>
+        {/* <section>
           <div className="container-fluid border-bottom py-5">
             <div className="container">
               <div className="row">
@@ -482,7 +480,7 @@ function HealthBooks() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <section>
           <div className="container-fluid border-bottom py-5">
             <div className="container">
@@ -604,7 +602,7 @@ function HealthBooks() {
           </div>
         </section>
         <section>
-          <div className="container-fluid py-5">
+          <div className="container-fluid border-bottom py-5">
             <div className="container">
               <div className="row">
                 <div className="col-md-4 text-center">
@@ -614,7 +612,7 @@ function HealthBooks() {
                       className="lazy"
                       src={
                         process.env.PUBLIC_URL +
-                        "/assets/images/book/FGIIT-boook-combo.webp"
+                        "/assets/images/book/fgiit-book-combo.webp"
                       }
                       alt="fggroup"
                     />
@@ -1594,7 +1592,7 @@ function HealthBooks() {
                   effect="blur"
                   src={
                     process.env.PUBLIC_URL +
-                    "/assets/images/book/FGIIT-boook-combo.webp"
+                    "/assets/images/book/fgiit-book-combo.webp"
                   }
                   width="100%"
                   style={{ borderRadius: "10px 10px 0px 0px" }}

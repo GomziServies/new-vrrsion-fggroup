@@ -18,27 +18,27 @@ const OfflineFitnessCourse = () => {
     setIsVideoOpen(false);
     setVideoUrl("");
   };
-  const [showMore, setShowMore] = useState(false);
+  // const [showMore, setShowMore] = useState(false);
 
-  const toggleReadMore = () => {
-    setShowMore(!showMore);
-  };
+  // const toggleReadMore = () => {
+  //   setShowMore(!showMore);
+  // };
 
-  const toggleReadMorei = () => {
-    setShowMore(!showMore);
-  };
+  // const toggleReadMorei = () => {
+  //   setShowMore(!showMore);
+  // };
 
-  const toggleReadMoreii = () => {
-    setShowMore(!showMore);
-  };
+  // const toggleReadMoreii = () => {
+  //   setShowMore(!showMore);
+  // };
 
-  const toggleReadMoreiii = () => {
-    setShowMore(!showMore);
-  };
+  // const toggleReadMoreiii = () => {
+  //   setShowMore(!showMore);
+  // };
 
-  const toggleReadMoreiv = () => {
-    setShowMore(!showMore);
-  };
+  // const toggleReadMoreiv = () => {
+  //   setShowMore(!showMore);
+  // };
 
   return (
     <>
@@ -528,7 +528,7 @@ const OfflineFitnessCourse = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6">
+              {/* <div className="col-lg-6">
                 <div className="blog p-0" style={{ borderRadius: "10px" }}>
                   <div className="ply1">
                     <LazyLoadImage
@@ -545,7 +545,7 @@ const OfflineFitnessCourse = () => {
                     <div className="fly-tag">
                       <span>Advanced</span>
                     </div>
-                    {/* <div className="video-btn play-btn">
+                    <div className="video-btn play-btn">
                       <a
                         onClick={() => openVideoModal("p3-OhJ9hLGQ")}
                         className="custom clickof"
@@ -555,7 +555,7 @@ const OfflineFitnessCourse = () => {
                           <i className="fas fa-play"></i>
                         </span>
                       </a>
-                    </div> */}
+                    </div>
                   </div>
                   <div className="main-rtp">
                     <ul
@@ -605,7 +605,8 @@ const OfflineFitnessCourse = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
+              <div className="col"></div>
               <div className="col-lg-6">
                 <div className="blog p-0" style={{ borderRadius: "10px" }}>
                   <div className="ply1">
@@ -683,6 +684,7 @@ const OfflineFitnessCourse = () => {
                   </div>
                 </div>
               </div>
+              <div className="col"></div>
             </div>
           </div>
         </div>

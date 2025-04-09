@@ -292,7 +292,7 @@ const ProgramReviews = () => {
               </div>
             </div>
             {/* Google Reviews */}
-            <div>
+            {/* <div>
               <div className="d-md-block d-none">
                 <div className="row pt-4">
                   <OwlCarousel
@@ -960,7 +960,7 @@ const ProgramReviews = () => {
                   </OwlCarousel>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="container-fluid">
@@ -987,66 +987,12 @@ const ProgramReviews = () => {
                       },
                     }}
                   >
-                    {/* <div className="item px-2">
-                      <img
-                        className="lazy"
-                        src={
-                          process.env.PUBLIC_URL + "/assets/images/img/a.webp"
-                        }
-                        alt="passed out student from our academy"
-                      />
-                    </div>
-                    <div className="item px-2">
-                      <img
-                        className="lazy"
-                        src={
-                          process.env.PUBLIC_URL + "/assets/images/img/b.webp"
-                        }
-                        alt="passed out student from our academy"
-                      />
-                    </div>
-                    <div className="item px-2">
-                      <img
-                        className="lazy"
-                        src={
-                          process.env.PUBLIC_URL + "/assets/images/img/c.webp"
-                        }
-                        alt="passed out student from our academy"
-                      />
-                    </div>
-                    <div className="item px-2">
-                      <img
-                        className="lazy"
-                        src={
-                          process.env.PUBLIC_URL + "/assets/images/img/d.webp"
-                        }
-                        alt="passed out student from our academy"
-                      />
-                    </div>
-                    <div className="item px-2">
-                      <img
-                        className="lazy"
-                        src={
-                          process.env.PUBLIC_URL + "/assets/images/img/e.webp"
-                        }
-                        alt="passed out student from our academy"
-                      />
-                    </div>
-                    <div className="item px-2">
-                      <img
-                        className="lazy"
-                        src={
-                          process.env.PUBLIC_URL + "/assets/images/img/f.webp"
-                        }
-                        alt="passed out student from our academy"
-                      />
-                    </div> */}
                     <div className="item px-2">
                       <img
                         className="lazy"
                         src={
                           process.env.PUBLIC_URL +
-                          "/assets/images/img/course_study_1.webp"
+                          "/assets/images/landing-page/t4.webp"
                         }
                         alt="passed out student from our academy"
                       />
@@ -1056,25 +1002,7 @@ const ProgramReviews = () => {
                         className="lazy"
                         src={
                           process.env.PUBLIC_URL +
-                          "/assets/images/img/course_study_4.webp"
-                        }
-                        alt="passed out student from our academy"
-                      />
-                    </div>
-                    <div className="item px-2">
-                      <img
-                        className="lazy"
-                        src={
-                          process.env.PUBLIC_URL + "/assets/images/img/c.webp"
-                        }
-                        alt="passed out student from our academy"
-                      />
-                    </div>
-                    <div className="item px-2">
-                      <img
-                        className="lazy"
-                        src={
-                          process.env.PUBLIC_URL + "/assets/images/img/f.webp"
+                          "/assets/images/landing-page/t1.webp"
                         }
                         alt="passed out student from our academy"
                       />
@@ -1084,7 +1012,16 @@ const ProgramReviews = () => {
                         className="lazy"
                         src={
                           process.env.PUBLIC_URL +
-                          "/assets/images/img/course_study_3.webp"
+                          "/assets/images/landing-page/g2.webp"
+                        }
+                        alt="passed out student from our academy"
+                      />
+                    </div>
+                    <div className="item px-2">
+                      <img
+                        className="lazy"
+                        src={
+                          process.env.PUBLIC_URL + "/assets/images/img/41.webp"
                         }
                         alt="passed out student from our academy"
                       />
@@ -1094,7 +1031,46 @@ const ProgramReviews = () => {
                         className="lazy"
                         src={
                           process.env.PUBLIC_URL +
-                          "/assets/images/img/course_study_2.webp"
+                          "/assets/images/landing-page/g3.webp"
+                        }
+                        alt="passed out student from our academy"
+                      />
+                    </div>
+                    <div className="item px-2">
+                      <img
+                        className="lazy"
+                        src={
+                          process.env.PUBLIC_URL +
+                          "/assets/images/landing-page/t2.webp"
+                        }
+                        alt="passed out student from our academy"
+                      />
+                    </div>
+                    <div className="item px-2">
+                      <img
+                        className="lazy"
+                        src={
+                          process.env.PUBLIC_URL +
+                          "/assets/images/landing-page/g4.webp"
+                        }
+                        alt="passed out student from our academy"
+                      />
+                    </div>
+                    <div className="item px-2">
+                      <img
+                        className="lazy"
+                        src={
+                          process.env.PUBLIC_URL +
+                          "/assets/images/landing-page/t5.webp"
+                        }
+                        alt="passed out student from our academy"
+                      />
+                    </div>
+                    <div className="item px-2">
+                      <img
+                        className="lazy"
+                        src={
+                          process.env.PUBLIC_URL + "/assets/images/img/42.webp"
                         }
                         alt="passed out student from our academy"
                       />
@@ -1114,7 +1090,7 @@ const ProgramReviews = () => {
                       className="lazy"
                       src={
                         process.env.PUBLIC_URL +
-                        "/assets/images/img/course_study_1.webp"
+                        "/assets/images/landing-page/t4.webp"
                       }
                       alt="passed out student from our academy"
                     />
@@ -1124,31 +1100,7 @@ const ProgramReviews = () => {
                       className="lazy"
                       src={
                         process.env.PUBLIC_URL +
-                        "/assets/images/img/course_study_4.webp"
-                      }
-                      alt="passed out student from our academy"
-                    />
-                  </div>
-                  <div className="col-6 pt-2 px-1">
-                    <img
-                      className="lazy"
-                      src={process.env.PUBLIC_URL + "/assets/images/img/c.webp"}
-                      alt="passed out student from our academy"
-                    />
-                  </div>
-                  <div className="col-6 pt-2 px-1">
-                    <img
-                      className="lazy"
-                      src={process.env.PUBLIC_URL + "/assets/images/img/f.webp"}
-                      alt="passed out student from our academy"
-                    />
-                  </div>
-                  <div className="col-6 pt-2 px-1">
-                    <img
-                      className="lazy"
-                      src={
-                        process.env.PUBLIC_URL +
-                        "/assets/images/img/course_study_3.webp"
+                        "/assets/images/landing-page/t1.webp"
                       }
                       alt="passed out student from our academy"
                     />
@@ -1158,7 +1110,65 @@ const ProgramReviews = () => {
                       className="lazy"
                       src={
                         process.env.PUBLIC_URL +
-                        "/assets/images/img/course_study_2.webp"
+                        "/assets/images/landing-page/g2.webp"
+                      }
+                      alt="passed out student from our academy"
+                    />
+                  </div>
+                  <div className="col-6 pt-2 px-1">
+                    <img
+                      className="lazy"
+                      src={
+                        process.env.PUBLIC_URL + "/assets/images/img/41.webp"
+                      }
+                      alt="passed out student from our academy"
+                    />
+                  </div>
+                  <div className="col-6 pt-2 px-1">
+                    <img
+                      className="lazy"
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/landing-page/g3.webp"
+                      }
+                      alt="passed out student from our academy"
+                    />
+                  </div>
+                  <div className="col-6 pt-2 px-1">
+                    <img
+                      className="lazy"
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/landing-page/t2.webp"
+                      }
+                      alt="passed out student from our academy"
+                    />
+                  </div>
+                  <div className="col-6 pt-2 px-1">
+                    <img
+                      className="lazy"
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/landing-page/g4.webp"
+                      }
+                      alt="passed out student from our academy"
+                    />
+                  </div>
+                  <div className="col-6 pt-2 px-1">
+                    <img
+                      className="lazy"
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/landing-page/t5.webp"
+                      }
+                      alt="passed out student from our academy"
+                    />
+                  </div>
+                  <div className="col-6 pt-2 px-1">
+                    <img
+                      className="lazy"
+                      src={
+                        process.env.PUBLIC_URL + "/assets/images/img/42.webp"
                       }
                       alt="passed out student from our academy"
                     />

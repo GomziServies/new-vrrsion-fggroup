@@ -642,7 +642,7 @@ a {
   border-radius: 3px;
 }
 
-.login ul ul {
+/* .login ul ul {
   text-align: left;
   border-radius: 5px;
   width: 185px;
@@ -652,7 +652,7 @@ a {
   z-index: 9;
   left: -12px;
   box-shadow: 0 3px 16px 0 rgb(0 0 0 / 10%);
-}
+} */
 
 .login ul li a:hover {
   text-decoration: none;

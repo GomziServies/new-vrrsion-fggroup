@@ -109,10 +109,10 @@ function FlexibleWeightLossProgram() {
     setShowModal(true);
   };
 
-  const openVideoModal = (url) => {
-    setIsVideoOpen(true);
-    setVideoUrl(url);
-  };
+  // const openVideoModal = (url) => {
+  //   setIsVideoOpen(true);
+  //   setVideoUrl(url);
+  // };
 
   const closeVideoModal = () => {
     setIsVideoOpen(false);

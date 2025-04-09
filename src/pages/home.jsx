@@ -152,7 +152,11 @@ function Home() {
                 </h1>
                 <p
                   className="home-solution"
-                  style={{ fontSize: "15px", lineHeight: "1.5", fontWeight: 600 }}
+                  style={{
+                    fontSize: "15px",
+                    lineHeight: "1.5",
+                    fontWeight: 600,
+                  }}
                 >
                   FG group solely works in the health & fitness sector. We
                   provide diet & exercise plans as well as health and fitness
@@ -326,9 +330,7 @@ function Home() {
                         </div>
                         <div className="css-os4jsf-darkThemeAction-imageActionWrapper">
                           <div className="action-text">
-                            <a href="/community/clinical-illness">
-                              know more
-                            </a>
+                            <a href="/community/clinical-illness">know more</a>
                           </div>
                         </div>
                       </div>
@@ -539,9 +541,7 @@ function Home() {
                     celebs and certified Cult coaches.
                     <div className="css-1moqeru-actionButton-darkThemeActionButton">
                       <div className="action-text">
-                        <a href="/community/clinical-illness">
-                          know more
-                        </a>
+                        <a href="/community/clinical-illness">know more</a>
                       </div>
                     </div>
                   </div>
@@ -770,7 +770,9 @@ function Home() {
                         </div>
                         <div className="css-os4jsf-darkThemeAction-imageActionWrapper">
                           <div className="action-text">
-                            <Link to="/fgiit/online-fitness-courses">know more</Link>
+                            <Link to="/fgiit/online-fitness-courses">
+                              know more
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -855,9 +857,7 @@ function Home() {
                         </div>
                         <div className="css-os4jsf-darkThemeAction-imageActionWrapper">
                           <div className="action-text">
-                            <Link to="/book/health-books">
-                              know more
-                            </Link>
+                            <Link to="/book/health-books">know more</Link>
                           </div>
                         </div>
                       </div>
@@ -947,7 +947,9 @@ function Home() {
                     institute.
                     <div className="css-1moqeru-actionButton-darkThemeActionButton">
                       <div className="action-text">
-                        <Link to="/fgiit/fitness-and-nutrition-courses">know more</Link>
+                        <Link to="/fgiit/fitness-and-nutrition-courses">
+                          know more
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -983,7 +985,9 @@ function Home() {
                     home.
                     <div className="css-1moqeru-actionButton-darkThemeActionButton">
                       <div className="action-text">
-                        <Link to="/fgiit/online-fitness-courses">know more</Link>
+                        <Link to="/fgiit/online-fitness-courses">
+                          know more
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1056,9 +1060,7 @@ function Home() {
                     change the world
                     <div className="css-1moqeru-actionButton-darkThemeActionButton">
                       <div className="action-text">
-                        <Link to="/book/health-books">
-                          know more
-                        </Link>
+                        <Link to="/book/health-books">know more</Link>
                       </div>
                     </div>
                   </div>
@@ -1644,7 +1646,9 @@ function Home() {
                         </div>
                         <div className="css-os4jsf-darkThemeAction-imageActionWrapper">
                           <div className="action-text">
-                            <a href="http://gcsconsultant.fggroup.in/">know more</a>
+                            <a href="http://gcsconsultant.fggroup.in/">
+                              know more
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -2179,9 +2183,7 @@ function Home() {
               <div className="col-md-6 col-xl-4 mt-3">
                 <div className="i4 text-center">
                   <h2 className="h2-fs">INPTA</h2>
-                  <Link to="/inpta/home-inpta">
-                    Explore
-                  </Link>
+                  <Link to="/inpta/home-inpta">Explore</Link>
                 </div>
               </div>
               <div className="col-md-6 col-xl-4 mt-3">

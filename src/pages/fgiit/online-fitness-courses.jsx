@@ -660,7 +660,7 @@ function OnlineFitnessCourses() {
                           </h2>
                         </div>
                       </div>
-                      <div className="item">
+                      {/* <div className="item">
                         <img
                           src={
                             process.env.PUBLIC_URL +
@@ -676,7 +676,7 @@ function OnlineFitnessCourses() {
                             Advance Clinical Nutrition Workshop
                           </h2>
                         </div>
-                      </div>
+                      </div> */}
                     </OwlCarousel>
                   </div>
                 </div>

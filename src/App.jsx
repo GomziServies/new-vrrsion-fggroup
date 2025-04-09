@@ -70,7 +70,9 @@ const FitnessCourses = lazy(() => import("./pages/fgiit/fitness-courses"));
 const FitnessAndNutritionCourses = lazy(() =>
   import("./pages/fgiit/fitness-and-nutrition-courses")
 );
-const OnlineFitnessCourses = lazy(() => import("./pages/fgiit/online-fitness-courses"));
+const OnlineFitnessCourses = lazy(() =>
+  import("./pages/fgiit/online-fitness-courses")
+);
 const FlexibleFitnessCourses = lazy(() =>
   import("./pages/fgiit/flexible-fitness-courses")
 );
@@ -114,7 +116,9 @@ const InjuryRehabilitationProgram = lazy(() =>
 const ClinicalDietitian = lazy(() =>
   import("./pages/fgiit/clinical-dietitian")
 );
-const OnlinePersonalTrainingCourse = lazy(() => import("./pages/fgiit/online-personal-training-course"));
+const OnlinePersonalTrainingCourse = lazy(() =>
+  import("./pages/fgiit/online-personal-training-course")
+);
 const FoodAndNutritionCourse = lazy(() =>
   import("./pages/fgiit/food-and-nutrition-course")
 );
@@ -232,19 +236,17 @@ const BecomeMemberAtFgiit = lazy(() =>
   import("./pages/fgiit/become-member-at-fgiit")
 );
 const StudentCorner = lazy(() => import("./pages/student-corner"));
-const HealthBooks = lazy(() =>
-  import("./pages/Book/health-books")
-);
+const HealthBooks = lazy(() => import("./pages/Book/health-books"));
 
 // Book
 const CheckOutBook = lazy(() => import("./pages/Book/check-out"));
 const PersonalTrainingBook = lazy(() =>
   import("./pages/Book/personal-fitness-trainer-course")
 );
-const NutritionBook = lazy(() => import("./pages/Book/nutrition-and-dietetics-course"));
-const SteriodsBook = lazy(() =>
-  import("./pages/Book/steroids-book")
+const NutritionBook = lazy(() =>
+  import("./pages/Book/nutrition-and-dietetics-course")
 );
+const SteriodsBook = lazy(() => import("./pages/Book/steroids-book"));
 const FitnessInstructorCourseBook = lazy(() =>
   import("./pages/Book/fitness-instructor-course-book")
 );
@@ -252,13 +254,13 @@ const InjuryRehab = lazy(() => import("./pages/Book/injury-rehab"));
 const ClinicalNutritionBooks = lazy(() =>
   import("./pages/Book/clinical-nutrition-books")
 );
-const ManagementBook = lazy(() => import("./pages/Book/health-and-fitness-books"));
+const ManagementBook = lazy(() =>
+  import("./pages/Book/health-and-fitness-books")
+);
 const BestBooksForPowerlifting = lazy(() =>
   import("./pages/Book/best-books-for-powerlifting")
 );
-const FitnessBooks = lazy(() =>
-  import("./pages/Book/fitness-books")
-);
+const FitnessBooks = lazy(() => import("./pages/Book/fitness-books"));
 const WeightManagementProgram = lazy(() =>
   import("./pages/Book/weight-management-program")
 );
@@ -587,7 +589,10 @@ function App() {
         <Route path="/cancellation-policy" element={<CancellationPolicy />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-condition" element={<TermsCondition />} />
-        <Route path="/fgiit-terms-condition" element={<FgiitTermsCondition />} />
+        <Route
+          path="/fgiit-terms-condition"
+          element={<FgiitTermsCondition />}
+        />
         <Route path="/return-refund" element={<ReturnRefund />} />
         <Route
           path="/indian-nutritionist-and-personal-trainer-association"
@@ -606,7 +611,10 @@ function App() {
         <Route path="/inpta/event" element={<InptaEvent />} />
         <Route path="/inpta/contact-inpta" element={<ContactINPTA />} />
         <Route path="/inpta/local-partner" element={<LocalPartner />} />
-        <Route path="/blogs/cryolipolysis-machine" element={<CryolipolysisMachine />} />
+        <Route
+          path="/blogs/cryolipolysis-machine"
+          element={<CryolipolysisMachine />}
+        />
         <Route
           path="/blogs/benefits-of-protein"
           element={<BenefitsOfProtein />}
@@ -862,11 +870,11 @@ function App() {
           path="/book/personal-fitness-trainer-course"
           element={<PersonalTrainingBook />}
         />
-        <Route path="/book/nutrition-and-dietetics-course" element={<NutritionBook />} />
         <Route
-          path="/book/steroids-book"
-          element={<SteriodsBook />}
+          path="/book/nutrition-and-dietetics-course"
+          element={<NutritionBook />}
         />
+        <Route path="/book/steroids-book" element={<SteriodsBook />} />
         <Route
           path="/book/fitness-instructor-course-book"
           element={<FitnessInstructorCourseBook />}
@@ -876,15 +884,15 @@ function App() {
           path="/book/clinical-nutrition-books"
           element={<ClinicalNutritionBooks />}
         />
-        <Route path="/book/health-and-fitness-books" element={<ManagementBook />} />
+        <Route
+          path="/book/health-and-fitness-books"
+          element={<ManagementBook />}
+        />
         <Route
           path="/book/best-books-for-powerlifting"
           element={<BestBooksForPowerlifting />}
         />
-        <Route
-          path="/book/fitness-books"
-          element={<FitnessBooks />}
-        />
+        <Route path="/book/fitness-books" element={<FitnessBooks />} />
         <Route
           path="/book/weight-management-program"
           element={<WeightManagementProgram />}
@@ -1063,17 +1071,17 @@ function App() {
           element={<FitnessAndNutritionCourses />}
         />
         {/* Offline Courses */}
-        <Route path="/fgiit/online-fitness-courses" element={<OnlineFitnessCourses />} />
+        <Route
+          path="/fgiit/online-fitness-courses"
+          element={<OnlineFitnessCourses />}
+        />
         {/* Online Courses */}
         <Route
           path="/fgiit/flexible-fitness-courses"
           element={<FlexibleFitnessCourses />}
         />
         {/* Flexible Learning */}
-        <Route
-          path="/book/health-books"
-          element={<HealthBooks />}
-        />
+        <Route path="/book/health-books" element={<HealthBooks />} />
         {/* Study Material */}
         <Route path="/student-corner" element={<StudentCorner />} />
         {/* Study Material */}

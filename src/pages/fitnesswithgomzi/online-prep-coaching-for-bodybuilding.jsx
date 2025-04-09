@@ -845,12 +845,12 @@ function OnlinePrepCoachingProgram() {
                           >
                             Injury Rehabilitation Workshop
                           </option>
-                          <option
+                          {/* <option
                             className="field"
                             value="Advance Clinical Nutrition Workshop"
                           >
                             Advance Clinical Nutrition Workshop
-                          </option>
+                          </option> */}
                         </select>
                       </div>
                     </Form>

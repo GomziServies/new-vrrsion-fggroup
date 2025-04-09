@@ -7,11 +7,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import { sendInquiry } from "../../assets/js/utils/contact-us";
 import ModalVideo from "react-modal-video";
 import { Link } from "react-router-dom";
-import PlacementReview from "../../components/fgiit/placementReview";
-import OutstandingReview from "../../components/fgiit/outstandingResponse";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import AccreditedCertification from "../../components/fgiit/acrediteCertificate";
 import InternationalFlags from "../../components/fgiit/flags";
 import { Helmet } from "react-helmet";
 import FlexibleFooter from "../../components/partials/Footer/flexiblefooter";
@@ -581,7 +578,7 @@ function FlexibleFitnessCourses() {
             </div>
           </div>
         </section>
-        <section>
+        {/* <section>
           <div className="container-fluid py-5 border-bottom">
             <div className="container">
               <div className="row">
@@ -625,14 +622,14 @@ function FlexibleFitnessCourses() {
                   </div>
                   <div className="price">
                     <p className="mt-2 fs-30">₹3,539 GST included</p>
-                    {/* <span className="fs-20">
+                    <span className="fs-20">
                       <del>₹3539/-</del>
                     </span>
                     <span
                       className="p1 mx-2 fs-20"
                     >
                       <b>83.35% OFF</b>
-                    </span> */}
+                    </span>
                   </div>
                   <div className="meal mt-5">
                     <Link to="/fgiit/clinical-nutrition-course">
@@ -643,9 +640,9 @@ function FlexibleFitnessCourses() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <section>
-          <div className="container-fluid py-5">
+          <div className="container-fluid border-bottom py-5">
             <div className="container">
               <div className="row">
                 <div className="col-md-5 text-center">

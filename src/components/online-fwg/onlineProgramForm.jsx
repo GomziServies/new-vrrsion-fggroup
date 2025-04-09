@@ -11,7 +11,7 @@ import PaymentsOptionFwg from "../fwg/PaymentOptionsFwg";
 const OnlineProgramFormFwg = ({
   programData,
   whatsappMessage,
-  showPrice = 'true'
+  showPrice = "true",
 }) => {
   const [showMore, setShowMore] = useState(false);
   const [showLoginModal, setShowLoginModal] = useState(false);
@@ -137,8 +137,8 @@ const OnlineProgramFormFwg = ({
         <div className="new-h3">
           <h1 className="ml-0">{programData.name}</h1>
         </div>
-        <div className="mb-3 d-none d-xl-block read-more-span">
-          <span className="d-none d-xl-block mb-0 new-span">
+        <div className="mb-3 d-none d-lg-block read-more-span">
+          <span className="d-none d-lg-block mb-0 new-span">
             {programData.description}
             {showMore ? (
               <span className="new-span">{programData.showMoreDesc}</span>
@@ -149,7 +149,7 @@ const OnlineProgramFormFwg = ({
           <span
             onClick={toggleReadMore}
             id="myBtnn"
-            style={{ color: "#00afef", fontWeight: "500", cursor: "pointer" }}
+            style={{ color: "#6eb500", fontWeight: "500", cursor: "pointer" }}
           >
             {showMore ? "Read less" : "Read more"}
           </span>
@@ -217,11 +217,15 @@ const OnlineProgramFormFwg = ({
           )}
         </div> */}
 
-        {showPrice === 'true' ? (<PaymentsOptionFwg
-          programData={programData}
-          basePrice={programData.prices}
-          whatsappMessage={whatsappMessage}
-        />) : ''}
+        {showPrice === "true" ? (
+          <PaymentsOptionFwg
+            programData={programData}
+            basePrice={programData.prices}
+            whatsappMessage={whatsappMessage}
+          />
+        ) : (
+          ""
+        )}
       </div>
 
       {/* Modal */}

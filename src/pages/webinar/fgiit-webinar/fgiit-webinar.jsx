@@ -824,7 +824,7 @@ function FGIITLanding() {
                           </div>
                         </div>
                       </div>
-                      <div className="item mx-md-3">
+                      {/* <div className="item mx-md-3">
                         <div
                           className="blog p-0"
                           style={{
@@ -888,7 +888,7 @@ function FGIITLanding() {
                             </Link>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="item mx-md-3">
                         <div
                           className="blog p-0"

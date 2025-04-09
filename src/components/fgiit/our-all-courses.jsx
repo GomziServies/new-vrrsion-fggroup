@@ -106,27 +106,27 @@ const OurAllCourses = () => {
       rating: "4.5",
       rating_count: "1,923",
     },
-    {
-      image: "/assets/images/fgiit/advance-clincal-nocost.webp",
-      title: "Advance Clinical Nutrition Workshop",
-      description:
-        "Wellness Consultant Is A Course Where You Learn How To Fight Diseases Like Diabetes, Thyroid, PCOS, And Cancer. These Are ...",
-      full_desc:
-        "Wellness Consultant Is A Course Where You Learn How To Fight Diseases Like Diabetes, Thyroid, PCOS, And Cancer. These Are The Diseases Is Can Not Be Controlled By Medicine Only, You Need To Have The Support Of Nutrition, Exercises, Recovery, And Rehab Parts Also. There Are Many modern Research That Suggests That Intermittent Fasting, low carb Diet, Keto Diet, And Many Caloric Deficit Diets And Exercise Approaches Are More Helpful Than Medicine Also, So This Course Will Help You To Achieve And Gain Knowledge About Those Kinds Of Therapies Which Are Alternative Medicine Therapy.",
-      links: [
-        {
-          label: "Online",
-          url: "/fgiit/clinical-diets-for-health-and-wellness",
-        },
-        { label: "Offline", url: "/fgiit/clinical-dietitian" },
-        {
-          label: "Self Learning",
-          url: "/fgiit/clinical-nutrition-course",
-        },
-      ],
-      rating: "4.6",
-      rating_count: "1,978",
-    },
+    // {
+    //   image: "/assets/images/fgiit/advance-clincal-nocost.webp",
+    //   title: "Advance Clinical Nutrition Workshop",
+    //   description:
+    //     "Wellness Consultant Is A Course Where You Learn How To Fight Diseases Like Diabetes, Thyroid, PCOS, And Cancer. These Are ...",
+    //   full_desc:
+    //     "Wellness Consultant Is A Course Where You Learn How To Fight Diseases Like Diabetes, Thyroid, PCOS, And Cancer. These Are The Diseases Is Can Not Be Controlled By Medicine Only, You Need To Have The Support Of Nutrition, Exercises, Recovery, And Rehab Parts Also. There Are Many modern Research That Suggests That Intermittent Fasting, low carb Diet, Keto Diet, And Many Caloric Deficit Diets And Exercise Approaches Are More Helpful Than Medicine Also, So This Course Will Help You To Achieve And Gain Knowledge About Those Kinds Of Therapies Which Are Alternative Medicine Therapy.",
+    //   links: [
+    //     {
+    //       label: "Online",
+    //       url: "/fgiit/clinical-diets-for-health-and-wellness",
+    //     },
+    //     { label: "Offline", url: "/fgiit/clinical-dietitian" },
+    //     {
+    //       label: "Self Learning",
+    //       url: "/fgiit/clinical-nutrition-course",
+    //     },
+    //   ],
+    //   rating: "4.6",
+    //   rating_count: "1,978",
+    // },
     {
       image: "/assets/images/fgiit/GIC-nocost.webp",
       title: "Group Instructor Workshop",
@@ -161,10 +161,8 @@ const OurAllCourses = () => {
   };
 
   useEffect(() => {
-    // Import jQuery
     const $ = window.$;
 
-    // Replace default navigation icons with Font Awesome icon
     $(".owl-prev").html('<i class="fas fa-arrow-left"></i>');
     $(".owl-next").html('<i class="fas fa-arrow-right"></i>');
   }, []);
@@ -313,12 +311,6 @@ const OurAllCourses = () => {
               </OwlCarousel>
             </div>
             <div className="col-md-12 d-block d-md-none">
-              {/* <OwlCarousel
-                id="owl-demo"
-                className="owl-carousel owl-theme"
-                key={showMoreList.join("")}
-                {...options}
-              > */}
               {CourseData.map((card, index) => (
                 <div className="item mx-md-3" key={index}>
                   <div className="blog p-0" style={{ borderRadius: "10px" }}>
@@ -375,7 +367,6 @@ const OurAllCourses = () => {
                   </div>
                 </div>
               ))}
-              {/* </OwlCarousel> */}
             </div>
           </div>
         </div>

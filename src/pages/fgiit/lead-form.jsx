@@ -415,12 +415,12 @@ function LeadForm() {
                               >
                                 Injury Rehabilitation Workshop
                               </option>
-                              <option
+                              {/* <option
                                 value="627eb6206c033c16f2d5bce5"
                                 id="advance-c-n"
                               >
                                 Advance Clinical Nutrition Workshop
-                              </option>
+                              </option> */}
                             </select>
                           </div>
                           <div className="row">
@@ -614,12 +614,12 @@ function LeadForm() {
                               >
                                 Injury Rehabilitation Workshop
                               </option>
-                              <option
+                              {/* <option
                                 value="627eb6206c033c16f2d5bce5"
                                 id="advance-c-n"
                               >
                                 Advance Clinical Nutrition Workshop
-                              </option>
+                              </option> */}
                             </select>
                           </div>
                           <div className="row">

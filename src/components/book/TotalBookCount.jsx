@@ -79,7 +79,7 @@ const TotalBookCount = () => {
           ></i>
           <div className="tabata">
             <p style={{ color: "black", fontWeight: "bold" }} className="mt-4">
-              RTP Exercise
+              Powerlifting
             </p>
           </div>
         </div>
@@ -93,7 +93,7 @@ const TotalBookCount = () => {
           ></i>
           <div className="tabata">
             <p style={{ color: "black", fontWeight: "bold" }} className="mt-4">
-              Wellness Consultant
+              business management book
               <br />
             </p>
           </div>

@@ -2890,7 +2890,7 @@ function OnlineFitnessAndNutritionCourses() {
                       <h2 className="h4-fs">Injury Rehabilitation Workshop</h2>
                     </div>
                   </div>
-                  <div className="item mx-2">
+                  {/* <div className="item mx-2">
                     <img
                       src={
                         process.env.PUBLIC_URL +
@@ -2905,7 +2905,7 @@ function OnlineFitnessAndNutritionCourses() {
                         Advance Clinical Nutrition Workshop
                       </h2>
                     </div>
-                  </div>
+                  </div> */}
                 </OwlCarousel>
               </div>
             </div>
@@ -3111,12 +3111,12 @@ function OnlineFitnessAndNutritionCourses() {
                           >
                             Injury Rehabilitation Workshop
                           </option>
-                          <option
+                          {/* <option
                             className="field"
                             value="Advance Clinical Nutrition Workshop"
                           >
                             Advance Clinical Nutrition Workshop
-                          </option>
+                          </option> */}
                         </select>
                       </div>
                     </Form>

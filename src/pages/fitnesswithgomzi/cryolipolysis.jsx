@@ -1,11 +1,8 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import "../../assets/css/home.css";
 import "../../assets/css/new-popup.css";
 import Modal from "react-bootstrap/Modal";
 import OwlCarousel from "react-owl-carousel";
-// import "owl.carousel/dist/assets/owl.carousel.css";
-// import "owl.carousel/dist/assets/owl.theme.default.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { Form } from "react-bootstrap";
 import FgiitFooter from "../../components/partials/Footer/fgiitfooter";
@@ -278,7 +275,7 @@ function CryolipolysisFitnessProgram() {
                 </div>
                 <div className="mt-2">
                   <WhatsAppAnchor
-                    message="Hello, I wanted to know more about the Cryolipolysis Treatment."
+                    message="Hello, I wanted to know more about the Online Corporate Fitness Program."
                     options={{ pageRef: true }}
                   />
                 </div>
@@ -287,434 +284,6 @@ function CryolipolysisFitnessProgram() {
           </div>
         </div>
       </section>
-      {/* <section className="margintop new-section-corporate d-none d-md-block">
-        <div className="container-fluid">
-          <div className="container">
-            <div className="demoo text-center">
-              <h2 className="h2-fs">
-                <span className="m-0 text-blue-color">Who Can </span> Utilize
-                It?
-              </h2>
-            </div>
-            <div className="thm-bg-clr dector mb-3"></div>
-            <div className="row">
-              <div className="col-sm-6 mt-3 position-relative">
-                <div className="tabata blog2">
-                  <div className="row align-items-center">
-                    <div className="col-lg-4 text-center">
-                      <img
-                        className="lazy img-fluid"
-                        width="80%"
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/images/img/rtp-ngo.webp"
-                        }
-                        alt="NGO"
-                      />
-                    </div>
-                    <div className="col-lg-8">
-                      <h2 className="h5-fs mt-3 mt-lg-0">NGO</h2>
-                      {showMore ? (
-                        <p className="mb-0">
-                          NGOs often lack employee wellness programs. They do
-                          not recognize wellness programs as an important
-                          component of their organization and make cost an
-                          issue. However, some
-                          <span id="dotsb">...</span>
-                        </p>
-                      ) : (
-                        <span className="m-0">
-                          <p className="m-0">
-                            effective leaders understand the need of the hour
-                            and motivate their employees to grab the benefits of
-                            these wellness programs.NGOs and other non-profit
-                            organizations must take wellness programs for the
-                            benefit of their members because it is a social
-                            service that needs healthy people to fulfill the
-                            mission and vision of the organization. The NGO
-                            staff must be more fit and healthy than other
-                            employees. Corporate wellness programs offered by
-                            Gomzi assist in achieving the health outcomes of the
-                            employees by providing excellent diet plans and
-                            exercises.
-                          </p>
-                        </span>
-                      )}
-                      <p
-                        onClick={toggleReadMore}
-                        id="myBtnrb"
-                        className="text-info m-0 my-sm-2 my-md-0"
-                      >
-                        {showMore ? "Read more" : "Read less"}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 mt-3 position-relative">
-                <div className="tabata blog2">
-                  <div className="row align-items-center">
-                    <div className="col-lg-4 text-center">
-                      <LazyLoadImage
-                        effect="blur"
-                        className="lazy img-fluid"
-                        width="80%"
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/images/img/rtp-company.webp"
-                        }
-                        alt="multinational company"
-                      />
-                    </div>
-                    <div className="col-lg-8">
-                      <h2 className="h5-fs mt-3 mt-lg-0">
-                        Multinational company :
-                      </h2>
-                      {showMore1 ? (
-                        <p className="mb-0">
-                          Good Health Is The Primary Goal Of A Nation's
-                          Development. The Government Encourages Different
-                          Health Plans To Keep Its Employees Healthy. Workplace
-                          Wellness Programs
-                          <span id="dotsc">...</span>
-                        </p>
-                      ) : (
-                        <span className="m-0">
-                          <p className="m-0">
-                            {" "}
-                            Are Designed To Promote Health And Prevent
-                            Diseases.Fitness With Gomzi Provides A Flexible
-                            Program With Its Nutrition Plans And Exercises To
-                            Enhance Health Awareness In The Country.
-                          </p>
-                        </span>
-                      )}
-                      <p
-                        onClick={toggleReadMore1}
-                        id="myBtnrc"
-                        className="text-info m-0 my-sm-2 my-md-0"
-                      >
-                        {showMore1 ? "Read more" : "Read less"}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 mt-3 position-relative">
-                <div className="tabata blog2">
-                  <div className="row align-items-center">
-                    <div className="col-lg-4 text-center">
-                      <LazyLoadImage
-                        effect="blur"
-                        className="lazy img-fluid"
-                        width="80%"
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/images/img/rtp-hospital.webp"
-                        }
-                        alt="hospitals"
-                      />
-                    </div>
-                    <div className="col-lg-8">
-                      <h2 className="h5-fs mt-3 mt-lg-0">Hospitals</h2>
-                      {showMore2 ? (
-                        <p className="mb-0">
-                          While taking care of others, hospital employees
-                          sometimes ignore their own health. They work with very
-                          ill patients, come in contact with different diseases
-                          <span id="dotsh">...</span>
-                        </p>
-                      ) : (
-                        <span className="m-0">
-                          <p className="m-0">
-                            {" "}
-                            and work pressure makes them stressed. Hence they
-                            require wellness programs at regular intervals.Gomzi
-                            offers offline and online wellness classNamees that
-                            regularly nurses hospital employees to keep them in
-                            the pink of health.
-                          </p>
-                        </span>
-                      )}
-                      <p
-                        onClick={toggleReadMore2}
-                        id="myBtnrh"
-                        className="text-info m-0 my-sm-2 my-md-0"
-                      >
-                        {showMore2 ? "Read more" : "Read less"}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 mt-3 position-relative">
-                <div className="tabata blog2">
-                  <div className="row align-items-center">
-                    <div className="col-lg-4 text-center">
-                      <LazyLoadImage
-                        effect="blur"
-                        className="lazy img-fluid"
-                        width="80%"
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets//images/img/rtp-workers.webp"
-                        }
-                        alt="Factories"
-                      />
-                    </div>
-                    <div className="col-lg-8">
-                      <h2 className="h5-fs mt-3 mt-lg-0">Factories</h2>
-                      {showMore3 ? (
-                        <p className="mb-0">
-                          Factories face the problem of having workers at their
-                          company 24/7/365. It would be a sigh of relief for the
-                          workers and the employees if they agree to enroll
-                          <span id="dotsf">...</span>
-                        </p>
-                      ) : (
-                        <span className="m-0">
-                          <p className="m-0">
-                            themselves in the business in wellness programs.
-                            Most often the floor staff in manufacturing
-                            companies does not understand the benefits of such
-                            programs. Such employees must be explained the
-                            benefits of healthy living and high thinking which
-                            is the aim of wellness programs. Fitness with Gomzi
-                            staff keeps a regular check on each and every client
-                            and provides the best services through their
-                            wellness programs.
-                          </p>
-                        </span>
-                      )}
-                      <p
-                        onClick={toggleReadMore3}
-                        id="myBtnrf"
-                        className="text-info m-0 my-sm-2 my-md-0"
-                      >
-                        {showMore3 ? "Read more" : "Read less"}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="new-section-corporate d-block d-md-none">
-        <div className="container-fluid">
-          <div className="container">
-            <div className="demoo text-center">
-              <h2 className="h2-fs">
-                <span className="m-0 text-blue-color">Who Can </span> Utilize
-                It?
-              </h2>
-            </div>
-            <div className="thm-bg-clr dector mb-3"></div>
-            <div className="row">
-              <div className="col-sm-6 mt-3 position-relative">
-                <div className="tabata blog2">
-                  <div className="row align-items-center">
-                    <div className="col-lg-4 text-center">
-                      <img
-                        className="lazy img-fluid"
-                        width="80%"
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/images/img/rtp-ngo.webp"
-                        }
-                        alt="NGO"
-                      />
-                    </div>
-                    <div className="col-lg-8">
-                      <h2 className="h5-fs mt-3 mt-lg-0">NGO</h2>
-                      {showMore ? (
-                        <p className="mb-0">
-                          NGOs often lack employee wellness programs. They do
-                          not recognize wellness programs as an important
-                          component of their organization and make cost an
-                          issue. However, some
-                          <span id="dotsb">...</span>
-                        </p>
-                      ) : (
-                        <span className="m-0">
-                          <p className="m-0">
-                            effective leaders understand the need of the hour
-                            and motivate their employees to grab the benefits of
-                            these wellness programs.NGOs and other non-profit
-                            organizations must take wellness programs for the
-                            benefit of their members because it is a social
-                            service that needs healthy people to fulfill the
-                            mission and vision of the organization. The NGO
-                            staff must be more fit and healthy than other
-                            employees. Corporate wellness programs offered by
-                            Gomzi assist in achieving the health outcomes of the
-                            employees by providing excellent diet plans and
-                            exercises.
-                          </p>
-                        </span>
-                      )}
-                      <p
-                        onClick={toggleReadMore}
-                        id="myBtnrb"
-                        className="text-info m-0 my-sm-2 my-md-0"
-                      >
-                        {showMore ? "Read more" : "Read less"}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 mt-3 position-relative">
-                <div className="tabata blog2">
-                  <div className="row align-items-center">
-                    <div className="col-lg-4 text-center">
-                      <LazyLoadImage
-                        effect="blur"
-                        className="lazy img-fluid"
-                        width="80%"
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/images/img/rtp-company.webp"
-                        }
-                        alt="multinational company"
-                      />
-                    </div>
-                    <div className="col-lg-8">
-                      <h2 className="h5-fs mt-3 mt-lg-0">
-                        Multinational company :
-                      </h2>
-                      {showMore1 ? (
-                        <p className="mb-0">
-                          Good Health Is The Primary Goal Of A Nation's
-                          Development. The Government Encourages Different
-                          Health Plans To Keep Its Employees Healthy. Workplace
-                          Wellness Programs
-                          <span id="dotsc">...</span>
-                        </p>
-                      ) : (
-                        <span className="m-0">
-                          <p className="m-0">
-                            {" "}
-                            Are Designed To Promote Health And Prevent
-                            Diseases.Fitness With Gomzi Provides A Flexible
-                            Program With Its Nutrition Plans And Exercises To
-                            Enhance Health Awareness In The Country.
-                          </p>
-                        </span>
-                      )}
-                      <p
-                        onClick={toggleReadMore1}
-                        id="myBtnrc"
-                        className="text-info m-0 my-sm-2 my-md-0"
-                      >
-                        {showMore1 ? "Read more" : "Read less"}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 mt-3 position-relative">
-                <div className="tabata blog2">
-                  <div className="row align-items-center">
-                    <div className="col-lg-4 text-center">
-                      <LazyLoadImage
-                        effect="blur"
-                        className="lazy img-fluid"
-                        width="80%"
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets/images/img/rtp-hospital.webp"
-                        }
-                        alt="hospitals"
-                      />
-                    </div>
-                    <div className="col-lg-8">
-                      <h2 className="h5-fs mt-3 mt-lg-0">Hospitals</h2>
-                      {showMore2 ? (
-                        <p className="mb-0">
-                          While taking care of others, hospital employees
-                          sometimes ignore their own health. They work with very
-                          ill patients, come in contact with different diseases
-                          <span id="dotsh">...</span>
-                        </p>
-                      ) : (
-                        <span className="m-0">
-                          <p className="m-0">
-                            {" "}
-                            and work pressure makes them stressed. Hence they
-                            require wellness programs at regular intervals.Gomzi
-                            offers offline and online wellness classNamees that
-                            regularly nurses hospital employees to keep them in
-                            the pink of health.
-                          </p>
-                        </span>
-                      )}
-                      <p
-                        onClick={toggleReadMore2}
-                        id="myBtnrh"
-                        className="text-info m-0 my-sm-2 my-md-0"
-                      >
-                        {showMore2 ? "Read more" : "Read less"}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 mt-3 position-relative">
-                <div className="tabata blog2">
-                  <div className="row align-items-center">
-                    <div className="col-lg-4 text-center">
-                      <LazyLoadImage
-                        effect="blur"
-                        className="lazy img-fluid"
-                        width="80%"
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/assets//images/img/rtp-workers.webp"
-                        }
-                        alt="Factories"
-                      />
-                    </div>
-                    <div className="col-lg-8">
-                      <h2 className="h5-fs mt-3 mt-lg-0">Factories</h2>
-                      {showMore3 ? (
-                        <p className="mb-0">
-                          Factories face the problem of having workers at their
-                          company 24/7/365. It would be a sigh of relief for the
-                          workers and the employees if they agree to enroll
-                          <span id="dotsf">...</span>
-                        </p>
-                      ) : (
-                        <span className="m-0">
-                          <p className="m-0">
-                            themselves in the business in wellness programs.
-                            Most often the floor staff in manufacturing
-                            companies does not understand the benefits of such
-                            programs. Such employees must be explained the
-                            benefits of healthy living and high thinking which
-                            is the aim of wellness programs. Fitness with Gomzi
-                            staff keeps a regular check on each and every client
-                            and provides the best services through their
-                            wellness programs.
-                          </p>
-                        </span>
-                      )}
-                      <p
-                        onClick={toggleReadMore3}
-                        id="myBtnrf"
-                        className="text-info m-0 my-sm-2 my-md-0"
-                      >
-                        {showMore3 ? "Read more" : "Read less"}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
       <section className="mt-5 studentsreview-1 d-none d-md-block">
         <div className="container-fluid bg-light">
           <div className="container px-0 py-5">
@@ -722,8 +291,8 @@ function CryolipolysisFitnessProgram() {
               <div className="py-md-1">
                 <div className="covid text-center">
                   <h2 className="h2-fs nunito-font" style={{ color: "#333" }}>
-                    <span className="m-0 text-blue-color">Cryolipolysis </span>
-                    {' '}Treatment
+                    <span className="m-0 text-blue-color">Cryolipolysis </span>{" "}
+                    Treatment
                   </h2>
                 </div>
                 <div className="thm-bg-clr dector mb-4"></div>
@@ -751,83 +320,12 @@ function CryolipolysisFitnessProgram() {
                     },
                   }}
                 > */}
-                <div className="col-md-3">
-                  <img
-                    className="img-fluid"
-                    src={
-                      process.env.PUBLIC_URL + "/assets/images/fwg/e-1.webp"
-                    }
-                    style={{
-                      borderRadius: "5px",
-                      boxShadow:
-                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
-                    }}
-                    alt="weight loss transformation"
-                  />
-                </div>
-                <div className="col-md-3">
-                  <img
-                    className="img-fluid"
-                    src={
-                      process.env.PUBLIC_URL + "/assets/images/fwg/e-2.webp"
-                    }
-                    style={{
-                      borderRadius: "5px",
-                      boxShadow:
-                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
-                    }}
-                    alt="weight loss transformation"
-                  />
-                </div>
-                <div className="col-md-3">
-                  <img
-                    className="img-fluid"
-                    src={
-                      process.env.PUBLIC_URL + "/assets/images/fwg/e-3.webp"
-                    }
-                    style={{
-                      borderRadius: "5px",
-                      boxShadow:
-                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
-                    }}
-                    alt="weight loss transformation"
-                  />
-                </div>
-                <div className="col-md-3">
-                  <img
-                    className="img-fluid"
-                    src={
-                      process.env.PUBLIC_URL + "/assets/images/fwg/e-4.webp"
-                    }
-                    style={{
-                      borderRadius: "5px",
-                      boxShadow:
-                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
-                    }}
-                    alt="weight loss transformation"
-                  />
-                </div>
-                <div className="col-md-3 mt-3">
-                  <img
-                    className="img-fluid"
-                    src={
-                      process.env.PUBLIC_URL + "/assets/images/fwg/e-5.webp"
-                    }
-                    style={{
-                      borderRadius: "5px",
-                      boxShadow:
-                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
-                    }}
-                    alt="weight loss transformation"
-                  />
-                </div>
-
-                <div className="col-md-3 mt-3">
+                <div className="col-md-4 mt-3">
                   <img
                     className="img-fluid"
                     src={
                       process.env.PUBLIC_URL +
-                      "/assets/images/fwg/seminar/seminar-1.webp"
+                      "/assets/images/fwg/cryolipolysis-1.webp"
                     }
                     style={{
                       borderRadius: "5px",
@@ -837,93 +335,78 @@ function CryolipolysisFitnessProgram() {
                     alt="weight loss transformation"
                   />
                 </div>
-                <div className="col-md-3 mt-3">
+                <div className="col-md-4 mt-3">
                   <img
                     className="img-fluid"
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/cryolipolysis-2.webp"
+                    }
                     style={{
                       borderRadius: "5px",
                       boxShadow:
                         "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
                     }}
-                    src={
-                      process.env.PUBLIC_URL +
-                      "/assets/images/fwg/seminar/seminar-7.webp"
-                    }
                     alt="weight loss transformation"
                   />
                 </div>
-                <div className="col-md-3 mt-3">
+                <div className="col-md-4 mt-3">
                   <img
                     className="img-fluid"
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/cryolipolysis-3.webp"
+                    }
                     style={{
                       borderRadius: "5px",
                       boxShadow:
                         "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
                     }}
-                    src={
-                      process.env.PUBLIC_URL +
-                      "/assets/images/fwg/seminar/seminar-1.webp"
-                    }
                     alt="weight loss transformation"
                   />
                 </div>
-                <div className="col-md-3 mt-3">
+                <div className="col-md-4 mt-3">
                   <img
                     className="img-fluid"
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/cryolipolysis-4.webp"
+                    }
                     style={{
                       borderRadius: "5px",
                       boxShadow:
                         "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
                     }}
-                    src={
-                      process.env.PUBLIC_URL +
-                      "/assets/images/fwg/seminar/seminar-2.webp"
-                    }
                     alt="weight loss transformation"
                   />
                 </div>
-                <div className="col-md-3 mt-3">
+                <div className="col-md-4 mt-3">
                   <img
                     className="img-fluid"
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/cryolipolysis-5.webp"
+                    }
                     style={{
                       borderRadius: "5px",
                       boxShadow:
                         "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
                     }}
-                    src={
-                      process.env.PUBLIC_URL +
-                      "/assets/images/fwg/seminar/seminar-3.webp"
-                    }
                     alt="weight loss transformation"
                   />
                 </div>
-                <div className="col-md-3 mt-3">
+                <div className="col-md-4 mt-3">
                   <img
                     className="img-fluid"
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/cryolipolysis-6.webp"
+                    }
                     style={{
                       borderRadius: "5px",
                       boxShadow:
                         "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
                     }}
-                    src={
-                      process.env.PUBLIC_URL +
-                      "/assets/images/fwg/seminar/seminar-5.webp"
-                    }
-                    alt="weight loss transformation"
-                  />
-                </div>
-                <div className="col-md-3 mt-3">
-                  <img
-                    className="img-fluid"
-                    style={{
-                      borderRadius: "5px",
-                      boxShadow:
-                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
-                    }}
-                    src={
-                      process.env.PUBLIC_URL +
-                      "/assets/images/fwg/seminar/seminar-4.webp"
-                    }
                     alt="weight loss transformation"
                   />
                 </div>
@@ -936,30 +419,30 @@ function CryolipolysisFitnessProgram() {
       <section className="mt-2 studentsreview-1 d-block d-md-none">
         <div className="container-fluid bg-light">
           <div className="container px-0 py-2">
-            <div className="pb-5">
-              <div className="demoo text-center">
-                <h2 className="h2-fs">Corporate Training</h2>
-              </div>
+            <div className="pb-5 covid">
+              <h2
+                className="h2-fs text-center nunito-font"
+                style={{ color: "#333" }}
+              >
+                <span className="m-0 text-blue-color">Cryolipolysis </span>{" "}
+                Treatment
+              </h2>
               <div className="thm-bg-clr dector mb-4"></div>
               <div className="row mt-4">
                 {[
-                  "/assets/images/fwg/e-1.webp",
-                  "/assets/images/fwg/e-2.webp",
-                  "/assets/images/fwg/e-3.webp",
-                  "/assets/images/fwg/e-4.webp",
-                  "/assets/images/fwg/e-5.webp",
-                  "/assets/images/fwg/seminar/seminar-1.webp",
-                  "/assets/images/fwg/seminar/seminar-7.webp",
-                  "/assets/images/fwg/seminar/seminar-2.webp",
-                  "/assets/images/fwg/seminar/seminar-3.webp",
-                  "/assets/images/fwg/seminar/seminar-5.webp",
+                  "/assets/images/fwg/cryolipolysis-1.webp",
+                  "/assets/images/fwg/cryolipolysis-2.webp",
+                  "/assets/images/fwg/cryolipolysis-3.webp",
+                  "/assets/images/fwg/cryolipolysis-4.webp",
+                  "/assets/images/fwg/cryolipolysis-5.webp",
+                  "/assets/images/fwg/cryolipolysis-6.webp",
                 ].map((imageSrc, index) => (
                   <div key={index} className="col-6 mb-3">
                     <div className="img-card">
                       <img
                         src={process.env.PUBLIC_URL + imageSrc}
                         className="img-fluid"
-                        alt={`Event ${index + 1}`}
+                        alt={`Cryolipolysis Treatment`}
                       />
                     </div>
                   </div>
@@ -1103,7 +586,11 @@ function CryolipolysisFitnessProgram() {
                         What is 360° Cryolipolysis?
                       </h2>
                       <p className="card__text">
-                        360° Cryolipolysis is an innovative fat-freezing technology designed to provide full-range cooling and heating for targeted fat reduction. Utilizing precise temperature control, it freezes fat cells at -10℃ and he...
+                        360° Cryolipolysis is an innovative fat-freezing
+                        technology designed to provide full-range cooling and
+                        heating for targeted fat reduction. Utilizing precise
+                        temperature control, it freezes fat cells at -10℃ and
+                        he...
                       </p>
                       <Link
                         to="/blogs/cryolipolysis-machine"
@@ -1220,7 +707,11 @@ function CryolipolysisFitnessProgram() {
                         What is 360° Cryolipolysis?
                       </h2>
                       <p className="card__text mb-0">
-                        360° Cryolipolysis is an innovative fat-freezing technology designed to provide full-range cooling and heating for targeted fat reduction. Utilizing precise temperature control, it freezes fat cells at -10℃ and he...
+                        360° Cryolipolysis is an innovative fat-freezing
+                        technology designed to provide full-range cooling and
+                        heating for targeted fat reduction. Utilizing precise
+                        temperature control, it freezes fat cells at -10℃ and
+                        he...
                       </p>
                       <Link
                         to="/blogs/cryolipolysis-machine"
@@ -1280,14 +771,16 @@ function CryolipolysisFitnessProgram() {
                   <div className="faq-question">{item.question}</div>
                   <div className="icon-container">
                     <i
-                      className={`fas fa-chevron-right ${activeIndex === index ? "active" : ""
-                        }`}
+                      className={`fas fa-chevron-right ${
+                        activeIndex === index ? "active" : ""
+                      }`}
                     ></i>
                   </div>
                 </div>
                 <div
-                  className={`faq-answer ${activeIndex === index ? "active" : ""
-                    }`}
+                  className={`faq-answer ${
+                    activeIndex === index ? "active" : ""
+                  }`}
                   style={{ maxHeight: activeIndex === index ? "200px" : "0" }}
                 >
                   <p>{item.answer}</p>

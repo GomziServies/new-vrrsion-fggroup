@@ -2982,16 +2982,14 @@ function OfflineClinicalDietProgram() {
                   <div className="faq-question">{item.question}</div>
                   <div className="icon-container">
                     <i
-                      className={`fas fa-chevron-right ${
-                        activeIndex === index ? "active" : ""
-                      }`}
+                      className={`fas fa-chevron-right ${activeIndex === index ? "active" : ""
+                        }`}
                     ></i>
                   </div>
                 </div>
                 <div
-                  className={`faq-answer ${
-                    activeIndex === index ? "active" : ""
-                  }`}
+                  className={`faq-answer ${activeIndex === index ? "active" : ""
+                    }`}
                   style={{ maxHeight: activeIndex === index ? "200px" : "0" }}
                 >
                   <p>{item.answer}</p>
@@ -3104,12 +3102,12 @@ function OfflineClinicalDietProgram() {
                           >
                             Injury Rehabilitation Workshop
                           </option>
-                          <option
+                          {/* <option
                             className="field"
                             value="Advance Clinical Nutrition Workshop"
                           >
                             Advance Clinical Nutrition Workshop
-                          </option>
+                          </option> */}
                         </select>
                       </div>
                     </Form>

@@ -24,7 +24,6 @@ import Swal from "sweetalert2";
 import { Helmet } from "react-helmet";
 import ContactInquiryForm from "../../components/fgiit/contactInquiryForm";
 import AllReviews from "../../components/fgiit/allReviews";
-// import whatMakesUs from "../../components/fgiit/whatMakesUs";
 
 function FitnessCourses() {
   const canonicalUrl = window.location.href;
@@ -298,26 +297,25 @@ function FitnessCourses() {
             '<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1144699046738070&ev=PageView&noscript=1" />'
           }
         </noscript>
-
-        {/* Event snippet for Contact conversion page */}
-        {/* Google tag (gtag.js) */}
         {/* <script>
-          {`gtag('event', 'conversion', {'send_to': 'AW-808688949/lgOgCKWJu4ACELW6zoED'});`}
-        </script> */}
-
-        {/* <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-808688949"
-        ></script>
-        <script>
           {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'AW-808688949');
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '475866634459188');
+            fbq('track', 'PageView');
           `}
-        </script> */}
+        </script>
+        <noscript>
+          {
+            '<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=475866634459188&ev=PageView&noscript=1" />'
+          }
+        </noscript> */}
       </Helmet>
       <p className="d-none">
         course, trainer course, fitness trainer course, personal training,
@@ -579,7 +577,7 @@ function FitnessCourses() {
                   <h2 className="h4-fs">Injury Rehabilitation Workshop</h2>
                 </div>
               </div>
-              <div className="item">
+              {/* <div className="item">
                 <img
                   src={
                     process.env.PUBLIC_URL +
@@ -592,7 +590,7 @@ function FitnessCourses() {
                 <div className="text-center mt-3">
                   <h2 className="h4-fs">Advance Clinical Nutrition Workshop</h2>
                 </div>
-              </div>
+              </div> */}
             </OwlCarousel>
           </div>
         </div>
@@ -1544,12 +1542,12 @@ function FitnessCourses() {
                         >
                           Injury Rehabilitation Workshop
                         </option>
-                        <option
+                        {/* <option
                           className="field"
                           value="Advance Clinical Nutrition Workshop"
                         >
                           Advance Clinical Nutrition Workshop
-                        </option>
+                        </option> */}
                         <option
                           className="field"
                           value="Python Programming And Learn Core & Advance Python"
@@ -1744,12 +1742,12 @@ function FitnessCourses() {
                           >
                             Injury Rehabilitation Workshop
                           </option>
-                          <option
+                          {/* <option
                             className="field"
                             value="Advance Clinical Nutrition Workshop"
                           >
                             Advance Clinical Nutrition Workshop
-                          </option>
+                          </option> */}
                         </select>
                       </div>
                     </Form>

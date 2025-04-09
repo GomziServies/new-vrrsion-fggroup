@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../../assets/css/home.css";
-import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -15,7 +14,6 @@ import CourseReviewSection from "../../components/partials/review/course-review"
 import "react-lazy-load-image-component/src/effects/blur.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MeetOurInstructure from "../../components/fgiit/meetInstructure";
-import OurStudentsWords from "../../components/fgiit/ourStudentsReview";
 import OnlineCourseForm from "../../components/online-course/onlineCourseForm";
 import { OnlinePowerliftingCoachWorkshopCourseData } from "../../components/online-course/OnlineCourseDataLoader";
 import { Helmet } from "react-helmet";
@@ -89,15 +87,15 @@ function OnlinePowerliftingCourse() {
     setIsVideoOpen(false);
     setVideoUrl("");
   };
-  const [activeIndex, setActiveIndex] = useState(null);
+  // const [activeIndex, setActiveIndex] = useState(null);
 
-  const toggleAnswer = (index) => {
-    if (activeIndex === index) {
-      setActiveIndex(null); // Collapse the currently active item
-    } else {
-      setActiveIndex(index); // Set the clicked item as active
-    }
-  };
+  // const toggleAnswer = (index) => {
+  //   if (activeIndex === index) {
+  //     setActiveIndex(null); // Collapse the currently active item
+  //   } else {
+  //     setActiveIndex(index); // Set the clicked item as active
+  //   }
+  // };
 
   const faqItems = [
     {
@@ -143,74 +141,74 @@ function OnlinePowerliftingCourse() {
     },
   ];
 
-  const reviewImages = [
-    "/assets/images/img/sname.webp",
-    "/assets/images/img/aas2.webp",
-    "/assets/images/img/rname.webp",
-    "/assets/images/img/deepak-yadav.webp",
-  ];
+  // const reviewImages = [
+  //   "/assets/images/img/sname.webp",
+  //   "/assets/images/img/aas2.webp",
+  //   "/assets/images/img/rname.webp",
+  //   "/assets/images/img/deepak-yadav.webp",
+  // ];
 
-  const reviewses = [
-    {
-      name: "Shreya Singh",
-      stars: 5,
-      review:
-        "FGIIT's powerlifting workshop gave me the skills I needed to help others with their lifts. The coaching tips were practical and easy to implement.",
-      image: reviewImages[0], // Use images for reviews
-    },
-    {
-      name: "Gauresh Bhosale",
-      stars: 5,
-      review:
-        "Great workshop! I learned so much about proper powerlifting technique and how to coach effectively. The online format was well-structured and easy to follow.",
-      image: reviewImages[1], // Use images for reviews
-    },
-    {
-      name: "Radha Arora",
-      stars: 5,
-      review:
-        "Excellent course for aspiring coaches. The powerlifting techniques were explained in-depth, and the support from the instructors was fantastic!",
-      image: reviewImages[2], // Use images for reviews
-    },
-    {
-      name: "Deepak Yadav",
-      stars: 5,
-      review:
-        "FGIIT's powerlifting coach workshop exceeded my expectations. The trainers were highly experienced, and the content was detailed yet easy to understand.",
-      image: reviewImages[3], // Use images for reviews
-    },
-  ];
+  // const reviewses = [
+  //   {
+  //     name: "Shreya Singh",
+  //     stars: 5,
+  //     review:
+  //       "FGIIT's powerlifting workshop gave me the skills I needed to help others with their lifts. The coaching tips were practical and easy to implement.",
+  //     image: reviewImages[0], // Use images for reviews
+  //   },
+  //   {
+  //     name: "Gauresh Bhosale",
+  //     stars: 5,
+  //     review:
+  //       "Great workshop! I learned so much about proper powerlifting technique and how to coach effectively. The online format was well-structured and easy to follow.",
+  //     image: reviewImages[1], // Use images for reviews
+  //   },
+  //   {
+  //     name: "Radha Arora",
+  //     stars: 5,
+  //     review:
+  //       "Excellent course for aspiring coaches. The powerlifting techniques were explained in-depth, and the support from the instructors was fantastic!",
+  //     image: reviewImages[2], // Use images for reviews
+  //   },
+  //   {
+  //     name: "Deepak Yadav",
+  //     stars: 5,
+  //     review:
+  //       "FGIIT's powerlifting coach workshop exceeded my expectations. The trainers were highly experienced, and the content was detailed yet easy to understand.",
+  //     image: reviewImages[3], // Use images for reviews
+  //   },
+  // ];
 
-  const options = {
-    loop: true,
-    margin: 20,
-    nav: true,
-    dots: false,
-    autoplay: true,
-    navText: [
-      '<i class="fas fa-arrow-left"></i>',
-      '<i class="fas fa-arrow-right"></i>',
-    ],
-    autoplayTimeout: 5000,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      600: {
-        items: 2,
-      },
-      1000: {
-        items: 3,
-      },
-    },
-  };
-  const [showMore, setShowMore] = useState(Array(5).fill(false));
+  // const options = {
+  //   loop: true,
+  //   margin: 20,
+  //   nav: true,
+  //   dots: false,
+  //   autoplay: true,
+  //   navText: [
+  //     '<i class="fas fa-arrow-left"></i>',
+  //     '<i class="fas fa-arrow-right"></i>',
+  //   ],
+  //   autoplayTimeout: 5000,
+  //   responsive: {
+  //     0: {
+  //       items: 1,
+  //     },
+  //     600: {
+  //       items: 2,
+  //     },
+  //     1000: {
+  //       items: 3,
+  //     },
+  //   },
+  // };
+  // const [showMore, setShowMore] = useState(Array(5).fill(false));
 
-  const toggleReadMore = (index) => {
-    const updatedShowMore = [...showMore];
-    updatedShowMore[index] = !updatedShowMore[index];
-    setShowMore(updatedShowMore);
-  };
+  // const toggleReadMore = (index) => {
+  //   const updatedShowMore = [...showMore];
+  //   updatedShowMore[index] = !updatedShowMore[index];
+  //   setShowMore(updatedShowMore);
+  // };
 
   const openVideoModal = (url) => {
     setIsVideoOpen(true);
@@ -282,7 +280,7 @@ function OnlinePowerliftingCourse() {
         </noscript>
       </Helmet>
       <p className="d-none">
-     Online Powerlifting Coach Workshop, Powerlifting Coach Workshop Online, Powerlifting Coach Workshop, Fgiit Online Powerlifting Coach Workshop, Fgiit Powerlifting Coach Workshop, powerlifting, powerlifting coach, powerlifting course, powerlifting coach near me, online powerlifting coach, powerlifting trainer near me, best powerlifting coaches, powerlifting program for beginners, powerlifting plans, powerlifting deadlift, power lifter, competitive powerlifting, powerlifting squat, powerlifting workouts, power lift exercise, power lifting coaches near me, strength training programme, Powerlifting Coach Certification, Certified Powerlifting Coach, Powerlifting Training Program, Best Powerlifting Program, Powerlifting Coach Near Me, Strength and Powerlifting Coach Workshop, Powerlifting Certification Course, Strength and Conditioning Coach Course, Fitness and Strength Training Program, Powerlifting Personal Trainer Course, Best Powerlifting Training, Weightlifting Coach Certification, Strength and Power Training, Strength Training Near Me, Best Powerlifting Gym, Powerlifting Instructor Certification, Powerlifting Strength Training Course, Olympic Weightlifting Course, Strength Training Coach Certification
+        Online Powerlifting Coach Workshop, Powerlifting Coach Workshop Online, Powerlifting Coach Workshop, Fgiit Online Powerlifting Coach Workshop, Fgiit Powerlifting Coach Workshop, powerlifting, powerlifting coach, powerlifting course, powerlifting coach near me, online powerlifting coach, powerlifting trainer near me, best powerlifting coaches, powerlifting program for beginners, powerlifting plans, powerlifting deadlift, power lifter, competitive powerlifting, powerlifting squat, powerlifting workouts, power lift exercise, power lifting coaches near me, strength training programme, Powerlifting Coach Certification, Certified Powerlifting Coach, Powerlifting Training Program, Best Powerlifting Program, Powerlifting Coach Near Me, Strength and Powerlifting Coach Workshop, Powerlifting Certification Course, Strength and Conditioning Coach Course, Fitness and Strength Training Program, Powerlifting Personal Trainer Course, Best Powerlifting Training, Weightlifting Coach Certification, Strength and Power Training, Strength Training Near Me, Best Powerlifting Gym, Powerlifting Instructor Certification, Powerlifting Strength Training Course, Olympic Weightlifting Course, Strength Training Coach Certification
       </p>
       <ModalVideo
         channel="youtube"
@@ -470,28 +468,28 @@ function OnlinePowerliftingCourse() {
                         powerlifting, including its history, core lifts {' '}
                         {/* {showMore[1] ? (
                           <> */}
-                            (squat, deadlift, and bench press), and the role of
-                            a powerlifting coach. Participants will explore the
-                            sport's structure, from amateur to competitive
-                            levels, and understand the mental and physical
-                            demands placed on athletes.
-                            <div className="row">
-                              <ul className="mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>History and evolution of powerlifting</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Benefits and risks of powerlifting</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Overview of powerlifting competitions and
-                                    rules
-                                  </b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        (squat, deadlift, and bench press), and the role of
+                        a powerlifting coach. Participants will explore the
+                        sport's structure, from amateur to competitive
+                        levels, and understand the mental and physical
+                        demands placed on athletes.
+                        <div className="row">
+                          <ul className="mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>History and evolution of powerlifting</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Benefits and risks of powerlifting</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Overview of powerlifting competitions and
+                                rules
+                              </b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -567,27 +565,27 @@ function OnlinePowerliftingCourse() {
                         anatomy and biomechanics essential for powerlifting. {' '}
                         {/* {showMore[2] ? (
                           <> */}
-                            It emphasizes proper form, alignment, and movement
-                            patterns for the squat, deadlift, and bench press,
-                            helping participants prevent injuries and maximize
-                            performance.
-                            <div className="row">
-                              <ul className="mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>Squat technique and biomechanics</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Bench press technique and biomechanics</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Deadlift technique and biomechanics</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Common technical flaws and corrections</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        It emphasizes proper form, alignment, and movement
+                        patterns for the squat, deadlift, and bench press,
+                        helping participants prevent injuries and maximize
+                        performance.
+                        <div className="row">
+                          <ul className="mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Squat technique and biomechanics</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Bench press technique and biomechanics</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Deadlift technique and biomechanics</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Common technical flaws and corrections</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -664,30 +662,30 @@ function OnlinePowerliftingCourse() {
                         training, including progressive overload, {' '}
                         {/* {showMore[3] ? (
                           <> */}
-                            periodization, and hypertrophy. Coaches will learn
-                            to develop effective training plans tailored to
-                            various fitness levels, emphasizing the development
-                            of maximum strength and endurance.
-                            <div className="row">
-                              <ul className="mt-2 pl-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>Principles of strength training</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Periodization and programming</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Progressive overload and progressive
-                                    resistance
-                                  </b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Specificity and variation in training</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        periodization, and hypertrophy. Coaches will learn
+                        to develop effective training plans tailored to
+                        various fitness levels, emphasizing the development
+                        of maximum strength and endurance.
+                        <div className="row">
+                          <ul className="mt-2 pl-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Principles of strength training</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Periodization and programming</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Progressive overload and progressive
+                                resistance
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Specificity and variation in training</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -759,26 +757,26 @@ function OnlinePowerliftingCourse() {
                         structured training cycles for powerlifters. Topics {' '}
                         {/* {showMore[4] ? (
                           <> */}
-                            include off-season, peaking, and tapering programs,
-                            with a focus on balancing intensity and recovery to
-                            achieve optimal performance during competition.
-                            <div className="row">
-                              <ul className="col-12 mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>Creating a powerlifting training plan</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Periodized training and programming</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Training phases and cycles</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Sample training plans and programs</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        include off-season, peaking, and tapering programs,
+                        with a focus on balancing intensity and recovery to
+                        achieve optimal performance during competition.
+                        <div className="row">
+                          <ul className="col-12 mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Creating a powerlifting training plan</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Periodized training and programming</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Training phases and cycles</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Sample training plans and programs</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -853,29 +851,29 @@ function OnlinePowerliftingCourse() {
                         equipment, including belts, wraps, shoes, and {' '}
                         {/* {showMore[5] ? (
                           <> */}
-                            singlets. Participants will learn how to use gear
-                            effectively and safely, as well as how to guide
-                            athletes in selecting the right equipment for their
-                            needs and competition standards.
-                            <div className="row">
-                              <ul className="mt-2 pl-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Overview of powerlifting equipment and gear
-                                  </b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Types of barbells and plates</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Squat and deadlift suits</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Bench press shirts and accessories</b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        singlets. Participants will learn how to use gear
+                        effectively and safely, as well as how to guide
+                        athletes in selecting the right equipment for their
+                        needs and competition standards.
+                        <div className="row">
+                          <ul className="mt-2 pl-3">
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Overview of powerlifting equipment and gear
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Types of barbells and plates</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Squat and deadlift suits</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Bench press shirts and accessories</b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -952,32 +950,32 @@ function OnlinePowerliftingCourse() {
                         competitions, this module covers federations, {' '}
                         {/* {showMore[6] ? (
                           <> */}
-                            weigh-ins, lifting standards, and judging criteria.
-                            Participants will gain the knowledge needed to
-                            prepare athletes for competition day and ensure
-                            compliance with regulations.
-                            <div className="row">
-                              <ul className="col-12 mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Overview of powerlifting rules and
-                                    regulations
-                                  </b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Competition rules and procedures</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Equipment inspection and approval</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Rules for squat, bench press, and deadlift
-                                  </b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        weigh-ins, lifting standards, and judging criteria.
+                        Participants will gain the knowledge needed to
+                        prepare athletes for competition day and ensure
+                        compliance with regulations.
+                        <div className="row">
+                          <ul className="col-12 mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Overview of powerlifting rules and
+                                regulations
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Competition rules and procedures</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Equipment inspection and approval</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Rules for squat, bench press, and deadlift
+                              </b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1054,32 +1052,32 @@ function OnlinePowerliftingCourse() {
                         injuries, their prevention, and rehabilitation {' '}
                         {/* {showMore[7] ? (
                           <> */}
-                            strategies. Participants will learn warm-up
-                            techniques, mobility drills, and recovery protocols
-                            to support long-term athlete health and performance.
-                            <div className="row">
-                              <ul className="mt-2 pl-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Common powerlifting injuries and prevention
-                                    strategies
-                                  </b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Injury rehabilitation and recovery
-                                    techniques
-                                  </b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Prehabilitation and injury prevention
-                                    exercises
-                                  </b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        strategies. Participants will learn warm-up
+                        techniques, mobility drills, and recovery protocols
+                        to support long-term athlete health and performance.
+                        <div className="row">
+                          <ul className="mt-2 pl-3">
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Common powerlifting injuries and prevention
+                                strategies
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Injury rehabilitation and recovery
+                                techniques
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Prehabilitation and injury prevention
+                                exercises
+                              </b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1155,30 +1153,30 @@ function OnlinePowerliftingCourse() {
                         knowledge. This module explores strategies for {' '}
                         {/* {showMore[8] ? (
                           <> */}
-                            motivating athletes, providing constructive
-                            feedback, and building trust. Coaches will learn
-                            communication skills to foster a positive and
-                            productive training environment.
-                            <div className="row">
-                              <ul className="col-12 mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>Principles of effective coaching</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Communication strategies for coaches and
-                                    athletes
-                                  </b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Creating a positive and supportive training
-                                    environment
-                                  </b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        motivating athletes, providing constructive
+                        feedback, and building trust. Coaches will learn
+                        communication skills to foster a positive and
+                        productive training environment.
+                        <div className="row">
+                          <ul className="col-12 mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Principles of effective coaching</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Communication strategies for coaches and
+                                athletes
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Creating a positive and supportive training
+                                environment
+                              </b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1249,25 +1247,25 @@ function OnlinePowerliftingCourse() {
                         knowledge, focusing on live coaching scenarios. {' '}
                         {/* {showMore[9] ? (
                           <> */}
-                            Participants will practice instructing athletes in
-                            technique, spotting, and providing immediate
-                            corrections during training sessions.
-                            <div className="row">
-                              <ul className="mt-2 pl-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>Hands-on training and practice</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>Coaching and feedback</b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Training with different equipment and gear
-                                  </b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        Participants will practice instructing athletes in
+                        technique, spotting, and providing immediate
+                        corrections during training sessions.
+                        <div className="row">
+                          <ul className="mt-2 pl-3">
+                            <li className="list-unstyled text-dark">
+                              <b>Hands-on training and practice</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>Coaching and feedback</b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Training with different equipment and gear
+                              </b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1346,33 +1344,33 @@ function OnlinePowerliftingCourse() {
                         responsibilities of a powerlifting coach. Topics {' '}
                         {/* {showMore[10] ? (
                           <> */}
-                            include liability, athlete safety, anti-doping
-                            regulations, and ethical considerations. Coaches will
-                            also learn to draft comprehensive powerlifting plans
-                            that align with legal and ethical standards.
-                            <div className="row">
-                              <ul className="col-12 mt-2 p-3">
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Legal considerations for coaches and
-                                    trainers
-                                  </b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Creating a powerlifter plan and training
-                                    program
-                                  </b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Sample powerlifter plans and training
-                                    programs
-                                  </b>
-                                </li>
-                              </ul>
-                            </div>
-                          {/* </>
+                        include liability, athlete safety, anti-doping
+                        regulations, and ethical considerations. Coaches will
+                        also learn to draft comprehensive powerlifting plans
+                        that align with legal and ethical standards.
+                        <div className="row">
+                          <ul className="col-12 mt-2 p-3">
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Legal considerations for coaches and
+                                trainers
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Creating a powerlifter plan and training
+                                program
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Sample powerlifter plans and training
+                                programs
+                              </b>
+                            </li>
+                          </ul>
+                        </div>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1752,12 +1750,12 @@ function OnlinePowerliftingCourse() {
                           >
                             Injury Rehabilitation Workshop
                           </option>
-                          <option
+                          {/* <option
                             className="field"
                             value="Advance Clinical Nutrition Workshop"
                           >
                             Advance Clinical Nutrition Workshop
-                          </option>
+                          </option> */}
                         </select>
                       </div>
                     </Form>

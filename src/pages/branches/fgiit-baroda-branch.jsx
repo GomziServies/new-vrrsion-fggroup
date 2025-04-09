@@ -201,9 +201,9 @@ function FGIITBarodaBranch() {
                     <li className="paragraph disc">
                       Injury Rehabilitation Workshop
                     </li>
-                    <li className="paragraph disc">
+                    {/* <li className="paragraph disc">
                       Advance Clinical Nutrition Workshop
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

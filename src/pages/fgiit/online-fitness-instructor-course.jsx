@@ -302,7 +302,7 @@ function OnlineFitnessInstructorCourse() {
         </noscript>
       </Helmet>
       <p className="d-none">
-     Online Group Instructor Master Class, Group Instructor Master Class Online, Group Instructor Master Class, Online Instructor Master Class, Fgiit Online Group Instructor Master Class, instructor, master class online, master class, master course online, master course, fitness trainer course, fitness instructor course, fitness trainer certification, group, group instructor, certified personal trainer, gym instructor course, fitness instructor certification, fitness trainer, personal trainer training, personal fitness trainer, online fitness instructor course, fitness instructor certification online, fitness instructor training, gym instructor course online, best fitness instructor certification, fitness instructor certification, fitness trainer, personal fitness certification, fitness instructor training, personal fitness trainer course, pt instructor course, fitness instructor course near me, Group Instructor Certification, Certified Group Instructor, Fitness Group Instructor Course, Group Fitness Instructor Course, Certified Fitness Instructor, Personal Trainer and Group Instructor Course, Best Group Fitness Instructor Course, Group Trainer Certification, Fitness Instructor Certification, Certified Fitness Trainer, Fitness Coach Training Course
+        Online Group Instructor Master Class, Group Instructor Master Class Online, Group Instructor Master Class, Online Instructor Master Class, Fgiit Online Group Instructor Master Class, instructor, master class online, master class, master course online, master course, fitness trainer course, fitness instructor course, fitness trainer certification, group, group instructor, certified personal trainer, gym instructor course, fitness instructor certification, fitness trainer, personal trainer training, personal fitness trainer, online fitness instructor course, fitness instructor certification online, fitness instructor training, gym instructor course online, best fitness instructor certification, fitness instructor certification, fitness trainer, personal fitness certification, fitness instructor training, personal fitness trainer course, pt instructor course, fitness instructor course near me, Group Instructor Certification, Certified Group Instructor, Fitness Group Instructor Course, Group Fitness Instructor Course, Certified Fitness Instructor, Personal Trainer and Group Instructor Course, Best Group Fitness Instructor Course, Group Trainer Certification, Fitness Instructor Certification, Certified Fitness Trainer, Fitness Coach Training Course
       </p>
       <ModalVideo
         channel="youtube"
@@ -492,51 +492,51 @@ function OnlineFitnessInstructorCourse() {
                         training (HIIT) style of Tabata workouts, focusing on {' '}
                         {/* {showMore[1] ? (
                           <> */}
-                            their structure, benefits, and application in group
-                            fitness settings. Participants will learn how to
-                            design and lead effective Tabata sessions, blending
-                            cardio and strength exercises to maximize calorie
-                            burn, improve endurance, and engage diverse fitness
-                            levels.
-                            <ul className="row">
-                              <div className="p-2 mt-2">
-                                <li className="list-unstyled text-dark">
-                                  <b>Introduction to Tabata workout</b>
-                                </li>
+                        their structure, benefits, and application in group
+                        fitness settings. Participants will learn how to
+                        design and lead effective Tabata sessions, blending
+                        cardio and strength exercises to maximize calorie
+                        burn, improve endurance, and engage diverse fitness
+                        levels.
+                        <ul className="row">
+                          <div className="p-2 mt-2">
+                            <li className="list-unstyled text-dark">
+                              <b>Introduction to Tabata workout</b>
+                            </li>
 
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Science behind Tabata: benefits, physiology
-                                  </b>
-                                </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Science behind Tabata: benefits, physiology
+                              </b>
+                            </li>
 
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    How to create Tabata exercises and circuits
-                                  </b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Upper body Tabata exercises: chest, back,
-                                    shoulders, arms
-                                  </b>
-                                </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                How to create Tabata exercises and circuits
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Upper body Tabata exercises: chest, back,
+                                shoulders, arms
+                              </b>
+                            </li>
 
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Lower body Tabata exercises: legs, glutes,
-                                    calves
-                                  </b>
-                                </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Lower body Tabata exercises: legs, glutes,
+                                calves
+                              </b>
+                            </li>
 
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Warm-up and stretching exercises for Tabata
-                                  </b>
-                                </li>
-                              </div>
-                            </ul>
-                          {/* </>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Warm-up and stretching exercises for Tabata
+                              </b>
+                            </li>
+                          </div>
+                        </ul>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -636,53 +636,53 @@ function OnlineFitnessInstructorCourse() {
                         this module emphasizes exercises that mimic real-life {' '}
                         {/* {showMore[2] ? (
                           <> */}
-                            movements, enhancing strength, balance, and
-                            coordination. Participants will learn to structure
-                            group workouts that cater to varied fitness levels,
-                            focusing on building foundational strength and
-                            improving daily functionality through dynamic
-                            exercises.
-                            <ul className="row">
-                              <div className="p-2 mt-2">
-                                <li className="list-unstyled text-dark">
-                                  <b>Introduction to functional training</b>
-                                </li>
+                        movements, enhancing strength, balance, and
+                        coordination. Participants will learn to structure
+                        group workouts that cater to varied fitness levels,
+                        focusing on building foundational strength and
+                        improving daily functionality through dynamic
+                        exercises.
+                        <ul className="row">
+                          <div className="p-2 mt-2">
+                            <li className="list-unstyled text-dark">
+                              <b>Introduction to functional training</b>
+                            </li>
 
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Science behind functional training:
-                                    benefits, physiology
-                                  </b>
-                                </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Science behind functional training:
+                                benefits, physiology
+                              </b>
+                            </li>
 
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    How to create functional training exercises
-                                  </b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Upper body functional training exercises:
-                                    chest, back, shoulders, arms
-                                  </b>
-                                </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                How to create functional training exercises
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Upper body functional training exercises:
+                                chest, back, shoulders, arms
+                              </b>
+                            </li>
 
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Lower body functional training exercises:
-                                    legs, glutes, calves
-                                  </b>
-                                </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Lower body functional training exercises:
+                                legs, glutes, calves
+                              </b>
+                            </li>
 
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Warm-up and stretching exercises for
-                                    functional training
-                                  </b>
-                                </li>
-                              </div>
-                            </ul>
-                          {/* </>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Warm-up and stretching exercises for
+                                functional training
+                              </b>
+                            </li>
+                          </div>
+                        </ul>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -779,51 +779,51 @@ function OnlineFitnessInstructorCourse() {
                         training, including its history, techniques, and {' '}
                         {/* {showMore[3] ? (
                           <> */}
-                            benefits. Designed to provide full-body engagement,
-                            TRX workouts leverage body weight and gravity to
-                            build strength, improve flexibility, and enhance
-                            core stability. Participants will learn how to
-                            create and lead TRX band sessions suitable for all
-                            fitness levels, from beginners to advanced athletes.
-                            <ul className="row">
-                              <div className="p-2 mt-2">
-                                <li className="list-unstyled text-dark">
-                                  <b> Introduction to TRX band workout </b>
-                                </li>
+                        benefits. Designed to provide full-body engagement,
+                        TRX workouts leverage body weight and gravity to
+                        build strength, improve flexibility, and enhance
+                        core stability. Participants will learn how to
+                        create and lead TRX band sessions suitable for all
+                        fitness levels, from beginners to advanced athletes.
+                        <ul className="row">
+                          <div className="p-2 mt-2">
+                            <li className="list-unstyled text-dark">
+                              <b> Introduction to TRX band workout </b>
+                            </li>
 
-                                <li className="list-unstyled text-dark">
-                                  <b>History and benefits of TRX training</b>
-                                </li>
+                            <li className="list-unstyled text-dark">
+                              <b>History and benefits of TRX training</b>
+                            </li>
 
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    How to use TRX bands: setup, safety, and
-                                    basics
-                                  </b>
-                                </li>
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Upper body TRX exercises: chest, back,
-                                    shoulders, arms
-                                  </b>
-                                </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                How to use TRX bands: setup, safety, and
+                                basics
+                              </b>
+                            </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Upper body TRX exercises: chest, back,
+                                shoulders, arms
+                              </b>
+                            </li>
 
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Lower body TRX exercises: legs, glutes,
-                                    calves
-                                  </b>
-                                </li>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Lower body TRX exercises: legs, glutes,
+                                calves
+                              </b>
+                            </li>
 
-                                <li className="list-unstyled text-dark">
-                                  <b>
-                                    Warm-up and stretching exercises using TRX
-                                    bands
-                                  </b>
-                                </li>
-                              </div>
-                            </ul>
-                          {/* </>
+                            <li className="list-unstyled text-dark">
+                              <b>
+                                Warm-up and stretching exercises using TRX
+                                bands
+                              </b>
+                            </li>
+                          </div>
+                        </ul>
+                        {/* </>
                         ) : (
                           <span id="dotsx">...</span>
                         )} */}
@@ -1204,12 +1204,12 @@ function OnlineFitnessInstructorCourse() {
                           >
                             Injury Rehabilitation Workshop
                           </option>
-                          <option
+                          {/* <option
                             className="field"
                             value="Advance Clinical Nutrition Workshop"
                           >
                             Advance Clinical Nutrition Workshop
-                          </option>
+                          </option> */}
                         </select>
                       </div>
                     </Form>
