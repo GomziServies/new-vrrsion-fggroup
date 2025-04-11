@@ -5007,6 +5007,11 @@ input::-webkit-outer-spin-button {
   top: 32px;
 }
 
+.payment-option .payment-option-input.cryo {
+  position: absolute;
+  top: 27px;
+}
+
 .payment-option span {
   margin-left: 12px;
 }

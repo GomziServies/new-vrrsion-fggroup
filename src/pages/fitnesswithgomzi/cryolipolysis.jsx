@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../../assets/css/home.css";
 import "../../assets/css/new-popup.css";
 import Modal from "react-bootstrap/Modal";
@@ -19,6 +19,7 @@ import WhatsAppAnchor from "../../components/sendtowhatsapp";
 import FwgHeader from "../../components/partials/Header/fwgheader";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import LoginModal from "../../assets/js/popup/login";
 
 function CryolipolysisFitnessProgram() {
   const canonicalUrl = window.location.href;
@@ -125,22 +126,97 @@ function CryolipolysisFitnessProgram() {
     },
   ];
 
-  const [showMore, setShowMore] = useState(true);
-  const toggleReadMore = () => {
-    setShowMore(!showMore);
+  // -----------------------------------------------------------------------------
+
+  const [programData, setProgramData] = useState({
+    fiveKgPrice: 10000,
+    twentyKgPrice: 24000,
+    fortyKgPrice: 49000,
+    sixtyKgPrice: 75000,
+  });
+  const [selectedOption, setSelectedOption] = useState("");
+  const [selectedProgramOption, setSelectedProgramOption] = useState("");
+  const [showLoginModal, setShowLoginModal] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(
+    !!localStorage.getItem("fg_group_user_authorization")
+  );
+  const closeModal = () => {
+    setShowLoginModal(false);
   };
-  const [showMore1, setShowMore1] = useState(true);
-  const toggleReadMore1 = () => {
-    setShowMore1(!showMore1);
+
+  const handleProgramSelect = (programOption) => {
+    if (selectedProgramOption === programOption) {
+      setSelectedProgramOption(null);
+      setSelectedOption("");
+    } else {
+      setSelectedOption("cryo_program");
+      setSelectedProgramOption(programOption);
+    }
   };
-  const [showMore2, setShowMore2] = useState(true);
-  const toggleReadMore2 = () => {
-    setShowMore2(!showMore2);
+
+  const handleOrder = async (text) => {
+    if (!isAuthenticated) {
+      localStorage.setItem("ProgramClick", "true");
+      localStorage.setItem("storeProgramOption", selectedProgramOption);
+      localStorage.setItem("storeOption", selectedOption);
+      setShowLoginModal(true);
+    } else {
+      if (selectedOption === "") {
+        Swal.fire({
+          title: "Error!",
+          text: "Please Select Weightloss Option",
+          icon: "error",
+        });
+      } else {
+        console.log("selectedProgramOption :- ", selectedProgramOption);
+
+        const option = { pageRef: true };
+        if (!text) {
+          text = `Hi, I have come across ${window.location.href}. Can you provide more information about this?`;
+        }
+
+        if (option) {
+          if (option.pageRef) {
+            text += `\n\nI found your contact details from ${
+              window.location.origin + window.location.pathname
+            }`;
+          }
+        }
+
+        let url = `https://api.whatsapp.com/send?phone=+916354051487&text=${encodeURIComponent(
+          text
+        )}`;
+        window.open(url, "_blank");
+      }
+    }
   };
-  const [showMore3, setShowMore3] = useState(true);
-  const toggleReadMore3 = () => {
-    setShowMore3(!showMore3);
-  };
+
+  useEffect(() => {
+    const itemCart = JSON.parse(localStorage.getItem("ProgramClick")) === true;
+    const storeProgramOption = localStorage.getItem("storeProgramOption");
+    const storeOption = localStorage.getItem("storeOption");
+    if (itemCart) {
+      handleOrder(
+        `Hello, I wanted to know more about the ${
+          storeProgramOption === "fiveKg"
+            ? "Weight loss Up To 5kg"
+            : storeProgramOption === "twentyKg"
+            ? "Weight loss Up To 20kg"
+            : storeProgramOption === "fortyKg"
+            ? "Weight loss Up To 40kg"
+            : storeProgramOption === "sixtyKg"
+            ? "Weight loss Up To 60kg"
+            : "ccc"
+        } Program.`
+      );
+      if (storeOption) {
+        setSelectedOption(storeOption);
+      }
+      localStorage.removeItem("ProgramClick");
+      localStorage.removeItem("storeProgramOption");
+      localStorage.removeItem("storeOption");
+    }
+  }, []);
 
   return (
     <>
@@ -214,7 +290,7 @@ function CryolipolysisFitnessProgram() {
         videoId={videoUrl}
         onClose={closeVideoModal}
       />
-
+      {showLoginModal && <LoginModal onClose={closeModal} />}
       <FwgHeader />
       <section style={{ marginTop: "100px" }}>
         <div className="container-fluid">
@@ -246,6 +322,25 @@ function CryolipolysisFitnessProgram() {
                         </a>
                       </div>
                     </div>
+                    <div className="course-card-page-design">
+                      <div className="d-md-block d-none">
+                        <div className="course-info">
+                          <h2 className="h6-fs course-title mt-2">
+                            Program Info
+                          </h2>
+                          <ul className="course-list">
+                            {CryolipolysisFitnessProgramData?.info1.map(
+                              (info) => (
+                                <li>
+                                  <i className={info.icon}></i>
+                                  {info.title}
+                                </li>
+                              )
+                            )}
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -258,26 +353,195 @@ function CryolipolysisFitnessProgram() {
                     whatsappMessage="Hello, I wanted to know more about the Online Corporate Fitness Program."
                   />
                 </div>
-                <div className="course-card-page-design">
-                  <div className="d-md-block d-none">
-                    <div className="course-info">
-                      <h2 className="h6-fs course-title mt-2">Program Info</h2>
-                      <ul className="course-list">
-                        {CryolipolysisFitnessProgramData?.info1.map((info) => (
-                          <li>
-                            <i className={info.icon}></i>
-                            {info.title}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
+                {/* Start Weightloss option */}
+                <h2 className="h5-fs mb-2 mt-3 payment-title">
+                  Weightloss option
+                </h2>
+                <div className="payment-option-group" style={{ gap: "5px" }}>
+                  <label
+                    className={`payment-option cryo ${
+                      selectedOption === "cryo_program" &&
+                      selectedProgramOption === "fiveKg"
+                        ? "active"
+                        : ""
+                    }`}
+                    htmlFor="cryo_program-fiveKg"
+                  >
+                    <input
+                      type="radio"
+                      id="cryo_program-fiveKg"
+                      name="payment"
+                      value="cryo_program-fiveKg"
+                      className="payment-option-input cryo"
+                      checked={
+                        selectedOption === "cryo_program" &&
+                        selectedProgramOption === "fiveKg"
+                      }
+                      onClick={() => handleProgramSelect("fiveKg")}
+                    />
+                    <span>
+                      <div className="m-0 mt-1">
+                        <span>Weight loss Up To 5kg</span>
+                        <span className="" style={{ width: "auto" }}>
+                          <div className="prepaid-prices d-inline-block w-auto m-0">
+                            <strong>₹{programData?.fiveKgPrice}/-</strong>
+                            {/* <sup>per year</sup> */}
+                          </div>
+                          {/* <div className="sub-prepaid-prices justify-content-end">
+                                  <strong>
+                                    ₹
+                                    {(
+                                      (currentProgramMode === "online"
+                                        ? programData?.onlinePrices
+                                        : programData?.prices12) / 12
+                                    ).toFixed(0)}
+                                  </strong>
+                                  <sup>per month</sup>
+                                </div> */}
+                        </span>
+                      </div>
+                      {/* {selectedOption === "cryo_program" &&
+                        selectedProgramOption === "fiveKg" && (
+                          <p className="mt-2">
+                            <p className="d-md-block d-none">
+                              EMI for 12 months
+                            </p>
+                            <p>
+                              ₹{(programData?.prices12 / 12).toFixed(0)} per
+                              month
+                            </p>
+                            <p>No Extra Charges</p>
+                          </p>
+                        )} */}
+                    </span>
+                  </label>
+                  <label
+                    className={`payment-option cryo ${
+                      selectedOption === "cryo_program" &&
+                      selectedProgramOption === "twentyKg"
+                        ? "active"
+                        : ""
+                    }`}
+                    htmlFor="cryo_program-twentyKg"
+                  >
+                    <input
+                      type="radio"
+                      id="cryo_program-twentyKg"
+                      name="payment"
+                      value="cryo_program-twentyKg"
+                      className="payment-option-input cryo"
+                      checked={
+                        selectedOption === "cryo_program" &&
+                        selectedProgramOption === "twentyKg"
+                      }
+                      onClick={() => handleProgramSelect("twentyKg")}
+                    />
+                    <span>
+                      <div className="m-0 mt-1">
+                        <span>Weight loss Up To 20kg</span>
+                        <span style={{ width: "auto" }}>
+                          <div className="prepaid-prices d-inline-block w-auto m-0">
+                            <strong>₹{programData?.twentyKgPrice}/-</strong>
+                          </div>
+                        </span>
+                      </div>
+                    </span>
+                  </label>
+                  <label
+                    className={`payment-option cryo ${
+                      selectedOption === "cryo_program" &&
+                      selectedProgramOption === "fortyKg"
+                        ? "active"
+                        : ""
+                    }`}
+                    htmlFor="cryo_program-fortyKg"
+                  >
+                    <input
+                      type="radio"
+                      id="cryo_program-fortyKg"
+                      name="payment"
+                      value="cryo_program-fortyKg"
+                      className="payment-option-input cryo"
+                      checked={
+                        selectedOption === "cryo_program" &&
+                        selectedProgramOption === "fortyKg"
+                      }
+                      onClick={() => handleProgramSelect("fortyKg")}
+                    />
+                    <span>
+                      <div className="m-0 mt-1">
+                        <span>Weight loss Up To 40kg</span>
+                        <span style={{ width: "auto" }}>
+                          <div className="prepaid-prices d-inline-block w-auto m-0">
+                            <strong>₹{programData?.fortyKgPrice}/-</strong>
+                          </div>
+                        </span>
+                      </div>
+                    </span>
+                  </label>
+                  <label
+                    className={`payment-option cryo ${
+                      selectedOption === "cryo_program" &&
+                      selectedProgramOption === "sixtyKg"
+                        ? "active"
+                        : ""
+                    }`}
+                    htmlFor="cryo_program-sixtyKg"
+                  >
+                    <input
+                      type="radio"
+                      id="cryo_program-sixtyKg"
+                      name="payment"
+                      value="cryo_program-sixtyKg"
+                      className="payment-option-input cryo"
+                      checked={
+                        selectedOption === "cryo_program" &&
+                        selectedProgramOption === "sixtyKg"
+                      }
+                      onClick={() => handleProgramSelect("sixtyKg")}
+                    />
+                    <span>
+                      <div className="m-0 mt-1">
+                        <span>Weight loss Up To 60kg</span>
+                        <span style={{ width: "auto" }}>
+                          <div className="prepaid-prices d-inline-block w-auto m-0">
+                            <strong>₹{programData?.sixtyKgPrice}/-</strong>
+                          </div>
+                        </span>
+                      </div>
+                    </span>
+                  </label>
                 </div>
+                {/* End Weightloss option */}
                 <div className="mt-2">
-                  <WhatsAppAnchor
-                    message="Hello, I wanted to know more about the Online Corporate Fitness Program."
+                  {/* <WhatsAppAnchor
+                    message={`Hello, I wanted to know more about the ${} Program.`}
                     options={{ pageRef: true }}
-                  />
+                  /> */}
+                  <button
+                    onClick={() =>
+                      handleOrder(
+                        `Hello, I wanted to know more about the ${
+                          selectedProgramOption === "fiveKg"
+                            ? "Weight loss Up To 5kg"
+                            : selectedProgramOption === "twentyKg"
+                            ? "Weight loss Up To 20kg"
+                            : selectedProgramOption === "fortyKg"
+                            ? "Weight loss Up To 40kg"
+                            : selectedProgramOption === "sixtyKg"
+                            ? "Weight loss Up To 60kg"
+                            : "ccc"
+                        } Program.`
+                      )
+                    }
+                    className="btn btn-started mt-2 w-100 fs-16"
+                  >
+                    <i
+                      className="fab fa-whatsapp mr-2 fs-16"
+                      style={{ color: "#00d146" }}
+                    ></i>
+                    WhatsApp
+                  </button>
                 </div>
               </div>
             </div>

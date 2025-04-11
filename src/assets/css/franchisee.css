@@ -7264,6 +7264,10 @@ textarea::-webkit-input-placeholder {
   transition: all 0.3s ease;
 }
 
+.payment-option.cryo {
+  padding: 15px 15px;
+}
+
 .payment-option input {
   margin-right: 15px;
   transform: scale(1.3);
