@@ -15,7 +15,6 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import OnlineProgramFormFwg from "../../components/online-fwg/onlineProgramForm";
 import InquiryForm from "../../components/fwg/inquiry-form";
 import { CryolipolysisFitnessProgramData } from "../../components/online-fwg/AllOnlineProgramData";
-import WhatsAppAnchor from "../../components/sendtowhatsapp";
 import FwgHeader from "../../components/partials/Header/fwgheader";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
@@ -769,6 +768,319 @@ function CryolipolysisFitnessProgram() {
                       </ul>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="mt-5 studentsreview-1 d-none d-md-block">
+        <div className="container-fluid bg-light">
+          <div className="container">
+            <div className="pb-5">
+              <div className="py-md-5">
+                <div className="covid text-center">
+                  <h2 className="h2-fs">
+                    <span className="m-0 text-blue-color">transformation </span>
+                    journey
+                  </h2>
+                </div>
+                <div className="thm-bg-clr dector mb-4"></div>
+              </div>
+              <div>
+                <OwlCarousel
+                  loop
+                  id="owl-active"
+                  className="owl-carousel owl-theme mt-4"
+                  navText={[
+                    '<i class="fas fa-arrow-left"></i>',
+                    '<i class="fas fa-arrow-right"></i>',
+                  ]}
+                  dots={false}
+                  nav={true}
+                  responsive={{
+                    0: {
+                      items: 1,
+                    },
+                    600: {
+                      items: 2,
+                    },
+                    1000: {
+                      items: 3,
+                    },
+                  }}
+                >
+                  <div className="item mx-3">
+                    <img
+                      className="img-fluid"
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/fwg/cryolipolysis-treatment-1.webp"
+                      }
+                      style={{
+                        borderRadius: "5px",
+                        boxShadow:
+                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                      }}
+                      alt="weight loss transformation"
+                    />
+                  </div>
+                  <div className="item mx-3">
+                    <img
+                      className="img-fluid"
+                      style={{
+                        borderRadius: "5px",
+                        boxShadow:
+                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                      }}
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/fwg/cryolipolysis-treatment-2.webp"
+                      }
+                      alt="weight loss transformation"
+                    />
+                  </div>
+                  <div className="item mx-3">
+                    <img
+                      className="img-fluid"
+                      style={{
+                        borderRadius: "5px",
+                        boxShadow:
+                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                      }}
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/fwg/cryolipolysis-treatment-3.webp"
+                      }
+                      alt="weight loss transformation"
+                    />
+                  </div>
+                  <div className="item mx-3">
+                    <img
+                      className="img-fluid"
+                      style={{
+                        borderRadius: "5px",
+                        boxShadow:
+                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                      }}
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/fwg/cryolipolysis-treatment-4.webp"
+                      }
+                      alt="weight loss transformation"
+                    />
+                  </div>
+                  <div className="item mx-3">
+                    <img
+                      className="img-fluid"
+                      style={{
+                        borderRadius: "5px",
+                        boxShadow:
+                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                      }}
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/fwg/cryolipolysis-treatment-5.webp"
+                      }
+                      alt="weight loss transformation"
+                    />
+                  </div>
+                  <div className="item mx-3">
+                    <img
+                      className="img-fluid"
+                      style={{
+                        borderRadius: "5px",
+                        boxShadow:
+                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                      }}
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/fwg/cryolipolysis-treatment-6.webp"
+                      }
+                      alt="weight loss transformation"
+                    />
+                  </div>
+                  <div className="item mx-3">
+                    <img
+                      className="img-fluid"
+                      style={{
+                        borderRadius: "5px",
+                        boxShadow:
+                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                      }}
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/fwg/cryolipolysis-treatment-7.webp"
+                      }
+                      alt="weight loss transformation"
+                    />
+                  </div>
+                  <div className="item mx-3">
+                    <img
+                      className="img-fluid"
+                      style={{
+                        borderRadius: "5px",
+                        boxShadow:
+                          "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                      }}
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/images/fwg/cryolipolysis-treatment-8.webp"
+                      }
+                      alt="weight loss transformation"
+                    />
+                  </div>
+                </OwlCarousel>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="mt-5 studentsreview-1 d-block d-md-none">
+        <div className="container-fluid bg-light">
+          <div className="container px-0 py-2">
+            <div className="pb-5">
+              <div className="py-md-5">
+                <div className="covid text-center">
+                  <h2 className="h2-fs">
+                    <span className="m-0 text-blue-color">transformation </span>
+                    journey
+                  </h2>
+                </div>
+                <div className="thm-bg-clr dector mb-4"></div>
+              </div>
+              <div className="row mt-4">
+                <div className="col-6 mb-3">
+                  <img
+                    className="img-fluid"
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/cryolipolysis-treatment-1.webp"
+                    }
+                    alt="weight loss transformation"
+                  />
+                </div>
+                <div className="col-6 mb-3">
+                  <img
+                    className="img-fluid"
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/cryolipolysis-treatment-2.webp"
+                    }
+                    alt="weight loss transformation"
+                  />
+                </div>
+                <div className="col-6 mb-3">
+                  <img
+                    className="img-fluid"
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/cryolipolysis-treatment-3.webp"
+                    }
+                    alt="weight loss transformation"
+                  />
+                </div>
+                <div className="col-6 mb-3">
+                  <img
+                    className="img-fluid"
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/cryolipolysis-treatment-4.webp"
+                    }
+                    alt="weight loss transformation"
+                  />
+                </div>
+                <div className="col-6 mb-3">
+                  <img
+                    className="img-fluid"
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/cryolipolysis-treatment-5.webp"
+                    }
+                    alt="weight loss transformation"
+                  />
+                </div>
+                <div className="col-6 mb-3">
+                  <img
+                    className="img-fluid"
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/cryolipolysis-treatment-6.webp"
+                    }
+                    alt="weight loss transformation"
+                  />
+                </div>{" "}
+                <div className="col-6 mb-3">
+                  <img
+                    className="img-fluid"
+                    src={process.env.PUBLIC_URL + "/assets/images/fwg/t5.webp"}
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    alt="weight loss transformation"
+                  />
+                </div>
+                <div className="col-6 mb-3">
+                  <img
+                    className="img-fluid"
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/cryolipolysis-treatment-7.webp"
+                    }
+                    alt="weight loss transformation"
+                  />
+                </div>
+                <div className="col-6 mb-3">
+                  <img
+                    className="img-fluid"
+                    style={{
+                      borderRadius: "5px",
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+                    }}
+                    src={
+                      process.env.PUBLIC_URL +
+                      "/assets/images/fwg/cryolipolysis-treatment-8.webp"
+                    }
+                    alt="weight loss transformation"
+                  />
                 </div>
               </div>
             </div>

@@ -10,7 +10,8 @@ const GlobalJourney = () => {
           <div className="container px-0 py-5">
             <div className="pb-5">
               <div className="py-md-5">
-              <div className="covid text-center">                  <h2 className="h2-fs">
+                <div className="covid text-center">
+                  <h2 className="h2-fs">
                     <span className="m-0 text-blue-color">
                       global journey of{" "}
                     </span>
@@ -198,7 +199,7 @@ const GlobalJourney = () => {
           <div className="container px-0 py-2">
             <div className="pb-5">
               <div className="py-md-5">
-              <div className="covid text-center">
+                <div className="covid text-center">
                   <h2 className="h2-fs">
                     <span className="m-0 text-blue-color">
                       global journey of{" "}
